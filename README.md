@@ -1,6 +1,19 @@
-# Recipe Collection
+# Family Cookbook: Paul & Nino Wagner
 
-A curated collection of traditional recipes, primarily from Georgian and Russian culinary traditions, digitized and translated for preservation and accessibility.
+A curated collection of recipes from our family; a gift meant to survive us for our children and theirs. This cookbook preserves traditional recipes from Georgian, Russian, Ukrainian, and Armenian culinary traditions (reflecting the Wagner, Akinian, and Diasamidze families), alongside modern recipes we've gathered from various sources since we got married.
+
+## Purpose
+
+This cookbook is a living archive of family recipes and favorites, meant to be:
+- **Preserved for future generations** - A lasting gift for our children and beyond
+- **Shared with community** - Friends in Georgian/Russian/Ukrainian/Armenian communities are welcome to fork this repository and add their own family recipes
+- **A growing collection** - Includes both traditional family recipes and recipes we've discovered together from online sources
+
+## Recipe Sources
+
+- **Family Traditions** - Recipes from the Wagner, Akinian, and Diasamidze families, primarily in Georgian, Russian, Ukrainian, and Armenian
+- **Modern Favorites** - Recipes we've collected from various web sources since our marriage, primarily in English
+- **Community Contributions** - Friends are encouraged to fork and contribute their own family recipes
 
 ## Project Structure
 
@@ -23,7 +36,7 @@ Each image should have a **companion Markdown file** with the same name:
 
 The Markdown files contain:
 - **English translation** with recipe formatting
-- Historical and cultural context
+- Historical and cultural context (for traditional recipes)
 - Original text in the source language(s)
 - Ingredients, instructions, and notes
 
@@ -99,16 +112,26 @@ The project includes InDesign files for cookbook layout:
 
 When adding new recipes:
 
-1. ✅ Ensure raw scan is in `artifacts/`
-2. ✅ Process image (background removal, cropping) → save to `assets/`
+1. ✅ Ensure raw scan is in `artifacts/` (if applicable)
+2. ✅ Process image (background removal, cropping) → save to `assets/` (if applicable)
 3. ✅ Create/update companion `.md` file with same name
-4. ✅ Use [Culinary Translator](https://culinary-translator-recipe-historian-815460826928.us-west1.run.app/) for English translations
-5. ✅ Preserve original text in the Markdown file
-6. ✅ Include cultural/historical context where relevant
+4. ✅ Use [Culinary Translator](https://culinary-translator-recipe-historian-815460826928.us-west1.run.app/) for translations of traditional recipes
+5. ✅ Preserve original text in the Markdown file (for traditional recipes)
+6. ✅ Include cultural/historical context where relevant (for traditional recipes)
+7. ✅ Credit original sources for modern recipes from web sources
+
+### Forking for Your Own Family
+
+Friends in the Georgian/Russian/Ukrainian/Armenian communities are welcome to:
+- Fork this repository
+- Add your own family recipes following the same structure
+- Create your own version of the family cookbook
+- Contribute back recipes that might be meaningful to share
 
 ## Notes
 
 - All images are treated (background removal, cropped) before being added to `assets/`
 - Companion `.md` files are essential for the recipe book workflow
-- Original text should always be preserved in the Markdown files for reference
+- Original text should always be preserved in the Markdown files for traditional recipes
 - The culinary translator app helps create publication-ready condensed versions
+- This is a living archive—recipes continue to be added as we discover and preserve them
