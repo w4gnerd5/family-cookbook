@@ -15,7 +15,7 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [ ] Resolve flagged section calls: Beef Bourguignon (Soups vs Mains),
   Paska (Desserts vs Breads), the 1237 puff-pastry series
 - [ ] Decide the fate of the four beef stews and two no-knead breads (keep all?)
-- [ ] Fix slugs where apostraphe became a dash (like possesives) - (make programatic if possible)
+- [x] Slugs: apostrophes collapse (zeinabs, not zeinab-s); slugify fixed, all regenerated once
 - [x] Duplicates atticed, meta notes out of printable prose, em dashes swept
 
 
