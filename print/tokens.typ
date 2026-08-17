@@ -15,6 +15,7 @@
 #let size-title = 20pt
 #let size-description = 11pt
 #let space-page-margin = 54pt
+#let space-gutter = 80pt
 #let space-bleed = 0pt
 #let space-block = 12pt
 #let space-label-gap = 5pt

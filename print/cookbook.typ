@@ -12,23 +12,19 @@
 #set text(font: font-serif, size: size-body, fill: color-body, lang: "en")
 #set par(leading: 0.72em, justify: false)
 
-#let cur-slug = state("slug", "")
-
 #let label-text(content, fill: color-label) = text(
   font: font-sans, size: size-label, fill: fill,
   tracking: label-tracking, weight: "medium", upper(content),
 )
 
-#let footer-line = context {
-  let slug = cur-slug.get()
-  let pg = counter(page).display()
-  let line = label-text("family-cookbook / " + slug + "  ·  " + pg)
+#let footer-line(slug) = context {
+  let line = label-text("family-cookbook / " + slug + "  ·  " + counter(page).display())
   if calc.even(here().page()) { align(left, line) } else { align(right, line) }
 }
 
-#set page(width: PW, height: PH, fill: color-paper,
-  margin: (x: M + B, bottom: M + B, top: M + B),
-  footer: pad(bottom: B, footer-line))
+#let G = space-gutter         // inner margin: ring-punch strip + buffer
+#set page(width: PW, height: PH, fill: color-paper, binding: left,
+  margin: (inside: G + B, outside: M + B, bottom: M + B, top: M + B))
 
 #let md(s) = eval(s, mode: "markup")
 
@@ -56,8 +52,9 @@
     block(width: 50% - M, title-block(r)))
   // 2 scans stack as a deck (underneath card peeks out) so the title zone stays clear
   let tilts = (1.8deg, -2.6deg)
+  // verso is bound on its right edge: keep cards clear of the punch strip
   for (i, s) in r.scans.enumerate().rev() {
-    place(top + right, dx: -(B + M * 0.7) - i * 48pt, dy: 62% - 215pt + i * 30pt,
+    place(top + right, dx: -(B + G) - i * 48pt, dy: 62% - 215pt + i * 30pt,
       rotate(tilts.at(calc.rem(i, 2)), card-img(s, 255pt)))
   }
 }
@@ -70,13 +67,14 @@
     place(top + left, rect(width: 100%, height: 100%, fill: color-field))
   }
   let n = r.scans.len()
-  let w = if n == 3 { 235pt } else { 195pt }
+  let w = if n == 3 { 225pt } else { 190pt }
   let tilts = (-3deg, 2.4deg, -1.6deg, 3.2deg, -2.2deg)
   for (i, s) in r.scans.enumerate() {
     let col = calc.rem(i, 2)
     let row = calc.floor(i / 2)
+    // bound on the right: scatter starts at the outside edge, stays clear of the gutter
     place(top + left,
-      dx: B + M * 0.8 + col * (w + 30pt) + row * 22pt,
+      dx: B + M * 0.5 + col * (w + 26pt) + row * 20pt,
       dy: B + M * 0.8 + row * (w * 0.72) + col * 18pt,
       rotate(tilts.at(calc.rem(i, 5)), card-img(s, w)))
   }
@@ -143,7 +141,9 @@
 
 // ---------- book ----------
 #for r in json("recipes.json") {
-  cur-slug.update(r.slug)
   verso(r)
-  recto(r)
+  {
+    set page(footer: pad(bottom: B, footer-line(r.slug)))
+    recto(r)
+  }
 }

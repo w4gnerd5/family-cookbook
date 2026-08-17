@@ -23,7 +23,8 @@ size:                          # points (print); web build maps pt -> rem
   description: 11
 
 space:
-  page_margin: 54              # pt
+  page_margin: 54              # pt, outside/top/bottom
+  gutter: 80                   # pt inner margin: 4-ring punch strip + buffer (~28mm)
   bleed: 0                     # pt; set ~8.5 (3mm) for production full-bleed runs
   block: 12
   label_gap: 5
