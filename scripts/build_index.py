@@ -15,7 +15,15 @@ def frontmatter(path):
     fm, key = {}, None
     for line in m.group(1).splitlines():
         if line.startswith("  - ") and key:
-            fm[key].append(line[4:].strip())
+            item = line[4:].strip()
+            if item.endswith(":") or ": " in item:
+                k2, v2 = item.split(":", 1)
+                fm[key].append({k2.strip(): v2.strip().strip('"')})
+            else:
+                fm[key].append(item)
+        elif line.startswith("    ") and key and fm[key] and isinstance(fm[key][-1], dict):
+            k2, v2 = line.strip().split(":", 1)
+            fm[key][-1][k2.strip()] = v2.strip().strip('"')
         elif ":" in line:
             k, v = line.split(":", 1)
             k, v = k.strip(), v.strip().strip('"')
@@ -42,7 +50,7 @@ def main():
             "number": fm.get("number", ""),
             "slug": fm.get("slug", ""),
             "batch": fm.get("batch", ""),
-            "source_image": (fm.get("scans") or [""])[0] if isinstance(fm.get("scans"), list) else fm.get("source_image", ""),
+            "source_image": next((s["path"] if isinstance(s, dict) else s for s in fm.get("scans") or []), "") if isinstance(fm.get("scans"), list) else fm.get("source_image", ""),
         })
         for field in ("title", "language", "section"):
             if not rows[-1][field]:

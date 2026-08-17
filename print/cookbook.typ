@@ -36,7 +36,9 @@
 
 #let subhead(content) = block(above: space-block, below: space-label-gap, label-text(content))
 
-#let card-img(scan, width) = image("cards/" + scan.split("/").last(), width: width)
+// scans arrive from md_to_data in render order (first = bottom of the stack),
+// each with path/scale/tilt resolved; tilt defaults are seeded per scan
+#let card(e, base) = rotate(e.tilt * 1deg, image("cards/" + e.path.split("/").last(), width: base * e.scale))
 
 #let title-block(r) = {
   label-text(r.section, fill: color-accent)
@@ -56,12 +58,15 @@
   }
   place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
     block(width: 50% - M, title-block(r)))
-  // 2 scans stack as a deck (underneath card peeks out) so the title zone stays clear
-  let tilts = (1.8deg, -2.6deg)
+  // 2 scans stack as a deck (underneath card peeks out) so the title zone stays clear;
   // verso is bound on its right edge: keep cards clear of the punch strip
-  for (i, s) in r.scans.enumerate().rev() {
-    place(top + right, dx: -(B + G) - i * 48pt, dy: 62% - 215pt + i * 30pt,
-      rotate(tilts.at(calc.rem(i, 2)), card-img(s, 255pt)))
+  let n = r.scans.len()
+  for (j, e) in r.scans.enumerate() {
+    let k = n - 1 - j          // 0 = topmost (reading page 1)
+    // tall scans are height-capped so the deck can't crash into the title block
+    let w = calc.min(255pt, 310pt * e.aspect)
+    place(top + right, dx: -(B + G) - k * 48pt, dy: 62% - 215pt + k * 30pt,
+      card(e, w))
   }
 }
 
@@ -74,15 +79,15 @@
   }
   let n = r.scans.len()
   let w = if n == 3 { 225pt } else { 190pt }
-  let tilts = (-3deg, 2.4deg, -1.6deg, 3.2deg, -2.2deg)
-  for (i, s) in r.scans.enumerate() {
-    let col = calc.rem(i, 2)
-    let row = calc.floor(i / 2)
+  for (j, e) in r.scans.enumerate() {
+    let k = n - 1 - j          // reading page 1 takes the first grid slot, on top
+    let col = calc.rem(k, 2)
+    let row = calc.floor(k / 2)
     // bound on the right: scatter starts at the outside edge, stays clear of the gutter
     place(top + left,
       dx: B + M * 0.5 + col * (w + 26pt) + row * 20pt,
       dy: B + M * 0.8 + row * (w * 0.72) + col * 18pt,
-      rotate(tilts.at(calc.rem(i, 5)), card-img(s, w)))
+      card(e, w))
   }
   place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
     block(width: 55% - M, title-block(r)))

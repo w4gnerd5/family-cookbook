@@ -2,7 +2,12 @@
  {
   "file": "assets/english/1209/IMG_1209.md",
   "scans": [
-   "assets/english/1209/IMG_1209.png"
+   {
+    "path": "assets/english/1209/IMG_1209.png",
+    "scale": 1.0,
+    "tilt": -1.97,
+    "aspect": 0.7744
+   }
   ],
   "title": "No-Knead Bread",
   "language": "english",
@@ -34,7 +39,12 @@
  {
   "file": "assets/english/1212/IMG_1212.md",
   "scans": [
-   "assets/english/1212/IMG_1212.png"
+   {
+    "path": "assets/english/1212/IMG_1212.png",
+    "scale": 1.0,
+    "tilt": 1.74,
+    "aspect": 0.7713
+   }
   ],
   "title": "Buttermilk Pancakes II",
   "language": "english",
@@ -69,7 +79,12 @@
  {
   "file": "assets/english/1274/IMG_1274.md",
   "scans": [
-   "assets/english/1274/IMG_1274.png"
+   {
+    "path": "assets/english/1274/IMG_1274.png",
+    "scale": 1.0,
+    "tilt": -1.65,
+    "aspect": 0.7693
+   }
   ],
   "title": "2-Hour Fastest No Knead Bread",
   "language": "english",
@@ -105,9 +120,24 @@
  {
   "file": "assets/english/1275/IMG_1275.md",
   "scans": [
-   "assets/english/1275/IMG_1275.png",
-   "assets/english/1275/IMG_1276.png",
-   "assets/english/1275/IMG_1277.png"
+   {
+    "path": "assets/english/1275/IMG_1277.png",
+    "scale": 1.0,
+    "tilt": -2.17,
+    "aspect": 0.7763
+   },
+   {
+    "path": "assets/english/1275/IMG_1276.png",
+    "scale": 1.0,
+    "tilt": 2.55,
+    "aspect": 0.7815
+   },
+   {
+    "path": "assets/english/1275/IMG_1275.png",
+    "scale": 1.0,
+    "tilt": 3.32,
+    "aspect": 0.772
+   }
   ],
   "title": "No-Knead Bread",
   "language": "english",
@@ -138,7 +168,12 @@
  {
   "file": "assets/english/1290/IMG_1290.md",
   "scans": [
-   "assets/english/1290/IMG_1290.png"
+   {
+    "path": "assets/english/1290/IMG_1290.png",
+    "scale": 1.0,
+    "tilt": -1.85,
+    "aspect": 0.7789
+   }
   ],
   "title": "Mom's Zucchini Bread",
   "language": "english",
@@ -176,7 +211,12 @@
  {
   "file": "assets/georgian/1161/IMG_1161.md",
   "scans": [
-   "assets/georgian/1161/IMG_1161.png"
+   {
+    "path": "assets/georgian/1161/IMG_1161.png",
+    "scale": 1.0,
+    "tilt": 3.15,
+    "aspect": 0.7229
+   }
   ],
   "title": "Dumpling Dough with Boiling Water (Super)",
   "language": "georgian",
@@ -207,7 +247,12 @@
  {
   "file": "assets/georgian/1168/IMG_1168.md",
   "scans": [
-   "assets/georgian/1168/IMG_1168.png"
+   {
+    "path": "assets/georgian/1168/IMG_1168.png",
+    "scale": 1.0,
+    "tilt": -2.04,
+    "aspect": 0.7908
+   }
   ],
   "title": "Traditional Georgian Bread Shaping Instructions",
   "language": "georgian",
@@ -235,7 +280,12 @@
  {
   "file": "assets/georgian/1170/IMG_1170.md",
   "scans": [
-   "assets/georgian/1170/IMG_1170.png"
+   {
+    "path": "assets/georgian/1170/IMG_1170.png",
+    "scale": 1.0,
+    "tilt": 2.41,
+    "aspect": 0.7898
+   }
   ],
   "title": "Khachapuri Recipe by Gia Agirba",
   "language": "georgian",
@@ -283,7 +333,12 @@
  {
   "file": "assets/georgian/1180/IMG_1180.md",
   "scans": [
-   "assets/georgian/1180/IMG_1180.png"
+   {
+    "path": "assets/georgian/1180/IMG_1180.png",
+    "scale": 1.0,
+    "tilt": 2.43,
+    "aspect": 1.4769
+   }
   ],
   "title": "Vareniki Dough (Dumpling Dough)",
   "language": "georgian",
@@ -338,7 +393,12 @@
  {
   "file": "assets/georgian/1184/IMG_1184.md",
   "scans": [
-   "assets/georgian/1184/IMG_1184.png"
+   {
+    "path": "assets/georgian/1184/IMG_1184.png",
+    "scale": 1.0,
+    "tilt": 1.53,
+    "aspect": 0.7655
+   }
   ],
   "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
   "language": "georgian",
@@ -378,7 +438,12 @@
  {
   "file": "assets/georgian/1186/IMG_1186.md",
   "scans": [
-   "assets/georgian/1186/IMG_1186.png"
+   {
+    "path": "assets/georgian/1186/IMG_1186.png",
+    "scale": 1.0,
+    "tilt": 1.24,
+    "aspect": 1.0235
+   }
   ],
   "title": "Kefir Pancakes (Blini) with Baking Soda",
   "language": "georgian",
@@ -413,7 +478,12 @@
  {
   "file": "assets/georgian/1189/IMG_1189.md",
   "scans": [
-   "assets/georgian/1189/IMG_1189.png"
+   {
+    "path": "assets/georgian/1189/IMG_1189.png",
+    "scale": 1.0,
+    "tilt": 3.17,
+    "aspect": 0.761
+   }
   ],
   "title": "Pirozhki with Scalded Yeast Dough",
   "language": "georgian",
@@ -461,7 +531,12 @@
  {
   "file": "assets/georgian/1192/IMG_1192.md",
   "scans": [
-   "assets/georgian/1192/IMG_1192.png"
+   {
+    "path": "assets/georgian/1192/IMG_1192.png",
+    "scale": 1.0,
+    "tilt": 1.58,
+    "aspect": 0.7692
+   }
   ],
   "title": "Zeinab's Khachapuri",
   "language": "georgian",
@@ -500,7 +575,12 @@
  {
   "file": "assets/georgian/1195/IMG_1195.md",
   "scans": [
-   "assets/georgian/1195/IMG_1195.png"
+   {
+    "path": "assets/georgian/1195/IMG_1195.png",
+    "scale": 1.0,
+    "tilt": -3.02,
+    "aspect": 0.7757
+   }
   ],
   "title": "Adjarian Khachapuri",
   "language": "georgian",
@@ -558,7 +638,12 @@
  {
   "file": "assets/georgian/1198/IMG_1198.md",
   "scans": [
-   "assets/georgian/1198/IMG_1198.png"
+   {
+    "path": "assets/georgian/1198/IMG_1198.png",
+    "scale": 1.0,
+    "tilt": 2.5,
+    "aspect": 0.7801
+   }
   ],
   "title": "Vareniki with Boiling Water Dough",
   "language": "georgian",
@@ -588,7 +673,12 @@
  {
   "file": "assets/georgian/1202/IMG_1202.md",
   "scans": [
-   "assets/georgian/1202/IMG_1202.png"
+   {
+    "path": "assets/georgian/1202/IMG_1202.png",
+    "scale": 1.0,
+    "tilt": -2.95,
+    "aspect": 1.5515
+   }
   ],
   "title": "Zainab's Khachapuri",
   "language": "georgian",
@@ -623,7 +713,12 @@
  {
   "file": "assets/georgian/1232/IMG_1232.md",
   "scans": [
-   "assets/georgian/1232/IMG_1232.png"
+   {
+    "path": "assets/georgian/1232/IMG_1232.png",
+    "scale": 1.0,
+    "tilt": -3.16,
+    "aspect": 0.9981
+   }
   ],
   "title": "Boiling Water Pancakes (Blini)",
   "language": "georgian",
@@ -642,8 +737,18 @@
  {
   "file": "assets/georgian/1233/IMG_1233.md",
   "scans": [
-   "assets/georgian/1233/IMG_1233.png",
-   "assets/georgian/1233/IMG_1234.png"
+   {
+    "path": "assets/georgian/1233/IMG_1234.png",
+    "scale": 1.0,
+    "tilt": 3.39,
+    "aspect": 0.9874
+   },
+   {
+    "path": "assets/georgian/1233/IMG_1233.png",
+    "scale": 1.0,
+    "tilt": -3.11,
+    "aspect": 0.9913
+   }
   ],
   "title": "Scalded Crepes (Zavarnyye Blini)",
   "language": "georgian",
@@ -662,7 +767,12 @@
  {
   "file": "assets/georgian/1236/IMG_1236.md",
   "scans": [
-   "assets/georgian/1236/IMG_1236.png"
+   {
+    "path": "assets/georgian/1236/IMG_1236.png",
+    "scale": 1.0,
+    "tilt": 2.55,
+    "aspect": 0.9744
+   }
   ],
   "title": "Oven-Baked Brioches",
   "language": "georgian",
@@ -681,10 +791,30 @@
  {
   "file": "assets/georgian/1237/IMG_1237.md",
   "scans": [
-   "assets/georgian/1237/IMG_1237.png",
-   "assets/georgian/1237/IMG_1238.png",
-   "assets/georgian/1237/IMG_1239.png",
-   "assets/georgian/1237/IMG_1240.png"
+   {
+    "path": "assets/georgian/1237/IMG_1240.png",
+    "scale": 1.0,
+    "tilt": 1.63,
+    "aspect": 0.7231
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1239.png",
+    "scale": 1.0,
+    "tilt": -2.26,
+    "aspect": 0.7352
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1238.png",
+    "scale": 1.0,
+    "tilt": -1.75,
+    "aspect": 0.7302
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1237.png",
+    "scale": 1.0,
+    "tilt": 2.21,
+    "aspect": 0.7002
+   }
   ],
   "title": "Puff Pastry",
   "language": "georgian",
@@ -703,10 +833,30 @@
  {
   "file": "assets/georgian/1237/IMG_1238.md",
   "scans": [
-   "assets/georgian/1237/IMG_1237.png",
-   "assets/georgian/1237/IMG_1238.png",
-   "assets/georgian/1237/IMG_1239.png",
-   "assets/georgian/1237/IMG_1240.png"
+   {
+    "path": "assets/georgian/1237/IMG_1240.png",
+    "scale": 1.0,
+    "tilt": 2.37,
+    "aspect": 0.7231
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1239.png",
+    "scale": 1.0,
+    "tilt": -3.26,
+    "aspect": 0.7352
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1238.png",
+    "scale": 1.0,
+    "tilt": -3.4,
+    "aspect": 0.7302
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1237.png",
+    "scale": 1.0,
+    "tilt": 3.05,
+    "aspect": 0.7002
+   }
   ],
   "title": "Flaky Pastry Folding Instructions - 2nd page",
   "language": "georgian",
@@ -725,10 +875,30 @@
  {
   "file": "assets/georgian/1237/IMG_1239.md",
   "scans": [
-   "assets/georgian/1237/IMG_1237.png",
-   "assets/georgian/1237/IMG_1238.png",
-   "assets/georgian/1237/IMG_1239.png",
-   "assets/georgian/1237/IMG_1240.png"
+   {
+    "path": "assets/georgian/1237/IMG_1240.png",
+    "scale": 1.0,
+    "tilt": 2.33,
+    "aspect": 0.7231
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1239.png",
+    "scale": 1.0,
+    "tilt": -2.2,
+    "aspect": 0.7352
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1238.png",
+    "scale": 1.0,
+    "tilt": 2.9,
+    "aspect": 0.7302
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1237.png",
+    "scale": 1.0,
+    "tilt": -2.5,
+    "aspect": 0.7002
+   }
   ],
   "title": "Russian Layered Savory Pie (Pirog) - 3rd page",
   "language": "georgian",
@@ -747,10 +917,30 @@
  {
   "file": "assets/georgian/1237/IMG_1240.md",
   "scans": [
-   "assets/georgian/1237/IMG_1237.png",
-   "assets/georgian/1237/IMG_1238.png",
-   "assets/georgian/1237/IMG_1239.png",
-   "assets/georgian/1237/IMG_1240.png"
+   {
+    "path": "assets/georgian/1237/IMG_1240.png",
+    "scale": 1.0,
+    "tilt": 3.1,
+    "aspect": 0.7231
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1239.png",
+    "scale": 1.0,
+    "tilt": 3.21,
+    "aspect": 0.7352
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1238.png",
+    "scale": 1.0,
+    "tilt": 2.49,
+    "aspect": 0.7302
+   },
+   {
+    "path": "assets/georgian/1237/IMG_1237.png",
+    "scale": 1.0,
+    "tilt": 2.02,
+    "aspect": 0.7002
+   }
   ],
   "title": "Puff Pastry Dough Pie - page 4",
   "language": "georgian",
@@ -769,8 +959,18 @@
  {
   "file": "assets/georgian/1241/IMG_1242.md",
   "scans": [
-   "assets/georgian/1241/IMG_1241.png",
-   "assets/georgian/1241/IMG_1242.png"
+   {
+    "path": "assets/georgian/1241/IMG_1242.png",
+    "scale": 1.0,
+    "tilt": 2.04,
+    "aspect": 0.7448
+   },
+   {
+    "path": "assets/georgian/1241/IMG_1241.png",
+    "scale": 1.0,
+    "tilt": -2.43,
+    "aspect": 0.7468
+   }
   ],
   "title": "Khachapuri",
   "language": "georgian",
@@ -789,7 +989,12 @@
  {
   "file": "assets/georgian/1243/IMG_1243.md",
   "scans": [
-   "assets/georgian/1243/IMG_1243.png"
+   {
+    "path": "assets/georgian/1243/IMG_1243.png",
+    "scale": 1.0,
+    "tilt": 2.44,
+    "aspect": 0.7233
+   }
   ],
   "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
   "language": "georgian",
@@ -808,7 +1013,12 @@
  {
   "file": "assets/georgian/1255/IMG_1255.md",
   "scans": [
-   "assets/georgian/1255/IMG_1255.png"
+   {
+    "path": "assets/georgian/1255/IMG_1255.png",
+    "scale": 1.0,
+    "tilt": -2.27,
+    "aspect": 0.7457
+   }
   ],
   "title": "Zeinab's Khachapuri",
   "language": "georgian",
@@ -827,7 +1037,12 @@
  {
   "file": "assets/georgian/1256/IMG_1256.md",
   "scans": [
-   "assets/georgian/1256/IMG_1256.png"
+   {
+    "path": "assets/georgian/1256/IMG_1256.png",
+    "scale": 1.0,
+    "tilt": -2.04,
+    "aspect": 0.7297
+   }
   ],
   "title": "Adjarian Khachapuri",
   "language": "georgian",
@@ -846,7 +1061,12 @@
  {
   "file": "assets/georgian/1266/IMG_1266.md",
   "scans": [
-   "assets/georgian/1266/IMG_1266.png"
+   {
+    "path": "assets/georgian/1266/IMG_1266.png",
+    "scale": 1.0,
+    "tilt": -1.46,
+    "aspect": 0.7151
+   }
   ],
   "title": "Adjarian Khachapuri",
   "language": "georgian",
@@ -865,7 +1085,12 @@
  {
   "file": "assets/georgian/1267/IMG_1267.md",
   "scans": [
-   "assets/georgian/1267/IMG_1267.png"
+   {
+    "path": "assets/georgian/1267/IMG_1267.png",
+    "scale": 1.0,
+    "tilt": 2.85,
+    "aspect": 0.978
+   }
   ],
   "title": "Pirozhki with Scalded Dough",
   "language": "georgian",
@@ -884,7 +1109,12 @@
  {
   "file": "assets/georgian/1269/IMG_1269.md",
   "scans": [
-   "assets/georgian/1269/IMG_1269.png"
+   {
+    "path": "assets/georgian/1269/IMG_1269.png",
+    "scale": 1.0,
+    "tilt": 3.31,
+    "aspect": 0.988
+   }
   ],
   "title": "Pirozhki with Kefir",
   "language": "georgian",
@@ -903,7 +1133,12 @@
  {
   "file": "assets/english/1227/IMG_1227.md",
   "scans": [
-   "assets/english/1227/IMG_1227.png"
+   {
+    "path": "assets/english/1227/IMG_1227.png",
+    "scale": 1.0,
+    "tilt": 1.23,
+    "aspect": 0.7669
+   }
   ],
   "title": "Beef Bourguignon",
   "language": "english",
@@ -952,7 +1187,12 @@
  {
   "file": "assets/english/1228/IMG_1228.md",
   "scans": [
-   "assets/english/1228/IMG_1228.png"
+   {
+    "path": "assets/english/1228/IMG_1228.png",
+    "scale": 1.0,
+    "tilt": -1.88,
+    "aspect": 0.7743
+   }
   ],
   "title": "Old-Fashioned Beef Stew",
   "language": "english",
@@ -990,8 +1230,18 @@
  {
   "file": "assets/english/1285/IMG_1285.md",
   "scans": [
-   "assets/english/1285/IMG_1285.png",
-   "assets/english/1285/IMG_1286.png"
+   {
+    "path": "assets/english/1285/IMG_1286.png",
+    "scale": 1.0,
+    "tilt": -1.74,
+    "aspect": 0.7879
+   },
+   {
+    "path": "assets/english/1285/IMG_1285.png",
+    "scale": 1.0,
+    "tilt": 2.84,
+    "aspect": 0.7762
+   }
   ],
   "title": "Ina Garten's Unforgettable Beef Stew",
   "language": "english",
@@ -1043,7 +1293,12 @@
  {
   "file": "assets/english/1293/IMG_1293.md",
   "scans": [
-   "assets/english/1293/IMG_1293.png"
+   {
+    "path": "assets/english/1293/IMG_1293.png",
+    "scale": 1.0,
+    "tilt": 3.07,
+    "aspect": 0.7802
+   }
   ],
   "title": "Old-Time Beef Stew",
   "language": "english",
@@ -1085,7 +1340,12 @@
  {
   "file": "assets/english/1294/IMG_1294.md",
   "scans": [
-   "assets/english/1294/IMG_1294.png"
+   {
+    "path": "assets/english/1294/IMG_1294.png",
+    "scale": 1.0,
+    "tilt": -3.05,
+    "aspect": 0.7714
+   }
   ],
   "title": "Parker's Split Pea Soup",
   "language": "english",
@@ -1121,8 +1381,18 @@
  {
   "file": "assets/english/1205/IMG_1205.md",
   "scans": [
-   "assets/english/1205/IMG_1205.png",
-   "assets/english/1205/IMG_1206.png"
+   {
+    "path": "assets/english/1205/IMG_1206.png",
+    "scale": 1.0,
+    "tilt": -1.65,
+    "aspect": 0.7805
+   },
+   {
+    "path": "assets/english/1205/IMG_1205.png",
+    "scale": 1.0,
+    "tilt": 1.71,
+    "aspect": 0.7798
+   }
   ],
   "title": "Homemade Merguez Sausage",
   "language": "english",
@@ -1164,8 +1434,18 @@
  {
   "file": "assets/english/1207/IMG_1207.md",
   "scans": [
-   "assets/english/1207/IMG_1207.png",
-   "assets/english/1207/IMG_1208.png"
+   {
+    "path": "assets/english/1207/IMG_1208.png",
+    "scale": 1.0,
+    "tilt": -2.56,
+    "aspect": 0.8117
+   },
+   {
+    "path": "assets/english/1207/IMG_1207.png",
+    "scale": 1.0,
+    "tilt": -2.8,
+    "aspect": 0.7911
+   }
   ],
   "title": "Shakshuka With Feta",
   "language": "english",
@@ -1202,8 +1482,18 @@
  {
   "file": "assets/english/1210/IMG_1210.md",
   "scans": [
-   "assets/english/1210/IMG_1210.png",
-   "assets/english/1210/IMG_1211.png"
+   {
+    "path": "assets/english/1210/IMG_1211.png",
+    "scale": 1.0,
+    "tilt": 2.53,
+    "aspect": 0.6539
+   },
+   {
+    "path": "assets/english/1210/IMG_1210.png",
+    "scale": 1.0,
+    "tilt": -2.38,
+    "aspect": 0.6462
+   }
   ],
   "title": "Cashew Nut Loaf",
   "language": "english",
@@ -1245,7 +1535,12 @@
  {
   "file": "assets/english/1213/IMG_1213.md",
   "scans": [
-   "assets/english/1213/IMG_1213.png"
+   {
+    "path": "assets/english/1213/IMG_1213.png",
+    "scale": 1.0,
+    "tilt": 1.34,
+    "aspect": 0.7781
+   }
   ],
   "title": "Whole Chicken Crock Pot",
   "language": "english",
@@ -1286,7 +1581,12 @@
  {
   "file": "assets/english/1214/IMG_1214.md",
   "scans": [
-   "assets/english/1214/IMG_1214.png"
+   {
+    "path": "assets/english/1214/IMG_1214.png",
+    "scale": 1.0,
+    "tilt": -1.61,
+    "aspect": 0.7786
+   }
   ],
   "title": "Turkey Meatloaf",
   "language": "english",
@@ -1325,7 +1625,12 @@
  {
   "file": "assets/english/1216/IMG_1216.md",
   "scans": [
-   "assets/english/1216/IMG_1216.png"
+   {
+    "path": "assets/english/1216/IMG_1216.png",
+    "scale": 1.0,
+    "tilt": 3.01,
+    "aspect": 0.7824
+   }
   ],
   "title": "Turkey and Quinoa Meatloaf",
   "language": "english",
@@ -1369,8 +1674,18 @@
  {
   "file": "assets/english/1217/IMG_1217.md",
   "scans": [
-   "assets/english/1217/IMG_1217.png",
-   "assets/english/1217/IMG_1218.png"
+   {
+    "path": "assets/english/1217/IMG_1218.png",
+    "scale": 1.0,
+    "tilt": 2.61,
+    "aspect": 0.7796
+   },
+   {
+    "path": "assets/english/1217/IMG_1217.png",
+    "scale": 1.0,
+    "tilt": -3.13,
+    "aspect": 0.7768
+   }
   ],
   "title": "Apple Cider Braised Pork Shoulder",
   "language": "english",
@@ -1415,7 +1730,12 @@
  {
   "file": "assets/english/1221/IMG_1221.md",
   "scans": [
-   "assets/english/1221/IMG_1221.png"
+   {
+    "path": "assets/english/1221/IMG_1221.png",
+    "scale": 1.0,
+    "tilt": -2.24,
+    "aspect": 0.7775
+   }
   ],
   "title": "Skillet Chicken Bulgogi",
   "language": "english",
@@ -1449,10 +1769,30 @@
  {
   "file": "assets/english/1222/IMG_1222.md",
   "scans": [
-   "assets/english/1222/IMG_1222.png",
-   "assets/english/1222/IMG_1223.png",
-   "assets/english/1222/IMG_1224.png",
-   "assets/english/1222/IMG_1225.png"
+   {
+    "path": "assets/english/1222/IMG_1225.png",
+    "scale": 1.0,
+    "tilt": -1.5,
+    "aspect": 0.784
+   },
+   {
+    "path": "assets/english/1222/IMG_1224.png",
+    "scale": 1.0,
+    "tilt": 3.24,
+    "aspect": 0.7803
+   },
+   {
+    "path": "assets/english/1222/IMG_1223.png",
+    "scale": 1.0,
+    "tilt": 2.0,
+    "aspect": 0.7756
+   },
+   {
+    "path": "assets/english/1222/IMG_1222.png",
+    "scale": 1.0,
+    "tilt": -2.34,
+    "aspect": 0.7753
+   }
   ],
   "title": "Fresh Huevos Rancheros",
   "language": "english",
@@ -1514,8 +1854,18 @@
  {
   "file": "assets/english/1229/IMG_1229.md",
   "scans": [
-   "assets/english/1229/IMG_1229.png",
-   "assets/english/1229/IMG_1230.png"
+   {
+    "path": "assets/english/1229/IMG_1230.png",
+    "scale": 1.0,
+    "tilt": 3.4,
+    "aspect": 0.7802
+   },
+   {
+    "path": "assets/english/1229/IMG_1229.png",
+    "scale": 1.0,
+    "tilt": -1.49,
+    "aspect": 0.7807
+   }
   ],
   "title": "Company Pot Roast",
   "language": "english",
@@ -1559,7 +1909,12 @@
  {
   "file": "assets/english/1273/IMG_1273.md",
   "scans": [
-   "assets/english/1273/IMG_1273.png"
+   {
+    "path": "assets/english/1273/IMG_1273.png",
+    "scale": 1.0,
+    "tilt": -1.7,
+    "aspect": 0.786
+   }
   ],
   "title": "Croque-Madame",
   "language": "english",
@@ -1594,7 +1949,12 @@
  {
   "file": "assets/english/1278/IMG_1278.md",
   "scans": [
-   "assets/english/1278/IMG_1278.png"
+   {
+    "path": "assets/english/1278/IMG_1278.png",
+    "scale": 1.0,
+    "tilt": 2.66,
+    "aspect": 0.7859
+   }
   ],
   "title": "Whole Chicken Crock Pot Recipe",
   "language": "english",
@@ -1634,7 +1994,12 @@
  {
   "file": "assets/english/1279/IMG_1279.md",
   "scans": [
-   "assets/english/1279/IMG_1279.png"
+   {
+    "path": "assets/english/1279/IMG_1279.png",
+    "scale": 1.0,
+    "tilt": -1.59,
+    "aspect": 0.7832
+   }
   ],
   "title": "Baked Salmon with Dill Garlic Beurre Blanc",
   "language": "english",
@@ -1666,7 +2031,12 @@
  {
   "file": "assets/english/1280/IMG_1280.md",
   "scans": [
-   "assets/english/1280/IMG_1280.png"
+   {
+    "path": "assets/english/1280/IMG_1280.png",
+    "scale": 1.0,
+    "tilt": 2.85,
+    "aspect": 0.774
+   }
   ],
   "title": "Bacon and Gruyere Breakfast Casserole",
   "language": "english",
@@ -1704,9 +2074,24 @@
  {
   "file": "assets/english/1282/IMG_1282.md",
   "scans": [
-   "assets/english/1282/IMG_1282.png",
-   "assets/english/1282/IMG_1283.png",
-   "assets/english/1282/IMG_1284.png"
+   {
+    "path": "assets/english/1282/IMG_1284.png",
+    "scale": 1.0,
+    "tilt": -3.14,
+    "aspect": 0.7802
+   },
+   {
+    "path": "assets/english/1282/IMG_1283.png",
+    "scale": 1.0,
+    "tilt": -3.27,
+    "aspect": 0.786
+   },
+   {
+    "path": "assets/english/1282/IMG_1282.png",
+    "scale": 1.0,
+    "tilt": 3.25,
+    "aspect": 0.7763
+   }
   ],
   "title": "Slow-Roasted Crispy Pork Belly",
   "language": "english",
@@ -1753,7 +2138,12 @@
  {
   "file": "assets/english/1287/IMG_1287.md",
   "scans": [
-   "assets/english/1287/IMG_1287.png"
+   {
+    "path": "assets/english/1287/IMG_1287.png",
+    "scale": 1.0,
+    "tilt": -3.0,
+    "aspect": 0.7769
+   }
   ],
   "title": "Perfect Roast Chicken",
   "language": "english",
@@ -1790,8 +2180,18 @@
  {
   "file": "assets/english/1288/IMG_1288.md",
   "scans": [
-   "assets/english/1288/IMG_1288.png",
-   "assets/english/1288/IMG_1289.png"
+   {
+    "path": "assets/english/1288/IMG_1289.png",
+    "scale": 1.0,
+    "tilt": -1.63,
+    "aspect": 0.7784
+   },
+   {
+    "path": "assets/english/1288/IMG_1288.png",
+    "scale": 1.0,
+    "tilt": -1.71,
+    "aspect": 0.7786
+   }
   ],
   "title": "Garlic Braised Short Ribs With Red Wine",
   "language": "english",
@@ -1833,8 +2233,18 @@
  {
   "file": "assets/english/1291/IMG_1291.md",
   "scans": [
-   "assets/english/1291/IMG_1291.png",
-   "assets/english/1291/IMG_1292.png"
+   {
+    "path": "assets/english/1291/IMG_1292.png",
+    "scale": 1.0,
+    "tilt": -1.71,
+    "aspect": 0.7875
+   },
+   {
+    "path": "assets/english/1291/IMG_1291.png",
+    "scale": 1.0,
+    "tilt": 3.37,
+    "aspect": 0.7847
+   }
   ],
   "title": "Tuscan Farmers Breakfast",
   "language": "english",
@@ -1874,8 +2284,18 @@
  {
   "file": "assets/english/1295/IMG_1295.md",
   "scans": [
-   "assets/english/1295/IMG_1295.png",
-   "assets/english/1295/IMG_1296.png"
+   {
+    "path": "assets/english/1295/IMG_1296.png",
+    "scale": 1.0,
+    "tilt": -3.13,
+    "aspect": 0.7786
+   },
+   {
+    "path": "assets/english/1295/IMG_1295.png",
+    "scale": 1.0,
+    "tilt": 2.02,
+    "aspect": 0.7808
+   }
   ],
   "title": "Chicken, Rice, and Spices Bake",
   "language": "english",
@@ -1919,10 +2339,30 @@
  {
   "file": "assets/english/1297/IMG_1297.md",
   "scans": [
-   "assets/english/1297/IMG_1297.png",
-   "assets/english/1297/IMG_1298.png",
-   "assets/english/1297/IMG_1299.png",
-   "assets/english/1297/IMG_1300.png"
+   {
+    "path": "assets/english/1297/IMG_1300.png",
+    "scale": 1.0,
+    "tilt": -1.85,
+    "aspect": 1.2842
+   },
+   {
+    "path": "assets/english/1297/IMG_1299.png",
+    "scale": 1.0,
+    "tilt": 2.18,
+    "aspect": 1.268
+   },
+   {
+    "path": "assets/english/1297/IMG_1298.png",
+    "scale": 1.0,
+    "tilt": 3.24,
+    "aspect": 1.2607
+   },
+   {
+    "path": "assets/english/1297/IMG_1297.png",
+    "scale": 1.0,
+    "tilt": -1.61,
+    "aspect": 1.2652
+   }
   ],
   "title": "Crispy Pork and Watermelon Salad",
   "language": "english",
@@ -2020,7 +2460,12 @@
  {
   "file": "assets/georgian/1162/IMG_1162.md",
   "scans": [
-   "assets/georgian/1162/IMG_1162.png"
+   {
+    "path": "assets/georgian/1162/IMG_1162.png",
+    "scale": 1.0,
+    "tilt": -1.47,
+    "aspect": 0.7103
+   }
   ],
   "title": "Lyudmila's Beef Stroganoff",
   "language": "georgian",
@@ -2064,7 +2509,12 @@
  {
   "file": "assets/georgian/1178/IMG_1178.md",
   "scans": [
-   "assets/georgian/1178/IMG_1178.png"
+   {
+    "path": "assets/georgian/1178/IMG_1178.png",
+    "scale": 1.0,
+    "tilt": -2.8,
+    "aspect": 0.7746
+   }
   ],
   "title": "Rusiko's Cutlets",
   "language": "georgian",
@@ -2105,8 +2555,18 @@
  {
   "file": "assets/georgian/1181/IMG_1181.md",
   "scans": [
-   "assets/georgian/1181/IMG_1181.png",
-   "assets/georgian/1181/IMG_1187.png"
+   {
+    "path": "assets/georgian/1181/IMG_1187.png",
+    "scale": 1.0,
+    "tilt": -2.5,
+    "aspect": 1.028
+   },
+   {
+    "path": "assets/georgian/1181/IMG_1181.png",
+    "scale": 1.0,
+    "tilt": 2.34,
+    "aspect": 1.4908
+   }
   ],
   "title": "Camca - Sumsa",
   "language": "georgian",
@@ -2128,7 +2588,12 @@
  {
   "file": "assets/georgian/1185/IMG_1185.md",
   "scans": [
-   "assets/georgian/1185/IMG_1185.png"
+   {
+    "path": "assets/georgian/1185/IMG_1185.png",
+    "scale": 1.0,
+    "tilt": 3.29,
+    "aspect": 0.7602
+   }
   ],
   "title": "Ami's Khinkali",
   "language": "georgian",
@@ -2168,7 +2633,12 @@
  {
   "file": "assets/georgian/1200/IMG_1200.md",
   "scans": [
-   "assets/georgian/1200/IMG_1200.png"
+   {
+    "path": "assets/georgian/1200/IMG_1200.png",
+    "scale": 1.0,
+    "tilt": -2.66,
+    "aspect": 1.7518
+   }
   ],
   "title": "New Seasons Market Cheesy Chilaquiles Casserole",
   "language": "georgian",
@@ -2204,7 +2674,12 @@
  {
   "file": "assets/georgian/1201/IMG_1201.md",
   "scans": [
-   "assets/georgian/1201/IMG_1201.png"
+   {
+    "path": "assets/georgian/1201/IMG_1201.png",
+    "scale": 1.0,
+    "tilt": -1.84,
+    "aspect": 1.6945
+   }
   ],
   "title": "Vegetable Enchilada Casserole",
   "language": "georgian",
@@ -2249,8 +2724,18 @@
  {
   "file": "assets/georgian/1248/IMG_1248.md",
   "scans": [
-   "assets/georgian/1248/IMG_1248.png",
-   "assets/georgian/1248/IMG_1249.png"
+   {
+    "path": "assets/georgian/1248/IMG_1249.png",
+    "scale": 1.0,
+    "tilt": 1.61,
+    "aspect": 0.748
+   },
+   {
+    "path": "assets/georgian/1248/IMG_1248.png",
+    "scale": 1.0,
+    "tilt": -3.03,
+    "aspect": 0.7274
+   }
   ],
   "title": "Satsivi for One Large Turkey",
   "language": "georgian",
@@ -2276,8 +2761,18 @@
  {
   "file": "assets/georgian/1250/IMG_1250.md",
   "scans": [
-   "assets/georgian/1250/IMG_1250.png",
-   "assets/georgian/1250/IMG_1251.png"
+   {
+    "path": "assets/georgian/1250/IMG_1251.png",
+    "scale": 1.0,
+    "tilt": 3.08,
+    "aspect": 0.7468
+   },
+   {
+    "path": "assets/georgian/1250/IMG_1250.png",
+    "scale": 1.0,
+    "tilt": 3.11,
+    "aspect": 0.742
+   }
   ],
   "title": "Beef Eggplant / Bell Pepper Boat (Khortsia Tsomshi)",
   "language": "georgian",
@@ -2296,7 +2791,12 @@
  {
   "file": "assets/georgian/1253/IMG_1253.md",
   "scans": [
-   "assets/georgian/1253/IMG_1253.png"
+   {
+    "path": "assets/georgian/1253/IMG_1253.png",
+    "scale": 1.0,
+    "tilt": 1.64,
+    "aspect": 0.7485
+   }
   ],
   "title": "Achma-Makarina",
   "language": "georgian",
@@ -2315,7 +2815,12 @@
  {
   "file": "assets/georgian/1254/IMG_1254.md",
   "scans": [
-   "assets/georgian/1254/IMG_1254.png"
+   {
+    "path": "assets/georgian/1254/IMG_1254.png",
+    "scale": 1.0,
+    "tilt": 1.71,
+    "aspect": 0.7566
+   }
   ],
   "title": "American Kebab",
   "language": "georgian",
@@ -2334,7 +2839,12 @@
  {
   "file": "assets/english/1215/IMG_1215.md",
   "scans": [
-   "assets/english/1215/IMG_1215.png"
+   {
+    "path": "assets/english/1215/IMG_1215.png",
+    "scale": 1.0,
+    "tilt": -1.29,
+    "aspect": 0.7796
+   }
   ],
   "title": "Holiday Chicken Salad",
   "language": "english",
@@ -2366,7 +2876,12 @@
  {
   "file": "assets/english/1281/IMG_1281.md",
   "scans": [
-   "assets/english/1281/IMG_1281.png"
+   {
+    "path": "assets/english/1281/IMG_1281.png",
+    "scale": 1.0,
+    "tilt": 2.1,
+    "aspect": 0.7877
+   }
   ],
   "title": "Greek Broccoli Pasta Salad",
   "language": "english",
@@ -2423,7 +2938,12 @@
  {
   "file": "assets/georgian/1246/IMG_1246.md",
   "scans": [
-   "assets/georgian/1246/IMG_1246.png"
+   {
+    "path": "assets/georgian/1246/IMG_1246.png",
+    "scale": 1.0,
+    "tilt": -2.69,
+    "aspect": 0.7359
+   }
   ],
   "title": "Christmas Salad",
   "language": "georgian",
@@ -2442,7 +2962,12 @@
  {
   "file": "assets/georgian/1247/IMG_1247.md",
   "scans": [
-   "assets/georgian/1247/IMG_1247.png"
+   {
+    "path": "assets/georgian/1247/IMG_1247.png",
+    "scale": 1.0,
+    "tilt": 2.5,
+    "aspect": 0.7388
+   }
   ],
   "title": "Chicken Salad",
   "language": "georgian",
@@ -2461,7 +2986,12 @@
  {
   "file": "assets/georgian/1176/IMG_1176.md",
   "scans": [
-   "assets/georgian/1176/IMG_1176.png"
+   {
+    "path": "assets/georgian/1176/IMG_1176.png",
+    "scale": 1.0,
+    "tilt": -2.2,
+    "aspect": 0.7636
+   }
   ],
   "title": "Bazhe (Georgian Walnut Sauce)",
   "language": "georgian",
@@ -2493,7 +3023,12 @@
  {
   "file": "assets/georgian/1257/IMG_1257.md",
   "scans": [
-   "assets/georgian/1257/IMG_1257.png"
+   {
+    "path": "assets/georgian/1257/IMG_1257.png",
+    "scale": 1.0,
+    "tilt": 1.65,
+    "aspect": 0.7517
+   }
   ],
   "title": "Red Tkemali (Plum Sauce)",
   "language": "georgian",
@@ -2512,7 +3047,12 @@
  {
   "file": "assets/georgian/1264/IMG_1264.md",
   "scans": [
-   "assets/georgian/1264/IMG_1264.png"
+   {
+    "path": "assets/georgian/1264/IMG_1264.png",
+    "scale": 1.0,
+    "tilt": 2.58,
+    "aspect": 0.7148
+   }
   ],
   "title": "Ajika",
   "language": "georgian",
@@ -2531,7 +3071,12 @@
  {
   "file": "assets/georgian/1270/IMG_1270.md",
   "scans": [
-   "assets/georgian/1270/IMG_1270.png"
+   {
+    "path": "assets/georgian/1270/IMG_1270.png",
+    "scale": 1.0,
+    "tilt": 3.17,
+    "aspect": 0.984
+   }
   ],
   "title": "Marinated Bell Peppers",
   "language": "georgian",
@@ -2550,7 +3095,12 @@
  {
   "file": "assets/english/1272/IMG_1272.md",
   "scans": [
-   "assets/english/1272/IMG_1272.png"
+   {
+    "path": "assets/english/1272/IMG_1272.png",
+    "scale": 1.0,
+    "tilt": -2.51,
+    "aspect": 0.77
+   }
   ],
   "title": "Indian Pudding",
   "language": "english",
@@ -2588,7 +3138,12 @@
  {
   "file": "assets/georgian/1175/IMG_1175.md",
   "scans": [
-   "assets/georgian/1175/IMG_1175.png"
+   {
+    "path": "assets/georgian/1175/IMG_1175.png",
+    "scale": 1.0,
+    "tilt": 2.72,
+    "aspect": 0.7562
+   }
   ],
   "title": "Zeinab's Shu",
   "language": "georgian",
@@ -2648,7 +3203,12 @@
  {
   "file": "assets/georgian/1190/IMG_1190.md",
   "scans": [
-   "assets/georgian/1190/IMG_1190.png"
+   {
+    "path": "assets/georgian/1190/IMG_1190.png",
+    "scale": 1.0,
+    "tilt": 2.28,
+    "aspect": 0.7583
+   }
   ],
   "title": "Czech Baklava",
   "language": "georgian",
@@ -2689,7 +3249,12 @@
  {
   "file": "assets/georgian/1199/IMG_1199.md",
   "scans": [
-   "assets/georgian/1199/IMG_1199.png"
+   {
+    "path": "assets/georgian/1199/IMG_1199.png",
+    "scale": 1.0,
+    "tilt": -2.25,
+    "aspect": 1.632
+   }
   ],
   "title": "Soft Ginger Cookies",
   "language": "georgian",
@@ -2727,8 +3292,18 @@
  {
   "file": "assets/georgian/1244/IMG_1244.md",
   "scans": [
-   "assets/georgian/1244/IMG_1244.png",
-   "assets/georgian/1244/IMG_1245.png"
+   {
+    "path": "assets/georgian/1244/IMG_1245.png",
+    "scale": 1.0,
+    "tilt": -2.22,
+    "aspect": 0.7307
+   },
+   {
+    "path": "assets/georgian/1244/IMG_1244.png",
+    "scale": 1.0,
+    "tilt": 2.55,
+    "aspect": 0.7398
+   }
   ],
   "title": "Choux Pastry (Shu)",
   "language": "georgian",
@@ -2747,7 +3322,12 @@
  {
   "file": "assets/georgian/1252/IMG_1252.md",
   "scans": [
-   "assets/georgian/1252/IMG_1252.png"
+   {
+    "path": "assets/georgian/1252/IMG_1252.png",
+    "scale": 1.0,
+    "tilt": -2.11,
+    "aspect": 0.7603
+   }
   ],
   "title": "Gozinaki Proportions",
   "language": "georgian",
@@ -2766,7 +3346,12 @@
  {
   "file": "assets/georgian/1258/IMG_1258.md",
   "scans": [
-   "assets/georgian/1258/IMG_1258.png"
+   {
+    "path": "assets/georgian/1258/IMG_1258.png",
+    "scale": 1.0,
+    "tilt": -2.31,
+    "aspect": 0.7122
+   }
   ],
   "title": "Ideal Cake (Ideali)",
   "language": "georgian",
@@ -2785,7 +3370,12 @@
  {
   "file": "assets/georgian/1259/IMG_1259.md",
   "scans": [
-   "assets/georgian/1259/IMG_1259.png"
+   {
+    "path": "assets/georgian/1259/IMG_1259.png",
+    "scale": 1.0,
+    "tilt": -2.43,
+    "aspect": 0.7148
+   }
   ],
   "title": "'\"Eskimo\" Cake'",
   "language": "georgian",
@@ -2804,7 +3394,12 @@
  {
   "file": "assets/georgian/1261/IMG_1261.md",
   "scans": [
-   "assets/georgian/1261/IMG_1261.png"
+   {
+    "path": "assets/georgian/1261/IMG_1261.png",
+    "scale": 1.0,
+    "tilt": -1.32,
+    "aspect": 0.7218
+   }
   ],
   "title": "Apple Layered Strudel",
   "language": "georgian",
@@ -2823,8 +3418,18 @@
  {
   "file": "assets/georgian/1262/IMG_1262.md",
   "scans": [
-   "assets/georgian/1262/IMG_1261.png",
-   "assets/georgian/1262/IMG_1262.png"
+   {
+    "path": "assets/georgian/1262/IMG_1262.png",
+    "scale": 1.0,
+    "tilt": -2.47,
+    "aspect": 0.7147
+   },
+   {
+    "path": "assets/georgian/1262/IMG_1261.png",
+    "scale": 1.0,
+    "tilt": -3.04,
+    "aspect": 0.7218
+   }
   ],
   "title": "Easter Paska/Kulich",
   "language": "georgian",
@@ -2843,7 +3448,12 @@
  {
   "file": "assets/english/1204/IMG_1204.md",
   "scans": [
-   "assets/english/1204/IMG_1204.png"
+   {
+    "path": "assets/english/1204/IMG_1204.png",
+    "scale": 1.0,
+    "tilt": 2.47,
+    "aspect": 0.7784
+   }
   ],
   "title": "Homemade Granola",
   "language": "english",
@@ -2880,7 +3490,12 @@
  {
   "file": "assets/english/1219/IMG_1219.md",
   "scans": [
-   "assets/english/1219/IMG_1219.png"
+   {
+    "path": "assets/english/1219/IMG_1219.png",
+    "scale": 1.0,
+    "tilt": -2.99,
+    "aspect": 0.7732
+   }
   ],
   "title": "Lucky and Rippy's Favorite Dog Food",
   "language": "english",
@@ -2911,7 +3526,12 @@
  {
   "file": "assets/english/1231/IMG_1231.md",
   "scans": [
-   "assets/english/1231/IMG_1231.png"
+   {
+    "path": "assets/english/1231/IMG_1231.png",
+    "scale": 1.0,
+    "tilt": 2.67,
+    "aspect": 0.7786
+   }
   ],
   "title": "BBQ Rub",
   "language": "english",
@@ -2943,7 +3563,12 @@
  {
   "file": "assets/georgian/1235/IMG_1235.md",
   "scans": [
-   "assets/georgian/1235/IMG_1235.png"
+   {
+    "path": "assets/georgian/1235/IMG_1235.png",
+    "scale": 1.0,
+    "tilt": 3.29,
+    "aspect": 0.9743
+   }
   ],
   "title": "Baking Ingredient Weight to Cup Conversions",
   "language": "georgian",

@@ -6,6 +6,9 @@ With a batch argument, only recipes whose frontmatter batch matches are included
 Recipes are ordered by section (controlled vocabulary order), then filename.
 """
 import json
+import random
+
+from PIL import Image
 import re
 import sys
 from pathlib import Path
@@ -25,7 +28,15 @@ def parse_md(path):
     fm, key = {}, None
     for line in m.group(1).splitlines():
         if line.startswith("  - ") and key:
-            fm[key].append(line[4:].strip())
+            item = line[4:].strip()
+            if item.endswith(":") or ": " in item:
+                k2, v2 = item.split(":", 1)
+                fm[key].append({k2.strip(): v2.strip().strip('"')})
+            else:
+                fm[key].append(item)
+        elif line.startswith("    ") and key and fm[key] and isinstance(fm[key][-1], dict):
+            k2, v2 = line.strip().split(":", 1)
+            fm[key][-1][k2.strip()] = v2.strip().strip('"')
         elif ":" in line:
             k, v = line.split(":", 1)
             k, v = k.strip(), v.strip().strip('"')
@@ -63,7 +74,26 @@ def parse_md(path):
                 out.append(conv(re.sub(rf"^{marker}\s*", "", line)))
         return out
 
-    scans = fm.get("scans") if isinstance(fm.get("scans"), list) else []
+    # normalize scan entries to dicts with art-direction defaults; tilt is
+    # deterministic per scan (seeded by slug+path) so builds are reproducible
+    slug = fm.get("slug", "") or ""
+    scans = []
+    for entry in (fm.get("scans") if isinstance(fm.get("scans"), list) else []):
+        e = {"path": entry} if isinstance(entry, str) else dict(entry)
+        if str(e.get("hide", "")).lower() == "true":
+            continue
+        rng = random.Random(f"{slug}:{e['path']}")
+        e.setdefault("scale", 1.0)
+        e.setdefault("tilt", round(rng.choice([-1, 1]) * rng.uniform(1.2, 3.4), 2))
+        e["scale"] = float(e["scale"])
+        e["tilt"] = float(e["tilt"])
+        w, h = Image.open(ROOT / e["path"]).size
+        e["aspect"] = round(w / h, 4)
+        scans.append(e)
+    # render order: reversed reading order puts scan 1 on top; z overrides that
+    render = list(reversed([e for e in scans if e.get("z") != "bottom"]))
+    render = [e for e in scans if e.get("z") == "bottom"] +         [e for e in render if e.get("z") != "top"] +         [e for e in render if e.get("z") == "top"]
+    scans = render
 
     return {
         "file": str(path.relative_to(ROOT)),
@@ -73,7 +103,7 @@ def parse_md(path):
         "section": fm.get("section", ""),
         "batch": fm.get("batch", ""),
         "number": int(fm.get("number", 0)),
-        "image": scans[0] if scans else "",
+        "image": scans[-1]["path"] if scans else "",
         "photo": fm.get("photo", "") or "",
         "slug": fm.get("slug", "") or "",
         "description": conv(desc_m.group(1).strip()) if desc_m else "",
