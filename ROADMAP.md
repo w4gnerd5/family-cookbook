@@ -48,8 +48,8 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [ ] Photo quality swaps flagged by agents: 1278 crock-pot chicken (portrait,
   800px), 1280 breakfast strata (weak aesthetics), 1162 stroganoff (mediocre)
 - [ ] Colophon line disclosing illustrative images
-- [x] Snapshot verso gained the white text band (title over busy photos was
-  illegible); title never sits on a photo now
+- [x] Full-bleed snapshot verso: `inverse: true` flips text to white and adds
+  a bottom gradient scrim (decided; apply per photo during the art-direction pass)
 
 - Collaborators replace any photo via PR; CREDITS.md regenerates from frontmatter
 
@@ -78,7 +78,8 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 
 - [ ] Flip bleed token to 3mm; verify full-bleed at the chosen print service
 - [ ] Decide card cache resolution (PDF is ~350 MB; MAX_DIM 1200 halves it)
-- [ ] Test print on binder stock: punch clearance, field color on paper, shadow density
+- [ ] Test print on binder stock: punch clearance, field color on paper, shadow
+  density, and gradient-scrim banding (include an inverse verso in the test set)
 - [ ] Custom domain decision for the printed QR (github.io URL is tied to the
   username; a CNAME future-proofs printed links)
 
