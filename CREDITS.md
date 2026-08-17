@@ -25,7 +25,6 @@ the original recipe cards are family material.
 - **Indian Pudding** — photo by Lahti213, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Indian_pudding.jpg)
 - **Croque-Madame** — photo by Andy Li, CC0 1.0 (https://commons.wikimedia.org/wiki/File:Croque_Madame_-_Milfey_Patisserie_2026-03-02.jpg)
 - **2-Hour Fastest No Knead Bread** — photo by Nutrition, Food Safety & Health, CC0 (https://commons.wikimedia.org/wiki/File:No-knead_sourdough_bread_in_Griswold_Dutch_Oven.jpg)
-- **No-Knead Bread** — photo by Kbedell, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Bread_baked_in_my_home_using_the_'no-knead'_baking_method.jpg)
 - **Whole Chicken Crock Pot Recipe** — photo by Sharon Chen, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Roasted_Lemon_Herb_Whole_chicken_with_Carrots_and_Onions_1_(28791114980).jpg)
 - **Baked Salmon with Dill Garlic Beurre Blanc** — photo by MOs810, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Baked_salmon_with_dill_and_lemon.jpg)
 - **Bacon and Gruyere Breakfast Casserole** — photo by MarkTraceur, CC BY-SA 1.0 (https://commons.wikimedia.org/wiki/File:Finished_sausage_breakfast_casserole.jpg)
@@ -59,7 +58,7 @@ the original recipe cards are family material.
 - **Soft Ginger Cookies** — photo by Editor at Large, CC BY-SA 2.5 (https://commons.wikimedia.org/wiki/File:Round_gingersnaps.jpg)
 - **New Seasons Market Cheesy Chilaquiles Casserole** — photo by Carlos t, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Chilaquiles_Rojos.JPG)
 - **Vegetable Enchilada Casserole** — photo by Pequeño mar, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Enchiladas_en_salsa_verde.jpg)
-- **Zainab's Khachapuri** — photo by Jon Gudorf Photography, CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:Georgian_Khachapuri_cheese_bread.jpg)
+- **Zeinab's Khachapuri** — photo by Jon Gudorf Photography, CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:Georgian_Khachapuri_cheese_bread.jpg)
 - **Boiling Water Pancakes (Blini)** — photo by Ростислав Александрович Луценко, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%87%D0%BD%D1%8B%D0%B5_%D0%B1%D0%BB%D0%B8%D0%BD%D1%8B_01.jpg)
 - **Scalded Crepes (Zavarnyye Blini)** — photo by David Monniaux, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Crepes_dsc07085.jpg)
 - **Oven-Baked Brioches** — photo by Fitzhenrymort, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Brioche_buns.jpg)
@@ -86,4 +85,4 @@ the original recipe cards are family material.
 - **Pirozhki with Kefir** — photo by Miha Ulanov, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Pirozhki.jpg)
 - **Marinated Bell Peppers** — photo by paperfacets, CC BY 2.0 (https://www.flickr.com/photos/29412979@N06/5405362230)
 
-81 recipes with sourced photos; 6 awaiting photos.
+80 recipes with sourced photos; 7 awaiting photos.

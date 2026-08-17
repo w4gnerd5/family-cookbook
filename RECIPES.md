@@ -2,14 +2,13 @@
 
 Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 
-87 recipes.
+86 recipes.
 
 | Section | # | Title | Language | Slug | File |
 |---|---|---|---|---|---|
 | Breads & Doughs | 1 | No-Knead Bread | english | no-knead-bread | assets/english/1209/IMG_1209.md |
 | Breads & Doughs | 2 | Buttermilk Pancakes II | english | buttermilk-pancakes-ii | assets/english/1212/IMG_1212.md |
 | Breads & Doughs | 3 | 2-Hour Fastest No Knead Bread | english | 2-hour-fastest-no-knead-bread | assets/english/1274/IMG_1274.md |
-| Breads & Doughs | 4 | No-Knead Bread | english | no-knead-bread-2 | assets/english/1275/IMG_1275.md |
 | Breads & Doughs | 5 | Mom's Zucchini Bread | english | moms-zucchini-bread | assets/english/1290/IMG_1290.md |
 | Breads & Doughs | 6 | Dumpling Dough with Boiling Water (Super) | georgian | dumpling-dough-with-boiling-water-super | assets/georgian/1161/IMG_1161.md |
 | Breads & Doughs | 7 | Traditional Georgian Bread Shaping Instructions | georgian | traditional-georgian-bread-shaping-instructions | assets/georgian/1168/IMG_1168.md |
@@ -21,7 +20,7 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Breads & Doughs | 13 | Zeinab's Khachapuri | georgian | zeinabs-khachapuri | assets/georgian/1192/IMG_1192.md |
 | Breads & Doughs | 14 | Adjarian Khachapuri | georgian | adjarian-khachapuri | assets/georgian/1195/IMG_1195.md |
 | Breads & Doughs | 15 | Vareniki with Boiling Water Dough | georgian | vareniki-with-boiling-water-dough | assets/georgian/1198/IMG_1198.md |
-| Breads & Doughs | 16 | Zainab's Khachapuri | georgian | zainabs-khachapuri | assets/georgian/1202/IMG_1202.md |
+| Breads & Doughs | 16 | Zeinab's Khachapuri | georgian | zainabs-khachapuri | assets/georgian/1202/IMG_1202.md |
 | Breads & Doughs | 17 | Boiling Water Pancakes (Blini) | georgian | boiling-water-pancakes-blini | assets/georgian/1232/IMG_1232.md |
 | Breads & Doughs | 18 | Scalded Crepes (Zavarnyye Blini) | georgian | scalded-crepes-zavarnyye-blini | assets/georgian/1233/IMG_1233.md |
 | Breads & Doughs | 19 | Oven-Baked Brioches | georgian | oven-baked-brioches | assets/georgian/1236/IMG_1236.md |
