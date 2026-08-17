@@ -72,6 +72,7 @@ def parse_md(path):
         "language": fm.get("language", ""),
         "section": fm.get("section", ""),
         "batch": fm.get("batch", ""),
+        "number": int(fm.get("number", 0)),
         "image": scans[0] if scans else "",
         "photo": fm.get("photo", "") or "",
         "slug": fm.get("slug", "") or "",
@@ -95,7 +96,7 @@ def main():
         recipes.append(r)
     seen = {r["file"] for r in recipes}
     assert len(seen) == len(recipes), "duplicate recipe files"
-    recipes.sort(key=lambda r: (SECTIONS.index(r["section"]) if r["section"] in SECTIONS else 99, r["file"]))
+    recipes.sort(key=lambda r: (SECTIONS.index(r["section"]) if r["section"] in SECTIONS else 99, r["number"]))
     out = ROOT / "print" / "recipes.json"
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(recipes, ensure_ascii=False, indent=1))

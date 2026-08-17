@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-FIELDS = ["filename", "title", "language", "section", "batch", "page", "source_image"]
+FIELDS = ["filename", "title", "language", "section", "number", "slug", "batch", "source_image"]
 
 
 def frontmatter(path):
@@ -39,14 +39,19 @@ def main():
             "title": fm.get("title", ""),
             "language": fm.get("language", ""),
             "section": fm.get("section", ""),
+            "number": fm.get("number", ""),
+            "slug": fm.get("slug", ""),
             "batch": fm.get("batch", ""),
-            "page": fm.get("page", ""),
             "source_image": (fm.get("scans") or [""])[0] if isinstance(fm.get("scans"), list) else fm.get("source_image", ""),
         })
         for field in ("title", "language", "section"):
             if not rows[-1][field]:
                 print(f"WARNING: missing {field}: {path.relative_to(ROOT)}")
 
+    order = {s: i for i, s in enumerate(
+        ["Breads & Doughs", "Soups & Stews", "Mains", "Sides & Salads",
+         "Preserves & Sauces", "Desserts & Sweets", "Drinks", "Pantry"])}
+    rows.sort(key=lambda r: (order.get(r["section"], 99), int(r["number"] or 0)))
     with open(ROOT / "recipes-index.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS)
         w.writeheader()
@@ -59,13 +64,13 @@ def main():
         "",
         f"{len(rows)} recipes.",
         "",
-        "| Title | Language | Section | Batch | Page | File |",
+        "| Section | # | Title | Language | Slug | File |",
         "|---|---|---|---|---|---|",
     ]
     for r in rows:
         lines.append(
-            f"| {r['title']} | {r['language']} | {r['section']} | "
-            f"{r['batch']} | {r['page']} | {r['filename']} |"
+            f"| {r['section']} | {r['number']} | {r['title']} | "
+            f"{r['language']} | {r['slug']} | {r['filename']} |"
         )
     (ROOT / "RECIPES.md").write_text("\n".join(lines) + "\n")
     print(f"wrote recipes-index.csv and RECIPES.md: {len(rows)} recipes")

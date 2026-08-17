@@ -17,9 +17,15 @@
   tracking: label-tracking, weight: "medium", upper(content),
 )
 
-#let footer-line(slug) = context {
-  let line = label-text("family-cookbook / " + slug + "  ·  " + counter(page).display())
-  if calc.even(here().page()) { align(left, line) } else { align(right, line) }
+// hymnal model: SECTION · NUMBER is the finding aid; the slug is the web address
+#let footer-line(r) = context {
+  let id = label-text(r.section + "  ·  " + str(r.number), fill: color-accent)
+  let slug = label-text("family-cookbook / " + r.slug)
+  if calc.even(here().page()) {
+    grid(columns: (auto, 1fr), id, align(right, slug))
+  } else {
+    grid(columns: (1fr, auto), slug, align(right, id))
+  }
 }
 
 #let G = space-gutter         // inner margin: ring-punch strip + buffer
@@ -87,7 +93,7 @@
   page(margin: 0pt, footer: none, {
     if r.scans.len() <= 2 { verso-band(r) } else { verso-snapshot(r) }
     place(bottom + left, dx: B + M, dy: -(B + 24pt),
-      label-text("family-cookbook / " + r.slug + "  ·  ") + context label-text(counter(page).display()))
+      block(width: PW - M - G - 2 * B, footer-line(r)))
   })
 }
 
@@ -143,7 +149,7 @@
 #for r in json("recipes.json") {
   verso(r)
   {
-    set page(footer: pad(bottom: B, footer-line(r.slug)))
+    set page(footer: pad(bottom: B, footer-line(r)))
     recto(r)
   }
 }
