@@ -3260,20 +3260,13 @@
  },
  {
   "file": "assets/georgian/1246/IMG_1246.md",
-  "scans": [
-   {
-    "path": "assets/georgian/1246/IMG_1246.png",
-    "scale": 1.0,
-    "tilt": -2.69,
-    "aspect": 0.7359
-   }
-  ],
+  "scans": [],
   "title": "Christmas Salad",
   "language": "georgian",
   "section": "Sides & Salads",
   "batch": "",
   "number": 3,
-  "image": "assets/georgian/1246/IMG_1246.png",
+  "image": "",
   "photo": "assets/georgian/1246/dish.jpg",
   "inverse": false,
   "slug": "christmas-salad",
@@ -3299,24 +3292,17 @@
  },
  {
   "file": "assets/georgian/1247/IMG_1247.md",
-  "scans": [
-   {
-    "path": "assets/georgian/1247/IMG_1247.png",
-    "scale": 1.0,
-    "tilt": 2.5,
-    "aspect": 0.7388
-   }
-  ],
+  "scans": [],
   "title": "Chicken Salad",
   "language": "georgian",
   "section": "Sides & Salads",
   "batch": "",
   "number": 4,
-  "image": "assets/georgian/1247/IMG_1247.png",
+  "image": "",
   "photo": "assets/georgian/1247/dish.jpg",
   "inverse": false,
   "slug": "chicken-salad",
-  "description": "These recipes showcase classic Soviet-era festive preparations where simple root vegetables and proteins are transformed through specific textures and creative plating. The \"Bird's Nest\" presentation is a popular culinary tradition that uses croutons to mimic a nest and peeled eggs as a visual centerpiece, relying on the contrast between crunchy bread and a creamy, mayonnaise-bound base for its piquant flavor.",
+  "description": "A five-line notebook salad of shredded red radish and boiled chicken, bound with mayonnaise and sweetened by onion sautéed in oil. The radish keeps its bite against the soft chicken, a quick everyday counterpoint to the festive salads on the neighboring pages.",
   "ingredients": [
    "Red radish, shredded (shavings)",
    "Boiled chicken, finely chopped",
@@ -3700,38 +3686,60 @@
  },
  {
   "file": "assets/georgian/1244/IMG_1244.md",
-  "scans": [
-   {
-    "path": "assets/georgian/1244/IMG_1245.png",
-    "scale": 1.0,
-    "tilt": -2.22,
-    "aspect": 0.7307
-   },
-   {
-    "path": "assets/georgian/1244/IMG_1244.png",
-    "scale": 1.0,
-    "tilt": 2.55,
-    "aspect": 0.7398
-   }
-  ],
+  "scans": [],
   "title": "Choux Pastry (Shu)",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
   "number": 5,
-  "image": "assets/georgian/1244/IMG_1244.png",
+  "image": "",
   "photo": "assets/georgian/1244/dish.jpg",
   "inverse": false,
   "slug": "choux-pastry-shu",
   "description": "This recipe details the preparation of \"Shu,\" the classic Eastern European adaptation of French choux pastry. The technique relies on \"scalding\" flour in a mixture of boiling water and fat to gelatinize the starches, which creates a stable structure that traps steam during baking, allowing the dough to puff up into the iconic hollow shells used for profiteroles or eclairs. The second half of the recipe describes a traditional Soviet-style \"zavarnoy\" (cooked) custard, used to fill the Shu pastry. The core technique involves the gelatinization of flour starch to create a thick base, which is then enriched with butter and egg yolks for a silky, stable emulsion.",
-  "ingredients": [],
-  "instructions": [],
+  "ingredients": [
+   {
+    "group": "For the Pastry"
+   },
+   "Water – 1 cup (approx. 250ml)",
+   "Butter – 100g",
+   "Flour – 1 cup",
+   "Eggs – 4 pieces",
+   {
+    "group": "For the Custard Cream"
+   },
+   "1 liter milk (pencil annotation on the card halves this to 0.5 l)",
+   "100g butter",
+   "1 tea glass flour",
+   "2 tea glasses sugar",
+   "A pinch of salt",
+   "Vanilla"
+  ],
+  "instructions": [
+   {
+    "group": "For the Pastry"
+   },
+   "Boil the water and butter together until the butter is completely melted.",
+   "Remove the pot from the heat, add the flour, and mix it using a mixer.",
+   "Beat in the eggs one by one while mixing continuously with the mixer. Once you achieve a homogeneous mass, add a pinch of salt.",
+   "On a cold baking sheet (greased with a thin layer of fat), portion out the dough using a dessert spoon. Place them in a moderately hot oven and bake at moderate heat.",
+   {
+    "group": "For the Custard Cream"
+   },
+   "On a separate piece of paper, mix the sugar and flour so that they are distributed evenly.",
+   "Heat the milk, butter, and the flour-sugar mixture together and mix quickly with a mixer.",
+   "Lower the heat and, while stirring with a spoon, bring the cream to a thick consistency.",
+   "Cook until ready (until the raw flour taste disappears); at the end, add the vanilla and remove from the heat.",
+   "When it has cooled slightly, add 1–2 egg yolks and mix quickly with a mixer. Done!",
+   "Beat egg whites into a thick white mass and add it to the cream once it cools off.",
+   "No need to add sugar to the egg whites."
+  ],
   "notes": [
    "*Temperature Control:* Ensure the water and butter reach a full boil before adding the flour to ensure proper starch gelatinization.",
    "*Egg Incorporation:* Adding eggs one by one is crucial; the dough must fully absorb each egg before the next is added to maintain the correct \"dropping\" consistency.",
    "To achieve a professional texture, ensure you cook the mixture long enough to eliminate any graininess or \"floury\" aftertaste. When adding the egg yolks, ensure the custard has cooled enough to prevent the eggs from scrambling, but remains warm enough to incorporate smoothly."
   ],
-  "original": "Шу.\nВода - 1 ч. стакан \nмасло - 100 гр.\nмука - 1 ч. стакан.\nяйцо - 4 шт.\nвскипятить воду + масло, растопить / переставить с огня + муку и замесить миксером вбить по одному яйца и не перевая месить миксером, когда получим однородную массу, добавив щепотку соли.\nна холодную жаровни - смазанную тонким слоем жира - разложить десертной ложкой тесто, поставить в не очень горячую духовку и печь на среднем огне\n\nкрем\nмолоко — 1 ст.\nмасло — 100 гр.\nмука — 1 ч. стакан.\nсахар — 2 ч. стакан.\nщепотка соли,\nваниль.\n\n(sidebar): на отдельной бумаге смешать сахар и муку так, чтоб они распределились равномерно.\n\nразогреть молоко + масло + смесь муки и сахара и быстро размешать миксером, убавить огонь и размешивая ложкой довести крем до загустения.\nдовести до готовности (пока не исчезнет привкус муки), в конце добавить ваниль и переставить с огня.\nкогда чуть остынет добавить 1-2 желтка и быстро размешать миксером. Всё! \nбелок всбить под густую пену и добавить в крем когда он остынетю\nв белок сахар добавлять не нужно!"
+  "original": "Шу.\nВода - 1 ч. стакан \nмасло - 100 гр.\nмука - 1 ч. стакан.\nяйцо - 4 шт.\nвскипятить воду + масло, растопить / переставить с огня + муку и замесить миксером вбить по одному яйца и не перевая месить миксером, когда получим однородную массу, добавив щепотку соли.\nна холодную жаровни - смазанную тонким слоем жира - разложить десертной ложкой тесто, поставить в не очень горячую духовку и печь на среднем огне\n\nкрем\nмолоко — 1 л. [pencil: 0,5]\nмасло — 100 гр. [pencil: 50]\nмука — 1 ч. стакан.\nсахар — 2 ч. стакан.\nщепотка соли,\nваниль.\n\n(sidebar): на отдельной бумаге смешать сахар и муку так, чтоб они распределились равномерно.\n\nразогреть молоко + масло + смесь муки и сахара и быстро размешать миксером, убавить огонь и размешивая ложкой довести крем до загустения.\nдовести до готовности (пока не исчезнет привкус муки), в конце добавить ваниль и переставить с огня.\nкогда чуть остынет добавить 1-2 желтка и быстро размешать миксером. Всё! \nбелок всбить под густую пену и добавить в крем когда он остынетю\nв белок сахар добавлять не нужно!"
  },
  {
   "file": "assets/georgian/1252/IMG_1252.md",

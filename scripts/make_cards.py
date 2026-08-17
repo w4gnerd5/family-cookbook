@@ -37,8 +37,9 @@ def main():
     n = 0
     for r in recipes:
         for scan in r["scans"]:
-            src = ROOT / scan
-            dst = OUT / Path(scan).name
+            path = scan["path"] if isinstance(scan, dict) else scan
+            src = ROOT / path
+            dst = OUT / Path(path).name
             if dst.exists() and dst.stat().st_mtime >= src.stat().st_mtime:
                 continue
             bake(src, dst)
