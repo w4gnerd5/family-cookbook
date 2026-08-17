@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "curation",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["scripts/curation_server.py"],
+      "port": 8765
+    }
+  ]
+}

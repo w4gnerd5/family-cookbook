@@ -1,0 +1,133 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Cookbook curation</title>
+<style>
+  :root { --accent:#C05B38; --ink:#221F1B; --muted:#5C564A; --label:#9A917D; --field:#F1ECE1; }
+  body { font: 14px/1.45 -apple-system, "Inter", sans-serif; color: var(--ink); margin: 24px; background:#fff; }
+  h1 { font-size: 17px; } h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .1em; color: var(--accent); margin-top: 34px; }
+  .bar { display:flex; gap:10px; margin: 10px 0; align-items:center; flex-wrap:wrap; }
+  input[type=search], select { padding: 5px 8px; border: 1px solid #ccc; border-radius: 6px; font: inherit; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid #eee; vertical-align: top; }
+  th { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--label); cursor: pointer; user-select:none; position: sticky; top: 0; background: #fff; }
+  tr:hover td { background: #faf8f2; }
+  td.edit input[type=text], td.edit input[type=number] { width: 95%; border: 1px solid transparent; background: var(--field); border-radius: 4px; padding: 3px 6px; font: inherit; }
+  td.edit select { background: var(--field); border-color: transparent; }
+  .status { color: #2E7D32; font-size: 12px; white-space: nowrap; }
+  .cut td { opacity: .45; text-decoration: line-through; }
+  .pill { font-size: 11px; background: var(--field); border-radius: 8px; padding: 1px 7px; color: var(--muted); }
+  .ev { font-size: 12.5px; color: var(--muted); max-width: 480px; }
+  .qq { max-width: 640px; }
+  textarea { width: 95%; border: 1px solid transparent; background: var(--field); border-radius: 4px; padding: 4px 6px; font: inherit; min-height: 34px; }
+  .saved { outline: 2px solid #A5D6A7; transition: outline .2s; }
+  #stamp { color: var(--label); font-size: 12px; margin-left: auto; }
+</style>
+<h1>Family cookbook — curation <span id="stamp"></span></h1>
+
+<h2>Merges</h2>
+<table id="merges"></table>
+
+<h2>Questions</h2>
+<table id="questions"></table>
+
+<h2>Inventory</h2>
+<div class="bar">
+  <input type="search" id="q" placeholder="filter title, slug, id…">
+  <select id="secf"><option value="">all sections</option></select>
+  <select id="langf"><option value="">all languages</option></select>
+  <label><input type="checkbox" id="openonly"> undecided only</label>
+</div>
+<table id="inv"></table>
+
+<script>
+let S = null, mtime = 0, editing = false;
+const SECTIONS = ["Breads & Doughs","Soups & Stews","Mains","Sides & Salads","Preserves & Sauces","Desserts & Sweets","Drinks","Pantry"];
+let sortKey = null, sortDir = 1;
+
+async function post(kind, id, field, value, el) {
+  const r = await fetch('/update', {method:'POST', body: JSON.stringify({kind, id, field, value})});
+  const j = await r.json();
+  if (j.ok) { mtime = j.mtime; if (el) { el.classList.add('saved'); setTimeout(()=>el.classList.remove('saved'), 600); } }
+}
+
+function esc(s){ return String(s ?? '').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+function renderMerges() {
+  const t = document.getElementById('merges');
+  let h = '<tr><th>group</th><th>base</th><th>absorbs</th><th>dish</th><th>evidence / drift</th><th>decision</th><th>your notes</th><th>status</th></tr>';
+  for (const m of S.merges) {
+    const opts = ['','approve','reject','modify','resolved'].map(o=>`<option ${o===m.decision?'selected':''}>${o}</option>`).join('');
+    h += `<tr><td><b>${esc(m.group)}</b></td><td>${esc(m.base)}</td><td>${esc(m.absorbs)}</td><td>${esc(m.dish)}</td>
+      <td class="ev">${esc(m.evidence)}<br><i>${esc(m.drift)}</i></td>
+      <td class="edit"><select onchange="post('merges','${m.group}','decision',this.value,this)">${opts}</select></td>
+      <td class="edit"><textarea onfocus="editing=true" onblur="editing=false; post('merges','${m.group}','notes',this.value,this)">${esc(m.notes)}</textarea></td>
+      <td class="status">${esc(m.status)}</td></tr>`;
+  }
+  t.innerHTML = h;
+}
+
+function renderQuestions() {
+  const t = document.getElementById('questions');
+  let h = '<tr><th>#</th><th>question</th><th>answer</th><th>status</th></tr>';
+  for (const q of S.questions) {
+    h += `<tr><td><b>${esc(q.id)}</b></td><td class="qq">${esc(q.q)}</td>
+      <td class="edit"><textarea onfocus="editing=true" onblur="editing=false; post('questions','${q.id}','answer',this.value,this)">${esc(q.answer)}</textarea></td>
+      <td class="status">${esc(q.status)}</td></tr>`;
+  }
+  t.innerHTML = h;
+}
+
+function renderInv() {
+  const t = document.getElementById('inv');
+  const q = document.getElementById('q').value.toLowerCase();
+  const sf = document.getElementById('secf').value;
+  const lf = document.getElementById('langf').value;
+  const oo = document.getElementById('openonly').checked;
+  let rows = S.inventory.filter(r =>
+    (!q || (r.title + r.slug + r.id + r.desc).toLowerCase().includes(q)) &&
+    (!sf || r.section === sf) && (!lf || r.lang === lf) &&
+    (!oo || (!r.status && (r.cut || r.new_section || r.new_order || r.notes) === false || (!r.status && !r.cut && !r.new_section && !r.new_order))));
+  if (sortKey) rows = [...rows].sort((a,b)=> (a[sortKey] > b[sortKey] ? 1 : -1) * sortDir);
+  let h = '<tr>' + ['id','section','num','title','lang','scans','photo','new section','order','cut','notes','status']
+    .map((c,i)=>`<th onclick="sortBy('${['id','section','num','title','lang','scans','photo','new_section','new_order','cut','notes','status'][i]}')">${c}</th>`).join('') + '</tr>';
+  for (const r of rows) {
+    const secopts = ['',...SECTIONS].map(o=>`<option ${o===r.new_section?'selected':''}>${o}</option>`).join('');
+    h += `<tr class="${r.cut?'cut':''}"><td><b>${esc(r.id)}</b></td><td><span class="pill">${esc(r.section)}</span></td>
+      <td>${r.num}</td><td title="${esc(r.desc)}">${esc(r.title)}</td><td>${esc(r.lang)}</td>
+      <td>${r.scans}</td><td>${r.photo?'✓':''}</td>
+      <td class="edit"><select onchange="post('inventory','${r.id}','new_section',this.value,this)">${secopts}</select></td>
+      <td class="edit"><input type="number" min="1" value="${esc(r.new_order)}" onfocus="editing=true" onblur="editing=false; post('inventory','${r.id}','new_order',this.value,this)"></td>
+      <td><input type="checkbox" ${r.cut?'checked':''} onchange="post('inventory','${r.id}','cut',this.checked,this)"></td>
+      <td class="edit"><input type="text" value="${esc(r.notes)}" onfocus="editing=true" onblur="editing=false; post('inventory','${r.id}','notes',this.value,this)"></td>
+      <td class="status">${esc(r.status)}</td></tr>`;
+  }
+  t.innerHTML = h;
+}
+
+function sortBy(k){ sortDir = (sortKey===k) ? -sortDir : 1; sortKey = k; renderInv(); }
+
+function renderAll() {
+  renderMerges(); renderQuestions(); renderInv();
+  document.getElementById('stamp').textContent = 'live · ' + new Date().toLocaleTimeString();
+}
+
+async function tick() {
+  if (editing) return;
+  try {
+    const j = await (await fetch('/state')).json();
+    if (j.mtime !== mtime) { mtime = j.mtime; S = j.state; renderAll(); }
+  } catch (e) {}
+}
+
+(async () => {
+  const j = await (await fetch('/state')).json();
+  mtime = j.mtime; S = j.state;
+  const sf = document.getElementById('secf');
+  SECTIONS.forEach(s => sf.insertAdjacentHTML('beforeend', `<option>${s}</option>`));
+  const lf = document.getElementById('langf');
+  ['georgian','english'].forEach(s => lf.insertAdjacentHTML('beforeend', `<option>${s}</option>`));
+  for (const id of ['q','secf','langf','openonly']) document.getElementById(id).addEventListener('input', renderInv);
+  renderAll();
+  setInterval(tick, 1500);
+})();
+</script>
