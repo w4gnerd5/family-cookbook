@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Apply Paul's edits from curation.xlsx back to the recipe files.
+"""Apply Paul's edits from curation-state.json back to the recipe files.
 
-Reads the yellow columns (NEW_SECTION, NEW_ORDER, ACTION, NOTES):
+Reads curation-state.json (the dashboard ledger):
 - ACTION=cut: recipe folder moves to attic/<language>/ (git mv), never deleted
 - NEW_SECTION: frontmatter section is rewritten
 - NEW_ORDER: recipes are renumbered per section — marked rows first in the
@@ -15,14 +15,11 @@ import subprocess
 import sys
 from pathlib import Path
 
-from openpyxl import load_workbook
-
 ROOT = Path(__file__).resolve().parent.parent
 SECTIONS = [
     "Breads & Doughs", "Soups & Stews", "Mains", "Sides & Salads",
     "Preserves & Sauces", "Desserts & Sweets", "Drinks", "Pantry",
 ]
-HDR = 7
 
 
 def set_fm(path, key, value):
@@ -34,18 +31,16 @@ def set_fm(path, key, value):
 
 def main():
     apply = "--apply" in sys.argv
-    ws = load_workbook(ROOT / "curation.xlsx")["Inventory"]
+    import json
+    state = json.loads((ROOT / "curation-state.json").read_text())
     by_id = {p.stem: p for p in sorted(set(ROOT.glob("assets/*/**/*.md")))}
 
     rows = []
-    for r in ws.iter_rows(min_row=HDR + 1, values_only=True):
-        rid, section, num, title, lang, _d, _s, _p, slug, new_sec, new_ord, action, notes = r[:13]
-        if not rid:
-            continue
-        rows.append(dict(rid=rid, section=section, num=num, title=title, slug=slug,
-                         new_sec=new_sec, new_ord=new_ord,
-                         cut=(str(action or "").strip().lower() == "cut"),
-                         notes=notes))
+    for r in state["inventory"]:
+        rows.append(dict(rid=r["id"], section=r["section"], num=r["num"],
+                         title=r["title"], slug=r["slug"],
+                         new_sec=r["new_section"], new_ord=r["new_order"],
+                         cut=bool(r["cut"]), notes=r["notes"]))
 
     for r in rows:
         if r["notes"]:
