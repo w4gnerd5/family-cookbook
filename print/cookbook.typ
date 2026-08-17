@@ -65,14 +65,20 @@
     for it in r.ingredients { ing-item(it) }
   })
   subhead("Method")
-  let n = 0
-  for it in r.instructions {
-    if type(it) == dictionary {
-      ing-item(it)
-    } else {
-      n += 1
-      block(above: 4pt, grid(columns: (14pt, 1fr), column-gutter: 4pt,
-        text(font: font-sans, size: size-small, fill: color-accent, str(n)), md(it)))
+  // a single-step method reads as prose; numbering starts earning its keep at 2
+  let steps = r.instructions.filter(it => type(it) != dictionary)
+  if steps.len() == 1 and r.instructions.len() == 1 {
+    block(above: 4pt, md(steps.at(0)))
+  } else {
+    let n = 0
+    for it in r.instructions {
+      if type(it) == dictionary {
+        ing-item(it)
+      } else {
+        n += 1
+        block(above: 4pt, grid(columns: (14pt, 1fr), column-gutter: 4pt,
+          text(font: font-sans, size: size-small, fill: color-accent, str(n)), md(it)))
+      }
     }
   }
   if r.notes.len() > 0 {
@@ -80,12 +86,14 @@
     set text(size: size-small)
     for it in r.notes { ing-item(it) }
   }
-  if r.original != "" {
+  // English recipes: the verso scan IS the original; the retyped text stays
+  // archival in the .md but does not print. Revisit if a bilingual edition happens.
+  if r.original != "" and r.language != "english" {
     v(space-block)
     block(breakable: true, stroke: (left: 1.5pt + color-accent), inset: (left: 10pt, y: 2pt), {
       label-text("Original")
       v(space-label-gap)
-      set text(size: size-small, fill: color-muted, font: font-serif-georgian, lang: "ru")
+      set text(size: size-small, fill: color-muted, font: (font-serif, font-serif-georgian), lang: "ru")
       for line in r.original.split("\n") { block(above: 2.5pt, below: 0pt, line) }
     })
   }

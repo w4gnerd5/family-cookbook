@@ -2,12 +2,12 @@
 # Edit here, then run: python3 scripts/build_tokens.py
 
 font:
-  serif: "Charter"            # recipe text; final: needs Cyrillic + Georgian coverage
-  sans: "Avenir Next"         # wayfinding labels
-  serif_georgian: "Charter"   # stand-in until a Georgian face is vendored
+  serif: "Spectral"            # recipe text (Latin + Cyrillic)
+  sans: "Inter"                # wayfinding labels
+  serif_georgian: "Noto Serif Georgian"   # fallback for Mkhedruli text
 
 color:
-  paper: "#FFFDF8"
+  paper: "#FFFFFF"
   ink: "#221F1B"
   body: "#3A362F"
   muted: "#5C564A"

@@ -1,8 +1,8 @@
 // GENERATED from tokens.yaml — do not edit by hand.
-#let font-serif = "Charter"
-#let font-sans = "Avenir Next"
-#let font-serif-georgian = "Charter"
-#let color-paper = rgb("#FFFDF8")
+#let font-serif = "Spectral"
+#let font-sans = "Inter"
+#let font-serif-georgian = "Noto Serif Georgian"
+#let color-paper = rgb("#FFFFFF")
 #let color-ink = rgb("#221F1B")
 #let color-body = rgb("#3A362F")
 #let color-muted = rgb("#5C564A")

@@ -1,8 +1,8 @@
 :root {  /* GENERATED from tokens.yaml — do not edit by hand. */
-  --font-serif: 'Charter';
-  --font-sans: 'Avenir Next';
-  --font-serif-georgian: 'Charter';
-  --color-paper: #FFFDF8;
+  --font-serif: 'Spectral';
+  --font-sans: 'Inter';
+  --font-serif-georgian: 'Noto Serif Georgian';
+  --color-paper: #FFFFFF;
   --color-ink: #221F1B;
   --color-body: #3A362F;
   --color-muted: #5C564A;

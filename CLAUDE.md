@@ -89,18 +89,18 @@ Run from the repo root, in order, after editing `.md` files:
 python3 scripts/normalize_md.py <files>      # idempotent cleanup (bullets, numbering, blank lines)
 python3 scripts/md_to_data.py [batch-1]      # -> print/recipes.json (optionally one batch)
 python3 scripts/build_tokens.py              # only if tokens.yaml changed -> print/tokens.typ, web/tokens.css
-typst compile --root . print/cookbook.typ print/cookbook.pdf
+typst compile --root . --font-path assets/fonts print/cookbook.typ print/cookbook.pdf
 python3 scripts/build_index.py               # -> recipes-index.csv, RECIPES.md (also warns on missing frontmatter)
 ```
 
 Proof pages for visual inspection:
-`typst compile --root . --format png --ppi 110 --pages 2-5 print/cookbook.typ 'page-{p}.png'`
+`typst compile --root . --font-path assets/fonts --format png --ppi 110 --pages 2-5 print/cookbook.typ 'page-{p}.png'`
 
 Always look at rendered proofs after layout changes — check spreads, page breaks, widows/orphans — before reporting done.
 
 ## Print Design (print/cookbook.typ)
 
-Editorial-hybrid direction: serif recipe text, small uppercase sans wayfinding labels, terracotta accent. Each recipe opens on a verso (left page): dish photo (or fallback field), floating scan card(s) with drop shadow, section label, title, description. Recto (right page): ingredients, accent-numbered method, notes, original-language text in an accent-ruled block; long recipes spill recto-onward. Fonts are stand-ins (Charter/Avenir Next) until open-license faces with Georgian coverage are vendored into `assets/fonts/`.
+Editorial-hybrid direction: serif recipe text, small uppercase sans wayfinding labels, terracotta accent. Each recipe opens on a verso (left page): dish photo (or fallback field), floating scan card(s) with drop shadow, section label, title, description. Recto (right page): ingredients, accent-numbered method, notes, original-language text in an accent-ruled block; long recipes spill recto-onward. Fonts are vendored in `assets/fonts/` (OFL): Spectral (serif, Latin + Cyrillic), Inter (sans), Noto Serif Georgian. Single-step methods render as prose, not a one-item list. English recipes do not print their Original Text block (the verso scan is the original); the retyped text stays archival in the .md.
 
 ## Legacy: Affinity Publisher
 
