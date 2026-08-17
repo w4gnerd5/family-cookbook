@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 def slugify(title):
     s = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode()
+    s = re.sub(r"['\u2019]", "", s)  # possessives: Zeinab's -> zeinabs, not zeinab-s
     s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
     return s
 

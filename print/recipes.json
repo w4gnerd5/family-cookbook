@@ -175,7 +175,7 @@
    {
     "path": "assets/english/1290/IMG_1290.png",
     "scale": 1.0,
-    "tilt": -1.85,
+    "tilt": 2.72,
     "aspect": 0.7789
    }
   ],
@@ -187,7 +187,7 @@
   "image": "assets/english/1290/IMG_1290.png",
   "photo": "assets/english/1290/dish.jpg",
   "inverse": false,
-  "slug": "mom-s-zucchini-bread",
+  "slug": "moms-zucchini-bread",
   "description": "The five-star Allrecipes classic: a moist cinnamon-vanilla zucchini quick bread with walnuts, making two loaves. Freezes well and keeps in the refrigerator for weeks.",
   "ingredients": [
    "3 cups all-purpose flour",
@@ -546,7 +546,7 @@
    {
     "path": "assets/georgian/1192/IMG_1192.png",
     "scale": 1.0,
-    "tilt": 1.58,
+    "tilt": 1.83,
     "aspect": 0.7692
    }
   ],
@@ -558,7 +558,7 @@
   "image": "assets/georgian/1192/IMG_1192.png",
   "photo": "assets/georgian/1192/dish.jpg",
   "inverse": false,
-  "slug": "zeinab-s-khachapuri",
+  "slug": "zeinabs-khachapuri",
   "description": "This recipe utilizes the traditional \"chopped dough\" technique, where butter is worked into flour to create distinct layers, resulting in a signature flaky and tender crust. The use of Matsoni (a traditional Georgian yogurt) combined with baking soda creates a light, airy rise and a subtle tang that is characteristic of authentic homemade khachapuri.",
   "ingredients": [
    "200g butter (softened)",
@@ -691,7 +691,7 @@
    {
     "path": "assets/georgian/1202/IMG_1202.png",
     "scale": 1.0,
-    "tilt": -2.95,
+    "tilt": -2.79,
     "aspect": 1.5515
    }
   ],
@@ -703,7 +703,7 @@
   "image": "assets/georgian/1202/IMG_1202.png",
   "photo": "assets/georgian/1202/dish.jpg",
   "inverse": false,
-  "slug": "zainab-s-khachapuri",
+  "slug": "zainabs-khachapuri",
   "description": "Matsoni (Georgian fermented milk) provides natural acidity that reacts with baking soda to leaven the dough, while the process of spreading, greasing, and layering with soda creates a characteristically soft and slightly flaky texture without the need for yeast.",
   "ingredients": [
    "800 g Matsoni",
@@ -1106,7 +1106,7 @@
    {
     "path": "assets/georgian/1255/IMG_1255.png",
     "scale": 1.0,
-    "tilt": -2.27,
+    "tilt": -1.3,
     "aspect": 0.7457
    }
   ],
@@ -1118,7 +1118,7 @@
   "image": "assets/georgian/1255/IMG_1255.png",
   "photo": "assets/georgian/1255/dish.jpg",
   "inverse": false,
-  "slug": "zeinab-s-khachapuri-2",
+  "slug": "zeinabs-khachapuri-2",
   "description": "Khachapuri is a cornerstone of Georgian cuisine, representing a traditional cheese-filled bread that varies by region. This particular recipe utilizes matzoni, a traditional Caucasian fermented milk product, to create a tender, slightly tangy dough, while the technique of mixing with a knife helps keep the dough light and prevents the butter from over-incorporating or melting from hand heat.",
   "ingredients": [
    "6 cups of flour",
@@ -1413,13 +1413,13 @@
    {
     "path": "assets/english/1285/IMG_1286.png",
     "scale": 1.0,
-    "tilt": -1.74,
+    "tilt": -1.26,
     "aspect": 0.7879
    },
    {
     "path": "assets/english/1285/IMG_1285.png",
     "scale": 1.0,
-    "tilt": 2.84,
+    "tilt": 2.74,
     "aspect": 0.7762
    }
   ],
@@ -1431,7 +1431,7 @@
   "image": "assets/english/1285/IMG_1285.png",
   "photo": "assets/english/1285/dish.jpg",
   "inverse": false,
-  "slug": "ina-garten-s-unforgettable-beef-stew",
+  "slug": "ina-gartens-unforgettable-beef-stew",
   "description": "A printout from Veggies By Candlelight of Ina Garten's red wine-marinated beef stew, oven-braised with carrots, potatoes, sun-dried tomatoes, and rosemary. The card has hand-strikethroughs on the red wine and the mushrooms, so the family version apparently omits both.",
   "ingredients": [
    "2 1/2 pounds good quality beef chuck, cubed into \\~1 1/2\" pieces",
@@ -1525,7 +1525,7 @@
    {
     "path": "assets/english/1294/IMG_1294.png",
     "scale": 1.0,
-    "tilt": -3.05,
+    "tilt": 2.6,
     "aspect": 0.7714
    }
   ],
@@ -1537,7 +1537,7 @@
   "image": "assets/english/1294/IMG_1294.png",
   "photo": "assets/english/1294/dish.jpg",
   "inverse": false,
-  "slug": "parker-s-split-pea-soup",
+  "slug": "parkers-split-pea-soup",
   "description": "Ina Garten's Barefoot Contessa split pea soup from Food Network. The peas go in two batches, so half break down into the broth while the rest keep some texture.",
   "ingredients": [
    "1 cup chopped yellow onions",
@@ -2666,7 +2666,7 @@
    {
     "path": "assets/georgian/1162/IMG_1162.png",
     "scale": 1.0,
-    "tilt": -1.47,
+    "tilt": 2.65,
     "aspect": 0.7103
    }
   ],
@@ -2678,7 +2678,7 @@
   "image": "assets/georgian/1162/IMG_1162.png",
   "photo": "assets/georgian/1162/dish.jpg",
   "inverse": false,
-  "slug": "lyudmila-s-beef-stroganoff",
+  "slug": "lyudmilas-beef-stroganoff",
   "description": "Lyudmila’s Beef Stroganoff reflects the historic culinary exchange between Russian and Georgian traditions. While the classic Russian dish typically features a sour cream-based sauce, this version incorporates regional Caucasian preferences for bell peppers and a tomato base, using a starch slurry to achieve the dish's signature silky consistency without heavy dairy.",
   "ingredients": [
    "Meat (beef), cut thinly and tenderized",
@@ -2716,7 +2716,7 @@
    {
     "path": "assets/georgian/1178/IMG_1178.png",
     "scale": 1.0,
-    "tilt": -2.8,
+    "tilt": -2.3,
     "aspect": 0.7746
    }
   ],
@@ -2728,7 +2728,7 @@
   "image": "assets/georgian/1178/IMG_1178.png",
   "photo": "assets/georgian/1178/dish.jpg",
   "inverse": false,
-  "slug": "rusiko-s-cutlets",
+  "slug": "rusikos-cutlets",
   "description": "These Georgian-style meat cutlets, known as _kotleti_, are a beloved staple of Caucasian home cooking. This specific variation incorporates boiled buckwheat as a binding agent instead of the traditional heavy use of soaked bread, which introduces a deep, nutty flavor and ensures a moist, tender interior.",
   "ingredients": [
    "3 pounds (Ground meat)",
@@ -2826,7 +2826,7 @@
    {
     "path": "assets/georgian/1185/IMG_1185.png",
     "scale": 1.0,
-    "tilt": 3.29,
+    "tilt": 1.78,
     "aspect": 0.7602
    }
   ],
@@ -2838,7 +2838,7 @@
   "image": "assets/georgian/1185/IMG_1185.png",
   "photo": "assets/georgian/1185/dish.jpg",
   "inverse": false,
-  "slug": "ami-s-khinkali",
+  "slug": "amis-khinkali",
   "description": "Khinkali are the iconic soup dumplings of Georgia, traditionally filled with raw spiced meat that releases a rich, aromatic broth as it boils. The key to authentic flavor is the use of distinct highland herbs like blue fenugreek and summer savory, while a very stiff, cold-water dough is essential to ensure the pleats hold firm and contain the hot juices inside.",
   "ingredients": [
    {
@@ -3547,7 +3547,7 @@
    {
     "path": "assets/georgian/1175/IMG_1175.png",
     "scale": 1.0,
-    "tilt": 2.72,
+    "tilt": -2.78,
     "aspect": 0.7562
    }
   ],
@@ -3559,7 +3559,7 @@
   "image": "assets/georgian/1175/IMG_1175.png",
   "photo": "assets/georgian/1175/dish.jpg",
   "inverse": false,
-  "slug": "zeinab-s-shu",
+  "slug": "zeinabs-shu",
   "description": "Shu is the Georgian take on French choux pastry. Light, hollow puffs filled with a rich milk-and-flour cream. Zeinab's version uses a custard-style cream thickened on the stovetop rather than a whipped filling, giving it a denser, more indulgent character typical of Georgian home baking.",
   "ingredients": [
    {
@@ -4035,7 +4035,7 @@
    {
     "path": "assets/english/1219/IMG_1219.png",
     "scale": 1.0,
-    "tilt": -2.99,
+    "tilt": 2.55,
     "aspect": 0.7732
    }
   ],
@@ -4047,7 +4047,7 @@
   "image": "assets/english/1219/IMG_1219.png",
   "photo": "assets/english/1219/dish.jpg",
   "inverse": false,
-  "slug": "lucky-and-rippy-s-favorite-dog-food",
+  "slug": "lucky-and-rippys-favorite-dog-food",
   "description": "A homemade boiled chicken-and-rice dog food, kept in the archive for the family dogs. Printed from Allrecipes; the vegetable mix must contain no garlic or onions, which are toxic to dogs.",
   "ingredients": [
    "3 pounds minced chicken meat",
