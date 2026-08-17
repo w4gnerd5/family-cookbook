@@ -64,21 +64,21 @@
   for (j, e) in r.scans.enumerate() {
     let k = n - 1 - j          // 0 = topmost (reading page 1)
     // tall scans are height-capped so the deck can't crash into the title block
-    let w = calc.min(255pt, 310pt * e.aspect)
+    let w = calc.min(290pt, 340pt * e.aspect)
     place(top + right, dx: -(B + G) - k * 48pt, dy: 62% - 215pt + k * 30pt,
       card(e, w))
   }
 }
 
 #let verso-snapshot(r) = {
-  // full field, cards scattered loosely, text lower-left
+  // photo field with cards scattered over it; text stays on the white band below
   if r.photo != "" {
-    place(top + left, image("../" + r.photo, width: 100%, height: 100%, fit: "cover"))
+    place(top + left, image("../" + r.photo, width: 100%, height: 68%, fit: "cover"))
   } else {
-    place(top + left, rect(width: 100%, height: 100%, fill: color-field))
+    place(top + left, rect(width: 100%, height: 68%, fill: color-field))
   }
   let n = r.scans.len()
-  let w = if n == 3 { 225pt } else { 190pt }
+  let w = if n == 3 { 245pt } else { 205pt }
   for (j, e) in r.scans.enumerate() {
     let k = n - 1 - j          // reading page 1 takes the first grid slot, on top
     let col = calc.rem(k, 2)
@@ -90,7 +90,7 @@
       card(e, w))
   }
   place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
-    block(width: 55% - M, title-block(r)))
+    block(width: 60% - M, title-block(r)))
 }
 
 #let verso(r) = {
