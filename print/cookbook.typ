@@ -18,9 +18,12 @@
 )
 
 // hymnal model: SECTION · NUMBER is the finding aid; the slug is the web address
-#let footer-line(r) = context {
-  let id = label-text(r.section + "  ·  " + str(r.number), fill: color-accent)
-  let slug = label-text("family-cookbook / " + r.slug)
+#let footer-line(r, on-photo: false) = context {
+  let inv = on-photo and r.at("inverse", default: false)
+  let id = label-text(r.section + "  ·  " + str(r.number),
+    fill: if inv { white } else { color-accent })
+  let slug = label-text("family-cookbook / " + r.slug,
+    fill: if inv { rgb(255, 255, 255, 75%) } else { color-label })
   if calc.even(here().page()) {
     grid(columns: (auto, 1fr), id, align(right, slug))
   } else {
@@ -40,12 +43,15 @@
 // each with path/scale/tilt resolved; tilt defaults are seeded per scan
 #let card(e, base) = rotate(e.tilt * 1deg, image("cards/" + e.path.split("/").last(), width: base * e.scale))
 
+// inverse palette for full-bleed photo versos where the text sits on the image
 #let title-block(r) = {
-  label-text(r.section, fill: color-accent)
+  let inv = r.at("inverse", default: false)
+  label-text(r.section, fill: if inv { white } else { color-accent })
   v(space-label-gap)
-  text(size: size-title, fill: color-ink, r.title)
+  text(size: size-title, fill: if inv { white } else { color-ink }, r.title)
   v(space-label-gap)
-  text(size: size-description, style: "italic", fill: color-muted, md(r.description))
+  text(size: size-description, style: "italic",
+    fill: if inv { rgb(255, 255, 255, 88%) } else { color-muted }, md(r.description))
 }
 
 // ---------- verso layouts ----------
@@ -71,11 +77,17 @@
 }
 
 #let verso-snapshot(r) = {
-  // photo field with cards scattered over it; text stays on the white band below
+  // full-bleed photo, cards scattered over it, text on the image
+  // (inverse: true in frontmatter flips the text to white for dark photos)
   if r.photo != "" {
-    place(top + left, image("../" + r.photo, width: 100%, height: 68%, fit: "cover"))
+    place(top + left, image("../" + r.photo, width: 100%, height: 100%, fit: "cover"))
+    if r.at("inverse", default: false) {
+      // legibility scrim: quiet dark gradient under the text zone
+      place(bottom + left, rect(width: 100%, height: 42%,
+        fill: gradient.linear(dir: ttb, rgb(0, 0, 0, 0%), rgb(0, 0, 0, 55%))))
+    }
   } else {
-    place(top + left, rect(width: 100%, height: 68%, fill: color-field))
+    place(top + left, rect(width: 100%, height: 100%, fill: color-field))
   }
   let n = r.scans.len()
   let w = if n == 3 { 245pt } else { 205pt }
@@ -98,7 +110,7 @@
   page(margin: 0pt, footer: none, {
     if r.scans.len() <= 2 { verso-band(r) } else { verso-snapshot(r) }
     place(bottom + left, dx: B + M, dy: -(B + 24pt),
-      block(width: PW - M - G - 2 * B, footer-line(r)))
+      block(width: PW - M - G - 2 * B, footer-line(r, on-photo: r.scans.len() > 2)))
   })
 }
 
