@@ -1,57 +1,99 @@
 // Family cookbook — editorial hybrid template.
-// Build: typst compile --root .. print/cookbook.typ print/cookbook.pdf
+// Verso: "band" layout (photo field, white band, scan cards straddling the seam);
+// 3+ scans fall back to "snapshot" (full field, scattered cards).
+// Build: typst compile --root .. --font-path ../assets/fonts cookbook.typ cookbook.pdf
 #import "tokens.typ": *
 
-#set page(paper: "a4", margin: (x: space-page-margin, y: space-page-margin), fill: color-paper)
+#let B = space-bleed          // 0 for proofs; 3mm for production runs
+#let M = space-page-margin
+#let PW = 210mm + 2 * B
+#let PH = 297mm + 2 * B
+
 #set text(font: font-serif, size: size-body, fill: color-body, lang: "en")
 #set par(leading: 0.72em, justify: false)
 
-#let data = json("recipes.json")
+#let cur-slug = state("slug", "")
 
 #let label-text(content, fill: color-label) = text(
   font: font-sans, size: size-label, fill: fill,
   tracking: label-tracking, weight: "medium", upper(content),
 )
 
-#let subhead(content) = block(above: space-block, below: space-label-gap, label-text(content))
+#let footer-line = context {
+  let slug = cur-slug.get()
+  let pg = counter(page).display()
+  let line = label-text("family-cookbook / " + slug + "  ·  " + pg)
+  if calc.even(here().page()) { align(left, line) } else { align(right, line) }
+}
+
+#set page(width: PW, height: PH, fill: color-paper,
+  margin: (x: M + B, bottom: M + B, top: M + B),
+  footer: pad(bottom: B, footer-line))
 
 #let md(s) = eval(s, mode: "markup")
 
-#let card-shadow(img) = context {
-  let s = measure(img)
-  box(width: s.width + 5pt, height: s.height + 5pt, {
-    place(dx: 5pt, dy: 5pt, rect(width: s.width, height: s.height, fill: rgb(0, 0, 0, 22%)))
-    place(box(stroke: 0.5pt + color-field.darken(15%), img))
-  })
+#let subhead(content) = block(above: space-block, below: space-label-gap, label-text(content))
+
+#let card-img(scan, width) = image("cards/" + scan.split("/").last(), width: width)
+
+#let title-block(r) = {
+  label-text(r.section, fill: color-accent)
+  v(space-label-gap)
+  text(size: size-title, fill: color-ink, r.title)
+  v(space-label-gap)
+  text(size: size-description, style: "italic", fill: color-muted, md(r.description))
 }
 
-// ---------- verso: photo field, floating scan card, title & description ----------
+// ---------- verso layouts ----------
+#let verso-band(r) = {
+  // photo field top 62%, white band below, 1-2 cards straddle the seam
+  if r.photo != "" {
+    place(top + left, image("../" + r.photo, width: 100%, height: 62%, fit: "cover"))
+  } else {
+    place(top + left, rect(width: 100%, height: 62%, fill: color-field))
+  }
+  place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
+    block(width: 50% - M, title-block(r)))
+  // 2 scans stack as a deck (underneath card peeks out) so the title zone stays clear
+  let tilts = (1.8deg, -2.6deg)
+  for (i, s) in r.scans.enumerate().rev() {
+    place(top + right, dx: -(B + M * 0.7) - i * 48pt, dy: 62% - 215pt + i * 30pt,
+      rotate(tilts.at(calc.rem(i, 2)), card-img(s, 255pt)))
+  }
+}
+
+#let verso-snapshot(r) = {
+  // full field, cards scattered loosely, text lower-left
+  if r.photo != "" {
+    place(top + left, image("../" + r.photo, width: 100%, height: 100%, fit: "cover"))
+  } else {
+    place(top + left, rect(width: 100%, height: 100%, fill: color-field))
+  }
+  let n = r.scans.len()
+  let w = if n == 3 { 235pt } else { 195pt }
+  let tilts = (-3deg, 2.4deg, -1.6deg, 3.2deg, -2.2deg)
+  for (i, s) in r.scans.enumerate() {
+    let col = calc.rem(i, 2)
+    let row = calc.floor(i / 2)
+    place(top + left,
+      dx: B + M * 0.8 + col * (w + 30pt) + row * 22pt,
+      dy: B + M * 0.8 + row * (w * 0.72) + col * 18pt,
+      rotate(tilts.at(calc.rem(i, 5)), card-img(s, w)))
+  }
+  place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
+    block(width: 55% - M, title-block(r)))
+}
+
 #let verso(r) = {
   pagebreak(to: "even", weak: true)
-  page(margin: 0pt, {
-    // dish photo, or the fallback field
-    if r.photo != "" {
-      place(top + left, image("../" + r.photo, width: 100%, height: 100%, fit: "cover"))
-    } else {
-      place(top + left, rect(width: 100%, height: 100%, fill: color-field))
-    }
-    // title block, top of page on its own band
-    place(top + left, dx: space-page-margin, dy: space-page-margin, block(width: 100% - 2 * space-page-margin, {
-      label-text(r.section, fill: color-accent)
-      v(space-label-gap)
-      text(size: size-title, fill: color-ink, weight: "regular", r.title)
-      v(space-label-gap)
-      text(size: size-description, style: "italic", fill: color-muted, md(r.description))
-    }))
-    // scan card, offset low, drop shadow
-    if r.image != "" {
-      place(bottom + right, dx: -space-page-margin, dy: -space-page-margin,
-        card-shadow(image("../" + r.image, width: 250pt)))
-    }
+  page(margin: 0pt, footer: none, {
+    if r.scans.len() <= 2 { verso-band(r) } else { verso-snapshot(r) }
+    place(bottom + left, dx: B + M, dy: -(B + 24pt),
+      label-text("family-cookbook / " + r.slug + "  ·  ") + context label-text(counter(page).display()))
   })
 }
 
-// ---------- recto: ingredients, method, notes, original text ----------
+// ---------- recto ----------
 #let ing-item(it) = if type(it) == dictionary {
   block(above: space-block * 0.7, below: 3pt, text(weight: "bold", size: size-small, it.group + ":"))
 } else {
@@ -100,7 +142,8 @@
 }
 
 // ---------- book ----------
-#for (i, r) in data.enumerate() {
+#for r in json("recipes.json") {
+  cur-slug.update(r.slug)
   verso(r)
   recto(r)
 }

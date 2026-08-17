@@ -24,6 +24,7 @@ size:                          # points (print); web build maps pt -> rem
 
 space:
   page_margin: 54              # pt
+  bleed: 0                     # pt; set ~8.5 (3mm) for production full-bleed runs
   block: 12
   label_gap: 5
 
