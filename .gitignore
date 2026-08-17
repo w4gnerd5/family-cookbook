@@ -1,1 +1,6 @@
-.DS_Store
+__pycache__/
+*.pyc
+*copy.af
+print/cookbook.pdf
+batches/test.af
+page-*.png

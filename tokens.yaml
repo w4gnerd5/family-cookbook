@@ -1,0 +1,31 @@
+# Design tokens — single source for print (Typst) and web (CSS).
+# Edit here, then run: python3 scripts/build_tokens.py
+
+font:
+  serif: "Charter"            # recipe text; final: needs Cyrillic + Georgian coverage
+  sans: "Avenir Next"         # wayfinding labels
+  serif_georgian: "Charter"   # stand-in until a Georgian face is vendored
+
+color:
+  paper: "#FFFDF8"
+  ink: "#221F1B"
+  body: "#3A362F"
+  muted: "#5C564A"
+  label: "#9A917D"
+  accent: "#C05B38"           # terracotta
+  field: "#F1ECE1"            # fallback verso background when no dish photo
+
+size:                          # points (print); web build maps pt -> rem
+  body: 10.5
+  small: 9
+  label: 7.5
+  title: 20
+  description: 11
+
+space:
+  page_margin: 54              # pt
+  block: 12
+  label_gap: 5
+
+label:
+  tracking: 0.14               # em, uppercase label letterspacing

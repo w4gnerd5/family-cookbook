@@ -1,0 +1,20 @@
+// GENERATED from tokens.yaml — do not edit by hand.
+#let font-serif = "Charter"
+#let font-sans = "Avenir Next"
+#let font-serif-georgian = "Charter"
+#let color-paper = rgb("#FFFDF8")
+#let color-ink = rgb("#221F1B")
+#let color-body = rgb("#3A362F")
+#let color-muted = rgb("#5C564A")
+#let color-label = rgb("#9A917D")
+#let color-accent = rgb("#C05B38")
+#let color-field = rgb("#F1ECE1")
+#let size-body = 10.5pt
+#let size-small = 9pt
+#let size-label = 7.5pt
+#let size-title = 20pt
+#let size-description = 11pt
+#let space-page-margin = 54pt
+#let space-block = 12pt
+#let space-label-gap = 5pt
+#let label-tracking = 0.14em
