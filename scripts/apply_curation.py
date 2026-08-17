@@ -22,7 +22,7 @@ SECTIONS = [
     "Breads & Doughs", "Soups & Stews", "Mains", "Sides & Salads",
     "Preserves & Sauces", "Desserts & Sweets", "Drinks", "Pantry",
 ]
-HDR = 8
+HDR = 7
 
 
 def set_fm(path, key, value):
@@ -35,29 +35,25 @@ def set_fm(path, key, value):
 def main():
     apply = "--apply" in sys.argv
     ws = load_workbook(ROOT / "curation.xlsx")["Inventory"]
-    by_slug = {}
-    for p in sorted(set(ROOT.glob("assets/*/**/*.md"))):
-        m = re.search(r"^slug: (\S+)$", p.read_text(), re.M)
-        if m:
-            by_slug[m.group(1)] = p
+    by_id = {p.stem: p for p in sorted(set(ROOT.glob("assets/*/**/*.md")))}
 
     rows = []
     for r in ws.iter_rows(min_row=HDR + 1, values_only=True):
-        section, num, title, lang, _d, _s, _p, slug, new_sec, new_ord, action, notes = r[:12]
-        if not slug:
+        rid, section, num, title, lang, _d, _s, _p, slug, new_sec, new_ord, action, notes = r[:13]
+        if not rid:
             continue
-        rows.append(dict(section=section, num=num, title=title, slug=slug,
+        rows.append(dict(rid=rid, section=section, num=num, title=title, slug=slug,
                          new_sec=new_sec, new_ord=new_ord,
                          cut=(str(action or "").strip().lower() == "cut"),
                          notes=notes))
 
     for r in rows:
         if r["notes"]:
-            print(f"NOTE  {r['slug']}: {r['notes']}")
+            print(f"NOTE  {r['rid']} {r['slug']}: {r['notes']}")
 
     # cuts
     for r in [x for x in rows if x["cut"]]:
-        p = by_slug[r["slug"]]
+        p = by_id[r["rid"]]
         dest = ROOT / "attic" / p.parent.parent.name / p.parent.name
         print(f"CUT   {r['slug']} -> {dest.relative_to(ROOT)}")
         if apply:
@@ -69,7 +65,7 @@ def main():
         if r["new_sec"] and r["new_sec"] != r["section"]:
             print(f"MOVE  {r['slug']}: {r['section']} -> {r['new_sec']}")
             if apply:
-                set_fm(by_slug[r["slug"]], "section", f'"{r["new_sec"]}"')
+                set_fm(by_id[r["rid"]], "section", f'"{r["new_sec"]}"')
         r["final_sec"] = r["new_sec"] or r["section"]
 
     # renumber per final section
@@ -81,7 +77,7 @@ def main():
             if n != r["num"] or r["new_sec"]:
                 print(f"NUM   {sec} · {r['num']} -> {n}  {r['slug']}")
             if apply:
-                set_fm(by_slug[r["slug"]], "number", str(n))
+                set_fm(by_id[r["rid"]], "number", str(n))
 
     if not apply:
         print("\nDry run. Re-run with --apply to write.")
