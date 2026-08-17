@@ -181,8 +181,8 @@ def normalize_instructions(lines):
             out.append(label)
             counter = 1
         else:
-            # Strip any existing leading number like "1." or "1)"
-            step = re.sub(r"^\d+[\.\)]\s*", "", stripped).strip()
+            # Strip any existing leading number like "1." or "1)" and/or bullet marker
+            step = re.sub(r"^(\d+[\.\)]\s*)?([*\-]\s+)?", "", stripped).strip()
             if step:
                 out.append(f"{counter}. {step}")
                 counter += 1

@@ -62,6 +62,11 @@ def parse_md(path):
         s = re.sub(r"\*\*(.+?)\*\*", "\x00\\1\x00", s)  # bold -> placeholder
         s = re.sub(r"\*(.+?)\*", r"_\1_", s)              # italic -> typst emph
         s = s.replace("\x00", "*")                        # placeholder -> typst strong
+        # safety net: an unpaired delimiter would break Typst's eval of this string
+        if s.count("*") % 2:
+            s = s.replace("*", "\\*")
+        if s.count("_") % 2:
+            s = s.replace("_", "\\_")
         return s
 
     def items(block, marker):
