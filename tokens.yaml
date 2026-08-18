@@ -32,9 +32,10 @@ space:
 card:
   cap: 330                     # pt; max card width on the band verso
   ref: 385                     # pt; height reference (cap applies to tall scans)
-  gutter_intrude: 30           # pt a card may reach into the gutter; punch holes
-                               #   span ~9-15mm from the bound edge, so 30pt is
-                               #   still clear of them
+  gutter_intrude: 55           # pt a card may reach into the gutter. At 55 the card
+                               #   edge enters the punch strip (holes ~9-15mm from
+                               #   the bound edge): the ring punch may clip the card.
+                               #   Deliberate — the cards are art here, not text.
   snapshot_3: 275              # pt; card width when 3 scans scatter
   snapshot_4: 230              # pt; 4 or more
   title_col: 44                # % of page width for the verso title block; the

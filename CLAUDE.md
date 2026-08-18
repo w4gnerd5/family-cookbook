@@ -76,6 +76,9 @@ see_also:                 # optional; cross-references BY SLUG, resolved at buil
 cards, `gutter_intrude` lets a card reach into the gutter (the punch holes sit ~9-15mm from the
 bound edge, so 30pt stays clear of them), `title_col` sets the title column width the card must
 not overlap. Per-recipe exceptions use `scale`/`dx`/`dy` on the scan and `|` in the title.
+Art direction for extra scans: small notes ride on top like a sticky note, offset down and
+to the right so they clear the title; full-size sheets stay full size and are nudged so
+their writing peeks out. Expect edge cases; handle them per-recipe, not with layout logic.
 
 **Numbering (hymnal model):** recipes are numbered per section, not through the volume, so a
 sheet added to the ring binder never renumbers the book. `SECTION · N` is the finding aid printed

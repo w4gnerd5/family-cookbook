@@ -20,6 +20,38 @@ SECTIONS = [
 ]
 
 
+def clean_original(text):
+    """Original blocks print verbatim, so markdown-isms in the .md would print
+    literally. Split into labeled segments and strip transcription markup:
+    `#### IMG_NNNN` lines are scan provenance (never printed), other `####`
+    lines label a segment, `---` breaks a segment without a label, and
+    bullet/bold markers are transcription conventions not in the manuscript."""
+    segs, label, cur = [], "", []
+
+    def flush(next_label):
+        nonlocal label, cur
+        body = "\n".join(cur).strip("\n")
+        if body.strip() or label:
+            segs.append({"label": label, "text": body})
+        label, cur = next_label, []
+
+    for line in text.splitlines():
+        s = line.strip()
+        if re.fullmatch(r"#{3,4} IMG_\d+", s):
+            continue
+        m = re.fullmatch(r"#{3,4} (.+)", s)
+        if m:
+            flush(m.group(1))
+            continue
+        if s == "---":
+            flush("")
+            continue
+        line = re.sub(r"^(\s*)\* ", r"\1", line)
+        cur.append(re.sub(r"\*\*(.+?)\*\*", r"\1", line))
+    flush("")
+    return segs
+
+
 def parse_md(path):
     text = path.read_text()
     m = re.match(r"---\n(.*?)\n---\n", text, re.S)
@@ -126,7 +158,7 @@ def parse_md(path):
         "ingredients": items(section("Ingredients"), r"\*"),
         "instructions": items(section("Instructions"), r"\d+\."),
         "notes": items(section("Notes"), r"\*"),
-        "original": orig_m.group(1).strip() if orig_m else "",
+        "original": clean_original(orig_m.group(1).strip()) if orig_m else [],
     }
 
 

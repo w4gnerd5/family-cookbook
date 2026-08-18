@@ -66,18 +66,24 @@
   }
   place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
     block(width: card-title-col - M, title-block(r)))
-  // 2 scans stack as a deck (underneath card peeks out) so the title zone stays clear;
-  // verso is bound on its right edge: keep cards clear of the punch strip
-  for e in r.scans {
-    let k = e.slot             // layout slot = reading position; array order = stacking
-    // tall scans are height-capped so the deck can't crash into the title block.
-    // Cards may reach card-gutter-intrude into the gutter: the punch holes sit
-    // ~9-15mm from the bound edge, so this stays clear of them.
-    let w = calc.min(card-cap, card-ref * e.aspect)
-    place(top + right,
-      dx: -(B + G - card-gutter-intrude) - k * 48pt + e.dx * 1pt,
-      dy: 62% - 215pt + k * 30pt + e.dy * 1pt,
-      card(e, w))
+  // 2 scans stack as a deck so the title zone stays clear. The deck steps by
+  // LEFT edges: a smaller under-card peeks out past the card above it instead
+  // of hiding inside its footprint. Cards may reach card-gutter-intrude into
+  // the gutter (verso is bound on its right edge).
+  let ordered = r.scans.sorted(key: e => e.slot)
+  let lefts = (:)
+  for (i, e) in ordered.enumerate() {
+    // tall scans are height-capped so the deck can't crash into the title block
+    let w = calc.min(card-cap, card-ref * e.aspect) * e.scale
+    let x = if i == 0 { PW - (B + G - card-gutter-intrude) - w }
+      else { lefts.at(ordered.at(i - 1).path) - 48pt }
+    lefts.insert(e.path, x + e.dx * 1pt)
+  }
+  for e in r.scans {   // layout slot = reading position; array order = stacking
+    place(top + left,
+      dx: lefts.at(e.path),
+      dy: 62% - 215pt + e.slot * 30pt + e.dy * 1pt,
+      card(e, calc.min(card-cap, card-ref * e.aspect)))
   }
 }
 
@@ -181,13 +187,19 @@
   }
   // English recipes: the verso scan IS the original; the retyped text stays
   // archival in the .md but does not print. Revisit if a bilingual edition happens.
-  if r.original != "" and r.language != "english" {
+  if r.original.len() > 0 and r.language != "english" {
     v(space-block)
     block(breakable: true, stroke: (left: 1.5pt + color-accent), inset: (left: 10pt, y: 2pt), {
       label-text("Original")
       v(space-label-gap)
       set text(size: size-small, fill: color-muted, font: (font-serif, font-serif-georgian), lang: "ru")
-      for line in r.original.split("\n") { block(above: 2.5pt, below: 0pt, line) }
+      // segments come from md_to_data: #### labels in the .md become styled
+      // sub-labels here; --- breaks a segment without one
+      for (i, seg) in r.original.enumerate() {
+        if i > 0 { v(5pt) }
+        if seg.label != "" { block(above: 5pt, below: 1pt, label-text(seg.label)) }
+        for line in seg.text.split("\n") { block(above: 2.5pt, below: 0pt, line) }
+      }
     })
   }
 }
