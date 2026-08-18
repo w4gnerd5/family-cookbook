@@ -1429,8 +1429,8 @@
    "dish": "Zeinab's Shu",
    "evidence": "Identical puff base (4 eggs / 100 g butter / 1 c water / 1 c flour) in two languages/hands. Cream differs meaningfully.",
    "drift": "Print both creams? Georgian cream vs notebook cream (with pencil halving marks). See Q3.",
-   "decision": "",
-   "notes": "",
+   "decision": "modify",
+   "notes": "yes, both creams each with thier own instructions, both sets of images, and both original translations.  maybe a note about the two variations",
    "status": ""
   },
   {
@@ -1440,8 +1440,8 @@
    "dish": "Whole Chicken Crock Pot",
    "evidence": "EXACT COPY: same Food.com page printed twice (614 vs 631 reviews). 1213 is the stained working copy.",
    "drift": "Pure retirement: 1278 to attic. No drift.",
-   "decision": "",
-   "notes": "",
+   "decision": "approve",
+   "notes": "1213 is canonical",
    "status": ""
   },
   {
