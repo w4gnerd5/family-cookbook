@@ -148,6 +148,18 @@
   block(md(it))
 }
 
+// Section break policy: the first two items ride with the header (so at least
+// three lines stand before any break), the last two items bind together (so a
+// lone item can never sit alone overleaf), and a section of <= 4 items never
+// breaks at all. The wrapper blocks inherit breakable: false from the cascade.
+#let section-guard(items) = if items.len() <= 4 {
+  block(items.join())
+} else {
+  block(items.slice(0, 2).join())
+  items.slice(2, items.len() - 2).join()
+  block(items.slice(items.len() - 2).join())
+}
+
 #let recto(r) = {
   block(breakable: false, {
     subhead("Ingredients")
@@ -161,20 +173,22 @@
     block(md(steps.at(0)))
   } else {
     let n = 0
+    let rendered = ()
     for it in r.instructions {
       if type(it) == dictionary {
-        ing-item(it)
+        rendered.push(ing-item(it))
       } else {
         n += 1
-        block(grid(columns: (10.5pt, 1fr), column-gutter: 3.5pt,
-          text(font: font-sans, size: size-small, fill: color-accent, str(n)), md(it)))
+        rendered.push(block(grid(columns: (10.5pt, 1fr), column-gutter: 3.5pt,
+          text(font: font-sans, size: size-small, fill: color-accent, str(n)), md(it))))
       }
     }
+    section-guard(rendered)
   }
   if r.notes.len() > 0 {
     subhead("Notes")
     set text(size: size-small)
-    for it in r.notes { ing-item(it) }
+    section-guard(r.notes.map(ing-item))
   }
   // Cross-references: authored as frozen slugs in frontmatter, resolved to
   // section + number at build time so renumbering can never strand a pointer.
@@ -186,7 +200,7 @@
     )
     subhead("See also")
     set text(size: size-small)
-    for ref in r.see_also {
+    section-guard(r.see_also.map(ref => {
       let lead = phrase.at(ref.at("rel", default: ""), default: "See")
       block({
         text(fill: color-muted, lead + ": ")
@@ -199,7 +213,7 @@
           text(fill: color-muted, "  " + ref.note)
         }
       })
-    }
+    }))
   }
   // English recipes: the verso scan IS the original; the retyped text stays
   // archival in the .md but does not print. Revisit if a bilingual edition happens.
