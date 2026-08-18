@@ -3,7 +3,7 @@
   {
    "id": "IMG_1209",
    "section": "Breads & Doughs",
-   "num": 1,
+   "num": 2,
    "title": "No-Knead Bread",
    "lang": "english",
    "desc": "Jim Lahey's famous no-knead loaf from the New York Times: a wet dough, an overnight rise, and a scre",
@@ -16,12 +16,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1212",
    "section": "Breads & Doughs",
-   "num": 2,
+   "num": 7,
    "title": "Buttermilk Pancakes II",
    "lang": "english",
    "desc": "Light, fluffy buttermilk pancakes from a well-used Allrecipes printout; keeping the wet and dry mixt",
@@ -34,7 +34,7 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1274",
@@ -52,12 +52,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1290",
    "section": "Breads & Doughs",
-   "num": 5,
+   "num": 14,
    "title": "Mom's Zucchini Bread",
    "lang": "english",
    "desc": "The five-star Allrecipes classic: a moist cinnamon-vanilla zucchini quick bread with walnuts, making",
@@ -70,12 +70,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1161",
    "section": "Breads & Doughs",
-   "num": 6,
+   "num": 4,
    "title": "Dumpling Dough with Boiling Water (Super)",
    "lang": "georgian",
    "desc": "This traditional \"choux\" pastry technique for Russian pelmeni or vareniki uses boiling water to part",
@@ -88,12 +88,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1168",
    "section": "Breads & Doughs",
-   "num": 7,
+   "num": 16,
    "title": "Traditional Georgian Bread Shaping Instructions",
    "lang": "georgian",
    "desc": "This handwritten note outlines the manual techniques for shaping traditional Georgian dough, likely ",
@@ -101,17 +101,17 @@
    "photo": true,
    "slug": "traditional-georgian-bread-shaping-instructions",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1170",
    "section": "Breads & Doughs",
-   "num": 8,
+   "num": 17,
    "title": "Khachapuri Recipe by Gia Agirba",
    "lang": "georgian",
    "desc": "Imeretian Khachapuri is a cornerstone of Georgian culinary tradition, celebrated for its perfect bal",
@@ -119,17 +119,17 @@
    "photo": true,
    "slug": "khachapuri-recipe-by-gia-agirba",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1180",
    "section": "Breads & Doughs",
-   "num": 9,
+   "num": 6,
    "title": "Vareniki Dough (Dumpling Dough)",
    "lang": "georgian",
    "desc": "This recipe utilizes the \"scalded dough\" technique, a staple of Eastern European culinary tradition.",
@@ -137,17 +137,17 @@
    "photo": true,
    "slug": "vareniki-dough-dumpling-dough",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1184",
    "section": "Breads & Doughs",
-   "num": 10,
+   "num": 11,
    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
    "lang": "georgian",
    "desc": "This traditional recipe utilizes the \"scalded\" (zavarnoy) method, where boiling water is poured over",
@@ -160,12 +160,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1186",
    "section": "Breads & Doughs",
-   "num": 11,
+   "num": 8,
    "title": "Kefir Pancakes (Blini) with Baking Soda",
    "lang": "georgian",
    "desc": "These Eastern European pancakes utilize the chemical reaction between acidic kefir (or Matsoni, a tr",
@@ -173,17 +173,17 @@
    "photo": true,
    "slug": "kefir-pancakes-blini-with-baking-soda",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1195",
    "section": "Breads & Doughs",
-   "num": 14,
+   "num": 18,
    "title": "Adjarian Khachapuri",
    "lang": "georgian",
    "desc": "This recipe details the preparation of a traditional Georgian Khachapuri, a staple cheese-filled bre",
@@ -191,17 +191,17 @@
    "photo": true,
    "slug": "adjarian-khachapuri",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1198",
    "section": "Breads & Doughs",
-   "num": 15,
+   "num": 5,
    "title": "Vareniki with Boiling Water Dough",
    "lang": "georgian",
    "desc": "This recipe utilizes the \"choux\" pastry technique, where boiling water is used to partially gelatini",
@@ -214,12 +214,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1233",
    "section": "Breads & Doughs",
-   "num": 18,
+   "num": 9,
    "title": "Scalded Crepes (Zavarnyye Blini)",
    "lang": "georgian",
    "desc": "This traditional Russian recipe uses the \"zavarnoye\" (scalded) technique, where boiling water is whi",
@@ -232,12 +232,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1236",
    "section": "Breads & Doughs",
-   "num": 19,
+   "num": 13,
    "title": "Oven-Baked Brioches",
    "lang": "georgian",
    "desc": "This recipe utilizes a traditional \"starter\" (preferment) method, which is the secret to achieving a",
@@ -245,21 +245,21 @@
    "photo": true,
    "slug": "oven-baked-brioches",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1237",
    "section": "Breads & Doughs",
-   "num": 20,
-   "title": "Puff Pastry",
+   "num": 15,
+   "title": "Puff Pastry and Layered Pirog",
    "lang": "georgian",
-   "desc": "This recipe describes a \"rough puff\" or flaky pastry dough where the key to success is maintaining t",
-   "scans": 1,
+   "desc": "Four pages of Zeinab's notebook teach one thing end to end: a rough puff pastry, the folding that la",
+   "scans": 4,
    "photo": true,
    "slug": "puff-pastry",
    "scribe": "Zeinab",
@@ -268,66 +268,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
-  },
-  {
-   "id": "IMG_1238",
-   "section": "Breads & Doughs",
-   "num": 21,
-   "title": "Flaky Pastry Folding Instructions - 2nd page",
-   "lang": "georgian",
-   "desc": "This manual method for laminating dough creates the classic \"puff\" effect through mechanical layerin",
-   "scans": 1,
-   "photo": false,
-   "slug": "flaky-pastry-folding-instructions-2nd-page",
-   "scribe": "Zeinab",
-   "scribe_conf": 9,
-   "new_section": "",
-   "new_order": "",
-   "cut": false,
-   "notes": "",
-   "status": ""
-  },
-  {
-   "id": "IMG_1239",
-   "section": "Breads & Doughs",
-   "num": 22,
-   "title": "Russian Layered Savory Pie (Pirog) - 3rd page",
-   "lang": "georgian",
-   "desc": "This recipe describes a traditional Russian \"Pirog,\" a multi-layered savory pastry that combines hea",
-   "scans": 1,
-   "photo": true,
-   "slug": "russian-layered-savory-pie-pirog-3rd-page",
-   "scribe": "Zeinab",
-   "scribe_conf": 9,
-   "new_section": "",
-   "new_order": "",
-   "cut": false,
-   "notes": "",
-   "status": ""
-  },
-  {
-   "id": "IMG_1240",
-   "section": "Breads & Doughs",
-   "num": 23,
-   "title": "Puff Pastry Dough Pie - page 4",
-   "lang": "georgian",
-   "desc": "This traditional recipe emphasizes a specific baking technique where starting with a cold oven is es",
-   "scans": 1,
-   "photo": false,
-   "slug": "puff-pastry-dough-pie-page-4",
-   "scribe": "Zeinab",
-   "scribe_conf": 9,
-   "new_section": "",
-   "new_order": "",
-   "cut": false,
-   "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1242",
    "section": "Breads & Doughs",
-   "num": 24,
+   "num": 1,
    "title": "Zeinab's Khachapuri",
    "lang": "georgian",
    "desc": "Khachapuri is a staple of Georgian cuisine, representing a diverse family of cheese-filled breads. T",
@@ -340,12 +286,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1243",
    "section": "Breads & Doughs",
-   "num": 25,
+   "num": 10,
    "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
    "lang": "georgian",
    "desc": "This versatile yeast dough is a staple of Eastern European and Caucasian baking, specifically formul",
@@ -353,17 +299,17 @@
    "photo": true,
    "slug": "yeast-dough-for-khachapuri-pies-and-pirozhki",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1256",
    "section": "Breads & Doughs",
-   "num": 27,
+   "num": 20,
    "title": "Adjarian Khachapuri",
    "lang": "georgian",
    "desc": "Adjarian Khachapuri is a signature boat-shaped Georgian bread traditionally filled with a mixture of",
@@ -376,12 +322,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1266",
    "section": "Breads & Doughs",
-   "num": 28,
+   "num": 19,
    "title": "Adjarian Khachapuri",
    "lang": "georgian",
    "desc": "Khachapuri is Georgia's quintessential cheese bread, a staple of national identity where the interpl",
@@ -389,17 +335,17 @@
    "photo": true,
    "slug": "adjarian-khachapuri-3",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1269",
    "section": "Breads & Doughs",
-   "num": 30,
+   "num": 12,
    "title": "Pirozhki with Kefir",
    "lang": "georgian",
    "desc": "This quick dough recipe utilizes the lactic acid in kefir to help the yeast activate rapidly, creati",
@@ -412,12 +358,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1227",
    "section": "Soups & Stews",
-   "num": 1,
+   "num": 4,
    "title": "Beef Bourguignon",
    "lang": "english",
    "desc": "Ina Garten's Barefoot Contessa take on the Burgundian classic: chuck beef seared with bacon, flamed ",
@@ -430,12 +376,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1228",
    "section": "Soups & Stews",
-   "num": 2,
+   "num": 1,
    "title": "Old-Fashioned Beef Stew",
    "lang": "english",
    "desc": "Molly O'Neill's classic stick-to-your-ribs beef stew from NYT Cooking, with the wine and broth lines",
@@ -448,7 +394,7 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1285",
@@ -466,12 +412,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1293",
    "section": "Soups & Stews",
-   "num": 4,
+   "num": 2,
    "title": "Old-Time Beef Stew",
    "lang": "english",
    "desc": "Paula Deen's Food Network beef stew, well used and food-stained, with handwritten doubling notes in ",
@@ -484,7 +430,7 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1294",
@@ -502,12 +448,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1205",
    "section": "Mains",
-   "num": 1,
+   "num": 28,
    "title": "Homemade Merguez Sausage",
    "lang": "english",
    "desc": "Merguez is a North African lamb sausage seasoned with toasted whole spices and harissa, stuffed into",
@@ -520,12 +466,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1207",
    "section": "Mains",
-   "num": 2,
+   "num": 17,
    "title": "Shakshuka With Feta",
    "lang": "english",
    "desc": "Eggs baked in a spiced tomato and red pepper sauce, finished with crumbled feta that softens into cr",
@@ -538,12 +484,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1210",
    "section": "Mains",
-   "num": 3,
+   "num": 11,
    "title": "Cashew Nut Loaf",
    "lang": "english",
    "desc": "A vegetarian nut loaf from a mid-century community cookbook page (page 43, \"Entrees,\" attributed to ",
@@ -556,12 +502,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1213",
    "section": "Mains",
-   "num": 4,
+   "num": 6,
    "title": "Whole Chicken Crock Pot",
    "lang": "english",
    "desc": "A spice-rubbed whole chicken cooked slowly in a crock pot with no added liquid; the chicken makes it",
@@ -574,12 +520,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1214",
    "section": "Mains",
-   "num": 5,
+   "num": 8,
    "title": "Turkey Meatloaf",
    "lang": "english",
    "desc": "A straightforward ground turkey meatloaf with sauteed onion and garlic and a catsup glaze. Printed f",
@@ -592,12 +538,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1216",
    "section": "Mains",
-   "num": 6,
+   "num": 9,
    "title": "Turkey and Quinoa Meatloaf",
    "lang": "english",
    "desc": "A turkey meatloaf where cooked quinoa stands in for breadcrumbs, topped with a brown sugar and Worce",
@@ -610,12 +556,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1217",
    "section": "Mains",
-   "num": 7,
+   "num": 26,
    "title": "Apple Cider Braised Pork Shoulder",
    "lang": "english",
    "desc": "Pork shoulder braised low and slow in fresh apple cider, chicken stock, and dijon with a whole garli",
@@ -628,12 +574,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1221",
    "section": "Mains",
-   "num": 8,
+   "num": 21,
    "title": "Skillet Chicken Bulgogi",
    "lang": "english",
    "desc": "A quick Korean-style bulgogi made with chicken breast strips in a soy, brown sugar, garlic, and sesa",
@@ -646,12 +592,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1222",
    "section": "Mains",
-   "num": 9,
+   "num": 18,
    "title": "Fresh Huevos Rancheros",
    "lang": "english",
    "desc": "A vegetarian Mexican breakfast of fried eggs on tortillas spread with quick refried beans, topped wi",
@@ -664,12 +610,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1229",
    "section": "Mains",
-   "num": 10,
+   "num": 4,
    "title": "Company Pot Roast",
    "lang": "english",
    "desc": "Ina Garten's Barefoot Contessa pot roast: a seared chuck roast braised with mirepoix, leeks, red win",
@@ -682,12 +628,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1273",
    "section": "Mains",
-   "num": 11,
+   "num": 16,
    "title": "Croque-Madame",
    "lang": "english",
    "desc": "A NYT Cooking printout of the classic French griddled ham and Gruyère sandwich with béchamel, topped",
@@ -700,12 +646,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1279",
    "section": "Mains",
-   "num": 13,
+   "num": 22,
    "title": "Baked Salmon with Dill Garlic Beurre Blanc",
    "lang": "english",
    "desc": "A Recipe4Living printout for oven-baked salmon fillets with a quick beurre blanc built on a white wi",
@@ -718,7 +664,7 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1280",
@@ -736,12 +682,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1282",
    "section": "Mains",
-   "num": 15,
+   "num": 27,
    "title": "Slow-Roasted Crispy Pork Belly",
    "lang": "english",
    "desc": "Nagi's RecipeTin Eats method for pork belly slow-roasted in a foil \"box\" so it confits in its own fa",
@@ -754,12 +700,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1287",
    "section": "Mains",
-   "num": 16,
+   "num": 2,
    "title": "Perfect Roast Chicken",
    "lang": "english",
    "desc": "Ina Garten's Barefoot Contessa roast chicken from Food Network: a whole bird stuffed with thyme, lem",
@@ -772,12 +718,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1288",
    "section": "Mains",
-   "num": 17,
+   "num": 24,
    "title": "Garlic Braised Short Ribs With Red Wine",
    "lang": "english",
    "desc": "Alison Roman's NYT Cooking braise: bone-in short ribs seared, then oven-braised low and slow with tw",
@@ -790,12 +736,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1291",
    "section": "Mains",
-   "num": 18,
+   "num": 15,
    "title": "Tuscan Farmers Breakfast",
    "lang": "english",
    "desc": "Sylvia Fountaine's Feasting At Home skillet of cannellini beans simmered with tomatoes and herbs, wi",
@@ -808,12 +754,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1295",
    "section": "Mains",
-   "num": 19,
+   "num": 12,
    "title": "Chicken, Rice, and Spices Bake",
    "lang": "english",
    "desc": "A Food.com potluck favorite: browned chicken thighs baked over basmati rice with turmeric, cumin, cu",
@@ -826,12 +772,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1297",
    "section": "Mains",
-   "num": 20,
+   "num": 29,
    "title": "Crispy Pork and Watermelon Salad",
    "lang": "english",
    "desc": "Zak Pelaccio's signature dish from his Fatty Crab restaurants, printed from Serious Eats (from the b",
@@ -844,12 +790,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1162",
    "section": "Mains",
-   "num": 21,
+   "num": 7,
    "title": "Lyudmila's Beef Stroganoff",
    "lang": "georgian",
    "desc": "Lyudmila’s Beef Stroganoff reflects the historic culinary exchange between Russian and Georgian trad",
@@ -857,17 +803,17 @@
    "photo": true,
    "slug": "lyudmilas-beef-stroganoff",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1178",
    "section": "Mains",
-   "num": 22,
+   "num": 5,
    "title": "Rusiko's Cutlets",
    "lang": "georgian",
    "desc": "These Georgian-style meat cutlets, known as kotleti, are a beloved staple of Caucasian home cooking.",
@@ -875,17 +821,17 @@
    "photo": true,
    "slug": "rusikos-cutlets",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1181",
    "section": "Mains",
-   "num": 23,
+   "num": 10,
    "title": "Camca - Sumsa",
    "lang": "georgian",
    "desc": "Samsa is a staple savory pastry of Central Asian cuisine, traditionally baked in a tandoor but adapt",
@@ -893,17 +839,17 @@
    "photo": true,
    "slug": "camca-sumsa",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1185",
    "section": "Mains",
-   "num": 24,
+   "num": 3,
    "title": "Ami's Khinkali",
    "lang": "georgian",
    "desc": "Khinkali are the iconic soup dumplings of Georgia, traditionally filled with raw spiced meat that re",
@@ -911,17 +857,17 @@
    "photo": true,
    "slug": "amis-khinkali",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1200",
    "section": "Mains",
-   "num": 25,
+   "num": 19,
    "title": "New Seasons Market Cheesy Chilaquiles Casserole",
    "lang": "georgian",
    "desc": "This casserole version of the traditional Mexican breakfast dish relies on the corn tortillas to abs",
@@ -929,17 +875,17 @@
    "photo": true,
    "slug": "new-seasons-market-cheesy-chilaquiles-casserole",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1201",
    "section": "Mains",
-   "num": 26,
+   "num": 20,
    "title": "Vegetable Enchilada Casserole",
    "lang": "georgian",
    "desc": "This dish is a hearty vegetarian take on traditional enchiladas, layering classic Tex-Mex flavors in",
@@ -947,17 +893,17 @@
    "photo": true,
    "slug": "vegetable-enchilada-casserole",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1248",
    "section": "Mains",
-   "num": 27,
+   "num": 1,
    "title": "Satsivi for One Large Turkey",
    "lang": "georgian",
    "desc": "Satsivi is the crown jewel of Georgian festive cuisine, traditionally served cold during Christmas a",
@@ -965,17 +911,17 @@
    "photo": true,
    "slug": "satsivi-for-one-large-turkey",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1250",
    "section": "Mains",
-   "num": 28,
+   "num": 25,
    "title": "Beef Eggplant / Bell Pepper Boat (Khortsia Tsomshi)",
    "lang": "georgian",
    "desc": "This traditional Georgian preparation transforms tender parboiled meat into a decorative centerpiece",
@@ -983,17 +929,17 @@
    "photo": true,
    "slug": "beef-eggplant-bell-pepper-boat-khortsia-tsomshi",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1253",
    "section": "Mains",
-   "num": 29,
+   "num": 13,
    "title": "Achma-Makarina",
    "lang": "georgian",
    "desc": "This traditional Georgian recipe utilizes a high egg count and a \"feel-based\" flour measurement to c",
@@ -1001,17 +947,17 @@
    "photo": true,
    "slug": "achma-makarina",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1254",
    "section": "Mains",
-   "num": 30,
+   "num": 23,
    "title": "American Kebab",
    "lang": "georgian",
    "desc": "This recipe blends traditional kebab preparation with Western-style extra-lean beef and a specific a",
@@ -1019,17 +965,17 @@
    "photo": true,
    "slug": "american-kebab",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1215",
    "section": "Sides & Salads",
-   "num": 1,
+   "num": 3,
    "title": "Holiday Chicken Salad",
    "lang": "english",
    "desc": "A chicken salad brightened with dried cranberries, celery, green onion, and pecans in a paprika-seas",
@@ -1042,12 +988,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1281",
    "section": "Sides & Salads",
-   "num": 2,
+   "num": 4,
    "title": "Greek Broccoli Pasta Salad",
    "lang": "english",
    "desc": "Fusilli tossed with blanched broccoli, cherry tomatoes, bell pepper, red onion, kalamata olives, and",
@@ -1060,16 +1006,16 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1246",
    "section": "Sides & Salads",
-   "num": 3,
+   "num": 1,
    "title": "Christmas Salad",
    "lang": "georgian",
    "desc": "This hearty Slavic holiday salad features a classic combination of sautéed mushrooms, onions, and bo",
-   "scans": 0,
+   "scans": 2,
    "photo": true,
    "slug": "christmas-salad",
    "scribe": "Zeinab",
@@ -1078,16 +1024,16 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1247",
    "section": "Sides & Salads",
-   "num": 4,
+   "num": 2,
    "title": "Chicken Salad",
    "lang": "georgian",
    "desc": "A five-line notebook salad of shredded red radish and boiled chicken, bound with mayonnaise and swee",
-   "scans": 0,
+   "scans": 1,
    "photo": true,
    "slug": "chicken-salad",
    "scribe": "Zeinab",
@@ -1096,12 +1042,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1176",
    "section": "Preserves & Sauces",
-   "num": 1,
+   "num": 2,
    "title": "Bazhe (Georgian Walnut Sauce)",
    "lang": "georgian",
    "desc": "Bazhe is a cornerstone of Georgian celebratory cuisine, prized for its rich, velvety texture and the",
@@ -1109,17 +1055,17 @@
    "photo": false,
    "slug": "bazhe-georgian-walnut-sauce",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1257",
    "section": "Preserves & Sauces",
-   "num": 2,
+   "num": 1,
    "title": "Red Tkemali (Plum Sauce)",
    "lang": "georgian",
    "desc": "Red Tkemali is a quintessential Georgian condiment made from tart cherry plums, serving as a vibrant",
@@ -1127,12 +1073,12 @@
    "photo": true,
    "slug": "red-tkemali-plum-sauce",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1264",
@@ -1145,12 +1091,12 @@
    "photo": true,
    "slug": "ajika",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1270",
@@ -1163,17 +1109,17 @@
    "photo": true,
    "slug": "marinated-bell-peppers",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1272",
    "section": "Desserts & Sweets",
-   "num": 1,
+   "num": 7,
    "title": "Indian Pudding",
    "lang": "english",
    "desc": "A classic New England baked cornmeal and molasses pudding, slow-baked for hours and served chilled w",
@@ -1186,12 +1132,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1175",
    "section": "Desserts & Sweets",
-   "num": 2,
+   "num": 1,
    "title": "Zeinab's Shu",
    "lang": "georgian",
    "desc": "Shu is the Georgian take on French choux pastry. Light, hollow puffs filled with a rich milk-and-flo",
@@ -1199,17 +1145,17 @@
    "photo": true,
    "slug": "zeinabs-shu",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1190",
    "section": "Desserts & Sweets",
-   "num": 3,
+   "num": 6,
    "title": "Czech Baklava",
    "lang": "georgian",
    "desc": "This traditional Georgian pastry, known as \"Khrashuna Namtskhvari\" (Crunchy Cake), relies on the rea",
@@ -1217,17 +1163,17 @@
    "photo": true,
    "slug": "czech-baklava",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1199",
    "section": "Desserts & Sweets",
-   "num": 4,
+   "num": 2,
    "title": "Soft Ginger Cookies",
    "lang": "georgian",
    "desc": "These cookies achieve their signature soft and chewy texture through the combination of molasses and",
@@ -1235,17 +1181,17 @@
    "photo": true,
    "slug": "soft-ginger-cookies",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1252",
    "section": "Desserts & Sweets",
-   "num": 6,
+   "num": 8,
    "title": "Gozinaki Proportions",
    "lang": "georgian",
    "desc": "Gozinaki is a traditional Georgian New Year's confection made of walnuts and honey. Its success depe",
@@ -1253,17 +1199,17 @@
    "photo": true,
    "slug": "gozinaki-proportions",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1258",
    "section": "Desserts & Sweets",
-   "num": 7,
+   "num": 3,
    "title": "Ideal Cake (Ideali)",
    "lang": "georgian",
    "desc": "This Georgian \"Ideali\" cake is a nostalgic walnut staple, prized for its deep caramelized flavor and",
@@ -1271,17 +1217,17 @@
    "photo": false,
    "slug": "ideal-cake-ideali",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1259",
    "section": "Desserts & Sweets",
-   "num": 8,
+   "num": 5,
    "title": "'\"Eskimo\" Cake'",
    "lang": "georgian",
    "desc": "\"Eskimo\" cake is a beloved nostalgic dessert in Georgian cuisine, named for its resemblance to the c",
@@ -1289,17 +1235,17 @@
    "photo": false,
    "slug": "eskimo-cake",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1261",
    "section": "Desserts & Sweets",
-   "num": 9,
+   "num": 4,
    "title": "Apple Layered Strudel",
    "lang": "georgian",
    "desc": "These recipes represent quintessential Georgian home baking, focusing on rich, dairy-based doughs an",
@@ -1307,17 +1253,17 @@
    "photo": true,
    "slug": "apple-layered-strudel",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1262",
    "section": "Desserts & Sweets",
-   "num": 10,
+   "num": 9,
    "title": "Easter Paska/Kulich",
    "lang": "georgian",
    "desc": "",
@@ -1325,12 +1271,12 @@
    "photo": true,
    "slug": "easter-paska-kulich",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1204",
@@ -1348,12 +1294,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1219",
    "section": "Pantry",
-   "num": 2,
+   "num": 4,
    "title": "Lucky and Rippy's Favorite Dog Food",
    "lang": "english",
    "desc": "A homemade boiled chicken-and-rice dog food, kept in the archive for the family dogs. Printed from A",
@@ -1366,7 +1312,7 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1231",
@@ -1384,12 +1330,12 @@
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   },
   {
    "id": "IMG_1235",
    "section": "Pantry",
-   "num": 4,
+   "num": 2,
    "title": "Baking Ingredient Weight to Cup Conversions",
    "lang": "georgian",
    "desc": "This conversion guide reflects standard measurements used in Georgian baking, where a typical \"cup\" ",
@@ -1397,12 +1343,12 @@
    "photo": false,
    "slug": "baking-ingredient-weight-to-cup-conversions",
    "scribe": "",
-   "scribe_conf": "",
+   "scribe_conf": 0,
    "new_section": "",
    "new_order": "",
    "cut": false,
    "notes": "",
-   "status": ""
+   "status": "ordered by panel"
   }
  ],
  "merges": [

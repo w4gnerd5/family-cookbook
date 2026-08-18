@@ -57,8 +57,7 @@ the original recipe cards are family material.
 - **Vegetable Enchilada Casserole** — photo by Pequeño mar, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Enchiladas_en_salsa_verde.jpg)
 - **Scalded Crepes (Zavarnyye Blini)** — photo by David Monniaux, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Crepes_dsc07085.jpg)
 - **Oven-Baked Brioches** — photo by Fitzhenrymort, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Brioche_buns.jpg)
-- **Puff Pastry** — photo by Lablascovegmenu, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Pastelitos_de_hojaldre_con_puerro_y_tofu_-_Vegan_leek_and_tofu_puff_pastry_%285592619766%29.jpg)
-- **Russian Layered Savory Pie (Pirog) - 3rd page** — photo by A.Savin, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Russian_Coulibiac_with_Cabbage.jpg)
+- **Puff Pastry and Layered Pirog** — photo by A.Savin, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Russian_Coulibiac_with_Cabbage.jpg)
 - **Zeinab's Khachapuri** — photo by Ser Amantio di Nicolao, CC0 (https://commons.wikimedia.org/wiki/File:Large_khachapuri_on_a_dish_at_Little_Georgia_restaurant.jpg)
 - **Yeast Dough for Khachapuri, Pies, and Pirozhki** — photo by Ruth Hartnup, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Knocking_back_bread_dough_%2816006562543%29.jpg)
 - **Christmas Salad** — photo by Pannet, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Салат_Оливье_03.jpg)
@@ -77,4 +76,4 @@ the original recipe cards are family material.
 - **Pirozhki with Kefir** — photo by Miha Ulanov, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Pirozhki.jpg)
 - **Marinated Bell Peppers** — photo by paperfacets, CC BY 2.0 (https://www.flickr.com/photos/29412979@N06/5405362230)
 
-72 recipes with sourced photos; 15 awaiting photos.
+71 recipes with sourced photos; 16 awaiting photos.

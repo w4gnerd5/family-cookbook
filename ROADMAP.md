@@ -5,16 +5,21 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 
 ## 1. Content QC (blocks print)
 
-- [ ] **Curate recipe order within each section.** Current order is accession order
-  (English tree first, then Georgian, by scan number). Numbers renumber ONCE after
-  curation, then freeze forever (they go in print, the ToC, and footers).
-- [ ] Fix the two structural gaps: `choux-pastry-shu` (ingredients/instructions
-  did not parse), `easter-paska-kulich` (no description)
+- [x] **Curate recipe order within each section.** Done by adversarial panel
+  (cook / editor / archivist lenses, cross-critique, synthesis). Numbers are now
+  FROZEN — they appear in print, the ToC, and footers.
+- [ ] Proof pass on the new order: fix any two adjacent versos that look alike
+  (order was built from ingredient/step/scan proxies, not rendered spreads)
+- [x] Structural gaps fixed (shu parses; 1237 series rejoined into one recipe)
+- [ ] `easter-paska-kulich` still has no description
 - [ ] QC English transcriptions against scans (35 recipes; spot-check at minimum)
 - [ ] Spot-check Georgian translations against scans
 - [ ] Resolve flagged section calls: Beef Bourguignon (Soups vs Mains),
   Paska (Desserts vs Breads), the 1237 puff-pastry series
-- [ ] Decide the fate of the four beef stews and two no-knead breads (keep all?)
+- [x] Duplicate hunt complete (M1-M7): 87 printed entries -> 75, nothing lost
+- [ ] Cross-reference lines in notes, now that numbers exist: sibling pointers
+  (khachapuri recordings, the four beef stews), dependency pointers (pirozhki ->
+  yeast dough, bazhe -> satsivi, gram-measured Georgian recipes -> conversions)
 - [x] Slugs: apostrophes collapse (zeinabs, not zeinab-s); slugify fixed, all regenerated once
 - [x] Duplicates atticed, meta notes out of printable prose, em dashes swept
 
@@ -60,7 +65,11 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [ ] Title page and half-title
 - [ ] Table of contents: sections in order, recipes by number (hymnal model)
 - [ ] Section divider pages (tab-ready for the binder)
-- [ ] Colophon: credits, the one QR code to the site, image disclosure
+- [ ] Colophon: credits, the one QR code to the site, image disclosure, and a
+  paragraph stating how the book is ordered (an order this deliberate is
+  invisible unless stated)
+- [ ] Dedication page: Zeinab's Georgian note from IMG_1241, facing the colophon
+- [ ] Scribe index at the back: follow one hand end to end
 - [ ] Decide: cluster-language or keep interleaved sections (decided: interleaved)
 
 
@@ -82,4 +91,7 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
   density, and gradient-scrim banding (include an inverse verso in the test set)
 - [ ] Custom domain decision for the printed QR (github.io URL is tied to the
   username; a CNAME future-proofs printed links)
+- [ ] Decide how inserts are numbered: a ring binder invites added sheets, but
+  per-section numbers are frozen and variants sit in adjacency blocks, so a
+  khachapuri added later cannot join its block without a suffix scheme
 

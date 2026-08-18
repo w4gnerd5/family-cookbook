@@ -20,3 +20,8 @@ the print or web builds.
   canonical is assets/georgian/1184 (1267's card and dish photo adopted there)
 - georgian/1232 — duplicate sticky note of the zavarnye blini; canonical is
   assets/georgian/1233 (its card renders there)
+- georgian/1237-split/ — the .md files for pages 2-4 of Zeinab's puff-pastry
+  lesson, which a page-per-scan import had turned into three separate recipes
+  titled "2nd page", "3rd page" and "page 4". Rejoined into the single recipe
+  assets/georgian/1237 (all four scans render there); these files are kept only
+  as a record of the split. Also the unused first-choice dish photo.
