@@ -50,7 +50,7 @@ the original recipe cards are family material.
 - **Ami's Khinkali** — photo by Sandra C from Canada, CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:Khinkali,_Restaurant_Aragvi.jpg)
 - **Kefir Pancakes (Blini) with Baking Soda** — photo by Ninaras, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Russian_blini.jpg)
 - **Czech Baklava** — photo by Chitrapa, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Baklava_displayed_on_a_white_plate.jpg)
-- **Adjarian Khachapuri** — photo by Eugene Krasnaok, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Khachapuri_Adjaruli_with_egg_and_butter_2016.jpg)
+- **Adjarian|Khachapuri** — photo by Eugene Krasnaok, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Khachapuri_Adjaruli_with_egg_and_butter_2016.jpg)
 - **Vareniki with Boiling Water Dough** — photo by Maksym Kozlenko, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:2019-07-06_Pierogi_z_wi%C5%9Bniami.jpg)
 - **Soft Ginger Cookies** — photo by Editor at Large, CC BY-SA 2.5 (https://commons.wikimedia.org/wiki/File:Round_gingersnaps.jpg)
 - **New Seasons Market Cheesy Chilaquiles Casserole** — photo by Carlos t, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Chilaquiles_Rojos.JPG)

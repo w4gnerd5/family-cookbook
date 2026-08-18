@@ -42,11 +42,13 @@ def main():
     for group, kv in t.items():
         for k, v in kv.items():
             unit = ""
-            if group == "size" or (group == "space" and k != "tracking"):
+            pct = group == "card" and k.startswith("title_col")
+            if (group in ("size", "card") and not pct) or (group == "space" and k != "tracking"):
                 unit = "pt"
             if group == "label" and k == "tracking":
                 unit = "em"
-            lines.append(f"#let {group}-{k.replace('_', '-')} = {typ_value(v)}{unit}")
+            val = f"{v}%" if pct else f"{typ_value(v)}{unit}"
+            lines.append(f"#let {group}-{k.replace('_', '-')} = {val}")
     (ROOT / "print").mkdir(exist_ok=True)
     (ROOT / "print" / "tokens.typ").write_text("\n".join(lines) + "\n")
 
@@ -58,7 +60,9 @@ def main():
                 v = f"'{v}'"
             elif group == "size":
                 v = f"{v / 12:.3f}rem"  # 12pt print body ~ 1rem web
-            elif group == "space" and k != "tracking":
+            elif group == "card" and str(k).startswith("title_col"):
+                v = f"{v}%"
+            elif group == "card" or (group == "space" and k != "tracking"):
                 v = f"{v}pt"
             elif group == "label" and k == "tracking":
                 v = f"{v}em"

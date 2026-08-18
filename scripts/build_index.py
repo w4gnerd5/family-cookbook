@@ -44,7 +44,7 @@ def main():
             continue
         rows.append({
             "filename": str(path.relative_to(ROOT)),
-            "title": fm.get("title", ""),
+            "title": re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip(),
             "language": fm.get("language", ""),
             "section": fm.get("section", ""),
             "number": fm.get("number", ""),

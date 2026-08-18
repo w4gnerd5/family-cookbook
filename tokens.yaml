@@ -29,5 +29,17 @@ space:
   block: 12
   label_gap: 5
 
+card:
+  cap: 330                     # pt; max card width on the band verso
+  ref: 385                     # pt; height reference (cap applies to tall scans)
+  gutter_intrude: 30           # pt a card may reach into the gutter; punch holes
+                               #   span ~9-15mm from the bound edge, so 30pt is
+                               #   still clear of them
+  snapshot_3: 275              # pt; card width when 3 scans scatter
+  snapshot_4: 230              # pt; 4 or more
+  title_col: 44                # % of page width for the verso title block; the
+                               #   card's left edge must clear this
+  title_col_snapshot: 58       # % on snapshot versos (cards sit higher there)
+
 label:
   tracking: 0.14               # em, uppercase label letterspacing

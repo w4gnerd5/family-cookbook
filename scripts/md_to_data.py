@@ -106,7 +106,11 @@ def parse_md(path):
     return {
         "file": str(path.relative_to(ROOT)),
         "scans": scans,
-        "title": fm.get("title", ""),
+        # A `|` in the title is a print-only break hint: it wraps the title at a
+        # chosen point on the verso. Every other consumer (index, ToC, web, see_also)
+        # gets the clean title.
+        "title": re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip(),
+        "title_print": fm.get("title", "").strip(),
         "language": fm.get("language", ""),
         "section": fm.get("section", ""),
         "batch": fm.get("batch", ""),

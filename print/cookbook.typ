@@ -48,7 +48,9 @@
   let inv = r.at("inverse", default: false)
   label-text(r.section, fill: if inv { white } else { color-accent })
   v(space-label-gap)
-  text(size: size-title, fill: if inv { white } else { color-ink }, r.title)
+  // `|` in the frontmatter title forces the wrap here rather than wherever it lands
+  text(size: size-title, fill: if inv { white } else { color-ink },
+    r.at("title_print", default: r.title).split("|").map(s => s.trim()).join(linebreak()))
   v(space-label-gap)
   text(size: size-description, style: "italic",
     fill: if inv { rgb(255, 255, 255, 88%) } else { color-muted }, md(r.description))
@@ -63,14 +65,18 @@
     place(top + left, rect(width: 100%, height: 62%, fill: color-field))
   }
   place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
-    block(width: 50% - M, title-block(r)))
+    block(width: card-title-col - M, title-block(r)))
   // 2 scans stack as a deck (underneath card peeks out) so the title zone stays clear;
   // verso is bound on its right edge: keep cards clear of the punch strip
   for e in r.scans {
     let k = e.slot             // layout slot = reading position; array order = stacking
-    // tall scans are height-capped so the deck can't crash into the title block
-    let w = calc.min(290pt, 340pt * e.aspect)
-    place(top + right, dx: -(B + G) - k * 48pt + e.dx * 1pt, dy: 62% - 215pt + k * 30pt + e.dy * 1pt,
+    // tall scans are height-capped so the deck can't crash into the title block.
+    // Cards may reach card-gutter-intrude into the gutter: the punch holes sit
+    // ~9-15mm from the bound edge, so this stays clear of them.
+    let w = calc.min(card-cap, card-ref * e.aspect)
+    place(top + right,
+      dx: -(B + G - card-gutter-intrude) - k * 48pt + e.dx * 1pt,
+      dy: 62% - 215pt + k * 30pt + e.dy * 1pt,
       card(e, w))
   }
 }
@@ -89,7 +95,7 @@
     place(top + left, rect(width: 100%, height: 100%, fill: color-field))
   }
   let n = r.scans.len()
-  let w = if n == 3 { 245pt } else { 205pt }
+  let w = if n == 3 { card-snapshot-3 } else { card-snapshot-4 }
   for e in r.scans {
     let k = e.slot             // layout slot = reading position; array order = stacking
     let col = calc.rem(k, 2)
@@ -101,7 +107,7 @@
       card(e, w))
   }
   place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
-    block(width: 60% - M, title-block(r)))
+    block(width: card-title-col-snapshot - M, title-block(r)))
 }
 
 #let verso(r) = {

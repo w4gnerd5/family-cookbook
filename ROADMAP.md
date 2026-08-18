@@ -34,10 +34,13 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 
 ## 2. Typography and layout
 
-- [ ] Raise the default card size on the verso (current default reads small)
-- [ ] Art-direction pass over all 87 versos using the scans schema
-  (`scale` / `tilt` / `z` / `hide`); satsivi wants `scale`, pork-and-watermelon's
-  blank page 4 wants `hide`
+- [x] Default card size raised to 330pt cap (from 290). Cards may reach 30pt into
+  the gutter, clear of the punch holes; title column narrowed to 44% so the
+  default clears long titles
+- [ ] Art-direction pass over all 75 versos: `scale` / `tilt` / `z` / `dx` / `dy`
+  on scans, `|` in the title to force a safe wrap. Expect many to need a nudge
+  up or right at 330pt; multi-card versos are the fiddly ones. Satsivi wants
+  `scale`; pork-and-watermelon's blank page 4 wants `hide`
 - [ ] Tune the 3+ scan snapshot composition (gap between card cluster and title)
 - [ ] Full seam pass over all 177 pages: widows, orphans, stranded subheads,
   long-recipe spillover

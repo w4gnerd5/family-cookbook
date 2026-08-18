@@ -43,7 +43,8 @@ The authoritative recipe list is `RECIPES.md` — do not maintain a duplicate ta
 
 ```yaml
 ---
-title: Dumpling Dough with Boiling Water
+title: Dumpling Dough with|Boiling Water   # `|` = print-only line break in the verso
+                                          #   title; stripped everywhere else
 slug: dumpling-dough-with-boiling-water    # FROZEN identity: printed footer, QR, web URL
 language: georgian        # georgian | english
 scribe: Zeinab            # optional; who wrote the scan ("printed" for printouts)
@@ -70,6 +71,11 @@ see_also:                 # optional; cross-references BY SLUG, resolved at buil
     note: same technique, more egg
 ---
 ```
+
+**Verso card sizing** lives in `tokens.yaml` under `card:` — `cap`/`ref` size the band-layout
+cards, `gutter_intrude` lets a card reach into the gutter (the punch holes sit ~9-15mm from the
+bound edge, so 30pt stays clear of them), `title_col` sets the title column width the card must
+not overlap. Per-recipe exceptions use `scale`/`dx`/`dy` on the scan and `|` in the title.
 
 **Numbering (hymnal model):** recipes are numbered per section, not through the volume, so a
 sheet added to the ring binder never renumbers the book. `SECTION · N` is the finding aid printed
