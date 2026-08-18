@@ -43,8 +43,10 @@
 
 #let md(s) = eval(s, mode: "markup")
 
-// sticky = a label never strands at a page foot; it travels with its content
-#let subhead(content) = block(above: space-block, below: space-label-gap, sticky: true, label-text(content))
+// sticky = a label never strands at a page foot; it travels with its content.
+// Subheads get double the base block space above; below stays tight so the
+// label hugs its own content.
+#let subhead(content) = block(above: space-block * 2, below: space-label-gap, sticky: true, label-text(content))
 
 // scans arrive from md_to_data in render order (first = bottom of the stack),
 // each with path/scale/tilt resolved; tilt defaults are seeded per scan
@@ -134,7 +136,7 @@
 
 // ---------- recto ----------
 #let ing-item(it) = if type(it) == dictionary {
-  block(above: space-block * 0.7, below: 3pt, text(weight: "bold", size: size-small, it.group + ":"))
+  block(above: space-block * 0.7, below: 3pt, sticky: true, text(weight: "bold", size: size-small, it.group + ":"))
 } else {
   block(md(it))
 }
