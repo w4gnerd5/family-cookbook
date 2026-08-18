@@ -37,31 +37,27 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [x] Default card size raised to 330pt cap (from 290). Cards may reach 30pt into
   the gutter, clear of the punch holes; title column narrowed to 44% so the
   default clears long titles
-- [ ] **Forgiving band-verso layout** (decided 2026-08-18, replaces the reverted
-  wrap experiment — see commit b01c0ab and its revert). Direction: keep layout
-  dumb and tolerant rather than clever. Title column stays fixed-width with `|`
-  breaks; cards sit right/into the gutter (deeper intrusion than 30pt is fine —
-  the photo is full-bleed and gets punched anyway, cards are art not text);
-  text never reflows around geometry. Open choices for the fresh session:
-  intrusion depth (55pt was the recommended middle), whether the title column
-  widens per-recipe via a simple frontmatter override instead of measurement.
+- [x] **Forgiving band-verso layout** (2026-08-18): deck steps by LEFT edges so
+  under-cards peek out (b1d7ca1); gutter intrusion 55pt, punch may clip cards
+  by design; title column fixed at 44% with `|` breaks; no reflow logic.
+  Still open: per-recipe title column override if a recipe ever needs it.
 - [ ] Art-direction pass over all 75 versos: `scale` / `tilt` / `z` / `dx` / `dy`
   on scans, `|` in the title to force a safe wrap. Expect many to need a nudge
   up or right at 330pt; multi-card versos are the fiddly ones. Satsivi wants
-  `scale`; pork-and-watermelon's blank page 4 wants `hide`.
-  KNOWN BUG to fix first: on a deck, a smaller under-card can hide completely
-  behind the card above it (deck steps by right edges). The Paul Bread page
-  (IMG_1277 in 1209) is currently invisible. The reverted commit fixed this by
-  stepping left edges — re-apply just that piece, it was correct.
+  `scale`; pork-and-watermelon's blank page 4 wants `hide`. Convention: small
+  note scans ride on top like sticky notes offset down-right; full-size sheets
+  stay full size, nudged so their writing peeks (Paul Bread done, b1d7ca1).
 - [ ] Tune the 3+ scan snapshot composition (gap between card cluster and title)
-- [ ] Full seam pass over all 177 pages: widows, orphans, stranded subheads,
-  long-recipe spillover
-- [ ] Method-number baseline alignment; ingredient list leading
+- [ ] Full seam pass over all pages (185 as of the typography round): widows,
+  orphans, stranded subheads, long-recipe spillover
+- [x] Method-number baseline alignment; ingredient list leading
 - [ ] Multi-sheet footer suffix for recipes spanning sheets (`MAINS · 7 · 2/3`)
 - [x] D band verso + B snapshot fallback, gutter margins, hymnal footers,
   seeded tilts, alpha-silhouette card shadows
-- [ ] fix mixed fonts for recipe ol and uls and prose
-- [ ] Normalize line spacing
+- [x] fix mixed fonts for recipe ol and uls and prose (Georgian fallback now in
+  the base text stack)
+- [x] Normalize line spacing (leading 0.65em + one cascading 0.85em paragraph
+  gap; sticky labels; Original box facsimile-tight with Georgian +25%)
 
 
 

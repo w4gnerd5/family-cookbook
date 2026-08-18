@@ -9,7 +9,10 @@
 #let PW = 210mm + 2 * B
 #let PH = 297mm + 2 * B
 
-#set text(font: font-serif, size: size-body, fill: color-body, lang: "en")
+// Georgian fallback rides in the base stack so stray Mkhedruli in any list or
+// prose (e.g. the Paul Bread note) matches the Original box instead of hitting
+// Typst's emergency fallback font
+#set text(font: (font-serif, font-serif-georgian), size: size-body, fill: color-body, lang: "en")
 // Rhythm cascades from here, stylesheet-style: leading is the wrapped-line gap,
 // and every deliberate new line (any block without an explicit override) gets
 // the same paragraph gap, always >= leading. Overrides below are exceptions:
