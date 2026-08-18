@@ -300,11 +300,14 @@ def normalize_file(path, dry_run=False):
     with open(path, "r", encoding="utf-8") as f:
         original = f.read()
 
-    fm, body = parse_frontmatter(original)
+    # Frontmatter is preserved VERBATIM: re-rendering it through a flat dict
+    # destroys nested structures (the scans: list with per-scan art direction).
+    m = re.match(r"---\n.*?\n---\n", original, re.S)
+    fm_block, body = (m.group(0), original[m.end():]) if m else ("", original)
     normalized_lines = normalize_body(body)
     normalized_body = "\n".join(normalized_lines).strip() + "\n"
 
-    new_text = render_frontmatter(fm) + "\n\n" + normalized_body
+    new_text = (fm_block.rstrip("\n") + "\n\n" if fm_block else "") + normalized_body
 
     if new_text == original:
         print(f"  OK (no changes): {os.path.basename(path)}")

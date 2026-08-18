@@ -3311,13 +3311,32 @@
  },
  {
   "file": "assets/georgian/1246/IMG_1246.md",
-  "scans": [],
+  "scans": [
+   {
+    "path": "assets/georgian/1247/IMG_1247.png",
+    "scale": 0.85,
+    "tilt": 3.0,
+    "aspect": 0.7388,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
+   },
+   {
+    "path": "assets/georgian/1246/IMG_1246.png",
+    "scale": 1.0,
+    "tilt": -2.69,
+    "aspect": 0.7359,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
+   }
+  ],
   "title": "Christmas Salad",
   "language": "georgian",
   "section": "Sides & Salads",
   "batch": "",
   "number": 3,
-  "image": "",
+  "image": "assets/georgian/1246/IMG_1246.png",
   "photo": "assets/georgian/1246/dish.jpg",
   "inverse": false,
   "scribe": "Zeinab",
@@ -3345,13 +3364,23 @@
  },
  {
   "file": "assets/georgian/1247/IMG_1247.md",
-  "scans": [],
+  "scans": [
+   {
+    "path": "assets/georgian/1247/IMG_1247.png",
+    "scale": 1.0,
+    "tilt": 2.5,
+    "aspect": 0.7388,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
+   }
+  ],
   "title": "Chicken Salad",
   "language": "georgian",
   "section": "Sides & Salads",
   "batch": "",
   "number": 4,
-  "image": "",
+  "image": "assets/georgian/1247/IMG_1247.png",
   "photo": "assets/georgian/1247/dish.jpg",
   "inverse": false,
   "scribe": "Zeinab",
