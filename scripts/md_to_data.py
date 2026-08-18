@@ -49,6 +49,10 @@ def clean_original(text):
         line = re.sub(r"^(\s*)\* ", r"\1", line)
         cur.append(re.sub(r"\*\*(.+?)\*\*", r"\1", line))
     flush("")
+    # Mkhedruli fills its line box much more than Cyrillic/Latin, so the
+    # template gives Georgian segments extra line spacing to look equally airy
+    for seg in segs:
+        seg["georgian"] = bool(re.search(r"[ა-ჿ]", seg["text"]))
     return segs
 
 
