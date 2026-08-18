@@ -10,9 +10,13 @@
 #let PH = 297mm + 2 * B
 
 #set text(font: font-serif, size: size-body, fill: color-body, lang: "en")
-// rhythm rule: spacing between items must be >= the wrapped-line gap (leading),
-// never the reverse. Item spacing is em-based so it tracks each section's size.
-#set par(leading: 0.65em, justify: false)
+// Rhythm cascades from here, stylesheet-style: leading is the wrapped-line gap,
+// and every deliberate new line (any block without an explicit override) gets
+// the same paragraph gap, always >= leading. Overrides below are exceptions:
+// section labels (headings, not paragraphs) and the facsimile lines inside the
+// Original box (kept tight so long originals fit one keep-together column).
+#set par(leading: 0.65em, justify: false, spacing: 0.85em)
+#set block(above: 0.85em, below: 0pt)
 
 #let label-text(content, fill: color-label) = text(
   font: font-sans, size: size-label, fill: fill,
@@ -39,7 +43,8 @@
 
 #let md(s) = eval(s, mode: "markup")
 
-#let subhead(content) = block(above: space-block, below: space-label-gap, label-text(content))
+// sticky = a label never strands at a page foot; it travels with its content
+#let subhead(content) = block(above: space-block, below: space-label-gap, sticky: true, label-text(content))
 
 // scans arrive from md_to_data in render order (first = bottom of the stack),
 // each with path/scale/tilt resolved; tilt defaults are seeded per scan
@@ -128,10 +133,10 @@
 }
 
 // ---------- recto ----------
-#let ing-item(it, above: 0.65em) = if type(it) == dictionary {
+#let ing-item(it) = if type(it) == dictionary {
   block(above: space-block * 0.7, below: 3pt, text(weight: "bold", size: size-small, it.group + ":"))
 } else {
-  block(above: above, below: 0pt, md(it))
+  block(md(it))
 }
 
 #let recto(r) = {
@@ -144,7 +149,7 @@
   // a single-step method reads as prose; numbering starts earning its keep at 2
   let steps = r.instructions.filter(it => type(it) != dictionary)
   if steps.len() == 1 and r.instructions.len() == 1 {
-    block(above: 1.05em, md(steps.at(0)))
+    block(md(steps.at(0)))
   } else {
     let n = 0
     for it in r.instructions {
@@ -152,7 +157,7 @@
         ing-item(it)
       } else {
         n += 1
-        block(above: 1.05em, grid(columns: (10.5pt, 1fr), column-gutter: 3.5pt,
+        block(grid(columns: (10.5pt, 1fr), column-gutter: 3.5pt,
           text(font: font-sans, size: size-small, fill: color-accent, str(n)), md(it)))
       }
     }
@@ -160,7 +165,7 @@
   if r.notes.len() > 0 {
     subhead("Notes")
     set text(size: size-small)
-    for it in r.notes { ing-item(it, above: 0.85em) }
+    for it in r.notes { ing-item(it) }
   }
   // Cross-references: authored as frozen slugs in frontmatter, resolved to
   // section + number at build time so renumbering can never strand a pointer.
@@ -174,7 +179,7 @@
     set text(size: size-small)
     for ref in r.see_also {
       let lead = phrase.at(ref.at("rel", default: ""), default: "See")
-      block(above: 0.65em, below: 0pt, {
+      block({
         text(fill: color-muted, lead + ": ")
         text(fill: color-ink, ref.title)
         text(fill: color-muted, "  ")
