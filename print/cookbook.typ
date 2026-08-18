@@ -28,10 +28,23 @@
   tracking: label-tracking, weight: "medium", upper(content),
 )
 
-// hymnal model: SECTION · NUMBER is the finding aid; the slug is the web address
+// hymnal model: SECTION · NUMBER is the finding aid; the slug is the web address.
+// Recipes spanning more than one physical sheet add a sheet suffix
+// (MAINS · 7 · 2/3) so a pulled-apart binder reassembles; sheets pair pages
+// (first, first+1) from each recipe's opening verso, trailing blanks included.
 #let footer-line(r, on-photo: false) = context {
   let inv = on-photo   // on a photo the footer is always white, like the title
-  let id = label-text(r.section + "  ·  " + str(r.number),
+  let p = here().page()
+  let starts = query(<recipe-start>).map(m => m.location().page())
+  let mine = starts.filter(s => s <= p)
+  let suffix = if mine.len() > 0 {
+    let start = mine.last()
+    let after = starts.filter(s => s > p)
+    let end = if after.len() > 0 { after.first() - 1 } else { counter(page).final().first() }
+    let sheets = calc.ceil((end - start + 1) / 2)
+    if sheets > 1 { "  ·  " + str(calc.floor((p - start) / 2) + 1) + "/" + str(sheets) } else { "" }
+  } else { "" }
+  let id = label-text(r.section + "  ·  " + str(r.number) + suffix,
     fill: if inv { white } else { color-accent })
   let slug = label-text("family-cookbook / " + r.slug,
     fill: if inv { rgb(255, 255, 255, 75%) } else { color-label })
@@ -135,6 +148,7 @@
 #let verso(r) = {
   pagebreak(to: "even", weak: true)
   page(margin: 0pt, footer: none, {
+    [#metadata(r.slug)<recipe-start>]
     if r.scans.len() <= 2 { verso-band(r) } else { verso-snapshot(r) }
     place(bottom + left, dx: B + M, dy: -(B + 24pt),
       block(width: PW - M - G - 2 * B, footer-line(r, on-photo: r.scans.len() > 2)))

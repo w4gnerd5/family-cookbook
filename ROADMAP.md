@@ -51,7 +51,8 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [ ] Full seam pass over all pages (185 as of the typography round): widows,
   orphans, stranded subheads, long-recipe spillover
 - [x] Method-number baseline alignment; ingredient list leading
-- [ ] Multi-sheet footer suffix for recipes spanning sheets (`MAINS · 7 · 2/3`)
+- [x] Multi-sheet footer suffix for recipes spanning sheets (`MAINS · 7 · 2/3`);
+  single-sheet recipes stay clean, trailing blanks count into the last sheet
 - [x] D band verso + B snapshot fallback, gutter margins, hymnal footers,
   seeded tilts, alpha-silhouette card shadows
 - [x] fix mixed fonts for recipe ol and uls and prose (Georgian fallback now in
