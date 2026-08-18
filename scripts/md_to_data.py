@@ -114,6 +114,7 @@ def parse_md(path):
         "image": scans[-1]["path"] if scans else "",
         "photo": fm.get("photo", "") or "",
         "inverse": str(fm.get("inverse", "")).lower() == "true",
+        "see_also": [e if isinstance(e, dict) else {"slug": e} for e in (fm.get("see_also") or []) if e],
         "scribe": fm.get("scribe", "") or "",
         "scribe_confidence": int(fm.get("scribe_confidence", 0) or 0),
         "slug": fm.get("slug", "") or "",
@@ -138,6 +139,22 @@ def main():
     seen = {r["file"] for r in recipes}
     assert len(seen) == len(recipes), "duplicate recipe files"
     recipes.sort(key=lambda r: (SECTIONS.index(r["section"]) if r["section"] in SECTIONS else 99, r["number"]))
+
+    # Resolve see_also slugs -> section/number/title at BUILD time. Slugs are frozen;
+    # numbers are not, so nothing downstream ever stores a number.
+    by_slug = {r["slug"]: r for r in recipes}
+    broken = []
+    for r in recipes:
+        for ref in r["see_also"]:
+            tgt = by_slug.get(ref["slug"])
+            if tgt is None:
+                broken.append(f'{r["slug"]} -> {ref["slug"]}')
+                continue
+            ref["section"] = tgt["section"]
+            ref["number"] = tgt["number"]
+            ref["title"] = tgt["title"]
+    if broken:
+        raise SystemExit("broken see_also references:\n  " + "\n  ".join(broken))
     out = ROOT / "print" / "recipes.json"
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(recipes, ensure_ascii=False, indent=1))

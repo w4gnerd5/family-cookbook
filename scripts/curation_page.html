@@ -30,6 +30,14 @@
 <h2>Questions</h2>
 <table id="questions"></table>
 
+<h2>Slugs</h2>
+<div class="bar">
+  <input type="search" id="sq" placeholder="filter slug or title…">
+  <label><input type="checkbox" id="sflag"> flagged only</label>
+  <span id="scount" style="color:var(--label);font-size:12px"></span>
+</div>
+<table id="slugs"></table>
+
 <h2>Inventory</h2>
 <div class="bar">
   <input type="search" id="q" placeholder="filter title, slug, id…">
@@ -77,6 +85,29 @@ function renderQuestions() {
   t.innerHTML = h;
 }
 
+let slugSort = 'slug', slugDir = 1;
+function sortSlugs(k){ slugDir = (slugSort===k) ? -slugDir : 1; slugSort = k; renderSlugs(); }
+
+function renderSlugs() {
+  const t = document.getElementById('slugs');
+  if (!S.slugs) { t.innerHTML = ''; return; }
+  const q = document.getElementById('sq').value.toLowerCase();
+  const fo = document.getElementById('sflag').checked;
+  let rows = S.slugs.filter(r => (!q || (r.slug + r.title).toLowerCase().includes(q)) && (!fo || r.flags));
+  rows = [...rows].sort((a,b) => (a[slugSort] > b[slugSort] ? 1 : -1) * slugDir);
+  const cols = [['slug','slug'],['stem','stem'],['title','title'],['section','section'],
+                ['num','#'],['lang','lang'],['scribe','scribe'],['refs','links'],['len','chars'],['flags','flags']];
+  let h = '<tr>' + cols.map(c=>`<th onclick="sortSlugs('${c[0]}')">${c[1]}</th>`).join('') + '</tr>';
+  for (const r of rows) {
+    h += `<tr><td><b>${esc(r.slug)}</b></td><td style="color:var(--label)">${esc(r.stem)}</td>
+      <td>${esc(r.title)}</td><td><span class="pill">${esc(r.section)}</span></td><td>${r.num}</td>
+      <td>${esc(r.lang)}</td><td>${esc(r.scribe)}</td><td>${r.refs || ''}</td><td>${r.len}</td>
+      <td style="color:${r.flags?'#B26A00':'inherit'};font-size:12px">${esc(r.flags)}</td></tr>`;
+  }
+  t.innerHTML = h;
+  document.getElementById('scount').textContent = rows.length + ' of ' + S.slugs.length;
+}
+
 function renderInv() {
   const t = document.getElementById('inv');
   const q = document.getElementById('q').value.toLowerCase();
@@ -109,7 +140,7 @@ function renderInv() {
 function sortBy(k){ sortDir = (sortKey===k) ? -sortDir : 1; sortKey = k; renderInv(); }
 
 function renderAll() {
-  renderMerges(); renderQuestions(); renderInv();
+  renderMerges(); renderQuestions(); renderSlugs(); renderInv();
   document.getElementById('stamp').textContent = 'live · ' + new Date().toLocaleTimeString();
 }
 
@@ -129,6 +160,7 @@ async function tick() {
   const lf = document.getElementById('langf');
   ['georgian','english'].forEach(s => lf.insertAdjacentHTML('beforeend', `<option>${s}</option>`));
   for (const id of ['q','secf','langf','openonly']) document.getElementById(id).addEventListener('input', renderInv);
+  for (const id of ['sq','sflag']) document.getElementById(id).addEventListener('input', renderSlugs);
   renderAll();
   setInterval(tick, 1500);
 })();

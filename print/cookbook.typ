@@ -148,6 +148,31 @@
     set text(size: size-small)
     for it in r.notes { ing-item(it) }
   }
+  // Cross-references: authored as frozen slugs in frontmatter, resolved to
+  // section + number at build time so renumbering can never strand a pointer.
+  if r.see_also.len() > 0 {
+    let phrase = (
+      variant: "Another recording",
+      uses: "Made with",
+      pairs: "Goes with",
+    )
+    subhead("See also")
+    set text(size: size-small)
+    for ref in r.see_also {
+      let lead = phrase.at(ref.at("rel", default: ""), default: "See")
+      block(above: 2.5pt, below: 0pt, {
+        text(fill: color-muted, lead + ": ")
+        text(fill: color-ink, ref.title)
+        text(fill: color-muted, "  ")
+        text(font: font-sans, size: size-label, fill: color-accent,
+          tracking: label-tracking, weight: "medium",
+          upper(ref.section + " · " + str(ref.number)))
+        if ref.at("note", default: "") != "" {
+          text(fill: color-muted, "  " + ref.note)
+        }
+      })
+    }
+  }
   // English recipes: the verso scan IS the original; the retyped text stays
   // archival in the .md but does not print. Revisit if a bilingual edition happens.
   if r.original != "" and r.language != "english" {

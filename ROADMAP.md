@@ -13,13 +13,13 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [x] Structural gaps fixed (shu parses; 1237 series rejoined into one recipe)
 - [ ] `easter-paska-kulich` still has no description
 - [ ] QC English transcriptions against scans (35 recipes; spot-check at minimum)
-- [ ] Spot-check Georgian translations against scans
-- [ ] Resolve flagged section calls: Beef Bourguignon (Soups vs Mains),
-  Paska (Desserts vs Breads), the 1237 puff-pastry series
+- [x] Georgian translations checked against scans (Paul, 2026-08-18)
+- [x] Section calls resolved: current assignments stand
 - [x] Duplicate hunt complete (M1-M7): 87 printed entries -> 75, nothing lost
-- [ ] Cross-reference lines in notes, now that numbers exist: sibling pointers
-  (khachapuri recordings, the four beef stews), dependency pointers (pirozhki ->
-  yeast dough, bazhe -> satsivi, gram-measured Georgian recipes -> conversions)
+- [x] Cross-references: `see_also:` frontmatter holds frozen SLUGS; the build
+  resolves them to section + number, so renumbering can never strand a pointer
+  and an unknown slug fails the build. Print shows "SECTION · N"; the website
+  will render the same data as real links.
 - [x] Slugs: apostrophes collapse (zeinabs, not zeinab-s); slugify fixed, all regenerated once
 - [x] Duplicates atticed, meta notes out of printable prose, em dashes swept
 
@@ -83,7 +83,14 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 
 
 
-## 6. Production
+## 6. Alpha release
+
+- [ ] Print a dummy copy for Nino to mark up
+- [ ] Nino's duplicate pass: several suspected dupes remain visible in print
+  (her call, deferred until she has the dummy in hand)
+- [ ] Fold her marks back in; only then is the order beyond provisional
+
+## 7. Production
 
 - [ ] Flip bleed token to 3mm; verify full-bleed at the chosen print service
 - [ ] Decide card cache resolution (PDF is ~350 MB; MAX_DIM 1200 halves it)
