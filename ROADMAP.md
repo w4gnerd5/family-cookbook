@@ -37,10 +37,22 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [x] Default card size raised to 330pt cap (from 290). Cards may reach 30pt into
   the gutter, clear of the punch holes; title column narrowed to 44% so the
   default clears long titles
+- [ ] **Forgiving band-verso layout** (decided 2026-08-18, replaces the reverted
+  wrap experiment — see commit b01c0ab and its revert). Direction: keep layout
+  dumb and tolerant rather than clever. Title column stays fixed-width with `|`
+  breaks; cards sit right/into the gutter (deeper intrusion than 30pt is fine —
+  the photo is full-bleed and gets punched anyway, cards are art not text);
+  text never reflows around geometry. Open choices for the fresh session:
+  intrusion depth (55pt was the recommended middle), whether the title column
+  widens per-recipe via a simple frontmatter override instead of measurement.
 - [ ] Art-direction pass over all 75 versos: `scale` / `tilt` / `z` / `dx` / `dy`
   on scans, `|` in the title to force a safe wrap. Expect many to need a nudge
   up or right at 330pt; multi-card versos are the fiddly ones. Satsivi wants
-  `scale`; pork-and-watermelon's blank page 4 wants `hide`
+  `scale`; pork-and-watermelon's blank page 4 wants `hide`.
+  KNOWN BUG to fix first: on a deck, a smaller under-card can hide completely
+  behind the card above it (deck steps by right edges). The Paul Bread page
+  (IMG_1277 in 1209) is currently invisible. The reverted commit fixed this by
+  stepping left edges — re-apply just that piece, it was correct.
 - [ ] Tune the 3+ scan snapshot composition (gap between card cluster and title)
 - [ ] Full seam pass over all 177 pages: widows, orphans, stranded subheads,
   long-recipe spillover
