@@ -194,7 +194,7 @@
   // section + number at build time so renumbering can never strand a pointer.
   if r.see_also.len() > 0 {
     let phrase = (
-      variant: "Another recording",
+      variant: "Another version",
       uses: "Made with",
       pairs: "Goes with",
     )
