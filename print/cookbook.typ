@@ -202,7 +202,7 @@
     // Safe while no original exceeds one text column (longest today: shu, ~650pt).
     block(breakable: false, fill: color-original-bg, inset: 12pt, width: 100%, {
       label-text("Original")
-      v(space-label-gap * 1.6)
+      v(space-label-gap * 2)
       set text(size: size-small, fill: color-muted, font: (font-serif, font-serif-georgian), lang: "ru")
       // segments come from md_to_data: #### labels in the .md become styled
       // sub-labels here; --- breaks a segment without one. Line gaps stay fixed
@@ -211,7 +211,7 @@
       for (i, seg) in r.original.enumerate() {
         let gap = if seg.at("georgian", default: false) { 5pt } else { 4pt }
         if i > 0 { v(7pt) }
-        if seg.label != "" { block(above: 9pt, below: 3pt, sticky: true, label-text(seg.label)) }
+        if seg.label != "" { block(above: 9pt, below: 5pt, sticky: true, label-text(seg.label)) }
         for line in seg.text.split("\n") { block(above: gap, below: 0pt, line) }
       }
     })
