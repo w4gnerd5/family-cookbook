@@ -166,7 +166,7 @@
     // ingredients and method both read at body size; notes/see-also demure
     for it in r.ingredients { ing-item(it) }
   })
-  subhead("Method")
+  subhead("Instructions")
   // a single-step method reads as prose; numbering starts earning its keep at 2
   let steps = r.instructions.filter(it => type(it) != dictionary)
   if steps.len() == 1 and r.instructions.len() == 1 {
