@@ -24,6 +24,6 @@
 #let card-gutter-intrude = 30pt
 #let card-snapshot-3 = 275pt
 #let card-snapshot-4 = 230pt
-#let card-wrap-gap = 22pt
+#let card-title-col = 44%
 #let card-title-col-snapshot = 58%
 #let label-tracking = 0.14em

@@ -58,77 +58,27 @@
 
 // ---------- verso layouts ----------
 #let verso-band(r) = {
-  // photo field top 62%, white band below, 1-2 scans straddle the seam as a deck.
-  // Cards may reach card-gutter-intrude into the gutter (the photo is full-bleed;
-  // the punch takes what it takes — the cards are art here, not text).
+  // photo field top 62%, white band below, 1-2 cards straddle the seam
   if r.photo != "" {
     place(top + left, image("../" + r.photo, width: 100%, height: 62%, fit: "cover"))
   } else {
     place(top + left, rect(width: 100%, height: 62%, fill: color-field))
   }
-  // card geometry, computed once: placement below and the text wrap both use it.
-  // Deck steps by LEFT edges so a smaller under-card still peeks out past the
-  // card above it instead of hiding behind it.
-  let ordered = r.scans.sorted(key: e => e.slot)
-  let lefts = ()
-  for (i, e) in ordered.enumerate() {
-    let w = calc.min(card-cap, card-ref * e.aspect) * e.scale
-    let x = if i == 0 { PW - (B + G - card-gutter-intrude) - w } else { lefts.at(i - 1) - 48pt }
-    lefts.push(x + e.dx * 1pt)
-  }
-  let geo = ordered.enumerate().map(((i, e)) => {
-    let w = calc.min(card-cap, card-ref * e.aspect) * e.scale
-    let y = 0.62 * PH - 215pt + e.slot * 30pt + e.dy * 1pt
-    // a tilted card's bottom corner swings past its layout box; widen the cut for it
-    let slop = calc.sin(calc.abs(e.tilt) * 1deg) * (w / e.aspect) * 0.5
-    (e: e, w: w, left: lefts.at(i) - slop, top: y, bottom: y + w / e.aspect)
-  })
-  // draw in render-array order (stacking), at slot-derived positions
+  place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
+    block(width: card-title-col - M, title-block(r)))
+  // 2 scans stack as a deck (underneath card peeks out) so the title zone stays clear;
+  // verso is bound on its right edge: keep cards clear of the punch strip
   for e in r.scans {
-    let g = geo.find(g => g.e.path == e.path)
-    place(top + left, dx: g.left, dy: g.top, card(e, calc.min(card-cap, card-ref * e.aspect)))
+    let k = e.slot             // layout slot = reading position; array order = stacking
+    // tall scans are height-capped so the deck can't crash into the title block.
+    // Cards may reach card-gutter-intrude into the gutter: the punch holes sit
+    // ~9-15mm from the bound edge, so this stays clear of them.
+    let w = calc.min(card-cap, card-ref * e.aspect)
+    place(top + right,
+      dx: -(B + G - card-gutter-intrude) - k * 48pt + e.dx * 1pt,
+      dy: 62% - 215pt + k * 30pt + e.dy * 1pt,
+      card(e, w))
   }
-  // Title + description wrap around the cards' real footprint: narrow beside the
-  // deck, full width beneath it. No hardcoded column — the phantom box below is
-  // the deck's bounding box plus card-wrap-gap, so nudging a card reflows the text.
-  let band-top = 0.62 * PH + M * 0.45
-  let text-w = PW - 2 * B - M - G          // left margin to the gutter line
-  let cut-left = calc.min(..geo.map(g => g.left)) - card-wrap-gap
-  let cut-bottom = calc.max(..geo.map(g => g.bottom)) + card-wrap-gap * 0.6
-  let col-w = calc.max(120pt, cut-left - (B + M))   // column beside the deck
-  let inv = r.at("inverse", default: false)
-  let desc-text(s) = text(size: size-description, style: "italic",
-    fill: if inv { rgb(255, 255, 255, 88%) } else { color-muted }, eval(s, mode: "markup"))
-  place(top + left, dx: B + M, dy: band-top, block(width: text-w, context {
-    // Hand-rolled wrap: title + as many description sentences as fit sit in the
-    // column beside the deck; the rest drops below the cards at full width.
-    // Sentence granularity keeps Typst markup balanced within each chunk.
-    let head = block(width: col-w, {
-      label-text(r.section, fill: if inv { white } else { color-accent })
-      v(space-label-gap)
-      text(size: size-title, fill: if inv { white } else { color-ink },
-        r.at("title_print", default: r.title).split("|").map(s => s.trim()).join(linebreak()))
-    })
-    head
-    v(space-label-gap)
-    let used = measure(head).height + space-label-gap
-    let avail = cut-bottom - band-top - used
-    let parts = r.at("desc_parts", default: (r.description,))
-    let i = 0
-    let acc = ""
-    while i < parts.len() {
-      let trial = if acc == "" { parts.at(i) } else { acc + " " + parts.at(i) }
-      if measure(block(width: col-w, desc-text(trial))).height > avail { break }
-      acc = trial
-      i += 1
-    }
-    if acc != "" { block(width: col-w, desc-text(acc)) }
-    if i < parts.len() {
-      // continuation clears the deck and widens to the full band
-      place(top + left, dy: cut-bottom - band-top,
-        block(width: text-w, desc-text(parts.slice(i).join(" "))))
-    }
-  }))
 }
 
 #let verso-snapshot(r) = {

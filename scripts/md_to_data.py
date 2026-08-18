@@ -123,7 +123,6 @@ def parse_md(path):
         "scribe_confidence": int(fm.get("scribe_confidence", 0) or 0),
         "slug": fm.get("slug", "") or "",
         "description": conv(desc_m.group(1).strip()) if desc_m else "",
-        "desc_parts": re.split(r"(?<=[.!?\u2026]) +", conv(desc_m.group(1).strip())) if desc_m else [],
         "ingredients": items(section("Ingredients"), r"\*"),
         "instructions": items(section("Instructions"), r"\d+\."),
         "notes": items(section("Notes"), r"\*"),

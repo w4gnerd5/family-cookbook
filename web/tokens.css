@@ -24,7 +24,7 @@
   --card-gutter-intrude: 30pt;
   --card-snapshot-3: 275pt;
   --card-snapshot-4: 230pt;
-  --card-wrap-gap: 22pt;
+  --card-title-col: 44%;
   --card-title-col-snapshot: 58%;
   --label-tracking: 0.14em;
 }
