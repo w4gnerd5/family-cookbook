@@ -4591,9 +4591,9 @@
     "dy": 0.0
    },
    {
-    "path": "assets/georgian/1262/IMG_1261.png",
+    "path": "assets/georgian/1261/IMG_1261.png",
     "scale": 1.0,
-    "tilt": -3.04,
+    "tilt": 3.22,
     "aspect": 0.7218,
     "slot": 0,
     "dx": 0.0,
@@ -4605,7 +4605,7 @@
   "section": "Desserts & Sweets",
   "batch": "",
   "number": 9,
-  "image": "assets/georgian/1262/IMG_1261.png",
+  "image": "assets/georgian/1261/IMG_1261.png",
   "photo": "assets/georgian/1262/dish.jpg",
   "inverse": false,
   "see_also": [

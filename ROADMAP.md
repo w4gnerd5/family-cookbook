@@ -8,11 +8,14 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [x] **Curate recipe order within each section.** Done by adversarial panel
   (cook / editor / archivist lenses, cross-critique, synthesis). Numbers are now
   FROZEN — they appear in print, the ToC, and footers.
-- [ ] Proof pass on the new order: fix any two adjacent versos that look alike
-  (order was built from ingredient/step/scan proxies, not rendered spreads)
+- [~] Proof pass on the new order: order reads OK provisionally (Paul). Photos
+  and small layout details still unsatisfying — folded into the layout work
+  below and Nino's alpha pass, not blocking
 - [x] Structural gaps fixed (shu parses; 1237 series rejoined into one recipe)
-- [ ] `easter-paska-kulich` still has no description
-- [ ] QC English transcriptions against scans (35 recipes; spot-check at minimum)
+- [x] `easter-paska-kulich` description confirmed present and parsing
+- [x] QC English transcriptions: ~10 spot-checked (Paul). Better than expected —
+  the transcription pass had stripped self-references, weak wording and blog
+  banter from the internet printouts
 - [x] Georgian translations checked against scans (Paul, 2026-08-18)
 - [x] Section calls resolved: current assignments stand
 - [x] Duplicate hunt complete (M1-M7): 87 printed entries -> 75, nothing lost
@@ -21,15 +24,10 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
   and an unknown slug fails the build. Print shows "SECTION · N"; the website
   will render the same data as real links.
 - [x] Slugs: apostrophes collapse (zeinabs, not zeinab-s); slugify fixed, all regenerated once
-- [ ] **Paul hand-fixes slugs.** Baseline committed at d255eb1; the Slugs table
-  in the dashboard flags numeral suffixes, shared stems and over-long slugs.
-  Edit `slug:` in any recipe's frontmatter directly. Then:
-  `python3 scripts/reconcile_slugs.py` (dry run) and `--apply`, which diffs
-  against the ledger by recipe ID, rewrites every `see_also:` pointing at an
-  old slug, refuses to proceed on a collision, and refreshes the baseline.
-  `md_to_data` then fails the build on any reference it cannot resolve.
-  This is the last free window: after anything is printed or the site is live,
-  a slug change breaks a QR code or a URL someone bookmarked.
+- [x] Slugs hand-fixed by Paul and reconciled (see_also references rewritten
+  automatically). To change one later: edit `slug:`, run
+  `scripts/reconcile_slugs.py` then `--apply`. Free only until something is
+  printed or the site is live.
 - [x] Duplicates atticed, meta notes out of printable prose, em dashes swept
 
 
