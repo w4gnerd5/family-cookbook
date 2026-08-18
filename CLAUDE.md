@@ -91,6 +91,7 @@ python3 scripts/md_to_data.py [batch-1]      # -> print/recipes.json (optionally
 python3 scripts/build_tokens.py              # only if tokens.yaml changed -> print/tokens.typ, web/tokens.css
 typst compile --root . --font-path assets/fonts print/cookbook.typ print/cookbook.pdf
 python3 scripts/build_index.py               # -> recipes-index.csv, RECIPES.md (also warns on missing frontmatter)
+python3 scripts/refresh_slug_table.py    # dashboard slug audit table
 ```
 
 Proof pages for visual inspection:

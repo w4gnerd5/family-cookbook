@@ -21,6 +21,15 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
   and an unknown slug fails the build. Print shows "SECTION · N"; the website
   will render the same data as real links.
 - [x] Slugs: apostrophes collapse (zeinabs, not zeinab-s); slugify fixed, all regenerated once
+- [ ] **Paul hand-fixes slugs.** Baseline committed at d255eb1; the Slugs table
+  in the dashboard flags numeral suffixes, shared stems and over-long slugs.
+  Edit `slug:` in any recipe's frontmatter directly. Then:
+  `python3 scripts/reconcile_slugs.py` (dry run) and `--apply`, which diffs
+  against the ledger by recipe ID, rewrites every `see_also:` pointing at an
+  old slug, refuses to proceed on a collision, and refreshes the baseline.
+  `md_to_data` then fails the build on any reference it cannot resolve.
+  This is the last free window: after anything is printed or the site is live,
+  a slug change breaks a QR code or a URL someone bookmarked.
 - [x] Duplicates atticed, meta notes out of printable prose, em dashes swept
 
 
