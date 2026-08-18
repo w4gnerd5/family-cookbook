@@ -211,7 +211,9 @@
       for (i, seg) in r.original.enumerate() {
         let gap = if seg.at("georgian", default: false) { 5pt } else { 4pt }
         if i > 0 { v(7pt) }
-        if seg.label != "" { block(above: 9pt, below: 3pt, sticky: true, label-text(seg.label)) }
+        // block spacing collapses to max(below, next.above), so the label's
+        // below must EXCEED the line gap or it does nothing
+        if seg.label != "" { block(above: 9pt, below: gap + 3pt, sticky: true, label-text(seg.label)) }
         for line in seg.text.split("\n") { block(above: gap, below: 0pt, line) }
       }
     })
