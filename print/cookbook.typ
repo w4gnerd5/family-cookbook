@@ -128,10 +128,10 @@
 }
 
 // ---------- recto ----------
-#let ing-item(it) = if type(it) == dictionary {
+#let ing-item(it, above: 0.65em) = if type(it) == dictionary {
   block(above: space-block * 0.7, below: 3pt, text(weight: "bold", size: size-small, it.group + ":"))
 } else {
-  block(above: 0.65em, below: 0pt, md(it))
+  block(above: above, below: 0pt, md(it))
 }
 
 #let recto(r) = {
@@ -144,7 +144,7 @@
   // a single-step method reads as prose; numbering starts earning its keep at 2
   let steps = r.instructions.filter(it => type(it) != dictionary)
   if steps.len() == 1 and r.instructions.len() == 1 {
-    block(above: 0.8em, md(steps.at(0)))
+    block(above: 1.05em, md(steps.at(0)))
   } else {
     let n = 0
     for it in r.instructions {
@@ -152,7 +152,7 @@
         ing-item(it)
       } else {
         n += 1
-        block(above: 0.8em, grid(columns: (14pt, 1fr), column-gutter: 4pt,
+        block(above: 1.05em, grid(columns: (10.5pt, 1fr), column-gutter: 3.5pt,
           text(font: font-sans, size: size-small, fill: color-accent, str(n)), md(it)))
       }
     }
@@ -160,7 +160,7 @@
   if r.notes.len() > 0 {
     subhead("Notes")
     set text(size: size-small)
-    for it in r.notes { ing-item(it) }
+    for it in r.notes { ing-item(it, above: 0.85em) }
   }
   // Cross-references: authored as frozen slugs in frontmatter, resolved to
   // section + number at build time so renumbering can never strand a pointer.
