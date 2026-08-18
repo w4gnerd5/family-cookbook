@@ -22,6 +22,10 @@ size:                          # points (print); web build maps pt -> rem
   body: 10.5
   small: 9
   label: 7.5
+  footer: 6.5                  # smaller than label so the longest slug + the
+                               #   page suffix + a 16pt gap share one line;
+                               #   sized to the worst case (traditional-
+                               #   georgian-bread-shaping-instructions)
   title: 20
   description: 11
 

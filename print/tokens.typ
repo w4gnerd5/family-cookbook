@@ -13,6 +13,7 @@
 #let size-body = 10.5pt
 #let size-small = 9pt
 #let size-label = 7.5pt
+#let size-footer = 6.5pt
 #let size-title = 20pt
 #let size-description = 11pt
 #let space-page-margin = 54pt

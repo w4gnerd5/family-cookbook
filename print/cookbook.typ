@@ -23,8 +23,8 @@
 // whole to the next page (safe: no single paragraph approaches a full column)
 #set block(above: 0.85em, below: 0pt, breakable: false)
 
-#let label-text(content, fill: color-label) = text(
-  font: font-sans, size: size-label, fill: fill,
+#let label-text(content, fill: color-label, size: size-label) = text(
+  font: font-sans, size: size, fill: fill,
   tracking: label-tracking, weight: "medium", upper(content),
 )
 
@@ -45,13 +45,13 @@
     "  ·  " + str(p - start + 1) + "/" + str(end - start + 1)
   } else { "" }
   let id = label-text(r.section + "  ·  " + str(r.number) + suffix,
-    fill: if inv { white } else { color-accent })
+    fill: if inv { white } else { color-accent }, size: size-footer)
   let slug = label-text("family-cookbook / " + r.slug,
-    fill: if inv { rgb(255, 255, 255, 75%) } else { color-label })
+    fill: if inv { rgb(255, 255, 255, 75%) } else { color-label }, size: size-footer)
   if calc.even(here().page()) {
-    grid(columns: (auto, 1fr), id, align(right, slug))
+    grid(columns: (auto, 1fr), column-gutter: 16pt, id, align(right, slug))
   } else {
-    grid(columns: (1fr, auto), slug, align(right, id))
+    grid(columns: (1fr, auto), column-gutter: 16pt, slug, align(right, id))
   }
 }
 
