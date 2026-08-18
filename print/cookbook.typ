@@ -212,8 +212,12 @@
         let gap = if seg.at("georgian", default: false) { 5pt } else { 4pt }
         if i > 0 { v(7pt) }
         // block spacing collapses to max(below, next.above), so the label's
-        // below must EXCEED the line gap or it does nothing
-        if seg.label != "" { block(above: 9pt, below: gap + 3pt, sticky: true, label-text(seg.label)) }
+        // below must EXCEED the line gap or it does nothing.
+        // Bold serif + colon, matching the recto sub-group label convention.
+        if seg.label != "" {
+          block(above: 9pt, below: gap + 3pt, sticky: true,
+            text(weight: "bold", fill: color-body, seg.label + ":"))
+        }
         for line in seg.text.split("\n") { block(above: gap, below: 0pt, line) }
       }
     })
