@@ -137,7 +137,7 @@
 #let recto(r) = {
   block(breakable: false, {
     subhead("Ingredients")
-    set text(size: size-small)
+    // ingredients and method both read at body size; notes/see-also demure
     for it in r.ingredients { ing-item(it) }
   })
   subhead("Method")
