@@ -28,7 +28,7 @@
 
 // hymnal model: SECTION · NUMBER is the finding aid; the slug is the web address
 #let footer-line(r, on-photo: false) = context {
-  let inv = on-photo and r.at("inverse", default: false)
+  let inv = on-photo   // on a photo the footer is always white, like the title
   let id = label-text(r.section + "  ·  " + str(r.number),
     fill: if inv { white } else { color-accent })
   let slug = label-text("family-cookbook / " + r.slug,
@@ -55,9 +55,11 @@
 // each with path/scale/tilt resolved; tilt defaults are seeded per scan
 #let card(e, base) = rotate(e.tilt * 1deg, image("cards/" + e.path.split("/").last(), width: base * e.scale))
 
-// inverse palette for full-bleed photo versos where the text sits on the image
-#let title-block(r) = {
-  let inv = r.at("inverse", default: false)
+// Text over a full-bleed photo is ALWAYS white (inv comes from the layout, not
+// frontmatter — the scrim guarantees contrast) and a touch heavier: white type
+// on a photo reads optically thinner than dark type on paper.
+#let title-block(r, inv: false) = {
+  set text(weight: "medium") if inv
   label-text(r.section, fill: if inv { white } else { color-accent })
   v(space-label-gap)
   // `|` in the frontmatter title forces the wrap here rather than wherever it lands
@@ -65,7 +67,7 @@
     r.at("title_print", default: r.title).split("|").map(s => s.trim()).join(linebreak()))
   v(space-label-gap)
   text(size: size-description, style: "italic",
-    fill: if inv { rgb(255, 255, 255, 88%) } else { color-muted }, md(r.description))
+    fill: if inv { rgb(255, 255, 255, 94%) } else { color-muted }, md(r.description))
 }
 
 // ---------- verso layouts ----------
@@ -104,14 +106,14 @@
   // (inverse: true in frontmatter flips the text to white for dark photos)
   if r.photo != "" {
     place(top + left, image("../" + r.photo, width: 100%, height: 100%, fit: "cover"))
-    if r.at("inverse", default: false) {
-      // legibility scrim: quiet dark gradient under the text zone
-      place(bottom + left, rect(width: 100%, height: 42%,
-        fill: gradient.linear(dir: ttb, rgb(0, 0, 0, 0%), rgb(0, 0, 0, 55%))))
-    }
   } else {
     place(top + left, rect(width: 100%, height: 100%, fill: color-field))
   }
+  // legibility scrim, always on: aggressive enough that white text wins on any
+  // photo, easing in so the photo's midfield stays clean
+  place(bottom + left, rect(width: 100%, height: 48%,
+    fill: gradient.linear(dir: ttb, (rgb(0, 0, 0, 0%), 0%),
+      (rgb(0, 0, 0, 32%), 40%), (rgb(0, 0, 0, 74%), 100%))))
   let n = r.scans.len()
   let w = if n == 3 { card-snapshot-3 } else { card-snapshot-4 }
   for e in r.scans {
@@ -125,7 +127,7 @@
       card(e, w))
   }
   place(bottom + left, dx: B + M, dy: -(B + M * 0.9),
-    block(width: card-title-col-snapshot - M, title-block(r)))
+    block(width: card-title-col-snapshot - M, title-block(r, inv: true)))
 }
 
 #let verso(r) = {

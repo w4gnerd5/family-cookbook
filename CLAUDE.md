@@ -64,7 +64,8 @@ scans:                    # ordered list of scanned pages (reading order)
     hide: true            #   keep archival, do not render on the verso
 photo: ""                 # optional; dish photo for the verso (dish.* in the folder)
 photo_source: ""          # optional; "URL | license | author", feeds CREDITS.md
-inverse: true             # optional; white text + gradient scrim for busy photos
+inverse: true             # RETIRED 2026-08-18: snapshot versos always render
+                          #   white text over an always-on scrim; flag is ignored
 see_also:                 # optional; cross-references BY SLUG, resolved at build time
   - slug: vareniki-with-boiling-water-dough
     rel: variant          #   variant | uses | pairs (default renders "See")
