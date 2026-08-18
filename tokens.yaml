@@ -37,8 +37,7 @@ card:
                                #   still clear of them
   snapshot_3: 275              # pt; card width when 3 scans scatter
   snapshot_4: 230              # pt; 4 or more
-  title_col: 44                # % of page width for the verso title block; the
-                               #   card's left edge must clear this
+  wrap_gap: 22                 # pt of clear space between a card and wrapping text
   title_col_snapshot: 58       # % on snapshot versos (cards sit higher there)
 
 label:

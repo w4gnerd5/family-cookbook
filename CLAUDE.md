@@ -73,9 +73,11 @@ see_also:                 # optional; cross-references BY SLUG, resolved at buil
 ```
 
 **Verso card sizing** lives in `tokens.yaml` under `card:` — `cap`/`ref` size the band-layout
-cards, `gutter_intrude` lets a card reach into the gutter (the punch holes sit ~9-15mm from the
-bound edge, so 30pt stays clear of them), `title_col` sets the title column width the card must
-not overlap. Per-recipe exceptions use `scale`/`dx`/`dy` on the scan and `|` in the title.
+cards, `gutter_intrude` lets a card reach into the gutter, `wrap_gap` is the clear space between
+a card and the text. There is no hardcoded title column: the band verso computes the cards' real
+footprint and wraps text around it — title plus whatever description sentences fit sit beside
+the deck, the rest widens to the full band below it. Nudging a card (`scale`/`dx`/`dy`) reflows
+the text automatically. `|` in a title is a print-only line break.
 
 **Numbering (hymnal model):** recipes are numbered per section, not through the volume, so a
 sheet added to the ring binder never renumbers the book. `SECTION · N` is the finding aid printed
