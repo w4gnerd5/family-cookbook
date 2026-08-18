@@ -189,7 +189,9 @@
   // archival in the .md but does not print. Revisit if a bilingual edition happens.
   if r.original.len() > 0 and r.language != "english" {
     v(space-block)
-    block(breakable: true, fill: color-original-bg, inset: 12pt, width: 100%, {
+    // keep-together: the box never breaks; it pushes whole to the next page.
+    // Safe while no original exceeds one text column (longest today: shu, ~650pt).
+    block(breakable: false, fill: color-original-bg, inset: 12pt, width: 100%, {
       label-text("Original")
       v(space-label-gap)
       set text(size: size-small, fill: color-muted, font: (font-serif, font-serif-georgian), lang: "ru")
