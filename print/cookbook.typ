@@ -29,20 +29,20 @@
 )
 
 // hymnal model: SECTION · NUMBER is the finding aid; the slug is the web address.
-// Recipes spanning more than one physical sheet add a sheet suffix
-// (MAINS · 7 · 2/3) so a pulled-apart binder reassembles; sheets pair pages
-// (first, first+1) from each recipe's opening verso, trailing blanks included.
+// Every footer carries page-within-recipe (MAINS · 7 · 2/3) so a pulled-apart
+// binder reassembles. Start/end metadata markers bound each recipe; trailing
+// parity blanks fall outside the end marker and never count.
 #let footer-line(r, on-photo: false) = context {
   let inv = on-photo   // on a photo the footer is always white, like the title
   let p = here().page()
   let starts = query(<recipe-start>).map(m => m.location().page())
+  let ends = query(<recipe-end>).map(m => m.location().page())
   let mine = starts.filter(s => s <= p)
   let suffix = if mine.len() > 0 {
     let start = mine.last()
-    let after = starts.filter(s => s > p)
-    let end = if after.len() > 0 { after.first() - 1 } else { counter(page).final().first() }
-    let sheets = calc.ceil((end - start + 1) / 2)
-    if sheets > 1 { "  ·  " + str(calc.floor((p - start) / 2) + 1) + "/" + str(sheets) } else { "" }
+    let after = ends.filter(e => e >= start)
+    let end = if after.len() > 0 { after.first() } else { p }
+    "  ·  " + str(p - start + 1) + "/" + str(end - start + 1)
   } else { "" }
   let id = label-text(r.section + "  ·  " + str(r.number) + suffix,
     fill: if inv { white } else { color-accent })
@@ -265,5 +265,6 @@
   {
     set page(footer: pad(bottom: B, footer-line(r)))
     recto(r)
+    [#metadata(r.slug)<recipe-end>]   // marks the last content page
   }
 }
