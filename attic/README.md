@@ -10,3 +10,7 @@ the print or web builds.
 - english/1275/ — NYT Cooking modern edition of the Lahey no-knead loaf;
   superseded by the 2006 printing (assets/english/1209), which is the version
   the family bakes. Its "Paul Bread" back page (IMG_1277) moved to 1209.
+- georgian/1244/ — notebook recording of Zeinab's Shu; merged into
+  assets/georgian/1175 (scans and both cream variants adopted there)
+- english/1278/ — duplicate Food.com crock-pot chicken printout;
+  assets/english/1213 (the stained working copy) is canonical

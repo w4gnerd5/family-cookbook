@@ -25,7 +25,6 @@ the original recipe cards are family material.
 - **Indian Pudding** — photo by Lahti213, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Indian_pudding.jpg)
 - **Croque-Madame** — photo by Andy Li, CC0 1.0 (https://commons.wikimedia.org/wiki/File:Croque_Madame_-_Milfey_Patisserie_2026-03-02.jpg)
 - **2-Hour Fastest No Knead Bread** — photo by Nutrition, Food Safety & Health, CC0 (https://commons.wikimedia.org/wiki/File:No-knead_sourdough_bread_in_Griswold_Dutch_Oven.jpg)
-- **Whole Chicken Crock Pot Recipe** — photo by Sharon Chen, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Roasted_Lemon_Herb_Whole_chicken_with_Carrots_and_Onions_1_(28791114980).jpg)
 - **Baked Salmon with Dill Garlic Beurre Blanc** — photo by MOs810, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Baked_salmon_with_dill_and_lemon.jpg)
 - **Bacon and Gruyere Breakfast Casserole** — photo by MarkTraceur, CC BY-SA 1.0 (https://commons.wikimedia.org/wiki/File:Finished_sausage_breakfast_casserole.jpg)
 - **Greek Broccoli Pasta Salad** — photo by jeffreyw, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Mmm..._pretty_summer_salad_(6005733739).jpg)
@@ -66,7 +65,6 @@ the original recipe cards are family material.
 - **Russian Layered Savory Pie (Pirog) - 3rd page** — photo by A.Savin, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Russian_Coulibiac_with_Cabbage.jpg)
 - **Khachapuri** — photo by Ser Amantio di Nicolao, CC0 (https://commons.wikimedia.org/wiki/File:Large_khachapuri_on_a_dish_at_Little_Georgia_restaurant.jpg)
 - **Yeast Dough for Khachapuri, Pies, and Pirozhki** — photo by Ruth Hartnup, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Knocking_back_bread_dough_%2816006562543%29.jpg)
-- **Choux Pastry (Shu)** — photo by 俊哉 佐伯 (la-fontaine), CC0 (https://commons.wikimedia.org/wiki/File:Choux_à_la_crème_(19387655069).jpg)
 - **Christmas Salad** — photo by Pannet, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Салат_Оливье_03.jpg)
 - **Chicken Salad** — photo by sa ku ra (Flickr), CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Flickr_sa_ku_ra_10556400--Chicken_salad.jpg)
 - **Satsivi for One Large Turkey** — photo by Sandra C from Canada, CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:Satsivi,_Restaurant_Aragvi.jpg)
@@ -85,4 +83,4 @@ the original recipe cards are family material.
 - **Pirozhki with Kefir** — photo by Miha Ulanov, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Pirozhki.jpg)
 - **Marinated Bell Peppers** — photo by paperfacets, CC BY 2.0 (https://www.flickr.com/photos/29412979@N06/5405362230)
 
-80 recipes with sourced photos; 7 awaiting photos.
+78 recipes with sourced photos; 9 awaiting photos.

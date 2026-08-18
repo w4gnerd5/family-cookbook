@@ -56,7 +56,7 @@ class H(BaseHTTPRequestHandler):
         upd = json.loads(self.rfile.read(n))
         # {"kind": "inventory|merges|questions", "id": ..., "field": ..., "value": ...}
         editable = {
-            "inventory": {"new_section", "new_order", "cut", "notes"},
+            "inventory": {"new_section", "new_order", "cut", "notes", "scribe", "scribe_conf"},
             "merges": {"decision", "notes"},
             "questions": {"answer"},
         }

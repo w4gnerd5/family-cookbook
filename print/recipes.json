@@ -23,6 +23,8 @@
   "image": "assets/english/1209/IMG_1209.png",
   "photo": "assets/english/1209/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "no-knead-bread",
   "description": "Jim Lahey's famous no-knead loaf from the New York Times: a wet dough, an overnight rise, and a screaming-hot covered pot stand in for kneading. The printout carries a handwritten substitution of active dry yeast for instant.",
   "ingredients": [
@@ -62,6 +64,8 @@
   "image": "assets/english/1212/IMG_1212.png",
   "photo": "assets/english/1212/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "buttermilk-pancakes-ii",
   "description": "Light, fluffy buttermilk pancakes from a well-used Allrecipes printout; keeping the wet and dry mixtures separate until the last minute is the key to the texture. Makes 12 servings.",
   "ingredients": [
@@ -103,6 +107,8 @@
   "image": "assets/english/1274/IMG_1274.png",
   "photo": "assets/english/1274/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "2-hour-fastest-no-knead-bread",
   "description": "Jenny Jones's quick Dutch-oven no-knead loaf from JennyCanCook.com. Extra yeast and hot water cut the usual overnight rest down to a single hour, for a crusty loaf in about two hours start to finish.",
   "ingredients": [
@@ -145,6 +151,8 @@
   "image": "assets/english/1290/IMG_1290.png",
   "photo": "assets/english/1290/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "moms-zucchini-bread",
   "description": "The five-star Allrecipes classic: a moist cinnamon-vanilla zucchini quick bread with walnuts, making two loaves. Freezes well and keeps in the refrigerator for weeks.",
   "ingredients": [
@@ -189,6 +197,8 @@
   "image": "assets/georgian/1161/IMG_1161.png",
   "photo": "assets/georgian/1161/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 4,
   "slug": "dumpling-dough-with-boiling-water-super",
   "description": "This traditional \"choux\" pastry technique for Russian _pelmeni_ or _vareniki_ uses boiling water to partially gelatinize the starch in the flour. This process results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings remain intact and tender during the boiling process.",
   "ingredients": [
@@ -226,6 +236,8 @@
   "image": "assets/georgian/1168/IMG_1168.png",
   "photo": "assets/georgian/1168/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "traditional-georgian-bread-shaping-instructions",
   "description": "This handwritten note outlines the manual techniques for shaping traditional Georgian dough, likely intended for _Shoti_ (long bread) or _Khachapuri_. The method focuses on preserving the dough's structure by flattening it from the center outward and keeping the edges thick, which is essential for achieving the characteristic airy crust and soft interior of authentic Georgian hearth-baked breads.",
   "ingredients": [
@@ -260,6 +272,8 @@
   "image": "assets/georgian/1170/IMG_1170.png",
   "photo": "assets/georgian/1170/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "khachapuri-recipe-by-gia-agirba",
   "description": "Imeretian Khachapuri is a cornerstone of Georgian culinary tradition, celebrated for its perfect balance of salty, crumbly Imeretian cheese and elastic Sulguni. The key to a successful khachapuri lies in achieving a high-hydration, soft dough that is handled gently to preserve its airy structure, ensuring a tender crust that complements the rich, molten cheese filling.",
   "ingredients": [
@@ -314,6 +328,8 @@
   "image": "assets/georgian/1180/IMG_1180.png",
   "photo": "assets/georgian/1180/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "vareniki-dough-dumpling-dough",
   "description": "This recipe utilizes the \"scalded dough\" technique, a staple of Eastern European culinary tradition. By pouring boiling water directly into the flour, the starches partially gelatinize, resulting in an exceptionally elastic and pliable dough that can be rolled paper-thin without tearing and maintains a silky, tender texture after boiling.",
   "ingredients": [
@@ -375,6 +391,8 @@
   "image": "assets/georgian/1184/IMG_1184.png",
   "photo": "assets/georgian/1184/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 4,
   "slug": "russian-pirozhki-with-scalded-yeast-dough-yields-30",
   "description": "This traditional recipe utilizes the \"scalded\" (zavarnoy) method, where boiling water is poured over a small portion of the flour to gelatinize the starches. This technique creates a dough that is exceptionally soft, easy to handle without sticking, and results in a finished pastry that stays tender and fresh much longer than standard yeast breads.",
   "ingredients": [
@@ -421,6 +439,8 @@
   "image": "assets/georgian/1186/IMG_1186.png",
   "photo": "assets/georgian/1186/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "kefir-pancakes-blini-with-baking-soda",
   "description": "These Eastern European pancakes utilize the chemical reaction between acidic kefir (or Matsoni, a traditional Georgian yogurt) and baking soda to create a light, airy texture. Thinning the batter with milk ensures a delicate, pourable consistency typical of traditional thin blini, which are meant to be light enough to fold or roll.",
   "ingredients": [
@@ -462,6 +482,8 @@
   "image": "assets/georgian/1189/IMG_1189.png",
   "photo": "assets/georgian/1189/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 4,
   "slug": "pirozhki-with-scalded-yeast-dough",
   "description": "This recipe utilizes the \"scalded dough\" (zavarnoy) technique, where boiling water is used to pre-gelatinize a portion of the flour starch. This scientific process creates a uniquely supple and elastic dough that remains soft for several days and is particularly well-suited for deep-frying, providing a superior texture compared to standard yeast doughs.",
   "ingredients": [
@@ -516,6 +538,8 @@
   "image": "assets/georgian/1192/IMG_1192.png",
   "photo": "assets/georgian/1192/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "zeinabs-khachapuri",
   "description": "This recipe utilizes the traditional \"chopped dough\" technique, where butter is worked into flour to create distinct layers, resulting in a signature flaky and tender crust. The use of Matsoni (a traditional Georgian yogurt) combined with baking soda creates a light, airy rise and a subtle tang that is characteristic of authentic homemade khachapuri.",
   "ingredients": [
@@ -561,6 +585,8 @@
   "image": "assets/georgian/1195/IMG_1195.png",
   "photo": "assets/georgian/1195/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "adjarian-khachapuri",
   "description": "This recipe details the preparation of a traditional Georgian Khachapuri, a staple cheese-filled bread. The core science of this recipe relies on a high-hydration, enriched yeast dough that is briefly rested to develop gluten elasticity, paired with a high-heat bake (220-250°C) to ensure a rapid rise and a characteristic golden, soft crust that encases the molten cheese interior.",
   "ingredients": [
@@ -625,6 +651,8 @@
   "image": "assets/georgian/1198/IMG_1198.png",
   "photo": "assets/georgian/1198/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 4,
   "slug": "vareniki-with-boiling-water-dough",
   "description": "This recipe utilizes the \"choux\" pastry technique, where boiling water is used to partially gelatinize the flour's starch. This results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings hold their shape and stay soft after boiling.",
   "ingredients": [
@@ -661,6 +689,8 @@
   "image": "assets/georgian/1202/IMG_1202.png",
   "photo": "assets/georgian/1202/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "zainabs-khachapuri",
   "description": "Matsoni (Georgian fermented milk) provides natural acidity that reacts with baking soda to leaven the dough, while the process of spreading, greasing, and layering with soda creates a characteristically soft and slightly flaky texture without the need for yeast.",
   "ingredients": [
@@ -702,6 +732,8 @@
   "image": "assets/georgian/1232/IMG_1232.png",
   "photo": "assets/georgian/1232/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 5,
   "slug": "boiling-water-pancakes-blini",
   "description": "Boiling water pancakes, known in Eastern Europe as _zavarnye blini_, utilize a \"custard\" technique where boiling water is whisked into the batter. This process partially gelatinizes the flour's starch, resulting in an exceptionally elastic, tender, and lacy texture with characteristic tiny holes, making them perfect for filling or folding.",
   "ingredients": [
@@ -747,6 +779,8 @@
   "image": "assets/georgian/1233/IMG_1233.png",
   "photo": "assets/georgian/1233/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 5,
   "slug": "scalded-crepes-zavarnyye-blini",
   "description": "This traditional Russian recipe uses the \"zavarnoye\" (scalded) technique, where boiling water is whisked into the cold batter. This process partially gelatinizes the flour's starch, resulting in incredibly thin, elastic, and \"lacy\" crepes that are easier to flip and have a delicate texture.",
   "ingredients": [
@@ -785,6 +819,8 @@
   "image": "assets/georgian/1236/IMG_1236.png",
   "photo": "assets/georgian/1236/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "oven-baked-brioches",
   "description": "This recipe utilizes a traditional \"starter\" (preferment) method, which is the secret to achieving a light, airy crumb in yeast-based breads. By first activating the yeast with a small amount of flour and warm water, you ensure a strong ferment that gives these brioches their characteristic soft texture and rich flavor even without excessive dairy.",
   "ingredients": [
@@ -826,6 +862,8 @@
   "image": "assets/georgian/1237/IMG_1237.png",
   "photo": "assets/georgian/1237/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 9,
   "slug": "puff-pastry",
   "description": "This recipe describes a \"rough puff\" or flaky pastry dough where the key to success is maintaining the cold temperature of the ingredients. By cutting the butter into the flour rather than fully incorporating it, you create distinct layers of fat that release steam during baking, creating the airy, shattered texture essential for traditional Slavic sweet or savory pies.",
   "ingredients": [
@@ -865,6 +903,8 @@
   "image": "assets/georgian/1237/IMG_1238.png",
   "photo": "",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 9,
   "slug": "flaky-pastry-folding-instructions-2nd-page",
   "description": "This manual method for laminating dough creates the classic \"puff\" effect through mechanical layering. By alternating rolling, folding, and chilling, you create dozens of alternating layers of dough and fat; during baking, the moisture in the fat turns to steam, forcing the layers apart to create a light, airy, and crisp texture.",
   "ingredients": [
@@ -902,6 +942,8 @@
   "image": "assets/georgian/1237/IMG_1239.png",
   "photo": "assets/georgian/1237/dish-1239.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 9,
   "slug": "russian-layered-savory-pie-pirog-3rd-page",
   "description": "This recipe describes a traditional Russian \"Pirog,\" a multi-layered savory pastry that combines hearty staples like cabbage, rice, and eggs. The success of this dish relies on the structural layering of cooked ingredients encased in a thin, crisp crust, creating a moist interior that is perfect for a communal family meal.",
   "ingredients": [
@@ -952,6 +994,8 @@
   "image": "assets/georgian/1237/IMG_1240.png",
   "photo": "",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 9,
   "slug": "puff-pastry-dough-pie-page-4",
   "description": "This traditional recipe emphasizes a specific baking technique where starting with a cold oven is essential for puff pastry to achieve its maximum lift and flakiness. It also incorporates a folk tradition of hiding a lucky charm inside the savory cheese and egg filling to bring fortune for the coming year.",
   "ingredients": [
@@ -999,6 +1043,8 @@
   "image": "assets/georgian/1241/IMG_1241.png",
   "photo": "assets/georgian/1241/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 9,
   "slug": "khachapuri",
   "description": "Khachapuri is a staple of Georgian cuisine, representing a diverse family of cheese-filled breads. This specific dough recipe utilizes a pastry-style technique where cold butter is \"chopped\" into flour and combined with the acidic lift of matsoni (a traditional fermented milk) and baking soda to create a tender, slightly flaky crust.",
   "ingredients": [
@@ -1018,7 +1064,7 @@
   "notes": [
    "Success depends on keeping the butter cold and using a \"chopping\" motion with a knife to combine it with the flour, which prevents the fat from melting and ensures a light texture. During kneading, do not add any additional flour; use only the amount specified in the proportions. Before baking, brush the khachapuri with melange (egg wash). Bake in a well-preheated oven."
   ],
-  "original": "#### Russian\nХачапури - тесто - для духовки.\n1. На доске насыпать муку, обвалять в муке и ножом нарезать масло кубиками, дальше можно крошить руками, вплоть до однородной массы (в муке масло крупинками остаётся). 2. сделать в этой мучной...\nмассе углубление и влить\nмацони, - кислый йогурт.\n(и 1 ч. ложку соды)\nи приготовить тесто большим\nножом - рубить, после получения\nоднородной массы можно месить\nруками. Когда тесто станет однородным - \nразделить его на 3 равные части (на 3 жаровни).\nположить в закрытую посуду\nи дать подняться - 1 ч.\nпри меске муку больше не\nдобавлять. Только то,\nсколько дано в пропорции.\n\n1. мука - 6 чайных стаканов.\n2. масло - 200 гр (холодное).\n3. мацони - 800 гр.\n4. сода - 1 ч.л.\n\nперед печкой\nнамазать хачапури\nмеланжем. печь в хорошо\nразогретой духовке.\n\n#### Georgian\nჩემო სიცოცხლე და სიყვარულო.\nეს ვეფხისტყაოსანს ჰგავს, მაგრამ\nყველაფერი დაწვრილებით ჩაგიწერე,\nთორემ ძნელი სულ არ არის.\nაბა შენ იცი, არ შემარცხვინო."
+  "original": "#### Russian\nХачапури - тесто - для духовки.\n1. На доске насыпать муку, обвалять в муке и ножом нарезать масло кубиками, дальше можно крошить руками, вплоть до однородной массы (в муке масло крупинками остаётся). 2. сделать в этой мучной...\nмассе углубление и влить\nмацони, - кислый йогурт.\n(и 1 ч. ложку соды)\nи приготовить тесто большим\nножом - рубить, после получения\nоднородной массы можно месить\nруками. Когда тесто станет однородным - \nразделить его на 3 равные части (на 3 жаровни).\nположить в закрытую посуду\nи дать подняться - 1 ч.\nпри меске муку больше не\nдобавлять. Только то,\nсколько дано в пропорции.\n\n1. мука - 6 чайных стаканов.\n2. масло - 200 гр (холодное).\n3. мацони - 800 гр.\n4. сода - 1 ч.л.\n\nперед печкой\nнамазать хачапури\nмеланжем. печь в хорошо\nразогретой духовке.\n\n#### Georgian note (mid-page on IMG_1241, between the pirog recipe's ending and the khachapuri heading)\nჩემო სიცოცხლე და სიყვარულო.\nეს ვეფხისტყაოსანს ჰგავს, მაგრამ\nყველაფერი დაწვრილებით ჩაგიწერე,\nთორემ ძნელი სულ არ არის.\nაბა შენ იცი, არ შემარცხვინო."
  },
  {
   "file": "assets/georgian/1243/IMG_1243.md",
@@ -1038,6 +1084,8 @@
   "image": "assets/georgian/1243/IMG_1243.png",
   "photo": "assets/georgian/1243/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "yeast-dough-for-khachapuri-pies-and-pirozhki",
   "description": "This versatile yeast dough is a staple of Eastern European and Caucasian baking, specifically formulated to produce a soft, enriched crumb suitable for savory filled breads. The inclusion of both butter and sunflower oil provides a unique elasticity and richness, making it the perfect base for traditional Georgian khachapuri or classic Russian hand pies.",
   "ingredients": [
@@ -1076,6 +1124,8 @@
   "image": "assets/georgian/1255/IMG_1255.png",
   "photo": "assets/georgian/1255/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 9,
   "slug": "zeinabs-khachapuri-2",
   "description": "Khachapuri is a cornerstone of Georgian cuisine, representing a traditional cheese-filled bread that varies by region. This particular recipe utilizes matzoni, a traditional Caucasian fermented milk product, to create a tender, slightly tangy dough, while the technique of mixing with a knife helps keep the dough light and prevents the butter from over-incorporating or melting from hand heat.",
   "ingredients": [
@@ -1115,6 +1165,8 @@
   "image": "assets/georgian/1256/IMG_1256.png",
   "photo": "assets/georgian/1256/dish.jpg",
   "inverse": false,
+  "scribe": "Rusiko",
+  "scribe_confidence": 5,
   "slug": "adjarian-khachapuri-2",
   "description": "Adjarian Khachapuri is a signature boat-shaped Georgian bread traditionally filled with a mixture of Imeretian and Sulguni cheeses. The dough's elasticity comes from a simple yeast-based foundation, while the high-heat baking process creates a crisp exterior and a molten, cheesy center that is typically finished with a fresh egg yolk and a pat of butter.",
   "ingredients": [
@@ -1165,6 +1217,8 @@
   "image": "assets/georgian/1266/IMG_1266.png",
   "photo": "assets/georgian/1266/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "adjarian-khachapuri-3",
   "description": "Khachapuri is Georgia's quintessential cheese bread, a staple of national identity where the interplay of soft, yeasted dough and melted cheese is paramount. The secret to its texture lies in a high hydration dough enriched with margarine, which creates a tender crumb that perfectly complements the salty, elastic cheese filling.",
   "ingredients": [
@@ -1209,6 +1263,8 @@
   "image": "assets/georgian/1267/IMG_1267.png",
   "photo": "assets/georgian/1267/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 5,
   "slug": "pirozhki-with-scalded-dough",
   "description": "This recipe utilizes the \"zavarnoy\" (scalded) method, where boiling water is used to gelatinize a portion of the flour's starch. This technique results in a dough that is exceptionally soft, elastic, and easy to work with, while ensuring the finished pastries stay fresh and tender for a longer period.",
   "ingredients": [
@@ -1247,6 +1303,8 @@
   "image": "assets/georgian/1269/IMG_1269.png",
   "photo": "assets/georgian/1269/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 5,
   "slug": "pirozhki-with-kefir",
   "description": "This quick dough recipe utilizes the lactic acid in kefir to help the yeast activate rapidly, creating an exceptionally tender and airy texture ideal for making traditional Russian stuffed buns (pirozhki), whether fried or baked.",
   "ingredients": [
@@ -1284,6 +1342,8 @@
   "image": "assets/english/1227/IMG_1227.png",
   "photo": "assets/english/1227/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "beef-bourguignon",
   "description": "Ina Garten's Barefoot Contessa take on the Burgundian classic: chuck beef seared with bacon, flamed with Cognac, and braised in a full bottle of red wine, served over garlic-rubbed toasted bread. Printed from Food Network; serves 6.",
   "ingredients": [
@@ -1339,6 +1399,8 @@
   "image": "assets/english/1228/IMG_1228.png",
   "photo": "assets/english/1228/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "old-fashioned-beef-stew",
   "description": "Molly O'Neill's classic stick-to-your-ribs beef stew from NYT Cooking, with the wine and broth lines highlighted on this well-worn printout.",
   "ingredients": [
@@ -1389,6 +1451,8 @@
   "image": "assets/english/1285/IMG_1285.png",
   "photo": "assets/english/1285/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "ina-gartens-unforgettable-beef-stew",
   "description": "A printout from Veggies By Candlelight of Ina Garten's red wine-marinated beef stew, oven-braised with carrots, potatoes, sun-dried tomatoes, and rosemary. The card has hand-strikethroughs on the red wine and the mushrooms.",
   "ingredients": [
@@ -1447,6 +1511,8 @@
   "image": "assets/english/1293/IMG_1293.png",
   "photo": "assets/english/1293/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "old-time-beef-stew",
   "description": "Paula Deen's Food Network beef stew, well used and food-stained, with handwritten doubling notes in the margins (4 cups water, 2 Tbsp Worcestershire, 4 garlic cloves, 2 onions). Simmered stew beef with carrots and celery, thickened with cornstarch.",
   "ingredients": [
@@ -1495,6 +1561,8 @@
   "image": "assets/english/1294/IMG_1294.png",
   "photo": "assets/english/1294/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "parkers-split-pea-soup",
   "description": "Ina Garten's Barefoot Contessa split pea soup from Food Network. The peas go in two batches, so half break down into the broth while the rest keep some texture.",
   "ingredients": [
@@ -1543,6 +1611,8 @@
   "image": "assets/english/1205/IMG_1205.png",
   "photo": "assets/english/1205/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "homemade-merguez-sausage",
   "description": "Merguez is a North African lamb sausage seasoned with toasted whole spices and harissa, stuffed into lamb casings and grilled. Printed from Serious Eats (Joshua Bousel); makes 4 pounds of sausage.",
   "ingredients": [
@@ -1597,6 +1667,8 @@
   "image": "assets/english/1207/IMG_1207.png",
   "photo": "assets/english/1207/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "shakshuka-with-feta",
   "description": "Eggs baked in a spiced tomato and red pepper sauce, finished with crumbled feta that softens into creamy nuggets in the oven. A North African dish by way of Melissa Clark's NYT Cooking version; serves 4 to 6.",
   "ingredients": [
@@ -1646,6 +1718,8 @@
   "image": "assets/english/1210/IMG_1210.png",
   "photo": "assets/english/1210/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "cashew-nut-loaf",
   "description": "A vegetarian nut loaf from a mid-century community cookbook page (page 43, \"Entrees,\" attributed to Mrs. Ferdinand Welebir). The page is heavily annotated by hand, including a soy sauce substitution for Savita and revised baking directions. The scan also carries four unrelated recipes from the same page, which are not part of this collection.",
   "ingredients": [
@@ -1694,6 +1768,8 @@
   "image": "assets/english/1213/IMG_1213.png",
   "photo": "assets/english/1213/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "whole-chicken-crock-pot",
   "description": "A spice-rubbed whole chicken cooked slowly in a crock pot with no added liquid; the chicken makes its own juices. Printed from Food.com (by _Kathy_, 2002); serves 4.",
   "ingredients": [
@@ -1741,6 +1817,8 @@
   "image": "assets/english/1214/IMG_1214.png",
   "photo": "assets/english/1214/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "turkey-meatloaf",
   "description": "A straightforward ground turkey meatloaf with sauteed onion and garlic and a catsup glaze. Printed from Food.com (by tootyflooty, 2003); serves 5.",
   "ingredients": [
@@ -1786,6 +1864,8 @@
   "image": "assets/english/1216/IMG_1216.png",
   "photo": "assets/english/1216/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "turkey-and-quinoa-meatloaf",
   "description": "A turkey meatloaf where cooked quinoa stands in for breadcrumbs, topped with a brown sugar and Worcestershire glaze. Printed from Allrecipes (by Drew); serves 5.",
   "ingredients": [
@@ -1842,6 +1922,8 @@
   "image": "assets/english/1217/IMG_1217.png",
   "photo": "assets/english/1217/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "apple-cider-braised-pork-shoulder",
   "description": "Pork shoulder braised low and slow in fresh apple cider, chicken stock, and dijon with a whole garlic head and a rosemary-thyme bundle, finished with red onion and apple wedges. Printed from the So Much Food blog; serves 6-8.",
   "ingredients": [
@@ -1893,6 +1975,8 @@
   "image": "assets/english/1221/IMG_1221.png",
   "photo": "assets/english/1221/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "skillet-chicken-bulgogi",
   "description": "A quick Korean-style bulgogi made with chicken breast strips in a soy, brown sugar, garlic, and sesame marinade, cooked entirely in one skillet in 30 minutes. Printed from Allrecipes; serve over rice.",
   "ingredients": [
@@ -1951,6 +2035,8 @@
   "image": "assets/english/1222/IMG_1222.png",
   "photo": "assets/english/1222/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "fresh-huevos-rancheros",
   "description": "A vegetarian Mexican breakfast of fried eggs on tortillas spread with quick refried beans, topped with warm salsa and fresh pico de gallo. Printed from Cookie and Kate; yields 4 hearty but modest servings of one tortilla and egg each.",
   "ingredients": [
@@ -2025,6 +2111,8 @@
   "image": "assets/english/1229/IMG_1229.png",
   "photo": "assets/english/1229/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "company-pot-roast",
   "description": "Ina Garten's Barefoot Contessa pot roast: a seared chuck roast braised with mirepoix, leeks, red wine, and Cognac, with half the sauce pureed for body. From Back to Basics (2008); serves 8.",
   "ingredients": [
@@ -2075,6 +2163,8 @@
   "image": "assets/english/1273/IMG_1273.png",
   "photo": "assets/english/1273/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "croque-madame",
   "description": "A NYT Cooking printout of the classic French griddled ham and Gruyère sandwich with béchamel, topped with a fried egg. A variation of Amanda Hesser's croque-monsieur. Yield: 2 sandwiches; time: 20 minutes.",
   "ingredients": [
@@ -2099,52 +2189,6 @@
   "original": "Cooking\n\nCroque-Madame\n\nBy The New York Times\n\nYIELD 2 sandwiches\nTIME 20 minutes\n\nThis is a variation of Amanda Hesser's croque-monsieur (https://cooking.nytimes.com/recipes/1017345-croque-monsieur), a ham and Gruyere sandwich topped with béchamel. Here, we invite you to pop a fried egg on top. Voila! A croque-madame (reportedly named such because the egg resembles a lady's wide-brimmed hat).\n\nINGREDIENTS\n\n5 tablespoons butter\n1 tablespoon flour\n2/3 cup milk\nSea salt\nFreshly grated nutmeg\n4 1/3-inch-thick slices country bread\n4 thin slices French ham\n2 thin slices Gruyere cheese\n2 eggs\n\nPREPARATION\n\nStep 1\nPreheat a two-sided electric griddle on medium-high to high for about 20 minutes, or preheat the oven to 300 degrees and preheat a cast-iron skillet on top of the stove for about 5 minutes. Prepare a bechamel sauce: in a small saucepan over medium heat, melt 1 tablespoon butter. When bubbles have subsided, add flour and whisk vigorously for 1 minute. Slowly whisk in milk until smooth. Bring to a boil, and cook until thick. Remove from heat, and season to taste with salt and nutmeg.\n\nStep 2\nSpread two slices of bread generously with sauce. Lay two slices of ham on top of each, and top each with a slice of cheese; ham and cheese should slightly overlap edges of bread. Top each with a slice of bread.\n\nStep 3\nIn a small saucepan, melt remaining the 4 tablespoons butter. Brush the sandwiches on both sides with butter, making sure that the edges are well covered. If you're using a griddle, place cheese side down, close the griddle and cook until the bread is toasted dark and cheese is leaking out and bubbling. If you're using a skillet, place sandwiches cheese side down and cook on stove top until well browned, then turn and brown again. Transfer skillet to oven, and bake until heated through and cheese is bubbling. Meanwhile, fry the eggs in a skillet with little butter. Slide one fried egg onto each sandwich. Serve hot.\n\nhttps://cooking.nytimes.com/recipes/1017346-croque-madame — 2/26/22, 10:13 AM — Page 1 of 2"
  },
  {
-  "file": "assets/english/1278/IMG_1278.md",
-  "scans": [
-   {
-    "path": "assets/english/1278/IMG_1278.png",
-    "scale": 1.0,
-    "tilt": 2.66,
-    "aspect": 0.7859
-   }
-  ],
-  "title": "Whole Chicken Crock Pot Recipe",
-  "language": "english",
-  "section": "Mains",
-  "batch": "",
-  "number": 12,
-  "image": "assets/english/1278/IMG_1278.png",
-  "photo": "assets/english/1278/dish.jpg",
-  "inverse": false,
-  "slug": "whole-chicken-crock-pot-recipe",
-  "description": "A Food.com printout for a spice-rubbed whole chicken slow-cooked with no added liquid, sitting on a bed of chopped onion. The dry rub is a Cajun-style blend of paprika, cayenne, thyme, and three peppers.",
-  "ingredients": [
-   "4 teaspoons salt (per recipe reviews, 2 tsp is better)",
-   "2 teaspoons paprika",
-   "1 teaspoon cayenne pepper",
-   "1 teaspoon onion powder",
-   "1 teaspoon thyme",
-   "1 teaspoon white pepper",
-   "1/2 teaspoon garlic powder",
-   "1/2 teaspoon black pepper",
-   "1 large roasting chicken (with pop-up timer if possible)",
-   "1 cup chopped onions (optional)"
-  ],
-  "instructions": [
-   "In a small bowl, combine the spices.",
-   "Remove any giblets from chicken and clean chicken.",
-   "Rub spice mixture onto the chicken.",
-   "Place in resealable plastic bag and refrigerate overnight (the author usually skips this step).",
-   "When ready to cook, put chopped onion in bottom of crock pot.",
-   "Add chicken. No liquid is needed; the chicken will make its own juices.",
-   "Cook on low 4–8 hours."
-  ],
-  "notes": [
-   "*Timing:* A pop-up timer is recommended; crock pots vary, and the author's cooks this in 4–5 hours."
-  ],
-  "original": "Whole Chicken Crock Pot Recipe\nBy *Kathy* on July 09, 2002\n5 stars — 614 Reviews\n\nPrep Time: 15 hrs   Total Time: 23 hrs   Servings: 4\n\nIngredients\n\n4 teaspoons salt ( per recipe reviews, 2 tsp is better)\n2 teaspoons paprika\n1 teaspoon cayenne pepper\n1 teaspoon onion powder\n1 teaspoon thyme\n1 teaspoon white pepper\n1/2 teaspoon garlic powder\n1/2 teaspoon black pepper\n1 large roasting chickens ( with pop-up timer if possible)\n1 cup chopped onions (optional)\n\nDirections\n\n1. In a small bowl, combine the spices.\n2. Remove any giblets from chicken and clean chicken.\n3. Rub spice mixture onto the chicken.\n4. Place in resealable plastic bag and refrigerate overnight. (I usually skip this step because I'm always in a hurry).\n5. When ready to cook, put chopped onion in bottom of crock pot.\n6. Add chicken. No liquid is needed, the chicken will make it's own juices.\n7. Cook on low 4-8 hours.\n8. Note: I highly recommend a pop-up timer in the chicken because some crock pots cook faster/slower than others (my crock pot cooks this recipe in 4-5 hours).\n\n© 2012 Scripps Networks, LLC. All Rights Reserved. http://www.food.com/33671"
- },
- {
   "file": "assets/english/1279/IMG_1279.md",
   "scans": [
    {
@@ -2162,6 +2206,8 @@
   "image": "assets/english/1279/IMG_1279.png",
   "photo": "assets/english/1279/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "baked-salmon-with-dill-garlic-beurre-blanc",
   "description": "A Recipe4Living printout for oven-baked salmon fillets with a quick beurre blanc built on a white wine, dill, and garlic reduction mounted with cold butter.",
   "ingredients": [
@@ -2200,6 +2246,8 @@
   "image": "assets/english/1280/IMG_1280.png",
   "photo": "assets/english/1280/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "bacon-and-gruyere-breakfast-casserole",
   "description": "A blended egg, Gruyère, and cream cheese custard baked gently in a water bath and topped with crumbled bacon. From Cuts and Crumbles; the water bath keeps the texture custardy rather than rubbery.",
   "ingredients": [
@@ -2256,6 +2304,8 @@
   "image": "assets/english/1282/IMG_1282.png",
   "photo": "assets/english/1282/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "slow-roasted-crispy-pork-belly",
   "description": "Nagi's RecipeTin Eats method for pork belly slow-roasted in a foil \"box\" so it confits in its own fat, then blasted at high heat for crackling. The three techniques: do not score the skin, low heat then high heat, and keep the pork level with balls of foil.",
   "ingredients": [
@@ -2309,6 +2359,8 @@
   "image": "assets/english/1287/IMG_1287.png",
   "photo": "assets/english/1287/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "perfect-roast-chicken",
   "description": "Ina Garten's Barefoot Contessa roast chicken from Food Network: a whole bird stuffed with thyme, lemon, and garlic, roasted over onions, carrots, and fennel.",
   "ingredients": [
@@ -2358,6 +2410,8 @@
   "image": "assets/english/1288/IMG_1288.png",
   "photo": "assets/english/1288/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "garlic-braised-short-ribs-with-red-wine",
   "description": "Alison Roman's NYT Cooking braise: bone-in short ribs seared, then oven-braised low and slow with two whole heads of garlic, red wine, and beef stock until falling off the bone. Finished with parsley, chives, and lemon zest.",
   "ingredients": [
@@ -2412,6 +2466,8 @@
   "image": "assets/english/1291/IMG_1291.png",
   "photo": "assets/english/1291/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "tuscan-farmers-breakfast",
   "description": "Sylvia Fountaine's Feasting At Home skillet of cannellini beans simmered with tomatoes and herbs, with eggs cracked into wells and gently steamed. Served with crusty bread or tortillas and gremolata.",
   "ingredients": [
@@ -2464,6 +2520,8 @@
   "image": "assets/english/1295/IMG_1295.png",
   "photo": "assets/english/1295/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "chicken-rice-and-spices-bake",
   "description": "A Food.com potluck favorite: browned chicken thighs baked over basmati rice with turmeric, cumin, curry powder, and a little cinnamon, all cooked in one covered dish with hot chicken stock. As long as the foil seal is tight, the rice comes out right.",
   "ingredients": [
@@ -2532,6 +2590,8 @@
   "image": "assets/english/1297/IMG_1297.png",
   "photo": "assets/english/1297/dish.jpg",
   "inverse": true,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "crispy-pork-and-watermelon-salad",
   "description": "Zak Pelaccio's signature dish from his Fatty Crab restaurants, printed from Serious Eats (from the book \"Eat with Your Hands\"). Brined, braised, pressed, and deep-fried pork belly tossed with chilled watermelon, pickled watermelon rind, Thai basil, and Vietnamese mint in a palm sugar-lime dressing.",
   "ingredients": [
@@ -2636,6 +2696,8 @@
   "image": "assets/georgian/1162/IMG_1162.png",
   "photo": "assets/georgian/1162/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "lyudmilas-beef-stroganoff",
   "description": "Lyudmila’s Beef Stroganoff reflects the historic culinary exchange between Russian and Georgian traditions. While the classic Russian dish typically features a sour cream-based sauce, this version incorporates regional Caucasian preferences for bell peppers and a tomato base, using a starch slurry to achieve the dish's signature silky consistency without heavy dairy.",
   "ingredients": [
@@ -2686,6 +2748,8 @@
   "image": "assets/georgian/1178/IMG_1178.png",
   "photo": "assets/georgian/1178/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "rusikos-cutlets",
   "description": "These Georgian-style meat cutlets, known as _kotleti_, are a beloved staple of Caucasian home cooking. This specific variation incorporates boiled buckwheat as a binding agent instead of the traditional heavy use of soaked bread, which introduces a deep, nutty flavor and ensures a moist, tender interior.",
   "ingredients": [
@@ -2739,6 +2803,8 @@
   "image": "assets/georgian/1181/IMG_1181.png",
   "photo": "assets/georgian/1181/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "camca-sumsa",
   "description": "Samsa is a staple savory pastry of Central Asian cuisine, traditionally baked in a tandoor but adapted here for a standard oven. The key to its signature flaky, multi-layered texture is the process of rolling the dough extremely thin, layering it with fat (melted butter), and chilling the resulting roll to ensure the layers remain distinct and crisp during the bake.",
   "ingredients": [
@@ -2796,6 +2862,8 @@
   "image": "assets/georgian/1185/IMG_1185.png",
   "photo": "assets/georgian/1185/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "amis-khinkali",
   "description": "Khinkali are the iconic soup dumplings of Georgia, traditionally filled with raw spiced meat that releases a rich, aromatic broth as it boils. The key to authentic flavor is the use of distinct highland herbs like blue fenugreek and summer savory, while a very stiff, cold-water dough is essential to ensure the pleats hold firm and contain the hot juices inside.",
   "ingredients": [
@@ -2842,6 +2910,8 @@
   "image": "assets/georgian/1200/IMG_1200.png",
   "photo": "assets/georgian/1200/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "new-seasons-market-cheesy-chilaquiles-casserole",
   "description": "This casserole version of the traditional Mexican breakfast dish relies on the corn tortillas to absorb the enchilada sauce, where the starch helps thicken the mixture and creates a cohesive, tender texture similar to a savory bread pudding or lasagna.",
   "ingredients": [
@@ -2884,6 +2954,8 @@
   "image": "assets/georgian/1201/IMG_1201.png",
   "photo": "assets/georgian/1201/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "vegetable-enchilada-casserole",
   "description": "This dish is a hearty vegetarian take on traditional enchiladas, layering classic Tex-Mex flavors into a convenient casserole format. The combination of beans, corn, and zucchini provides a satisfying texture, while layering the tortillas instead of rolling them ensures every bite is thoroughly infused with sauce and melted cheese.",
   "ingredients": [
@@ -2941,6 +3013,8 @@
   "image": "assets/georgian/1248/IMG_1248.png",
   "photo": "assets/georgian/1248/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "satsivi-for-one-large-turkey",
   "description": "Satsivi is the crown jewel of Georgian festive cuisine, traditionally served cold during Christmas and New Year celebrations. The dish's unique chemistry relies on the high natural oil content of finely ground walnuts and a specific aromatic blend of warming spices, like blue fenugreek and marigold, which emulsify with the broth to create a rich, velvety sauce without the need for additional thickeners.",
   "ingredients": [
@@ -3014,6 +3088,8 @@
   "image": "assets/georgian/1250/IMG_1250.png",
   "photo": "assets/georgian/1250/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "beef-eggplant-bell-pepper-boat-khortsia-tsomshi",
   "description": "This traditional Georgian preparation transforms tender parboiled meat into a decorative centerpiece by garnishing it with garlic cloves shaped like a boat's sails. The method of \"half-boiling\" the meat first ensures it remains succulent during the final high-heat bake, while seasoning with fresh herbs and bell peppers provides the aromatic complexity characteristic of Caucasian cuisine.",
   "ingredients": [
@@ -3060,6 +3136,8 @@
   "image": "assets/georgian/1253/IMG_1253.png",
   "photo": "assets/georgian/1253/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "achma-makarina",
   "description": "This traditional Georgian recipe utilizes a high egg count and a \"feel-based\" flour measurement to create a rich, elastic dough. The technique of adding flour \"until it's kneaded in\" ensures a tender crust that can support a heavy, savory cheese filling without becoming tough or dry, a hallmark of homemade regional breads like Khachapuri.",
   "ingredients": [
@@ -3096,6 +3174,8 @@
   "image": "assets/georgian/1254/IMG_1254.png",
   "photo": "assets/georgian/1254/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "american-kebab",
   "description": "This recipe blends traditional kebab preparation with Western-style extra-lean beef and a specific aromatic profile including thyme and rosemary. Using garlic juice instead of minced cloves is a culinary technique that ensures the flavor is evenly distributed throughout the meat without introducing fibrous textures, resulting in a more refined finish.",
   "ingredients": [
@@ -3133,6 +3213,8 @@
   "image": "assets/english/1215/IMG_1215.png",
   "photo": "assets/english/1215/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "holiday-chicken-salad",
   "description": "A chicken salad brightened with dried cranberries, celery, green onion, and pecans in a paprika-seasoned mayonnaise. Printed from Allrecipes; also makes a good sandwich filling. Serves 12.",
   "ingredients": [
@@ -3171,6 +3253,8 @@
   "image": "assets/english/1281/IMG_1281.png",
   "photo": "assets/english/1281/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "greek-broccoli-pasta-salad",
   "description": "Fusilli tossed with blanched broccoli, cherry tomatoes, bell pepper, red onion, kalamata olives, and feta, dressed with a red wine vinegar and oregano vinaigrette. From The Recipe Critic.",
   "ingredients": [
@@ -3227,6 +3311,8 @@
   "image": "",
   "photo": "assets/georgian/1246/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 9,
   "slug": "christmas-salad",
   "description": "This hearty Slavic holiday salad features a classic combination of sautéed mushrooms, onions, and boiled protein, layered or mixed with tangy mayonnaise and crunchy rye bread croutons, showcasing the rich, savory profiles typical of festive Russian winter tables.",
   "ingredients": [
@@ -3259,6 +3345,8 @@
   "image": "",
   "photo": "assets/georgian/1247/dish.jpg",
   "inverse": false,
+  "scribe": "Zeinab",
+  "scribe_confidence": 9,
   "slug": "chicken-salad",
   "description": "A five-line notebook salad of shredded red radish and boiled chicken, bound with mayonnaise and sweetened by onion sautéed in oil. The radish keeps its bite against the soft chicken, a quick everyday counterpoint to the festive salads on the neighboring pages.",
   "ingredients": [
@@ -3292,6 +3380,8 @@
   "image": "assets/georgian/1176/IMG_1176.png",
   "photo": "",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "bazhe-georgian-walnut-sauce",
   "description": "Bazhe is a cornerstone of Georgian celebratory cuisine, prized for its rich, velvety texture and the aromatic depth provided by \"Utskho Suneli\" (Blue Fenugreek). Traditionally served with poultry, the sauce relies on finely ground walnuts and a precise balance of warm spices to create a creamy emulsion that characterizes the unique flavor profile of the Caucasus region.",
   "ingredients": [
@@ -3330,6 +3420,8 @@
   "image": "assets/georgian/1257/IMG_1257.png",
   "photo": "assets/georgian/1257/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "red-tkemali-plum-sauce",
   "description": "Red Tkemali is a quintessential Georgian condiment made from tart cherry plums, serving as a vibrant, tangy accompaniment to grilled meats and roasted potatoes. The sauce's signature profile relies on the high acidity of the fruit, which is traditionally balanced by fresh aromatic herbs and the warm, earthy notes of _khmeli suneli_, a classic Georgian spice blend.",
   "ingredients": [
@@ -3370,6 +3462,8 @@
   "image": "assets/georgian/1264/IMG_1264.png",
   "photo": "assets/georgian/1264/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "ajika",
   "description": "Ajika is a bold and fragrant Georgian condiment, traditionally defined by its fiery pepper base and pungent garlic. This specific variant mellows the intense heat by incorporating beetroot and carrots for natural sweetness and body, while red plum sauce (tkemali) provides the quintessential Georgian tartness that balances the richness of the vegetable puree.",
   "ingredients": [
@@ -3415,6 +3509,8 @@
   "image": "assets/georgian/1270/IMG_1270.png",
   "photo": "assets/georgian/1270/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "marinated-bell-peppers",
   "description": "This recipe captures the essence of home preservation in the Caucasus, where bell peppers (traditionally called \"Bulgarian peppers\") are lightly blanched in a seasoned marinade. This technique ensures the peppers retain a crisp texture while absorbing the sharp, aromatic flavors of garlic, vinegar, and fresh parsley, creating a staple side dish for the winter months.",
   "ingredients": [
@@ -3459,6 +3555,8 @@
   "image": "assets/english/1272/IMG_1272.png",
   "photo": "assets/english/1272/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "indian-pudding",
   "description": "A classic New England baked cornmeal and molasses pudding, slow-baked for hours and served chilled with lightly whipped cream. The cold milk poured over the top before baking keeps the center soft.",
   "ingredients": [
@@ -3489,6 +3587,20 @@
   "file": "assets/georgian/1175/IMG_1175.md",
   "scans": [
    {
+    "path": "assets/georgian/1175/IMG_1245.png",
+    "scribe": "Zeinab",
+    "scale": 1.0,
+    "tilt": -2.81,
+    "aspect": 0.7307
+   },
+   {
+    "path": "assets/georgian/1175/IMG_1244.png",
+    "scribe": "Zeinab",
+    "scale": 1.0,
+    "tilt": 3.08,
+    "aspect": 0.7398
+   },
+   {
     "path": "assets/georgian/1175/IMG_1175.png",
     "scale": 1.0,
     "tilt": -2.78,
@@ -3503,6 +3615,8 @@
   "image": "assets/georgian/1175/IMG_1175.png",
   "photo": "assets/georgian/1175/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "zeinabs-shu",
   "description": "Shu is the Georgian take on French choux pastry. Light, hollow puffs filled with a rich milk-and-flour cream. Zeinab's version uses a custard-style cream thickened on the stovetop rather than a whipped filling, giving it a denser, more indulgent character typical of Georgian home baking.",
   "ingredients": [
@@ -3515,14 +3629,23 @@
    "Salt",
    "1 cup sifted flour",
    {
-    "group": "For the Cream (Frosting)"
+    "group": "For the Cream, Version I (Georgian card)"
    },
    "1 liter milk",
    "1 1/2 cups sugar",
    "A pinch of salt",
-   "50g butter + 1 cup flour",
-   "1 cup water",
-   "1 egg yolk"
+   "50 g butter + 1 cup flour",
+   "1 egg yolk",
+   {
+    "group": "For the Cream, Version II (notebook)"
+   },
+   "1 liter milk (pencil annotation halves this to 0.5 l)",
+   "100 g butter (pencil: 50 g)",
+   "1 tea glass flour",
+   "2 tea glasses sugar",
+   "A pinch of salt",
+   "Vanilla",
+   "1-2 egg yolks, plus the beaten whites"
   ],
   "instructions": [
    {
@@ -3536,20 +3659,30 @@
    "Heat the oven to 220 C (425 F). Once they start puffing up and rising, turn the oven down to 200 C.",
    "And once ready, turn off the heat and leave for 3-5 minutes before removing from the oven.",
    {
-    "group": "To Prepare the Cream"
+    "group": "To Prepare the Cream, Version I"
    },
    "Warm up milk",
    "Separately, in a glass or bowl, mix 1 1/2 cups of sugar with 1 cup of flour.",
    "Slowly stir in the mixture into the warming milk and whisk well. Continue on low heat until the mixture thickens and starts bubbling.",
    "Add 50 g of butter and let simmer another 20 minutes on low heat.",
    "Pour into a bowl and add 1 egg yolk, while the cream is hot and beat it with a mixer. (Freeze the egg whites)",
-   "From time to time, fluff the cream with a mixer (you can mix in frozen egg whites)."
+   "From time to time, fluff the cream with a mixer (you can mix in frozen egg whites).",
+   {
+    "group": "To Prepare the Cream, Version II"
+   },
+   "On a separate piece of paper, mix the sugar and flour so they distribute evenly.",
+   "Heat the milk, butter, and the flour-sugar mixture together and mix quickly with a mixer.",
+   "Lower the heat and, stirring with a spoon, bring the cream to a thick consistency.",
+   "Cook until the raw flour taste disappears; add the vanilla at the end and remove from the heat.",
+   "When slightly cooled, add 1-2 egg yolks and mix quickly.",
+   "Beat the egg whites into a thick foam and fold into the cooled cream. No sugar in the whites."
   ],
   "notes": [
    "*Cream Texture:* When making the flour slurry for the cream, ensure there are absolutely no lumps before adding it to the milk for a silky finish.",
-   "*Whipping:* For the best volume, beat the egg whites to stiff peaks before folding them into the base."
+   "*Whipping:* For the best volume, beat the egg whites to stiff peaks before folding them into the base.",
+   "*Two creams:* the family recorded this filling twice — on the Georgian card (Version I) and in Zeinab's notebook in Russian (Version II, with pencil marks halving the milk and butter). Both are printed; both originals appear below."
   ],
-  "original": "ზეინაბის შუ\n4 კვერცხი,\n100 გრ კარაქი.\nჩაასხი 1 ჭიქა წყალი, მარილი, წამოადუღე\nრო წამოდუღდება, ჩააგდე 100 გრ კარაქი (ნელ ცეცხლზე დუღს)\nკარაქი რომ დადნება 1 ჭიქა გაცრილი ფქვილი \nსწრაფი რევით დაბალ ცეცხლზე.\n1-2 წთ. ცეცხლიდან გადმოდგი და სათითაოდ მიქსერით 4 კვერცხი.\nდასვი ჟარონაზე 1 ან 1/2 ნინოს ჩაის კოვზი\n220 C-ზე გაახურე დუხოვკა (425 F)\nრომ ამოდის და ზევიდან იწყებს ამოსვლას\n200-დე დაუწიე, რომ გამოცხვება გამორთე და 3-5 წუთი გააჩერე\n\nკრემი\n1ლ - რძე\n1 1/2 შაქარი\nცოტა მარილი\n50 გრ კარაქი\nრძე დადგი, შეათბე\nცალკე ჭიქაში 1 ჭიქა ფქვილს\n1 1/2 ჭ. შაქარი აურიე მშრალად. ამას\nჩაყრი შემთბარ რძეში და ამოურევ კარგად\nდა დაბალ ცეცხლზე რომ დაიწყებს ფუხფუხს სულ ურევ.\nროცა გაიხსნება, ჩააგდე\n50,0 კარაქი და 20 წუთი ჩაშუშე ისევ დაბალ ცეცხლზე.\nგადმოიტანე მინაში და 1 კვერცხის გულს ჩააგდებ ცხელში და მიქსრით ამოურევ (ცილას გაყინავ)\nდროდადრო მიქსერით ამოიყვანე რამდენჯერმე. შეგიძლია გაყინული ცილით შეურიო"
+  "original": "ზეინაბის შუ\n4 კვერცხი,\n100 გრ კარაქი.\nჩაასხი 1 ჭიქა წყალი, მარილი, წამოადუღე\nრო წამოდუღდება, ჩააგდე 100 გრ კარაქი (ნელ ცეცხლზე დუღს)\nკარაქი რომ დადნება 1 ჭიქა გაცრილი ფქვილი \nსწრაფი რევით დაბალ ცეცხლზე.\n1-2 წთ. ცეცხლიდან გადმოდგი და სათითაოდ მიქსერით 4 კვერცხი.\nდასვი ჟარონაზე 1 ან 1/2 ნინოს ჩაის კოვზი\n220 C-ზე გაახურე დუხოვკა (425 F)\nრომ ამოდის და ზევიდან იწყებს ამოსვლას\n200-დე დაუწიე, რომ გამოცხვება გამორთე და 3-5 წუთი გააჩერე\n\nკრემი\n1ლ - რძე\n1 1/2 შაქარი\nცოტა მარილი\n50 გრ კარაქი\nრძე დადგი, შეათბე\nცალკე ჭიქაში 1 ჭიქა ფქვილს\n1 1/2 ჭ. შაქარი აურიე მშრალად. ამას\nჩაყრი შემთბარ რძეში და ამოურევ კარგად\nდა დაბალ ცეცხლზე რომ დაიწყებს ფუხფუხს სულ ურევ.\nროცა გაიხსნება, ჩააგდე\n50,0 კარაქი და 20 წუთი ჩაშუშე ისევ დაბალ ცეცხლზე.\nგადმოიტანე მინაში და 1 კვერცხის გულს ჩააგდებ ცხელში და მიქსრით ამოურევ (ცილას გაყინავ)\nდროდადრო მიქსერით ამოიყვანე რამდენჯერმე. შეგიძლია გაყინული ცილით შეურიო\n\n#### Notebook version (Russian), from Zeinab's notebook\n\nШу.\nВода - 1 ч. стакан\nмасло - 100 гр.\nмука - 1 ч. стакан.\nяйцо - 4 шт.\nвскипятить воду + масло, растопить / переставить с огня + муку и замесить миксером вбить по одному яйца и не перевая месить миксером, когда получим однородную массу, добавив щепотку соли.\nна холодную жаровни - смазанную тонким слоем жира - разложить десертной ложкой тесто, поставить в не очень горячую духовку и печь на среднем огне\n\nкрем\nмолоко — 1 л. [pencil: 0,5]\nмасло — 100 гр. [pencil: 50]\nмука — 1 ч. стакан.\nсахар — 2 ч. стакан.\nщепотка соли,\nваниль.\n\n(sidebar): на отдельной бумаге смешать сахар и муку так, чтоб они распределились равномерно.\n\nразогреть молоко + масло + смесь муки и сахара и быстро размешать миксером, убавить огонь и размешивая ложкой довести крем до загустения.\nдовести до готовности (пока не исчезнет привкус муки), в конце добавить ваниль и переставить с огня.\nкогда чуть остынет добавить 1-2 желтка и быстро размешать миксером. Всё!\nбелок всбить под густую пену и добавить в крем когда он остынетю\nв белок сахар добавлять не нужно!"
  },
  {
   "file": "assets/georgian/1190/IMG_1190.md",
@@ -3569,6 +3702,8 @@
   "image": "assets/georgian/1190/IMG_1190.png",
   "photo": "assets/georgian/1190/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "czech-baklava",
   "description": "This traditional Georgian pastry, known as \"Khrashuna Namtskhvari\" (Crunchy Cake), relies on the reaction between _matsoni_ (Georgian yogurt) and baking soda to create a uniquely tender and crumbly shortcrust. Typically layered with a rich mixture of chopped walnuts and raisins, it represents a classic home-baking style where simple pantry staples are transformed into a textured, festive dessert often served at family gatherings.",
   "ingredients": [
@@ -3616,6 +3751,8 @@
   "image": "assets/georgian/1199/IMG_1199.png",
   "photo": "assets/georgian/1199/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "soft-ginger-cookies",
   "description": "These cookies achieve their signature soft and chewy texture through the combination of molasses and a specific ratio of leavening agents. The molasses provides moisture and acidity that reacts with the baking soda to create a tender crumb, while rolling the dough in sugar before baking adds a contrasting crystalline crunch to every bite.",
   "ingredients": [
@@ -3643,63 +3780,6 @@
   "original": "Soft Ginger Cookies\n2 1/4 C flour\n2 t ginger\n1 t B. P or 1/2 t. B. soda\n3/4 t cinn\n1/2 t cloves\n1/4 t salt\nCream: 3/4 C marg\n1 C sugar\n1 egg\nadd: 1/4 C molasses\n\nComb. 1st 6 ingredients\nadd to creamed mixture & molasses.\nroll in ball -- then sugar\nBake 350 - 10 min"
  },
  {
-  "file": "assets/georgian/1244/IMG_1244.md",
-  "scans": [],
-  "title": "Choux Pastry (Shu)",
-  "language": "georgian",
-  "section": "Desserts & Sweets",
-  "batch": "",
-  "number": 5,
-  "image": "",
-  "photo": "assets/georgian/1244/dish.jpg",
-  "inverse": false,
-  "slug": "choux-pastry-shu",
-  "description": "This recipe details the preparation of \"Shu,\" the classic Eastern European adaptation of French choux pastry. The technique relies on \"scalding\" flour in a mixture of boiling water and fat to gelatinize the starches, which creates a stable structure that traps steam during baking, allowing the dough to puff up into the iconic hollow shells used for profiteroles or eclairs. The second half of the recipe describes a traditional Soviet-style \"zavarnoy\" (cooked) custard, used to fill the Shu pastry. The core technique involves the gelatinization of flour starch to create a thick base, which is then enriched with butter and egg yolks for a silky, stable emulsion.",
-  "ingredients": [
-   {
-    "group": "For the Pastry"
-   },
-   "Water – 1 cup (approx. 250ml)",
-   "Butter – 100g",
-   "Flour – 1 cup",
-   "Eggs – 4 pieces",
-   {
-    "group": "For the Custard Cream"
-   },
-   "1 liter milk (pencil annotation on the card halves this to 0.5 l)",
-   "100g butter",
-   "1 tea glass flour",
-   "2 tea glasses sugar",
-   "A pinch of salt",
-   "Vanilla"
-  ],
-  "instructions": [
-   {
-    "group": "For the Pastry"
-   },
-   "Boil the water and butter together until the butter is completely melted.",
-   "Remove the pot from the heat, add the flour, and mix it using a mixer.",
-   "Beat in the eggs one by one while mixing continuously with the mixer. Once you achieve a homogeneous mass, add a pinch of salt.",
-   "On a cold baking sheet (greased with a thin layer of fat), portion out the dough using a dessert spoon. Place them in a moderately hot oven and bake at moderate heat.",
-   {
-    "group": "For the Custard Cream"
-   },
-   "On a separate piece of paper, mix the sugar and flour so that they are distributed evenly.",
-   "Heat the milk, butter, and the flour-sugar mixture together and mix quickly with a mixer.",
-   "Lower the heat and, while stirring with a spoon, bring the cream to a thick consistency.",
-   "Cook until ready (until the raw flour taste disappears); at the end, add the vanilla and remove from the heat.",
-   "When it has cooled slightly, add 1–2 egg yolks and mix quickly with a mixer. Done!",
-   "Beat egg whites into a thick white mass and add it to the cream once it cools off.",
-   "No need to add sugar to the egg whites."
-  ],
-  "notes": [
-   "*Temperature Control:* Ensure the water and butter reach a full boil before adding the flour to ensure proper starch gelatinization.",
-   "*Egg Incorporation:* Adding eggs one by one is crucial; the dough must fully absorb each egg before the next is added to maintain the correct \"dropping\" consistency.",
-   "To achieve a professional texture, ensure you cook the mixture long enough to eliminate any graininess or \"floury\" aftertaste. When adding the egg yolks, ensure the custard has cooled enough to prevent the eggs from scrambling, but remains warm enough to incorporate smoothly."
-  ],
-  "original": "Шу.\nВода - 1 ч. стакан \nмасло - 100 гр.\nмука - 1 ч. стакан.\nяйцо - 4 шт.\nвскипятить воду + масло, растопить / переставить с огня + муку и замесить миксером вбить по одному яйца и не перевая месить миксером, когда получим однородную массу, добавив щепотку соли.\nна холодную жаровни - смазанную тонким слоем жира - разложить десертной ложкой тесто, поставить в не очень горячую духовку и печь на среднем огне\n\nкрем\nмолоко — 1 л. [pencil: 0,5]\nмасло — 100 гр. [pencil: 50]\nмука — 1 ч. стакан.\nсахар — 2 ч. стакан.\nщепотка соли,\nваниль.\n\n(sidebar): на отдельной бумаге смешать сахар и муку так, чтоб они распределились равномерно.\n\nразогреть молоко + масло + смесь муки и сахара и быстро размешать миксером, убавить огонь и размешивая ложкой довести крем до загустения.\nдовести до готовности (пока не исчезнет привкус муки), в конце добавить ваниль и переставить с огня.\nкогда чуть остынет добавить 1-2 желтка и быстро размешать миксером. Всё! \nбелок всбить под густую пену и добавить в крем когда он остынетю\nв белок сахар добавлять не нужно!"
- },
- {
   "file": "assets/georgian/1252/IMG_1252.md",
   "scans": [
    {
@@ -3717,6 +3797,8 @@
   "image": "assets/georgian/1252/IMG_1252.png",
   "photo": "assets/georgian/1252/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "gozinaki-proportions",
   "description": "Gozinaki is a traditional Georgian New Year's confection made of walnuts and honey. Its success depends on carefully heating the honey to a specific concentration so that it binds the nuts into a crisp, snap-able brittle without scorching or losing its characteristic pale golden color.",
   "ingredients": [
@@ -3757,6 +3839,8 @@
   "image": "assets/georgian/1258/IMG_1258.png",
   "photo": "",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "ideal-cake-ideali",
   "description": "This Georgian \"Ideali\" cake is a nostalgic walnut staple, prized for its deep caramelized flavor and soft, layered texture. The recipe relies on honey and baking soda to create tender, aromatic cake layers, while the \"cream\" is made by slow-boiling sweetened condensed milk to transform it into a rich dulce de leche, a technique that requires careful temperature control to avoid pressure buildup in the can.",
   "ingredients": [
@@ -3801,6 +3885,8 @@
   "image": "assets/georgian/1259/IMG_1259.png",
   "photo": "",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "eskimo-cake",
   "description": "\"Eskimo\" cake is a beloved nostalgic dessert in Georgian cuisine, named for its resemblance to the creamy texture and chocolate coating of a classic ice cream bar. The recipe relies on a dual-part cream, a cooked custard folded into whipped buttercream, and a light sponge leavened by the chemical reaction of vinegar and baking soda combined with aerated egg whites.",
   "ingredients": [
@@ -3875,6 +3961,8 @@
   "image": "assets/georgian/1261/IMG_1261.png",
   "photo": "assets/georgian/1261/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "apple-layered-strudel",
   "description": "These recipes represent quintessential Georgian home baking, focusing on rich, dairy-based doughs and seasonal flavors. The Easter Paska is a celebratory yeast bread that relies on an \"Opara\" (starter) method to achieve a light, airy texture, a process that requires precise temperature control to ensure the yeast remains active without being scalded.",
   "ingredients": [
@@ -3920,6 +4008,8 @@
   "image": "assets/georgian/1262/IMG_1261.png",
   "photo": "assets/georgian/1262/dish.jpg",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "easter-paska-kulich",
   "description": "",
   "ingredients": [
@@ -3970,6 +4060,8 @@
   "image": "assets/english/1204/IMG_1204.png",
   "photo": "assets/english/1204/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "homemade-granola",
   "description": "A big-batch toasted granola loaded with coconut, almonds, cashews, and four kinds of dried fruit. Printed from FoodNetwork.com, inspired by Sarah Chase's Open House Cookbook; makes 12 cups.",
   "ingredients": [
@@ -4013,6 +4105,8 @@
   "image": "assets/english/1219/IMG_1219.png",
   "photo": "assets/english/1219/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "lucky-and-rippys-favorite-dog-food",
   "description": "A homemade boiled chicken-and-rice dog food, kept in the archive for the family dogs. Printed from Allrecipes; the vegetable mix must contain no garlic or onions, which are toxic to dogs.",
   "ingredients": [
@@ -4050,6 +4144,8 @@
   "image": "assets/english/1231/IMG_1231.png",
   "photo": "assets/english/1231/dish.jpg",
   "inverse": false,
+  "scribe": "printed",
+  "scribe_confidence": 10,
   "slug": "bbq-rub",
   "description": "An all-purpose sweet and smoky barbecue spice rub for chicken, pork, and beef; it also works on grilled or roasted vegetables and potatoes. Printed from Dinner at the Zoo (Sara Welch); makes about 12 servings.",
   "ingredients": [
@@ -4088,6 +4184,8 @@
   "image": "assets/georgian/1235/IMG_1235.png",
   "photo": "",
   "inverse": false,
+  "scribe": "",
+  "scribe_confidence": 0,
   "slug": "baking-ingredient-weight-to-cup-conversions",
   "description": "This conversion guide reflects standard measurements used in Georgian baking, where a typical \"cup\" often refers to a 250ml glass. Using these specific weights ensures accuracy when following traditional recipes that rely on volume measurements rather than kitchen scales.",
   "ingredients": [

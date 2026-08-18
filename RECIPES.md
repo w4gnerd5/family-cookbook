@@ -2,7 +2,7 @@
 
 Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 
-86 recipes.
+84 recipes.
 
 | Section | # | Title | Language | Slug | File |
 |---|---|---|---|---|---|
@@ -51,7 +51,6 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Mains | 9 | Fresh Huevos Rancheros | english | fresh-huevos-rancheros | assets/english/1222/IMG_1222.md |
 | Mains | 10 | Company Pot Roast | english | company-pot-roast | assets/english/1229/IMG_1229.md |
 | Mains | 11 | Croque-Madame | english | croque-madame | assets/english/1273/IMG_1273.md |
-| Mains | 12 | Whole Chicken Crock Pot Recipe | english | whole-chicken-crock-pot-recipe | assets/english/1278/IMG_1278.md |
 | Mains | 13 | Baked Salmon with Dill Garlic Beurre Blanc | english | baked-salmon-with-dill-garlic-beurre-blanc | assets/english/1279/IMG_1279.md |
 | Mains | 14 | Bacon and Gruyere Breakfast Casserole | english | bacon-and-gruyere-breakfast-casserole | assets/english/1280/IMG_1280.md |
 | Mains | 15 | Slow-Roasted Crispy Pork Belly | english | slow-roasted-crispy-pork-belly | assets/english/1282/IMG_1282.md |
@@ -82,7 +81,6 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Desserts & Sweets | 2 | Zeinab's Shu | georgian | zeinabs-shu | assets/georgian/1175/IMG_1175.md |
 | Desserts & Sweets | 3 | Czech Baklava | georgian | czech-baklava | assets/georgian/1190/IMG_1190.md |
 | Desserts & Sweets | 4 | Soft Ginger Cookies | georgian | soft-ginger-cookies | assets/georgian/1199/IMG_1199.md |
-| Desserts & Sweets | 5 | Choux Pastry (Shu) | georgian | choux-pastry-shu | assets/georgian/1244/IMG_1244.md |
 | Desserts & Sweets | 6 | Gozinaki Proportions | georgian | gozinaki-proportions | assets/georgian/1252/IMG_1252.md |
 | Desserts & Sweets | 7 | Ideal Cake (Ideali) | georgian | ideal-cake-ideali | assets/georgian/1258/IMG_1258.md |
 | Desserts & Sweets | 8 | '"Eskimo" Cake' | georgian | eskimo-cake | assets/georgian/1259/IMG_1259.md |

@@ -55,6 +55,22 @@ def main():
             dest.parent.mkdir(parents=True, exist_ok=True)
             subprocess.run(["git", "mv", str(p.parent), str(dest)], check=True, cwd=ROOT)
 
+    # scribe attribution sync (adds the keys if a file lacks them)
+    for r in state["inventory"]:
+        if not r.get("scribe"):
+            continue
+        p2 = by_id[r["id"]]
+        t2 = p2.read_text()
+        if "scribe:" not in t2:
+            t2 = re.sub(r"^(language: .+)$", rf"\1\nscribe: {r['scribe']}\nscribe_confidence: {r.get('scribe_conf') or 0}", t2, count=1, flags=re.M)
+            if apply:
+                p2.write_text(t2)
+            print(f"SCRIBE {r['id']}: {r['scribe']} ({r.get('scribe_conf')})")
+        else:
+            if apply:
+                set_fm(p2, "scribe", str(r["scribe"]))
+                set_fm(p2, "scribe_confidence", str(r.get("scribe_conf") or 0))
+
     kept = [r for r in rows if not r["cut"]]
     for r in kept:
         if r["new_sec"] and r["new_sec"] != r["section"]:

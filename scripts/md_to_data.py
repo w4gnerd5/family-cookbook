@@ -111,6 +111,8 @@ def parse_md(path):
         "image": scans[-1]["path"] if scans else "",
         "photo": fm.get("photo", "") or "",
         "inverse": str(fm.get("inverse", "")).lower() == "true",
+        "scribe": fm.get("scribe", "") or "",
+        "scribe_confidence": int(fm.get("scribe_confidence", 0) or 0),
         "slug": fm.get("slug", "") or "",
         "description": conv(desc_m.group(1).strip()) if desc_m else "",
         "ingredients": items(section("Ingredients"), r"\*"),

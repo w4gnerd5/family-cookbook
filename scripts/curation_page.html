@@ -88,8 +88,8 @@ function renderInv() {
     (!sf || r.section === sf) && (!lf || r.lang === lf) &&
     (!oo || (!r.status && (r.cut || r.new_section || r.new_order || r.notes) === false || (!r.status && !r.cut && !r.new_section && !r.new_order))));
   if (sortKey) rows = [...rows].sort((a,b)=> (a[sortKey] > b[sortKey] ? 1 : -1) * sortDir);
-  let h = '<tr>' + ['id','section','num','title','lang','scans','photo','new section','order','cut','notes','status']
-    .map((c,i)=>`<th onclick="sortBy('${['id','section','num','title','lang','scans','photo','new_section','new_order','cut','notes','status'][i]}')">${c}</th>`).join('') + '</tr>';
+  let h = '<tr>' + ['id','section','num','title','lang','scans','photo','new section','order','cut','scribe','conf','notes','status']
+    .map((c,i)=>`<th onclick="sortBy('${['id','section','num','title','lang','scans','photo','new_section','new_order','cut','scribe','scribe_conf','notes','status'][i]}')">${c}</th>`).join('') + '</tr>';
   for (const r of rows) {
     const secopts = ['',...SECTIONS].map(o=>`<option ${o===r.new_section?'selected':''}>${o}</option>`).join('');
     h += `<tr class="${r.cut?'cut':''}"><td><b>${esc(r.id)}</b></td><td><span class="pill">${esc(r.section)}</span></td>
@@ -98,6 +98,8 @@ function renderInv() {
       <td class="edit"><select onchange="post('inventory','${r.id}','new_section',this.value,this)">${secopts}</select></td>
       <td class="edit"><input type="number" min="1" value="${esc(r.new_order)}" onfocus="editing=true" onblur="editing=false; post('inventory','${r.id}','new_order',this.value,this)"></td>
       <td><input type="checkbox" ${r.cut?'checked':''} onchange="post('inventory','${r.id}','cut',this.checked,this)"></td>
+      <td class="edit"><input type="text" style="width:70px" value="${esc(r.scribe||'')}" onfocus="editing=true" onblur="editing=false; post('inventory','${r.id}','scribe',this.value,this)"></td>
+      <td class="edit"><input type="number" min="1" max="10" style="width:44px" value="${esc(r.scribe_conf||'')}" onfocus="editing=true" onblur="editing=false; post('inventory','${r.id}','scribe_conf',this.value,this)"></td>
       <td class="edit"><input type="text" value="${esc(r.notes)}" onfocus="editing=true" onblur="editing=false; post('inventory','${r.id}','notes',this.value,this)"></td>
       <td class="status">${esc(r.status)}</td></tr>`;
   }
