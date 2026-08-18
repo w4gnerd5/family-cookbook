@@ -38,18 +38,37 @@ The authoritative recipe list is `RECIPES.md` — do not maintain a duplicate ta
 ```yaml
 ---
 title: Dumpling Dough with Boiling Water
+slug: dumpling-dough-with-boiling-water    # FROZEN identity: printed footer, QR, web URL
 language: georgian        # georgian | english
+scribe: Zeinab            # optional; who wrote the scan ("printed" for printouts)
+scribe_confidence: 9      # optional; 1-10
 section: "Breads & Doughs"
+number: 6                 # FROZEN per-section hymnal number (see Numbering below)
 batch: batch-1            # legacy Affinity grouping; may be retired
-page: ""                  # print page number, filled after a layout run
-scans:                    # ordered list of original scanned pages (reading order)
-  - assets/georgian/1161/IMG_1161.png
 meta: "..."               # optional; archival/provenance notes. NEVER printed.
-photo: ""                 # optional; dish photo for the verso (path)
-photo_source: ""          # optional; library URL + license, or "ai-generated"
-slug: ""                  # optional; frozen URL slug for the website/QR — never regenerate
+scans:                    # ordered list of scanned pages (reading order)
+  - assets/georgian/1161/IMG_1161.png
+  - path: assets/georgian/1161/IMG_1162.png   # optional per-scan art direction
+    scale: 0.7            #   relative to the layout's base card width
+    tilt: -4              #   degrees; default is seeded per scan, deterministic
+    z: top                #   stacking override (top | bottom); does not move the card
+    dx: 130               #   nudge in pt
+    dy: -30
+    hide: true            #   keep archival, do not render on the verso
+photo: ""                 # optional; dish photo for the verso (dish.* in the folder)
+photo_source: ""          # optional; "URL | license | author", feeds CREDITS.md
+inverse: true             # optional; white text + gradient scrim for busy photos
+see_also:                 # optional; cross-references BY SLUG, resolved at build time
+  - slug: vareniki-with-boiling-water-dough
+    rel: variant          #   variant | uses | pairs (default renders "See")
+    note: same technique, more egg
 ---
 ```
+
+**Numbering (hymnal model):** recipes are numbered per section, not through the volume, so a
+sheet added to the ring binder never renumbers the book. `SECTION · N` is the finding aid printed
+in the footer. Numbers are FROZEN — never renumber. Cross-references store the frozen *slug*
+and the build resolves it to a number, so reordering can never strand a pointer.
 
 **Controlled vocabulary for `section`:** Breads & Doughs · Soups & Stews · Mains · Sides & Salads · Preserves & Sauces · Desserts & Sweets · Drinks · Pantry
 
@@ -91,7 +110,9 @@ python3 scripts/md_to_data.py [batch-1]      # -> print/recipes.json (optionally
 python3 scripts/build_tokens.py              # only if tokens.yaml changed -> print/tokens.typ, web/tokens.css
 typst compile --root . --font-path assets/fonts print/cookbook.typ print/cookbook.pdf
 python3 scripts/build_index.py               # -> recipes-index.csv, RECIPES.md (also warns on missing frontmatter)
-python3 scripts/refresh_slug_table.py    # dashboard slug audit table
+python3 scripts/build_credits.py             # -> CREDITS.md from photo_source
+python3 scripts/make_cards.py                # bakes scan cards with drop shadows -> print/cards/
+python3 scripts/refresh_slug_table.py        # dashboard slug audit table
 ```
 
 Proof pages for visual inspection:
@@ -102,6 +123,19 @@ Always look at rendered proofs after layout changes — check spreads, page brea
 ## Print Design (print/cookbook.typ)
 
 Editorial-hybrid direction: serif recipe text, small uppercase sans wayfinding labels, terracotta accent. Each recipe opens on a verso (left page): dish photo (or fallback field), floating scan card(s) with drop shadow, section label, title, description. Recto (right page): ingredients, accent-numbered method, notes, original-language text in an accent-ruled block; long recipes spill recto-onward. Fonts are vendored in `assets/fonts/` (OFL): Spectral (serif, Latin + Cyrillic), Inter (sans), Noto Serif Georgian. Single-step methods render as prose, not a one-item list. English recipes do not print their Original Text block (the verso scan is the original); the retyped text stays archival in the .md.
+
+## Curation Tooling
+
+Curation runs through a live dashboard, not a spreadsheet: `python3 scripts/curation_server.py`
+serves `localhost:8765`, backed by the git-tracked ledger `curation-state.json` (inventory, merge
+decisions, family questions, slug audit). Edits save instantly and the page polls, so it can stay
+open. Never delete a ledger row — stamp its status `applied @ <commit>`.
+
+- `scripts/apply_curation.py` — executes ledger edits (cuts to `attic/`, section moves, renumbering)
+- `scripts/reconcile_slugs.py` — after hand-edited slugs: diffs by recipe ID, rewrites `see_also:`
+  references, blocks collisions, refreshes the baseline
+- `attic/` holds everything removed from the collection, with provenance in `attic/README.md`.
+  Nothing is ever deleted.
 
 ## Legacy: Affinity Publisher
 
