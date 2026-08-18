@@ -19,7 +19,9 @@
 // section labels (headings, not paragraphs) and the facsimile lines inside the
 // Original box (kept tight so long originals fit one keep-together column).
 #set par(leading: 0.65em, justify: false, spacing: 0.85em)
-#set block(above: 0.85em, below: 0pt)
+// breakable: false = no paragraph ever splits across a page break; it moves
+// whole to the next page (safe: no single paragraph approaches a full column)
+#set block(above: 0.85em, below: 0pt, breakable: false)
 
 #let label-text(content, fill: color-label) = text(
   font: font-sans, size: size-label, fill: fill,
