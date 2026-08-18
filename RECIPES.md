@@ -2,7 +2,7 @@
 
 Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 
-84 recipes.
+78 recipes.
 
 | Section | # | Title | Language | Slug | File |
 |---|---|---|---|---|---|
@@ -16,24 +16,18 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Breads & Doughs | 9 | Vareniki Dough (Dumpling Dough) | georgian | vareniki-dough-dumpling-dough | assets/georgian/1180/IMG_1180.md |
 | Breads & Doughs | 10 | Russian Pirozhki with Scalded Yeast Dough (Yields 30) | georgian | russian-pirozhki-with-scalded-yeast-dough-yields-30 | assets/georgian/1184/IMG_1184.md |
 | Breads & Doughs | 11 | Kefir Pancakes (Blini) with Baking Soda | georgian | kefir-pancakes-blini-with-baking-soda | assets/georgian/1186/IMG_1186.md |
-| Breads & Doughs | 12 | Pirozhki with Scalded Yeast Dough | georgian | pirozhki-with-scalded-yeast-dough | assets/georgian/1189/IMG_1189.md |
-| Breads & Doughs | 13 | Zeinab's Khachapuri | georgian | zeinabs-khachapuri | assets/georgian/1192/IMG_1192.md |
 | Breads & Doughs | 14 | Adjarian Khachapuri | georgian | adjarian-khachapuri | assets/georgian/1195/IMG_1195.md |
 | Breads & Doughs | 15 | Vareniki with Boiling Water Dough | georgian | vareniki-with-boiling-water-dough | assets/georgian/1198/IMG_1198.md |
-| Breads & Doughs | 16 | Zeinab's Khachapuri | georgian | zainabs-khachapuri | assets/georgian/1202/IMG_1202.md |
-| Breads & Doughs | 17 | Boiling Water Pancakes (Blini) | georgian | boiling-water-pancakes-blini | assets/georgian/1232/IMG_1232.md |
 | Breads & Doughs | 18 | Scalded Crepes (Zavarnyye Blini) | georgian | scalded-crepes-zavarnyye-blini | assets/georgian/1233/IMG_1233.md |
 | Breads & Doughs | 19 | Oven-Baked Brioches | georgian | oven-baked-brioches | assets/georgian/1236/IMG_1236.md |
 | Breads & Doughs | 20 | Puff Pastry | georgian | puff-pastry | assets/georgian/1237/IMG_1237.md |
 | Breads & Doughs | 21 | Flaky Pastry Folding Instructions - 2nd page | georgian | flaky-pastry-folding-instructions-2nd-page | assets/georgian/1237/IMG_1238.md |
 | Breads & Doughs | 22 | Russian Layered Savory Pie (Pirog) - 3rd page | georgian | russian-layered-savory-pie-pirog-3rd-page | assets/georgian/1237/IMG_1239.md |
 | Breads & Doughs | 23 | Puff Pastry Dough Pie - page 4 | georgian | puff-pastry-dough-pie-page-4 | assets/georgian/1237/IMG_1240.md |
-| Breads & Doughs | 24 | Khachapuri | georgian | khachapuri | assets/georgian/1241/IMG_1242.md |
+| Breads & Doughs | 24 | Zeinab's Khachapuri | georgian | zeinabs-khachapuri | assets/georgian/1241/IMG_1242.md |
 | Breads & Doughs | 25 | Yeast Dough for Khachapuri, Pies, and Pirozhki | georgian | yeast-dough-for-khachapuri-pies-and-pirozhki | assets/georgian/1243/IMG_1243.md |
-| Breads & Doughs | 26 | Zeinab's Khachapuri | georgian | zeinabs-khachapuri-2 | assets/georgian/1255/IMG_1255.md |
 | Breads & Doughs | 27 | Adjarian Khachapuri | georgian | adjarian-khachapuri-2 | assets/georgian/1256/IMG_1256.md |
 | Breads & Doughs | 28 | Adjarian Khachapuri | georgian | adjarian-khachapuri-3 | assets/georgian/1266/IMG_1266.md |
-| Breads & Doughs | 29 | Pirozhki with Scalded Dough | georgian | pirozhki-with-scalded-dough | assets/georgian/1267/IMG_1267.md |
 | Breads & Doughs | 30 | Pirozhki with Kefir | georgian | pirozhki-with-kefir | assets/georgian/1269/IMG_1269.md |
 | Soups & Stews | 1 | Beef Bourguignon | english | beef-bourguignon | assets/english/1227/IMG_1227.md |
 | Soups & Stews | 2 | Old-Fashioned Beef Stew | english | old-fashioned-beef-stew | assets/english/1228/IMG_1228.md |

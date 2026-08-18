@@ -14,3 +14,9 @@ the print or web builds.
   assets/georgian/1175 (scans and both cream variants adopted there)
 - english/1278/ — duplicate Food.com crock-pot chicken printout;
   assets/english/1213 (the stained working copy) is canonical
+- georgian/1192, 1202, 1255 — three additional recordings of Zeinab's
+  khachapuri; canonical is assets/georgian/1241 (1202's card renders there)
+- georgian/1189, 1267 — duplicate recordings of the scalded-dough pirozhki;
+  canonical is assets/georgian/1184 (1267's card and dish photo adopted there)
+- georgian/1232 — duplicate sticky note of the zavarnye blini; canonical is
+  assets/georgian/1233 (its card renders there)

@@ -66,12 +66,11 @@
     block(width: 50% - M, title-block(r)))
   // 2 scans stack as a deck (underneath card peeks out) so the title zone stays clear;
   // verso is bound on its right edge: keep cards clear of the punch strip
-  let n = r.scans.len()
-  for (j, e) in r.scans.enumerate() {
-    let k = n - 1 - j          // 0 = topmost (reading page 1)
+  for e in r.scans {
+    let k = e.slot             // layout slot = reading position; array order = stacking
     // tall scans are height-capped so the deck can't crash into the title block
     let w = calc.min(290pt, 340pt * e.aspect)
-    place(top + right, dx: -(B + G) - k * 48pt, dy: 62% - 215pt + k * 30pt,
+    place(top + right, dx: -(B + G) - k * 48pt + e.dx * 1pt, dy: 62% - 215pt + k * 30pt + e.dy * 1pt,
       card(e, w))
   }
 }
@@ -91,14 +90,14 @@
   }
   let n = r.scans.len()
   let w = if n == 3 { 245pt } else { 205pt }
-  for (j, e) in r.scans.enumerate() {
-    let k = n - 1 - j          // reading page 1 takes the first grid slot, on top
+  for e in r.scans {
+    let k = e.slot             // layout slot = reading position; array order = stacking
     let col = calc.rem(k, 2)
     let row = calc.floor(k / 2)
     // bound on the right: scatter starts at the outside edge, stays clear of the gutter
     place(top + left,
-      dx: B + M * 0.5 + col * (w + 26pt) + row * 20pt,
-      dy: B + M * 0.8 + row * (w * 0.72) + col * 18pt,
+      dx: B + M * 0.5 + col * (w + 26pt) + row * (w * 0.5) + e.dx * 1pt,
+      dy: B + M * 0.6 + row * (w * 0.85) + col * 18pt + e.dy * 1pt,
       card(e, w))
   }
   place(bottom + left, dx: B + M, dy: -(B + M * 0.9),

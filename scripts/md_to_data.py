@@ -94,6 +94,9 @@ def parse_md(path):
         e["tilt"] = float(e["tilt"])
         w, h = Image.open(ROOT / e["path"]).size
         e["aspect"] = round(w / h, 4)
+        e["slot"] = len(scans)          # reading position drives layout slot
+        e["dx"] = float(e.get("dx", 0))  # optional art-direction nudge (pt)
+        e["dy"] = float(e.get("dy", 0))
         scans.append(e)
     # render order: reversed reading order puts scan 1 on top; z overrides that
     render = list(reversed([e for e in scans if e.get("z") != "bottom"]))

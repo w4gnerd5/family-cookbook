@@ -6,13 +6,19 @@
     "path": "assets/english/1209/IMG_1277.png",
     "scale": 0.55,
     "tilt": 3.22,
-    "aspect": 0.7763
+    "aspect": 0.7763,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1209/IMG_1209.png",
     "scale": 1.0,
     "tilt": -1.97,
-    "aspect": 0.7744
+    "aspect": 0.7744,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "No-Knead Bread",
@@ -53,7 +59,10 @@
     "path": "assets/english/1212/IMG_1212.png",
     "scale": 1.0,
     "tilt": 1.74,
-    "aspect": 0.7713
+    "aspect": 0.7713,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Buttermilk Pancakes II",
@@ -96,7 +105,10 @@
     "path": "assets/english/1274/IMG_1274.png",
     "scale": 1.0,
     "tilt": -1.65,
-    "aspect": 0.7693
+    "aspect": 0.7693,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "2-Hour Fastest No Knead Bread",
@@ -140,7 +152,10 @@
     "path": "assets/english/1290/IMG_1290.png",
     "scale": 1.0,
     "tilt": 2.72,
-    "aspect": 0.7789
+    "aspect": 0.7789,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Mom's Zucchini Bread",
@@ -186,7 +201,10 @@
     "path": "assets/georgian/1161/IMG_1161.png",
     "scale": 1.0,
     "tilt": 3.15,
-    "aspect": 0.7229
+    "aspect": 0.7229,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Dumpling Dough with Boiling Water (Super)",
@@ -225,7 +243,10 @@
     "path": "assets/georgian/1168/IMG_1168.png",
     "scale": 1.0,
     "tilt": -2.04,
-    "aspect": 0.7908
+    "aspect": 0.7908,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Traditional Georgian Bread Shaping Instructions",
@@ -261,7 +282,10 @@
     "path": "assets/georgian/1170/IMG_1170.png",
     "scale": 1.0,
     "tilt": 2.41,
-    "aspect": 0.7898
+    "aspect": 0.7898,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Khachapuri Recipe by Gia Agirba",
@@ -317,7 +341,10 @@
     "path": "assets/georgian/1180/IMG_1180.png",
     "scale": 1.0,
     "tilt": 2.43,
-    "aspect": 1.4769
+    "aspect": 1.4769,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Vareniki Dough (Dumpling Dough)",
@@ -377,10 +404,22 @@
   "file": "assets/georgian/1184/IMG_1184.md",
   "scans": [
    {
+    "path": "assets/georgian/1184/IMG_1267.png",
+    "scale": 0.55,
+    "tilt": -2.86,
+    "aspect": 0.978,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
+   },
+   {
     "path": "assets/georgian/1184/IMG_1184.png",
     "scale": 1.0,
     "tilt": 1.53,
-    "aspect": 0.7655
+    "aspect": 0.7655,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
@@ -428,7 +467,10 @@
     "path": "assets/georgian/1186/IMG_1186.png",
     "scale": 1.0,
     "tilt": 1.24,
-    "aspect": 1.0235
+    "aspect": 1.0235,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Kefir Pancakes (Blini) with Baking Soda",
@@ -465,116 +507,16 @@
   "original": "ბლინები კეფირით\nდა სოდით.\nცომი: 1 ჭიქა ფქვილი + 1 ჭიქა\nმჟავე კეფირი + 1/3 ჩ.კ. სოდა.\nმარილი. ცომი გააჩერე ნახევარი საათით!\nჯერ გაცრი ფქვილს, დაასხავ კეფირს, მარილს.\nჯერ იქნება жидкое тесто. დააყრი სოდას.\nკოვზით მოზელ. მერე დაამატებ ცოტა ცოტა ფქვილს \nრომ მოიზილება ამატებ ზეთს - раст. масло. კიდევ დაამატებ ზეთს\nმერე противне წაუსვი ზეთი!"
  },
  {
-  "file": "assets/georgian/1189/IMG_1189.md",
-  "scans": [
-   {
-    "path": "assets/georgian/1189/IMG_1189.png",
-    "scale": 1.0,
-    "tilt": 3.17,
-    "aspect": 0.761
-   }
-  ],
-  "title": "Pirozhki with Scalded Yeast Dough",
-  "language": "georgian",
-  "section": "Breads & Doughs",
-  "batch": "batch-1",
-  "number": 12,
-  "image": "assets/georgian/1189/IMG_1189.png",
-  "photo": "assets/georgian/1189/dish.jpg",
-  "inverse": false,
-  "scribe": "Zeinab",
-  "scribe_confidence": 4,
-  "slug": "pirozhki-with-scalded-yeast-dough",
-  "description": "This recipe utilizes the \"scalded dough\" (zavarnoy) technique, where boiling water is used to pre-gelatinize a portion of the flour starch. This scientific process creates a uniquely supple and elastic dough that remains soft for several days and is particularly well-suited for deep-frying, providing a superior texture compared to standard yeast doughs.",
-  "ingredients": [
-   {
-    "group": "Stage 1"
-   },
-   "1 tsp salt",
-   "1 cup boiling water",
-   "3 tbsp flour",
-   "1 tbsp sugar",
-   "3 tbsp vegetable oil",
-   {
-    "group": "Stage 2"
-   },
-   "17.5 g yeast",
-   "1 cup water (boiled, but not hot)",
-   "500 g flour"
-  ],
-  "instructions": [
-   {
-    "group": "Stage 1"
-   },
-   "Combine the flour, oil, sugar, and salt. Pour 1 cup of rolling boiling water over the mixture. Mix thoroughly and allow the mixture to cool.",
-   {
-    "group": "Stage 2"
-   },
-   "Into the warm mixture, add the yeast and the cup of warm water. Gradually incorporate the flour in parts and knead the dough.",
-   "Form the dough into small balls and let them rest (spread) for 5 minutes.",
-   "Shape the pirozhki and fry them in a large amount of oil in a skillet.",
-   "This yields 20–30 pieces. They can also be baked."
-  ],
-  "notes": [
-   "Ensure the \"scalded\" base from Stage 1 has cooled to a lukewarm temperature before adding the yeast in Stage 2; if the mixture is too hot, it will kill the yeast and the dough will fail to rise. When frying, maintaining a consistent medium-high oil temperature is vital for a golden-brown crust without oil-logging the interior."
-  ],
-  "original": "Перожки на заварном дрожжевом тесте\n\n**I этап (I ეტაპი)**\nсоль 1 ч.л.\nВода 1 ст. кипяток\nМука 3 ст. л\nсахар 1 ст.л стакан\nроститель. масло 3 ст. л.\n\n**2 этап. (II ეტაპი)**\nДрожжи 17.5 гр.\nвода (не горячая кипячёная) 1 ст.\nМука 500 гр.\n\n**I этап** соединить муку, масло сахар, соль\nзалить всё это 1 ст. крутого кипятка\nхорошо перемешать и дать остыть.\n\n**2 этап** в тёплую смесь добавить дрожжи и\nстакан не горячей воды\nчастями внести муку\nзамесить тесто.\nи теста сформировать шарики дать\nим разойтись 5 мин\nсформировать перожки и жарить\nв большом количеств масло скавород.\n20-30 штук\nможно и печь."
- },
- {
-  "file": "assets/georgian/1192/IMG_1192.md",
-  "scans": [
-   {
-    "path": "assets/georgian/1192/IMG_1192.png",
-    "scale": 1.0,
-    "tilt": 1.83,
-    "aspect": 0.7692
-   }
-  ],
-  "title": "Zeinab's Khachapuri",
-  "language": "georgian",
-  "section": "Breads & Doughs",
-  "batch": "batch-1",
-  "number": 13,
-  "image": "assets/georgian/1192/IMG_1192.png",
-  "photo": "assets/georgian/1192/dish.jpg",
-  "inverse": false,
-  "scribe": "",
-  "scribe_confidence": 0,
-  "slug": "zeinabs-khachapuri",
-  "description": "This recipe utilizes the traditional \"chopped dough\" technique, where butter is worked into flour to create distinct layers, resulting in a signature flaky and tender crust. The use of Matsoni (a traditional Georgian yogurt) combined with baking soda creates a light, airy rise and a subtle tang that is characteristic of authentic homemade khachapuri.",
-  "ingredients": [
-   "200g butter (softened)",
-   "6 cups flour (sifted)",
-   "800g Matsoni (Georgian yogurt)",
-   "1 teaspoon baking soda",
-   "Salt to taste"
-  ],
-  "instructions": [
-   "Soften the butter.",
-   "Sift 6 cups of flour and pour it over the butter.",
-   "Use a spatula to \"mix\" the butter into the flour.",
-   "Pour in 800g of matsoni and continue mixing.",
-   "Gradually knead the mixture until you achieve a uniform dough.",
-   "Take the remaining flour and mix it with 1 teaspoon of baking soda.",
-   "Knead and sprinkle this flour-soda mixture over it a little at a time.",
-   "Repeat the sprinkling and kneading process 3 to 4 times; do not pour all the flour-soda mixture in at once.",
-   "Form the dough into sausage shape and divide into 3 equal parts.",
-   "Store the dough in the refrigerator."
-  ],
-  "notes": [
-   "*Texture Control:* When \"chopping\" the dough with a knife, aim for a crumbly, pea-sized texture before adding the matsoni to ensure flakiness.",
-   "*Resting:* Storing the dough in the refrigerator is essential; let it chill for at least an hour to allow the gluten to relax and the fats to firm up before rolling."
-  ],
-  "original": "ზეინაბის ხაჭაპური\n\n200 გრ კარაქს დააყარე 6 ჭიქა საცერში გაცრილი ფქვილი. დაადებ ამ კარაქს და\nდა დანით კეპავ. მერე ხელით წაახმარე და ხელით მოზილე\nჩააღრმავებ და დაასხავ მაწონს. 800 გრ. და\nისევ დანით დაკეპავ. რომ შეხედავ რომ შეიზილა ერთმანეთს,\nხელი წაახმარე. რომ მიიღებ ერთგვაროვან მასას,\nრაც ფქვილი რომ დაგრჩება იმაში 1 ჩ.კ. ხელგადასმული სოდა დაამატე\nდა ეს ნარევი მოაყარე ცოტა აკეპე,\nმოაყარე აკეპე (ერთი 3-4 ჯერ). ერთბაშად ნუ\nდააყრი სოდას და გააკეთე კალბასა და 3 ნაწილად\nგაყავი და შეინახე მაცივარში.\n\nზენანას ხაჭაპური."
- },
- {
   "file": "assets/georgian/1195/IMG_1195.md",
   "scans": [
    {
     "path": "assets/georgian/1195/IMG_1195.png",
     "scale": 1.0,
     "tilt": -3.02,
-    "aspect": 0.7757
+    "aspect": 0.7757,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Adjarian Khachapuri",
@@ -640,7 +582,10 @@
     "path": "assets/georgian/1198/IMG_1198.png",
     "scale": 1.0,
     "tilt": 2.5,
-    "aspect": 0.7801
+    "aspect": 0.7801,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Vareniki with Boiling Water Dough",
@@ -672,103 +617,34 @@
   "original": "Вареники на кипяток\n4 ст. муки\n1 ст кипяток\n2 яичка (можно 1)\nСоль\nподсолнечное масло\nяйцо, масло, соль взбить хорошо + стакан кипятка и частями муку"
  },
  {
-  "file": "assets/georgian/1202/IMG_1202.md",
-  "scans": [
-   {
-    "path": "assets/georgian/1202/IMG_1202.png",
-    "scale": 1.0,
-    "tilt": -2.79,
-    "aspect": 1.5515
-   }
-  ],
-  "title": "Zeinab's Khachapuri",
-  "language": "georgian",
-  "section": "Breads & Doughs",
-  "batch": "batch-1",
-  "number": 16,
-  "image": "assets/georgian/1202/IMG_1202.png",
-  "photo": "assets/georgian/1202/dish.jpg",
-  "inverse": false,
-  "scribe": "",
-  "scribe_confidence": 0,
-  "slug": "zainabs-khachapuri",
-  "description": "Matsoni (Georgian fermented milk) provides natural acidity that reacts with baking soda to leaven the dough, while the process of spreading, greasing, and layering with soda creates a characteristically soft and slightly flaky texture without the need for yeast.",
-  "ingredients": [
-   "800 g Matsoni",
-   "200 g Butter",
-   "6 cups Flour",
-   "1/2 tsp Soda",
-   "Salt"
-  ],
-  "instructions": [
-   "Place the flour on a board",
-   "Mix it, make a crater in the middle, add matsoni",
-   "Mix it with a spatula, then by hand.",
-   "Sprinkle baking soda bit by bit 3 times.",
-   "Do not squash the dough",
-   "Roll it into a sausage shape and divide into 3 parts."
-  ],
-  "notes": [
-   "Matsoni can be substituted with plain whole-milk Greek yogurt if unavailable; ensure it is at room temperature to react properly with the soda.",
-   "Avoid over-kneading the dough after adding the soda to maintain the delicate air pockets that create a light texture."
-  ],
-  "original": "ზეინაბის ხაჭაპური\n800 გრ მაწონი\n200 გრ კარაქი\n6 ჭ. ფქვილი\n1/2 ჩ. კ. სოდა (მარილი)\nდაფაზე დაყარე, \nაკეპე, ჩააღრმავე, ჩაასზი მაწონი.\nაკეპავ, მერე ხელი წაახმარე.\nსოდას ნაწილ ნაწილ 3-ჯერ მოაყრი.\nარ დაჭყლიპო ცომი\nკალბასი დაყავი 3 ნაწილად"
- },
- {
-  "file": "assets/georgian/1232/IMG_1232.md",
-  "scans": [
-   {
-    "path": "assets/georgian/1232/IMG_1232.png",
-    "scale": 1.0,
-    "tilt": -3.16,
-    "aspect": 0.9981
-   }
-  ],
-  "title": "Boiling Water Pancakes (Blini)",
-  "language": "georgian",
-  "section": "Breads & Doughs",
-  "batch": "",
-  "number": 17,
-  "image": "assets/georgian/1232/IMG_1232.png",
-  "photo": "assets/georgian/1232/dish.jpg",
-  "inverse": false,
-  "scribe": "Zeinab",
-  "scribe_confidence": 5,
-  "slug": "boiling-water-pancakes-blini",
-  "description": "Boiling water pancakes, known in Eastern Europe as _zavarnye blini_, utilize a \"custard\" technique where boiling water is whisked into the batter. This process partially gelatinizes the flour's starch, resulting in an exceptionally elastic, tender, and lacy texture with characteristic tiny holes, making them perfect for filling or folding.",
-  "ingredients": [
-   "1/2 liter milk + 2 eggs",
-   "2.5 cups flour",
-   "1 tablespoon sugar",
-   "1 tsp salt",
-   "2 tablespoons vegetable oil",
-   "1/2 liter boiling water",
-   "1 teaspoon baking soda/vinegar"
-  ],
-  "instructions": [
-   "Mix all ingredients together.",
-   "Slowly pour in 1/2 liter of boiling water while stirring constantly.",
-   "Add 1 teaspoon of baking soda/vinegar."
-  ],
-  "notes": [
-   "To ensure the best texture, whisk the batter vigorously while adding the boiling water to prevent the eggs from scrambling. Let the batter rest for 10 minutes before frying to allow the bubbles to settle and the flour to fully hydrate."
-  ],
-  "original": "блинчики кипятком\n1/2 л. რძე + 2 კვერცხი\n2.5 ჭიქა ფქვილი\n1 ჩ. კოვზი მარილი\n1 ст. л. сахара перемешать\n+ 2 ст. л. растительного масла.\nвсё перемешать\nи добавить 1/2 литра кипятка, медленно\nводу + 1 ч. л. соды уксус"
- },
- {
   "file": "assets/georgian/1233/IMG_1233.md",
   "scans": [
+   {
+    "path": "assets/georgian/1233/IMG_1232.png",
+    "scale": 0.6,
+    "tilt": 1.93,
+    "aspect": 0.9981,
+    "slot": 2,
+    "dx": 0.0,
+    "dy": 0.0
+   },
    {
     "path": "assets/georgian/1233/IMG_1234.png",
     "scale": 1.0,
     "tilt": 3.39,
-    "aspect": 0.9874
+    "aspect": 0.9874,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/georgian/1233/IMG_1233.png",
     "scale": 1.0,
     "tilt": -3.11,
-    "aspect": 0.9913
+    "aspect": 0.9913,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Scalded Crepes (Zavarnyye Blini)",
@@ -778,7 +654,7 @@
   "number": 18,
   "image": "assets/georgian/1233/IMG_1233.png",
   "photo": "assets/georgian/1233/dish.jpg",
-  "inverse": false,
+  "inverse": true,
   "scribe": "Zeinab",
   "scribe_confidence": 5,
   "slug": "scalded-crepes-zavarnyye-blini",
@@ -797,7 +673,8 @@
   ],
   "notes": [
    "It is crucial to whisk the batter vigorously while adding the boiling water in a slow, steady stream to prevent the eggs from curdling. For the best results, let the batter rest for about 10–15 minutes before cooking to allow the flour to fully hydrate.",
-   "To \"slake\" the soda, place the powder in a small spoon and add just enough vinegar to make it fizz vigorously before stirring it into the mix; this prevents a metallic aftertaste. Use a well-seasoned cast iron or a non-stick pan to ensure the dough releases easily without the use of fat."
+   "To \"slake\" the soda, place the powder in a small spoon and add just enough vinegar to make it fizz vigorously before stirring it into the mix; this prevents a metallic aftertaste. Use a well-seasoned cast iron or a non-stick pan to ensure the dough releases easily without the use of fat.",
+   "*Other recording:* a second sticky note of this recipe drifts slightly — 2 eggs instead of 3, 2.5 cups flour, 1 teaspoon of soda. This fuller version is canonical."
   ],
   "original": "Заварные блины\n1/2 л молока 3 яйца\n1 ч. л. соль, 2 ст. ложки\nсахара перемешать и\nдобавить 2 стакана муки\nи 1/4 ст. оливковое масло\nили vegetable oil, пере-\nсмешать это всё взбить-\nи добавляешь\n1/2 л. кипятка, медленно\nводы, и перемешивай\nи когда это всё перемешаешь добавляешь\n1/2 ч.л. соды гашённой уксусом.\nжарим на сковородке без масла.\nс мясом в куснее."
  },
@@ -808,7 +685,10 @@
     "path": "assets/georgian/1236/IMG_1236.png",
     "scale": 1.0,
     "tilt": 2.55,
-    "aspect": 0.9744
+    "aspect": 0.9744,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Oven-Baked Brioches",
@@ -851,7 +731,10 @@
     "path": "assets/georgian/1237/IMG_1237.png",
     "scale": 1.0,
     "tilt": 2.21,
-    "aspect": 0.7002
+    "aspect": 0.7002,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Puff Pastry",
@@ -892,7 +775,10 @@
     "path": "assets/georgian/1237/IMG_1238.png",
     "scale": 1.0,
     "tilt": -3.4,
-    "aspect": 0.7302
+    "aspect": 0.7302,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Flaky Pastry Folding Instructions - 2nd page",
@@ -931,7 +817,10 @@
     "path": "assets/georgian/1237/IMG_1239.png",
     "scale": 1.0,
     "tilt": -2.2,
-    "aspect": 0.7352
+    "aspect": 0.7352,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Russian Layered Savory Pie (Pirog) - 3rd page",
@@ -983,7 +872,10 @@
     "path": "assets/georgian/1237/IMG_1240.png",
     "scale": 1.0,
     "tilt": 3.1,
-    "aspect": 0.7231
+    "aspect": 0.7231,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Puff Pastry Dough Pie - page 4",
@@ -1025,33 +917,49 @@
    {
     "path": "assets/georgian/1241/IMG_1242.png",
     "scale": 1.0,
-    "tilt": 2.04,
-    "aspect": 0.7448
+    "tilt": -2.09,
+    "aspect": 0.7448,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/georgian/1241/IMG_1241.png",
     "scale": 1.0,
-    "tilt": -2.43,
-    "aspect": 0.7468
+    "tilt": 1.9,
+    "aspect": 0.7468,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
+   },
+   {
+    "path": "assets/georgian/1241/IMG_1202.png",
+    "scale": 0.62,
+    "z": "top",
+    "dx": 130.0,
+    "dy": -30.0,
+    "tilt": 3.36,
+    "aspect": 1.5515,
+    "slot": 2
    }
   ],
-  "title": "Khachapuri",
+  "title": "Zeinab's Khachapuri",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
   "number": 24,
-  "image": "assets/georgian/1241/IMG_1241.png",
+  "image": "assets/georgian/1241/IMG_1202.png",
   "photo": "assets/georgian/1241/dish.jpg",
-  "inverse": false,
+  "inverse": true,
   "scribe": "Zeinab",
   "scribe_confidence": 9,
-  "slug": "khachapuri",
+  "slug": "zeinabs-khachapuri",
   "description": "Khachapuri is a staple of Georgian cuisine, representing a diverse family of cheese-filled breads. This specific dough recipe utilizes a pastry-style technique where cold butter is \"chopped\" into flour and combined with the acidic lift of matsoni (a traditional fermented milk) and baking soda to create a tender, slightly flaky crust.",
   "ingredients": [
-   "1. Flour, 6 tea cups (approx. 130g-150g per cup)",
-   "2. Butter, 200g (cold)",
-   "3. Matsoni (or sour yogurt), 800g",
-   "4. Baking soda, 1 tsp"
+   "Flour, 6 tea cups (approx. 130-150 g per cup)",
+   "Butter, 200 g (cold)",
+   "Matsoni (or sour yogurt), 800 g",
+   "Baking soda, 1 tsp"
   ],
   "instructions": [
    "Pour flour onto a cutting board. Coat the butter in the flour and cut it into cubes with a knife.",
@@ -1062,9 +970,11 @@
    "Place the dough in a closed container and let it rest/rise for 1 hour."
   ],
   "notes": [
-   "Success depends on keeping the butter cold and using a \"chopping\" motion with a knife to combine it with the flour, which prevents the fat from melting and ensures a light texture. During kneading, do not add any additional flour; use only the amount specified in the proportions. Before baking, brush the khachapuri with melange (egg wash). Bake in a well-preheated oven."
+   "Success depends on keeping the butter cold and using a \"chopping\" motion with a knife to combine it with the flour, which prevents the fat from melting and ensures a light texture. During kneading, do not add any additional flour; use only the amount specified in the proportions. Before baking, brush the khachapuri with melange (egg wash). Bake in a well-preheated oven.",
+   "*Other recordings:* the family wrote this recipe down four times. The other cards vary slightly — one uses 1/2 teaspoon of soda, another softened butter and a refrigerated rest. This notebook version (1 teaspoon, cold butter, an hour at room temperature) is the one the family bakes.",
+   "*Zeinab's note:* midway down the first notebook page, between recipes, Zeinab breaks into Georgian: \"My life and my love. This looks like the Vepkhistqaosani, but I wrote everything out for you in detail; it really isn't difficult. Now it's up to you — don't embarrass me.\""
   ],
-  "original": "#### Russian\nХачапури - тесто - для духовки.\n1. На доске насыпать муку, обвалять в муке и ножом нарезать масло кубиками, дальше можно крошить руками, вплоть до однородной массы (в муке масло крупинками остаётся). 2. сделать в этой мучной...\nмассе углубление и влить\nмацони, - кислый йогурт.\n(и 1 ч. ложку соды)\nи приготовить тесто большим\nножом - рубить, после получения\nоднородной массы можно месить\nруками. Когда тесто станет однородным - \nразделить его на 3 равные части (на 3 жаровни).\nположить в закрытую посуду\nи дать подняться - 1 ч.\nпри меске муку больше не\nдобавлять. Только то,\nсколько дано в пропорции.\n\n1. мука - 6 чайных стаканов.\n2. масло - 200 гр (холодное).\n3. мацони - 800 гр.\n4. сода - 1 ч.л.\n\nперед печкой\nнамазать хачапури\nмеланжем. печь в хорошо\nразогретой духовке.\n\n#### Georgian note (mid-page on IMG_1241, between the pirog recipe's ending and the khachapuri heading)\nჩემო სიცოცხლე და სიყვარულო.\nეს ვეფხისტყაოსანს ჰგავს, მაგრამ\nყველაფერი დაწვრილებით ჩაგიწერე,\nთორემ ძნელი სულ არ არის.\nაბა შენ იცი, არ შემარცხვინო."
+  "original": "#### Russian\nХачапури - тесто - для духовки.\n1. На доске насыпать муку, обвалять в муке и ножом нарезать масло кубиками, дальше можно крошить руками, вплоть до однородной массы (в муке масло крупинками остаётся). 2. сделать в этой мучной...\nмассе углубление и влить\nмацони, - кислый йогурт.\n(и 1 ч. ложку соды)\nи приготовить тесто большим\nножом - рубить, после получения\nоднородной массы можно месить\nруками. Когда тесто станет однородным - \nразделить его на 3 равные части (на 3 жаровни).\nположить в закрытую посуду\nи дать подняться - 1 ч.\nпри меске муку больше не\nдобавлять. Только то,\nсколько дано в пропорции.\n\n1. мука - 6 чайных стаканов.\n2. масло - 200 гр (холодное).\n3. мацони - 800 гр.\n4. сода - 1 ч.л.\n\nперед печкой\nнамазать хачапури\nмеланжем. печь в хорошо\nразогретой духовке.\n\n#### Georgian note (mid-page, between the recipes)\nჩემო სიცოცხლე და სიყვარულო.\nეს ვეფხისტყაოსანს ჰგავს, მაგრამ\nყველაფერი დაწვრილებით ჩაგიწერე,\nთორემ ძნელი სულ არ არის.\nაბა შენ იცი, არ შემარცხვინო."
  },
  {
   "file": "assets/georgian/1243/IMG_1243.md",
@@ -1073,7 +983,10 @@
     "path": "assets/georgian/1243/IMG_1243.png",
     "scale": 1.0,
     "tilt": 2.44,
-    "aspect": 0.7233
+    "aspect": 0.7233,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
@@ -1107,54 +1020,16 @@
   "original": "Тесто дрожжевое - для хачапури пирогов, пирожков:\n1. 0,5 л - молока.\n2. 200 гр - масло сл. или маргарин.\n3. дрожжи - растворимые 1 пакет - 5 гр.\n4. 1 ст.л. - сахар.\n5. 1 ст.л. - подсолнечное масло.\n6. 600 гр. муки.\n\nнагреть молоко (чтобы было тёплым)\nразогреть масло..\nсмешать молоко и  1/2 части растопленного масла, добавить остальные градиенты, кроме дрожжей (запомни - дрожжи в горячую среду нельзя растворять! не поднимуться!). среда должна быть тёплой и так всыпать дрожжи, муку и месить, когда тесто станет однородным, влить другую половину масла и месить. тесто станет шёлковым и не будет прилепать к рукам. из этого теста можно сделать гвезели"
  },
  {
-  "file": "assets/georgian/1255/IMG_1255.md",
-  "scans": [
-   {
-    "path": "assets/georgian/1255/IMG_1255.png",
-    "scale": 1.0,
-    "tilt": -1.3,
-    "aspect": 0.7457
-   }
-  ],
-  "title": "Zeinab's Khachapuri",
-  "language": "georgian",
-  "section": "Breads & Doughs",
-  "batch": "",
-  "number": 26,
-  "image": "assets/georgian/1255/IMG_1255.png",
-  "photo": "assets/georgian/1255/dish.jpg",
-  "inverse": false,
-  "scribe": "Zeinab",
-  "scribe_confidence": 9,
-  "slug": "zeinabs-khachapuri-2",
-  "description": "Khachapuri is a cornerstone of Georgian cuisine, representing a traditional cheese-filled bread that varies by region. This particular recipe utilizes matzoni, a traditional Caucasian fermented milk product, to create a tender, slightly tangy dough, while the technique of mixing with a knife helps keep the dough light and prevents the butter from over-incorporating or melting from hand heat.",
-  "ingredients": [
-   "6 cups of flour",
-   "Salt",
-   "200g soft butter",
-   "800g matzoni",
-   "1 level teaspoon of baking soda"
-  ],
-  "instructions": [
-   "Mix the flour, salt, and soft butter together.",
-   "Make a well in the mixture.",
-   "Add 800g of matzoni.",
-   "Mix everything with a knife and form the dough into a ball.",
-   "Add 1 tsp of Baking soda and mix it with a knofe/spatula until no flour remains on the board."
-  ],
-  "notes": [
-   "If matzoni is unavailable, you can substitute it with thick kefir or full-fat plain Greek yogurt. It is vital to use a knife for mixing rather than your hands initially; this ensures the butter remains cool and the dough stays tender."
-  ],
-  "original": "Хачапури Зейнаб\n6 ст. муки\nсоль\n200 г. мягкого масла\nвсё вместе помешать\nсделать колодец и\nдобавить 800 г мацони\nи ножом перемешать\nи сделать тесто в\nклубок. Не должно\nостаться муки на доске.\nдобавить 1 ч.л. соды без\nгорки к муке и ножом"
- },
- {
   "file": "assets/georgian/1256/IMG_1256.md",
   "scans": [
    {
     "path": "assets/georgian/1256/IMG_1256.png",
     "scale": 1.0,
     "tilt": -2.04,
-    "aspect": 0.7297
+    "aspect": 0.7297,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Adjarian Khachapuri",
@@ -1166,7 +1041,7 @@
   "photo": "assets/georgian/1256/dish.jpg",
   "inverse": false,
   "scribe": "Rusiko",
-  "scribe_confidence": 5,
+  "scribe_confidence": 7,
   "slug": "adjarian-khachapuri-2",
   "description": "Adjarian Khachapuri is a signature boat-shaped Georgian bread traditionally filled with a mixture of Imeretian and Sulguni cheeses. The dough's elasticity comes from a simple yeast-based foundation, while the high-heat baking process creates a crisp exterior and a molten, cheesy center that is typically finished with a fresh egg yolk and a pat of butter.",
   "ingredients": [
@@ -1206,7 +1081,10 @@
     "path": "assets/georgian/1266/IMG_1266.png",
     "scale": 1.0,
     "tilt": -1.46,
-    "aspect": 0.7151
+    "aspect": 0.7151,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Adjarian Khachapuri",
@@ -1246,53 +1124,16 @@
   "original": "ხაჭაპური\n\nავიღოთ ნელთბილი 1ლ წყალი +\n1 ს/კოვზი საფუარი + 1 ს/კოვზი შაქარი + 100გრ\nმარგარინი + 1 ჩ/კოვზი მარილი - კარგად ავურიოთ +\nფქვილი 8 ჭიქა - რამდენსაც შეიზილს (არ იყოს\nძალიან მაგარი ცომი), გააჩერე 1/2 საათი.\nროცა ამოვა - გადმოიღე მაგიდაზე და დაჭერი\nმრგვალ ბურთებად (გამოვა 10-11 ცალი).\nეს ბურთები ამოსვლამდე გააჩერე, შემდეგ\nგააბრტყელებ და მისცემ ფორმას.\nყველს შეურევ ცოტა წყალს + ათქვეფილი\nკვერცხი -\nროცა ნახევრად გამოცხვება - შეიძლება\nსათითაოდ ჩაახალო კვერცხი."
  },
  {
-  "file": "assets/georgian/1267/IMG_1267.md",
-  "scans": [
-   {
-    "path": "assets/georgian/1267/IMG_1267.png",
-    "scale": 1.0,
-    "tilt": 2.85,
-    "aspect": 0.978
-   }
-  ],
-  "title": "Pirozhki with Scalded Dough",
-  "language": "georgian",
-  "section": "Breads & Doughs",
-  "batch": "",
-  "number": 29,
-  "image": "assets/georgian/1267/IMG_1267.png",
-  "photo": "assets/georgian/1267/dish.jpg",
-  "inverse": false,
-  "scribe": "Zeinab",
-  "scribe_confidence": 5,
-  "slug": "pirozhki-with-scalded-dough",
-  "description": "This recipe utilizes the \"zavarnoy\" (scalded) method, where boiling water is used to gelatinize a portion of the flour's starch. This technique results in a dough that is exceptionally soft, elastic, and easy to work with, while ensuring the finished pastries stay fresh and tender for a longer period.",
-  "ingredients": [
-   "1 teaspoon salt",
-   "1 cup boiling water",
-   "3 tablespoons flour (for the scald)",
-   "1 tablespoon sugar",
-   "3 tablespoons vegetable oil",
-   "17.5 grams yeast",
-   "500 grams flour"
-  ],
-  "instructions": [
-   "*Stage 1:* Mix 1 tsp salt, 1 cup boiling water, 3 tbsp flour, 1 tbsp sugar and 3 tbsp vegetable oil. Let the mixture cool.",
-   "*Stage 2:* Add 17.5 grams of yeast and 500 grams of flour."
-  ],
-  "notes": [
-   "It is critical to let the scalded mixture from Stage 1 cool until it is lukewarm (approximately 100°F or 38°C) before adding the yeast; if the mixture is too hot, it will kill the yeast and the dough will not rise."
-  ],
-  "original": "Пирожки на заварном тесте.\n1 этап: соль 1 ч. л. - вода\nкипяток 1 стакан + мука\n3 ст. ложки + сахар 1. ст. лож\nрастительн. масло 3 ст. ложки\nохладить\n2. этап: 17,5 дрожжи (грамм)\n500 грамм мука"
- },
- {
   "file": "assets/georgian/1269/IMG_1269.md",
   "scans": [
    {
     "path": "assets/georgian/1269/IMG_1269.png",
     "scale": 1.0,
     "tilt": 3.31,
-    "aspect": 0.988
+    "aspect": 0.988,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Pirozhki with Kefir",
@@ -1331,7 +1172,10 @@
     "path": "assets/english/1227/IMG_1227.png",
     "scale": 1.0,
     "tilt": 1.23,
-    "aspect": 0.7669
+    "aspect": 0.7669,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Beef Bourguignon",
@@ -1388,7 +1232,10 @@
     "path": "assets/english/1228/IMG_1228.png",
     "scale": 1.0,
     "tilt": -1.88,
-    "aspect": 0.7743
+    "aspect": 0.7743,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Old-Fashioned Beef Stew",
@@ -1434,13 +1281,19 @@
     "path": "assets/english/1285/IMG_1286.png",
     "scale": 1.0,
     "tilt": -1.26,
-    "aspect": 0.7879
+    "aspect": 0.7879,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1285/IMG_1285.png",
     "scale": 1.0,
     "tilt": 2.74,
-    "aspect": 0.7762
+    "aspect": 0.7762,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Ina Garten's Unforgettable Beef Stew",
@@ -1500,7 +1353,10 @@
     "path": "assets/english/1293/IMG_1293.png",
     "scale": 1.0,
     "tilt": 3.07,
-    "aspect": 0.7802
+    "aspect": 0.7802,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Old-Time Beef Stew",
@@ -1550,7 +1406,10 @@
     "path": "assets/english/1294/IMG_1294.png",
     "scale": 1.0,
     "tilt": 2.6,
-    "aspect": 0.7714
+    "aspect": 0.7714,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Parker's Split Pea Soup",
@@ -1594,13 +1453,19 @@
     "path": "assets/english/1205/IMG_1206.png",
     "scale": 1.0,
     "tilt": -1.65,
-    "aspect": 0.7805
+    "aspect": 0.7805,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1205/IMG_1205.png",
     "scale": 1.0,
     "tilt": 1.71,
-    "aspect": 0.7798
+    "aspect": 0.7798,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Homemade Merguez Sausage",
@@ -1650,13 +1515,19 @@
     "path": "assets/english/1207/IMG_1208.png",
     "scale": 1.0,
     "tilt": -2.56,
-    "aspect": 0.8117
+    "aspect": 0.8117,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1207/IMG_1207.png",
     "scale": 1.0,
     "tilt": -2.8,
-    "aspect": 0.7911
+    "aspect": 0.7911,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Shakshuka With Feta",
@@ -1701,13 +1572,19 @@
     "path": "assets/english/1210/IMG_1211.png",
     "scale": 1.0,
     "tilt": 2.53,
-    "aspect": 0.6539
+    "aspect": 0.6539,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1210/IMG_1210.png",
     "scale": 1.0,
     "tilt": -2.38,
-    "aspect": 0.6462
+    "aspect": 0.6462,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Cashew Nut Loaf",
@@ -1757,7 +1634,10 @@
     "path": "assets/english/1213/IMG_1213.png",
     "scale": 1.0,
     "tilt": 1.34,
-    "aspect": 0.7781
+    "aspect": 0.7781,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Whole Chicken Crock Pot",
@@ -1806,7 +1686,10 @@
     "path": "assets/english/1214/IMG_1214.png",
     "scale": 1.0,
     "tilt": -1.61,
-    "aspect": 0.7786
+    "aspect": 0.7786,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Turkey Meatloaf",
@@ -1853,7 +1736,10 @@
     "path": "assets/english/1216/IMG_1216.png",
     "scale": 1.0,
     "tilt": 3.01,
-    "aspect": 0.7824
+    "aspect": 0.7824,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Turkey and Quinoa Meatloaf",
@@ -1905,13 +1791,19 @@
     "path": "assets/english/1217/IMG_1218.png",
     "scale": 1.0,
     "tilt": 2.61,
-    "aspect": 0.7796
+    "aspect": 0.7796,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1217/IMG_1217.png",
     "scale": 1.0,
     "tilt": -3.13,
-    "aspect": 0.7768
+    "aspect": 0.7768,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Apple Cider Braised Pork Shoulder",
@@ -1964,7 +1856,10 @@
     "path": "assets/english/1221/IMG_1221.png",
     "scale": 1.0,
     "tilt": -2.24,
-    "aspect": 0.7775
+    "aspect": 0.7775,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Skillet Chicken Bulgogi",
@@ -2006,25 +1901,37 @@
     "path": "assets/english/1222/IMG_1225.png",
     "scale": 1.0,
     "tilt": -1.5,
-    "aspect": 0.784
+    "aspect": 0.784,
+    "slot": 3,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1222/IMG_1224.png",
     "scale": 1.0,
     "tilt": 3.24,
-    "aspect": 0.7803
+    "aspect": 0.7803,
+    "slot": 2,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1222/IMG_1223.png",
     "scale": 1.0,
     "tilt": 2.0,
-    "aspect": 0.7756
+    "aspect": 0.7756,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1222/IMG_1222.png",
     "scale": 1.0,
     "tilt": -2.34,
-    "aspect": 0.7753
+    "aspect": 0.7753,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Fresh Huevos Rancheros",
@@ -2094,13 +2001,19 @@
     "path": "assets/english/1229/IMG_1230.png",
     "scale": 1.0,
     "tilt": 3.4,
-    "aspect": 0.7802
+    "aspect": 0.7802,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1229/IMG_1229.png",
     "scale": 1.0,
     "tilt": -1.49,
-    "aspect": 0.7807
+    "aspect": 0.7807,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Company Pot Roast",
@@ -2152,7 +2065,10 @@
     "path": "assets/english/1273/IMG_1273.png",
     "scale": 1.0,
     "tilt": -1.7,
-    "aspect": 0.786
+    "aspect": 0.786,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Croque-Madame",
@@ -2195,7 +2111,10 @@
     "path": "assets/english/1279/IMG_1279.png",
     "scale": 1.0,
     "tilt": -1.59,
-    "aspect": 0.7832
+    "aspect": 0.7832,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Baked Salmon with Dill Garlic Beurre Blanc",
@@ -2235,7 +2154,10 @@
     "path": "assets/english/1280/IMG_1280.png",
     "scale": 1.0,
     "tilt": 2.85,
-    "aspect": 0.774
+    "aspect": 0.774,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Bacon and Gruyere Breakfast Casserole",
@@ -2281,19 +2203,28 @@
     "path": "assets/english/1282/IMG_1284.png",
     "scale": 1.0,
     "tilt": -3.14,
-    "aspect": 0.7802
+    "aspect": 0.7802,
+    "slot": 2,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1282/IMG_1283.png",
     "scale": 1.0,
     "tilt": -3.27,
-    "aspect": 0.786
+    "aspect": 0.786,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1282/IMG_1282.png",
     "scale": 1.0,
     "tilt": 3.25,
-    "aspect": 0.7763
+    "aspect": 0.7763,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Slow-Roasted Crispy Pork Belly",
@@ -2348,7 +2279,10 @@
     "path": "assets/english/1287/IMG_1287.png",
     "scale": 1.0,
     "tilt": -3.0,
-    "aspect": 0.7769
+    "aspect": 0.7769,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Perfect Roast Chicken",
@@ -2393,13 +2327,19 @@
     "path": "assets/english/1288/IMG_1289.png",
     "scale": 1.0,
     "tilt": -1.63,
-    "aspect": 0.7784
+    "aspect": 0.7784,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1288/IMG_1288.png",
     "scale": 1.0,
     "tilt": -1.71,
-    "aspect": 0.7786
+    "aspect": 0.7786,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Garlic Braised Short Ribs With Red Wine",
@@ -2449,13 +2389,19 @@
     "path": "assets/english/1291/IMG_1292.png",
     "scale": 1.0,
     "tilt": -1.71,
-    "aspect": 0.7875
+    "aspect": 0.7875,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1291/IMG_1291.png",
     "scale": 1.0,
     "tilt": 3.37,
-    "aspect": 0.7847
+    "aspect": 0.7847,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Tuscan Farmers Breakfast",
@@ -2503,13 +2449,19 @@
     "path": "assets/english/1295/IMG_1296.png",
     "scale": 1.0,
     "tilt": -3.13,
-    "aspect": 0.7786
+    "aspect": 0.7786,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1295/IMG_1295.png",
     "scale": 1.0,
     "tilt": 2.02,
-    "aspect": 0.7808
+    "aspect": 0.7808,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Chicken, Rice, and Spices Bake",
@@ -2561,25 +2513,37 @@
     "path": "assets/english/1297/IMG_1300.png",
     "scale": 1.0,
     "tilt": -1.85,
-    "aspect": 1.2842
+    "aspect": 1.2842,
+    "slot": 3,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1297/IMG_1299.png",
     "scale": 1.0,
     "tilt": 2.18,
-    "aspect": 1.268
+    "aspect": 1.268,
+    "slot": 2,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1297/IMG_1298.png",
     "scale": 1.0,
     "tilt": 3.24,
-    "aspect": 1.2607
+    "aspect": 1.2607,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/english/1297/IMG_1297.png",
     "scale": 1.0,
     "tilt": -1.61,
-    "aspect": 1.2652
+    "aspect": 1.2652,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Crispy Pork and Watermelon Salad",
@@ -2685,7 +2649,10 @@
     "path": "assets/georgian/1162/IMG_1162.png",
     "scale": 1.0,
     "tilt": 2.65,
-    "aspect": 0.7103
+    "aspect": 0.7103,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Lyudmila's Beef Stroganoff",
@@ -2737,7 +2704,10 @@
     "path": "assets/georgian/1178/IMG_1178.png",
     "scale": 1.0,
     "tilt": -2.3,
-    "aspect": 0.7746
+    "aspect": 0.7746,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Rusiko's Cutlets",
@@ -2786,13 +2756,19 @@
     "path": "assets/georgian/1181/IMG_1187.png",
     "scale": 1.0,
     "tilt": -2.5,
-    "aspect": 1.028
+    "aspect": 1.028,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/georgian/1181/IMG_1181.png",
     "scale": 1.0,
     "tilt": 2.34,
-    "aspect": 1.4908
+    "aspect": 1.4908,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Camca - Sumsa",
@@ -2851,7 +2827,10 @@
     "path": "assets/georgian/1185/IMG_1185.png",
     "scale": 1.0,
     "tilt": 1.78,
-    "aspect": 0.7602
+    "aspect": 0.7602,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Ami's Khinkali",
@@ -2899,7 +2878,10 @@
     "path": "assets/georgian/1200/IMG_1200.png",
     "scale": 1.0,
     "tilt": -2.66,
-    "aspect": 1.7518
+    "aspect": 1.7518,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "New Seasons Market Cheesy Chilaquiles Casserole",
@@ -2943,7 +2925,10 @@
     "path": "assets/georgian/1201/IMG_1201.png",
     "scale": 1.0,
     "tilt": -1.84,
-    "aspect": 1.6945
+    "aspect": 1.6945,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Vegetable Enchilada Casserole",
@@ -2996,13 +2981,19 @@
     "path": "assets/georgian/1248/IMG_1249.png",
     "scale": 1.0,
     "tilt": 1.61,
-    "aspect": 0.748
+    "aspect": 0.748,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/georgian/1248/IMG_1248.png",
     "scale": 1.0,
     "tilt": -3.03,
-    "aspect": 0.7274
+    "aspect": 0.7274,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Satsivi for One Large Turkey",
@@ -3071,13 +3062,19 @@
     "path": "assets/georgian/1250/IMG_1251.png",
     "scale": 1.0,
     "tilt": 3.08,
-    "aspect": 0.7468
+    "aspect": 0.7468,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/georgian/1250/IMG_1250.png",
     "scale": 1.0,
     "tilt": 3.11,
-    "aspect": 0.742
+    "aspect": 0.742,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Beef Eggplant / Bell Pepper Boat (Khortsia Tsomshi)",
@@ -3125,7 +3122,10 @@
     "path": "assets/georgian/1253/IMG_1253.png",
     "scale": 1.0,
     "tilt": 1.64,
-    "aspect": 0.7485
+    "aspect": 0.7485,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Achma-Makarina",
@@ -3163,7 +3163,10 @@
     "path": "assets/georgian/1254/IMG_1254.png",
     "scale": 1.0,
     "tilt": 1.71,
-    "aspect": 0.7566
+    "aspect": 0.7566,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "American Kebab",
@@ -3202,7 +3205,10 @@
     "path": "assets/english/1215/IMG_1215.png",
     "scale": 1.0,
     "tilt": -1.29,
-    "aspect": 0.7796
+    "aspect": 0.7796,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Holiday Chicken Salad",
@@ -3242,7 +3248,10 @@
     "path": "assets/english/1281/IMG_1281.png",
     "scale": 1.0,
     "tilt": 2.1,
-    "aspect": 0.7877
+    "aspect": 0.7877,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Greek Broccoli Pasta Salad",
@@ -3369,7 +3378,10 @@
     "path": "assets/georgian/1176/IMG_1176.png",
     "scale": 1.0,
     "tilt": -2.2,
-    "aspect": 0.7636
+    "aspect": 0.7636,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Bazhe (Georgian Walnut Sauce)",
@@ -3409,7 +3421,10 @@
     "path": "assets/georgian/1257/IMG_1257.png",
     "scale": 1.0,
     "tilt": 1.65,
-    "aspect": 0.7517
+    "aspect": 0.7517,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Red Tkemali (Plum Sauce)",
@@ -3451,7 +3466,10 @@
     "path": "assets/georgian/1264/IMG_1264.png",
     "scale": 1.0,
     "tilt": 2.58,
-    "aspect": 0.7148
+    "aspect": 0.7148,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Ajika",
@@ -3498,7 +3516,10 @@
     "path": "assets/georgian/1270/IMG_1270.png",
     "scale": 1.0,
     "tilt": 3.17,
-    "aspect": 0.984
+    "aspect": 0.984,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Marinated Bell Peppers",
@@ -3544,7 +3565,10 @@
     "path": "assets/english/1272/IMG_1272.png",
     "scale": 1.0,
     "tilt": -2.51,
-    "aspect": 0.77
+    "aspect": 0.77,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Indian Pudding",
@@ -3591,20 +3615,29 @@
     "scribe": "Zeinab",
     "scale": 1.0,
     "tilt": -2.81,
-    "aspect": 0.7307
+    "aspect": 0.7307,
+    "slot": 2,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/georgian/1175/IMG_1244.png",
     "scribe": "Zeinab",
     "scale": 1.0,
     "tilt": 3.08,
-    "aspect": 0.7398
+    "aspect": 0.7398,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/georgian/1175/IMG_1175.png",
     "scale": 1.0,
     "tilt": -2.78,
-    "aspect": 0.7562
+    "aspect": 0.7562,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Zeinab's Shu",
@@ -3691,7 +3724,10 @@
     "path": "assets/georgian/1190/IMG_1190.png",
     "scale": 1.0,
     "tilt": 2.28,
-    "aspect": 0.7583
+    "aspect": 0.7583,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Czech Baklava",
@@ -3740,7 +3776,10 @@
     "path": "assets/georgian/1199/IMG_1199.png",
     "scale": 1.0,
     "tilt": -2.25,
-    "aspect": 1.632
+    "aspect": 1.632,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Soft Ginger Cookies",
@@ -3786,7 +3825,10 @@
     "path": "assets/georgian/1252/IMG_1252.png",
     "scale": 1.0,
     "tilt": -2.11,
-    "aspect": 0.7603
+    "aspect": 0.7603,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Gozinaki Proportions",
@@ -3828,7 +3870,10 @@
     "path": "assets/georgian/1258/IMG_1258.png",
     "scale": 1.0,
     "tilt": -2.31,
-    "aspect": 0.7122
+    "aspect": 0.7122,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Ideal Cake (Ideali)",
@@ -3874,7 +3919,10 @@
     "path": "assets/georgian/1259/IMG_1259.png",
     "scale": 1.0,
     "tilt": -2.43,
-    "aspect": 0.7148
+    "aspect": 0.7148,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "'\"Eskimo\" Cake'",
@@ -3950,7 +3998,10 @@
     "path": "assets/georgian/1261/IMG_1261.png",
     "scale": 1.0,
     "tilt": -1.32,
-    "aspect": 0.7218
+    "aspect": 0.7218,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Apple Layered Strudel",
@@ -3991,13 +4042,19 @@
     "path": "assets/georgian/1262/IMG_1262.png",
     "scale": 1.0,
     "tilt": -2.47,
-    "aspect": 0.7147
+    "aspect": 0.7147,
+    "slot": 1,
+    "dx": 0.0,
+    "dy": 0.0
    },
    {
     "path": "assets/georgian/1262/IMG_1261.png",
     "scale": 1.0,
     "tilt": -3.04,
-    "aspect": 0.7218
+    "aspect": 0.7218,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Easter Paska/Kulich",
@@ -4049,7 +4106,10 @@
     "path": "assets/english/1204/IMG_1204.png",
     "scale": 1.0,
     "tilt": 2.47,
-    "aspect": 0.7784
+    "aspect": 0.7784,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Homemade Granola",
@@ -4094,7 +4154,10 @@
     "path": "assets/english/1219/IMG_1219.png",
     "scale": 1.0,
     "tilt": 2.55,
-    "aspect": 0.7732
+    "aspect": 0.7732,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Lucky and Rippy's Favorite Dog Food",
@@ -4133,7 +4196,10 @@
     "path": "assets/english/1231/IMG_1231.png",
     "scale": 1.0,
     "tilt": 2.67,
-    "aspect": 0.7786
+    "aspect": 0.7786,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "BBQ Rub",
@@ -4173,7 +4239,10 @@
     "path": "assets/georgian/1235/IMG_1235.png",
     "scale": 1.0,
     "tilt": 3.29,
-    "aspect": 0.9743
+    "aspect": 0.9743,
+    "slot": 0,
+    "dx": 0.0,
+    "dy": 0.0
    }
   ],
   "title": "Baking Ingredient Weight to Cup Conversions",
