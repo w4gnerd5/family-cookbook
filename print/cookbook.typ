@@ -10,7 +10,9 @@
 #let PH = 297mm + 2 * B
 
 #set text(font: font-serif, size: size-body, fill: color-body, lang: "en")
-#set par(leading: 0.72em, justify: false)
+// rhythm rule: spacing between items must be >= the wrapped-line gap (leading),
+// never the reverse. Item spacing is em-based so it tracks each section's size.
+#set par(leading: 0.65em, justify: false)
 
 #let label-text(content, fill: color-label) = text(
   font: font-sans, size: size-label, fill: fill,
@@ -129,7 +131,7 @@
 #let ing-item(it) = if type(it) == dictionary {
   block(above: space-block * 0.7, below: 3pt, text(weight: "bold", size: size-small, it.group + ":"))
 } else {
-  block(above: 2.5pt, below: 0pt, md(it))
+  block(above: 0.65em, below: 0pt, md(it))
 }
 
 #let recto(r) = {
@@ -142,7 +144,7 @@
   // a single-step method reads as prose; numbering starts earning its keep at 2
   let steps = r.instructions.filter(it => type(it) != dictionary)
   if steps.len() == 1 and r.instructions.len() == 1 {
-    block(above: 4pt, md(steps.at(0)))
+    block(above: 0.8em, md(steps.at(0)))
   } else {
     let n = 0
     for it in r.instructions {
@@ -150,7 +152,7 @@
         ing-item(it)
       } else {
         n += 1
-        block(above: 4pt, grid(columns: (14pt, 1fr), column-gutter: 4pt,
+        block(above: 0.8em, grid(columns: (14pt, 1fr), column-gutter: 4pt,
           text(font: font-sans, size: size-small, fill: color-accent, str(n)), md(it)))
       }
     }
@@ -172,7 +174,7 @@
     set text(size: size-small)
     for ref in r.see_also {
       let lead = phrase.at(ref.at("rel", default: ""), default: "See")
-      block(above: 2.5pt, below: 0pt, {
+      block(above: 0.65em, below: 0pt, {
         text(fill: color-muted, lead + ": ")
         text(fill: color-ink, ref.title)
         text(fill: color-muted, "  ")
