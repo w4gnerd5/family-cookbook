@@ -9,6 +9,7 @@
 #let color-label = rgb("#9A917D")
 #let color-accent = rgb("#C05B38")
 #let color-field = rgb("#F1ECE1")
+#let color-original-bg = rgb("#F1ECE1")
 #let size-body = 10.5pt
 #let size-small = 9pt
 #let size-label = 7.5pt

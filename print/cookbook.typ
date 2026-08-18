@@ -189,7 +189,7 @@
   // archival in the .md but does not print. Revisit if a bilingual edition happens.
   if r.original.len() > 0 and r.language != "english" {
     v(space-block)
-    block(breakable: true, stroke: (left: 1.5pt + color-accent), inset: (left: 10pt, y: 2pt), {
+    block(breakable: true, fill: color-original-bg, inset: 12pt, width: 100%, {
       label-text("Original")
       v(space-label-gap)
       set text(size: size-small, fill: color-muted, font: (font-serif, font-serif-georgian), lang: "ru")

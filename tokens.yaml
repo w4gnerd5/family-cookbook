@@ -14,6 +14,9 @@ color:
   label: "#9A917D"
   accent: "#C05B38"           # terracotta
   field: "#F1ECE1"            # fallback verso background when no dish photo
+  original_bg: "#F1ECE1"      # Original block box (O2). Undecided; the O4
+                              #   alternative is a terracotta wash, "#FAF2EE".
+                              #   Variant sheet: print/orig-proof.typ
 
 size:                          # points (print); web build maps pt -> rem
   body: 10.5
