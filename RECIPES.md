@@ -16,7 +16,7 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Breads & Doughs | 8 | Kefir Pancakes (Blini) with Baking Soda | georgian | kefir-pancakes-blini-with-baking-soda | assets/georgian/1186/IMG_1186.md |
 | Breads & Doughs | 9 | Scalded Crepes (Zavarnyye Blini) | georgian | scalded-crepes-zavarnyye-blini | assets/georgian/1233/IMG_1233.md |
 | Breads & Doughs | 10 | Yeast Dough for Khachapuri, Pies, and Pirozhki | georgian | yeast-dough-for-khachapuri-pies-and-pirozhki | assets/georgian/1243/IMG_1243.md |
-| Breads & Doughs | 11 | Russian Pirozhki with Scalded Yeast Dough (Yields 30) | georgian | russian-pirozhki-with-scalded-yeast-dough-yields-30 | assets/georgian/1184/IMG_1184.md |
+| Breads & Doughs | 11 | Russian Pirozhki with Scalded Yeast Dough (Yields 30) | georgian | russian-pirozhki-with-scalded-yeast-dough | assets/georgian/1184/IMG_1184.md |
 | Breads & Doughs | 12 | Pirozhki with Kefir | georgian | pirozhki-with-kefir | assets/georgian/1269/IMG_1269.md |
 | Breads & Doughs | 13 | Oven-Baked Brioches | georgian | oven-baked-brioches | assets/georgian/1236/IMG_1236.md |
 | Breads & Doughs | 14 | Mom's Zucchini Bread | english | moms-zucchini-bread | assets/english/1290/IMG_1290.md |
@@ -49,7 +49,7 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Mains | 16 | Croque-Madame | english | croque-madame | assets/english/1273/IMG_1273.md |
 | Mains | 17 | Shakshuka With Feta | english | shakshuka-with-feta | assets/english/1207/IMG_1207.md |
 | Mains | 18 | Fresh Huevos Rancheros | english | fresh-huevos-rancheros | assets/english/1222/IMG_1222.md |
-| Mains | 19 | New Seasons Market Cheesy Chilaquiles Casserole | georgian | new-seasons-market-cheesy-chilaquiles-casserole | assets/georgian/1200/IMG_1200.md |
+| Mains | 19 | New Seasons Market Cheesy Chilaquiles Casserole | english | new-seasons-market-cheesy-chilaquiles-casserole | assets/georgian/1200/IMG_1200.md |
 | Mains | 20 | Vegetable Enchilada Casserole | georgian | vegetable-enchilada-casserole | assets/georgian/1201/IMG_1201.md |
 | Mains | 21 | Skillet Chicken Bulgogi | english | skillet-chicken-bulgogi | assets/english/1221/IMG_1221.md |
 | Mains | 22 | Baked Salmon with Dill Garlic Beurre Blanc | english | baked-salmon-with-dill-garlic-beurre-blanc | assets/english/1279/IMG_1279.md |

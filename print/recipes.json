@@ -633,7 +633,7 @@
   "inverse": false,
   "see_also": [
    {
-    "slug": "russian-pirozhki-with-scalded-yeast-dough-yields-30",
+    "slug": "russian-pirozhki-with-scalded-yeast-dough",
     "note": "pirozhki made with a scalded dough",
     "section": "Breads & Doughs",
     "number": 11,
@@ -689,7 +689,7 @@
    {
     "path": "assets/georgian/1184/IMG_1267.png",
     "scale": 0.55,
-    "tilt": -2.86,
+    "tilt": -1.83,
     "aspect": 0.978,
     "slot": 1,
     "dx": 0.0,
@@ -698,7 +698,7 @@
    {
     "path": "assets/georgian/1184/IMG_1184.png",
     "scale": 1.0,
-    "tilt": 1.53,
+    "tilt": 1.64,
     "aspect": 0.7655,
     "slot": 0,
     "dx": 0.0,
@@ -732,7 +732,7 @@
   ],
   "scribe": "Zeinab",
   "scribe_confidence": 4,
-  "slug": "russian-pirozhki-with-scalded-yeast-dough-yields-30",
+  "slug": "russian-pirozhki-with-scalded-yeast-dough",
   "description": "This traditional recipe utilizes the \"scalded\" (zavarnoy) method, where boiling water is poured over a small portion of the flour to gelatinize the starches. This technique creates a dough that is exceptionally soft, easy to handle without sticking, and results in a finished pastry that stays tender and fresh much longer than standard yeast breads.",
   "ingredients": [
    {
@@ -783,7 +783,7 @@
   "inverse": false,
   "see_also": [
    {
-    "slug": "russian-pirozhki-with-scalded-yeast-dough-yields-30",
+    "slug": "russian-pirozhki-with-scalded-yeast-dough",
     "rel": "variant",
     "note": "the two-stage scalded dough",
     "section": "Breads & Doughs",
@@ -2908,7 +2908,7 @@
    }
   ],
   "title": "New Seasons Market Cheesy Chilaquiles Casserole",
-  "language": "georgian",
+  "language": "english",
   "section": "Mains",
   "batch": "batch-1",
   "number": 19,
@@ -2916,8 +2916,8 @@
   "photo": "assets/georgian/1200/dish.jpg",
   "inverse": false,
   "see_also": [],
-  "scribe": "",
-  "scribe_confidence": 0,
+  "scribe": "Nino",
+  "scribe_confidence": 5,
   "slug": "new-seasons-market-cheesy-chilaquiles-casserole",
   "description": "This casserole version of the traditional Mexican breakfast dish relies on the corn tortillas to absorb the enchilada sauce, where the starch helps thicken the mixture and creates a cohesive, tender texture similar to a savory bread pudding or lasagna.",
   "ingredients": [

@@ -25,6 +25,12 @@ recipes-index.csv   Machine-readable index (generated)
 RECIPES.md          Human-readable index table (generated)
 ```
 
+**`assets/georgian/` and `assets/english/` are accession groups, not categories.** They record
+which scanning run an item came from, which is provenance worth keeping. The semantic field is
+`language:` in frontmatter, and that is the only thing the build reads. A recipe can legitimately
+sit in `assets/georgian/` with `language: english` — it means the paper was among the Georgian
+family material. Do not relocate folders to match `language:`.
+
 **File conventions:** every recipe is a folder, named after its first scan's number (e.g. `assets/english/1222/`), holding exactly one `.md`, that recipe's scan PNGs, and (eventually) its dish photo. Asset taxonomy inside a folder:
 
 - `IMG_XXXX.png` — original scanned pages; they keep their camera names forever (provenance)

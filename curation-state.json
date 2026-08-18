@@ -153,7 +153,7 @@
    "desc": "This traditional recipe utilizes the \"scalded\" (zavarnoy) method, where boiling water is poured over",
    "scans": 2,
    "photo": true,
-   "slug": "russian-pirozhki-with-scalded-yeast-dough-yields-30",
+   "slug": "russian-pirozhki-with-scalded-yeast-dough",
    "scribe": "Zeinab",
    "scribe_conf": 4,
    "new_section": "",
@@ -2033,8 +2033,8 @@
    "title": "New Seasons Market Cheesy Chilaquiles Casserole",
    "section": "Mains",
    "num": 19,
-   "lang": "georgian",
-   "scribe": "",
+   "lang": "english",
+   "scribe": "Nino",
    "refs": 0,
    "len": 47,
    "flags": "long"
@@ -2160,16 +2160,16 @@
    "flags": ""
   },
   {
-   "slug": "russian-pirozhki-with-scalded-yeast-dough-yields-30",
-   "stem": "russian-pirozhki-with-scalded-yeast-dough-yields",
+   "slug": "russian-pirozhki-with-scalded-yeast-dough",
+   "stem": "russian-pirozhki-with-scalded-yeast-dough",
    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
    "section": "Breads & Doughs",
    "num": 11,
    "lang": "georgian",
    "scribe": "Zeinab",
    "refs": 2,
-   "len": 51,
-   "flags": "numeral suffix, long"
+   "len": 41,
+   "flags": "long"
   },
   {
    "slug": "satsivi-for-one-large-turkey",
