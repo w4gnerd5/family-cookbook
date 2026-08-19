@@ -43,6 +43,7 @@ the original recipe cards are family material.
 - **Traditional Georgian Bread Shaping Instructions** — photo by Stolbovsky, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Shoti_bread_in_Moscow_01.jpg)
 - **Khachapuri Recipe by Gia Agirba** — photo by Vyacheslav Argenberg, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Old_Tbilisi%2C_Georgian_khachapuri%2C_Georgia.jpg)
 - **Zeinab's Shu** — photo by Stu Spivack, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Cream_puff_(cropped_and_edited).jpg)
+- **Bazhe (Georgian Walnut Sauce)** — photo by Eden FC, Pexels License (https://www.pexels.com/photo/chiles-en-nogada-with-pomegranate-and-parsley-33097110/)
 - **Rusiko's Cutlets** — photo by Pannet, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Котлеты.jpg)
 - **Vareniki Dough (Dumpling Dough)** — photo by Pavlo Boyko, CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:Varenyky_Ukrainian.jpg)
 - **Camca - Sumsa** — photo by N509FZ, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Samsas_at_Gülhan_Restaurant,_Beijing_(20210402171423).jpg)
@@ -69,6 +70,7 @@ the original recipe cards are family material.
 - **American Kebab** — photo by E4024, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Şiş_köfte_platter.jpg)
 - **Adjarian Khachapuri** — photo by Helen Owl, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Adjarian_Khachapuri.jpg)
 - **Red Tkemali (Plum Sauce)** — photo by Jelger Groeneveld, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Red_tkemali.jpg)
+- **Ideal Cake (Ideali)** — photo by Nadin Sh, Pexels License (https://www.pexels.com/photo/delicious-pastry-with-layers-19062745/)
 - **Apple Layered Strudel** — photo by FakirNL, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Apfelstrudel_with_whipped_cream.jpg)
 - **Easter Paska/Kulich** — photo by Wolverène, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Kulichi.jpg)
 - **Ajika** — photo by Georgian Recipes at Georgia About, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Megrelian_ajika.jpg)
@@ -76,4 +78,4 @@ the original recipe cards are family material.
 - **Pirozhki with Kefir** — photo by Miha Ulanov, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Pirozhki.jpg)
 - **Marinated Bell Peppers** — photo by paperfacets, CC BY 2.0 (https://www.flickr.com/photos/29412979@N06/5405362230)
 
-71 recipes with sourced photos; 16 awaiting photos.
+73 recipes with sourced photos; 14 awaiting photos.

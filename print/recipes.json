@@ -4345,7 +4345,7 @@
   "batch": "batch-1",
   "number": 2,
   "image": "assets/georgian/1176/IMG_1176.png",
-  "photo": "",
+  "photo": "assets/georgian/1176/dish.jpg",
   "inverse": false,
   "see_also": [
    {
@@ -4716,7 +4716,7 @@
   "batch": "",
   "number": 3,
   "image": "assets/georgian/1258/IMG_1258.png",
-  "photo": "",
+  "photo": "assets/georgian/1258/dish.jpg",
   "inverse": false,
   "see_also": [],
   "scribe": "",
