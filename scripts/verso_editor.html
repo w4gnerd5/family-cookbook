@@ -219,11 +219,14 @@ function hookCard(img, e) {
   img.onwheel = ev => {
     ev.preventDefault();
     selCard(e.path);
+    // macOS maps shift+wheel onto deltaX, so read whichever axis moved
+    const d = Math.abs(ev.deltaY) >= Math.abs(ev.deltaX) ? ev.deltaY : ev.deltaX;
+    if (d === 0) return;
     if (ev.shiftKey) {
-      e.scale = Math.max(0.1, +(e.scale + (ev.deltaY < 0 ? 0.02 : -0.02)).toFixed(3));
+      e.scale = Math.max(0.1, +(e.scale + (d < 0 ? 0.02 : -0.02)).toFixed(3));
       touch(e.path, 'scale');
     } else {
-      e.tilt = +(e.tilt + (ev.deltaY < 0 ? 0.5 : -0.5)).toFixed(2);
+      e.tilt = +(e.tilt + (d < 0 ? 0.5 : -0.5)).toFixed(2);
       touch(e.path, 'tilt');
     }
     render();
