@@ -4,6 +4,9 @@
 // Build: typst compile --root .. --font-path ../assets/fonts cookbook.typ cookbook.pdf
 #import "tokens.typ": *
 #let BOOK = yaml("../book.yaml")   // book-level content; layout stays here
+// --input only=<slug> renders that recipe alone (no front matter, no dividers):
+// the verso editor's single-recipe proof uses this
+#let only = sys.inputs.at("only", default: "")
 
 #let B = space-bleed          // 0 for proofs; 3mm for production runs
 #let M = space-page-margin
@@ -147,7 +150,8 @@
 }
 
 #let verso(r) = {
-  pagebreak(to: "even", weak: true)
+  // in single-recipe mode there is no book flow to keep parity with
+  if only == "" { pagebreak(to: "even", weak: true) } else { pagebreak(weak: true) }
   page(margin: 0pt, footer: none, {
     [#metadata(r.slug)<recipe-start>]
     if r.scans.len() <= 2 { verso-band(r) } else { verso-snapshot(r) }
@@ -260,12 +264,13 @@
 // (facing the colophon across the spread) / 6 blank · 7+ contents.
 // All content comes from book.yaml; this file is layout only.
 
-#page({
+#if only == "" {
+page({
   align(center + horizon, label-text(BOOK.title, fill: color-label))
 })
 
-#pagebreak(to: "odd", weak: true)
-#page({
+pagebreak(to: "odd", weak: true)
+page({
   align(center + horizon, {
     label-text(BOOK.title_lead)
     v(14pt)
@@ -276,7 +281,7 @@
 })
 
 // colophon lands on the title sheet's back (verso) by natural flow
-#page({
+page({
   set text(size: size-small, fill: color-muted)
   set par(leading: 0.65em, spacing: 0.85em)
   align(bottom, block(width: 80%, {
@@ -291,7 +296,7 @@
 })
 
 // dedication, verbatim, facing the colophon
-#page({
+page({
   align(center + horizon, block(width: 75%, {
     set text(font: (font-serif, font-serif-georgian), size: size-description)
     set par(leading: 0.85em)
@@ -305,8 +310,8 @@
 })
 
 // ---------- table of contents ----------
-#pagebreak(to: "odd", weak: true)
-#page({
+pagebreak(to: "odd", weak: true)
+page({
   let recipes = json("recipes.json")
   // the label rides in the top margin band (place = no flow height), because
   // the two-column list needs the full text column to fit on one page
@@ -326,6 +331,7 @@
     }
   })
 })
+}
 
 // ---------- book ----------
 #let divider(section) = {
@@ -340,7 +346,8 @@
 
 #let recipes = json("recipes.json")
 #for (i, r) in recipes.enumerate() {
-  if i == 0 or recipes.at(i - 1).section != r.section {
+  if only != "" and r.slug != only { continue }
+  if only == "" and (i == 0 or recipes.at(i - 1).section != r.section) {
     divider(r.section)
   }
   verso(r)

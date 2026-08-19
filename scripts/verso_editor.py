@@ -8,7 +8,9 @@ placement tool, not a proof: the compiled PDF stays the referee.
 
 Run: python3 scripts/verso_editor.py   (port 8766)
 """
+import glob
 import json
+import os
 import re
 import subprocess
 import threading
@@ -120,7 +122,9 @@ class H(BaseHTTPRequestHandler):
         elif u.path == "/file":
             rel = parse_qs(u.query).get("p", [""])[0]
             f = (ROOT / rel).resolve()
-            ok = f.is_relative_to(ROOT / "print" / "cards") or f.is_relative_to(ROOT / "assets")
+            ok = (f.is_relative_to(ROOT / "print" / "cards")
+                  or f.is_relative_to(ROOT / "print" / "preview")
+                  or f.is_relative_to(ROOT / "assets"))
             if ok and f.is_file():
                 ctype = "image/png" if f.suffix == ".png" else "image/jpeg"
                 self._send(200, f.read_bytes(), ctype)
@@ -130,13 +134,30 @@ class H(BaseHTTPRequestHandler):
             self._send(404, b"{}")
 
     def do_POST(self):
-        if self.path != "/save":
-            return self._send(404, b"{}")
         n = int(self.headers.get("Content-Length", 0))
-        req = json.loads(self.rfile.read(n))
-        with LOCK:
-            save_updates(req["file"], req["updates"])
-        self._send(200, b'{"ok": true}')
+        req = json.loads(self.rfile.read(n)) if n else {}
+        if self.path == "/save":
+            with LOCK:
+                save_updates(req["file"], req["updates"])
+            return self._send(200, b'{"ok": true}')
+        if self.path == "/render":
+            with LOCK:
+                prev = ROOT / "print" / "preview"
+                prev.mkdir(exist_ok=True)
+                for old in glob.glob(str(prev / "p-*.png")):
+                    os.unlink(old)
+                r = subprocess.run(
+                    ["typst", "compile", "--root", ".", "--font-path", "assets/fonts",
+                     "--input", "only=" + req["slug"], "--format", "png", "--ppi", "110",
+                     "print/cookbook.typ", "print/preview/p-{p}.png"],
+                    cwd=ROOT, capture_output=True, text=True)
+                if r.returncode != 0:
+                    return self._send(500, json.dumps({"error": r.stderr[-2000:]}).encode())
+                pages = sorted(glob.glob(str(prev / "p-*.png")),
+                               key=lambda x: int(re.search(r"p-(\d+)", x).group(1)))
+                rel = [str(Path(x).relative_to(ROOT)) for x in pages]
+            return self._send(200, json.dumps({"pages": rel}).encode())
+        self._send(404, b"{}")
 
 
 if __name__ == "__main__":
