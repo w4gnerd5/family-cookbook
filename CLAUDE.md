@@ -65,6 +65,8 @@ scans:                    # ordered list of scanned pages (reading order)
     z: top                #   stacking override (top | bottom); does not move the card
     dx: 130               #   nudge in pt
     dy: -30
+    exposure: 1.1         #   multiplies the auto white-point gain at card bake;
+                          #   0 disables normalization for this scan
     hide: true            #   keep archival, do not render on the verso
 photo: ""                 # optional; dish photo for the verso (dish.* in the folder)
 photo_source: ""          # optional; "URL | license | author", feeds CREDITS.md
