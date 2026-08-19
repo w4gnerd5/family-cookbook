@@ -3,30 +3,32 @@
   "file": "assets/georgian/1241/IMG_1242.md",
   "scans": [
    {
-    "path": "assets/georgian/1241/IMG_1242.png",
-    "scale": 1.0,
-    "tilt": -2.09,
-    "aspect": 0.7448,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
-   },
-   {
     "path": "assets/georgian/1241/IMG_1241.png",
-    "scale": 1.0,
+    "scale": 1.1,
+    "z": "bottom",
+    "dx": 200.0,
     "tilt": 1.9,
     "aspect": 0.7468,
     "slot": 0,
-    "dx": 0.0,
     "dy": 0.0
    },
    {
+    "path": "assets/georgian/1241/IMG_1242.png",
+    "scale": 1.1,
+    "z": "bottom",
+    "dy": 0.49,
+    "tilt": -2.09,
+    "aspect": 0.7448,
+    "slot": 1,
+    "dx": 0.0
+   },
+   {
     "path": "assets/georgian/1241/IMG_1202.png",
-    "scale": 0.62,
+    "scale": 0.8,
+    "tilt": -14.14,
     "z": "top",
-    "dx": 130.0,
-    "dy": -30.0,
-    "tilt": 3.36,
+    "dx": 129.75,
+    "dy": 30.0,
     "aspect": 1.5515,
     "slot": 2
    }
@@ -1718,21 +1720,21 @@
   "scans": [
    {
     "path": "assets/english/1285/IMG_1286.png",
+    "dx": 0.49,
+    "dy": -70.0,
     "scale": 1.0,
     "tilt": -1.26,
     "aspect": 0.7879,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1285/IMG_1285.png",
+    "tilt": 3.24,
+    "dx": 15.0,
+    "dy": -80.0,
     "scale": 1.0,
-    "tilt": 2.74,
     "aspect": 0.7762,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Ina Garten's Unforgettable Beef Stew",

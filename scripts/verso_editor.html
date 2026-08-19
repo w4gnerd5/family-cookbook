@@ -197,18 +197,24 @@ function render() {
 }
 
 function hookCard(img, e) {
+  // NOTE: never re-render mid-drag — a rebuild destroys the captured element
+  // and kills the gesture. Drag updates the img in place; release re-renders
+  // so dependent geometry (deck left-stepping) catches up.
   img.onpointerdown = ev => {
     ev.preventDefault();
     selCard(e.path);
     const sx = ev.clientX, sy = ev.clientY, dx0 = e.dx, dy0 = e.dy;
+    const x0 = parseFloat(img.style.left), y0 = parseFloat(img.style.top);
     img.setPointerCapture(ev.pointerId);
     img.onpointermove = mv => {
       e.dx = dx0 + (mv.clientX - sx) / VIEW;
       e.dy = dy0 + (mv.clientY - sy) / VIEW;
+      img.style.left = x0 + (mv.clientX - sx) + 'px';
+      img.style.top = y0 + (mv.clientY - sy) + 'px';
       touch(e.path, 'dx', 'dy');
-      render();
+      syncPanel();
     };
-    img.onpointerup = () => { img.onpointermove = null; };
+    img.onpointerup = () => { img.onpointermove = null; render(); };
   };
   img.onwheel = ev => {
     ev.preventDefault();
@@ -224,7 +230,13 @@ function hookCard(img, e) {
   };
 }
 
-function selCard(p) { if (sel !== p) { sel = p; render(); } }
+function selCard(p) {   // in-place: must not rebuild the DOM (see drag note)
+  if (sel === p) return;
+  sel = p;
+  document.querySelectorAll('#page img.card').forEach(im =>
+    im.classList.toggle('sel', im.dataset.path === p));
+  syncPanel();
+}
 function scan() { return cur.scans.find(s => s.path === sel); }
 function touch(p, ...fields) {
   touched[p] = touched[p] || new Set();
