@@ -50,7 +50,7 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Mains | 17 | Shakshuka With Feta | english | shakshuka-with-feta | assets/english/1207/IMG_1207.md |
 | Mains | 18 | Fresh Huevos Rancheros | english | fresh-huevos-rancheros | assets/english/1222/IMG_1222.md |
 | Mains | 19 | New Seasons Market Cheesy Chilaquiles Casserole | english | new-seasons-market-cheesy-chilaquiles-casserole | assets/georgian/1200/IMG_1200.md |
-| Mains | 20 | Vegetable Enchilada Casserole | georgian | vegetable-enchilada-casserole | assets/georgian/1201/IMG_1201.md |
+| Mains | 20 | Vegetable Enchilada Casserole | english | vegetable-enchilada-casserole | assets/georgian/1201/IMG_1201.md |
 | Mains | 21 | Skillet Chicken Bulgogi | english | skillet-chicken-bulgogi | assets/english/1221/IMG_1221.md |
 | Mains | 22 | Baked Salmon with Dill Garlic Beurre Blanc | english | baked-salmon-with-dill-garlic-beurre-blanc | assets/english/1279/IMG_1279.md |
 | Mains | 23 | American Kebab | georgian | american-kebab | assets/georgian/1254/IMG_1254.md |
