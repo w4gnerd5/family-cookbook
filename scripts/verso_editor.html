@@ -1,0 +1,280 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Verso editor</title>
+<style>
+  :root { --accent: #C05B38; --ink: #221F1B; --label: #9A917D; --field: #F1ECE1; }
+  * { box-sizing: border-box; }
+  body { margin: 0; display: flex; height: 100vh; font: 13px/1.4 -apple-system, sans-serif; background: #2b2b2b; color: #ddd; }
+  #side { width: 230px; overflow-y: auto; background: #222; padding: 8px; flex-shrink: 0; }
+  #side h1 { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--label); margin: 6px 4px; }
+  #side .r { padding: 4px 6px; border-radius: 4px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #side .r:hover { background: #333; }
+  #side .r.sel { background: var(--accent); color: white; }
+  #side .r .n { color: var(--label); font-size: 11px; margin-right: 4px; }
+  #main { flex: 1; display: flex; flex-direction: column; align-items: center; overflow: auto; padding: 14px; }
+  #bar { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; flex-wrap: wrap; justify-content: center; }
+  #bar button { background: #444; color: #eee; border: 0; padding: 6px 12px; border-radius: 5px; cursor: pointer; }
+  #bar button:hover { background: #555; }
+  #bar button.primary { background: var(--accent); }
+  #bar .dirty { color: var(--accent); font-weight: 600; }
+  #bar input { width: 62px; background: #333; color: #eee; border: 1px solid #555; border-radius: 4px; padding: 4px; }
+  #bar label { color: #999; }
+  #page { position: relative; background: white; flex-shrink: 0; overflow: hidden;
+          box-shadow: 0 4px 30px rgba(0,0,0,.5); }
+  #page img.photo { position: absolute; left: 0; top: 0; width: 100%; object-fit: cover; }
+  #page .band { position: absolute; left: 0; width: 100%; bottom: 0; background: white; }
+  #page .scrim { position: absolute; left: 0; bottom: 0; width: 100%; height: 48%;
+                 background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,.32) 40%, rgba(0,0,0,.74) 100%); }
+  #page .guide { position: absolute; top: 0; bottom: 0; border-right: 1px dashed rgba(192,91,56,.6); pointer-events: none; }
+  #page .titlebox { position: absolute; pointer-events: none; }
+  #page .titlebox .sec { font-size: 8px; letter-spacing: .12em; color: var(--accent); text-transform: uppercase; }
+  #page .titlebox .t { font-family: Georgia, serif; font-size: 21px; color: var(--ink); margin-top: 4px; }
+  #page .titlebox.inv .sec, #page .titlebox.inv .t { color: white; }
+  #page img.card { position: absolute; cursor: grab; transform-origin: center center; }
+  #page img.card.sel { outline: 2px solid var(--accent); outline-offset: -2px; }
+  #help { color: #888; font-size: 12px; margin-top: 8px; text-align: center; }
+</style>
+<div id="side"><h1>Recipes</h1><div id="list"></div></div>
+<div id="main">
+  <div id="bar">
+    <span id="which" style="color:#bbb"></span>
+    <label>dx <input id="fdx" type="number" step="1"></label>
+    <label>dy <input id="fdy" type="number" step="1"></label>
+    <label>tilt <input id="ftilt" type="number" step="0.25"></label>
+    <label>scale <input id="fscale" type="number" step="0.01"></label>
+    <button id="ztop">z: top</button>
+    <button id="zbottom">z: bottom</button>
+    <button id="zclear">z: clear</button>
+    <button id="reset">reset card</button>
+    <button id="save" class="primary">Save to .md</button>
+    <span id="status"></span>
+  </div>
+  <div id="page"></div>
+  <div id="help">drag = move · wheel = tilt · shift+wheel = scale · arrows nudge (shift = 10pt) · click selects · Save writes frontmatter + rebuilds recipes.json</div>
+</div>
+<script>
+const PW = 595.276, PH = 841.89, VIEW = 0.92;      // pt -> px display scale
+let T = {}, recipes = [], cur = null, sel = null, touched = {}, dirtyFlag = false;
+
+const $ = q => document.querySelector(q);
+const pt = v => v * VIEW;
+
+async function boot() {
+  const d = await (await fetch('/recipes')).json();
+  T = Object.fromEntries(Object.entries(d.tokens).map(([k, v]) => [k, +v]));
+  recipes = d.recipes;
+  const list = $('#list');
+  list.innerHTML = '';
+  recipes.forEach((r, i) => {
+    const el = document.createElement('div');
+    el.className = 'r';
+    el.innerHTML = `<span class="n">${r.scans.length}</span>${r.title}`;
+    el.onclick = () => { if (!confirmLose()) return; select(i); };
+    el.id = 'r' + i;
+    list.appendChild(el);
+  });
+  select(0);
+}
+
+function confirmLose() {
+  return !dirtyFlag || confirm('Discard unsaved changes?');
+}
+
+function markDirty(v) {
+  dirtyFlag = v;
+  $('#status').textContent = v ? 'unsaved' : '';
+  $('#status').className = v ? 'dirty' : '';
+}
+
+function cardW(e) { return Math.min(T['card-cap'], T['card-ref'] * e.aspect) * e.scale; }
+
+// replicate cookbook.typ geometry (B = 0)
+function baseGeom(r) {
+  const M = T['space-page-margin'], G = T['space-gutter'];
+  const pos = {};
+  if (r.scans.length <= 2) {
+    const ordered = [...r.scans].sort((a, b) => a.slot - b.slot);
+    let prev = null;
+    for (const e of ordered) {
+      const w = cardW(e);
+      const x = prev === null ? PW - (G - T['card-gutter-intrude']) - w : prev - 48;
+      pos[e.path] = { x: x + e.dx, y: 0.62 * PH - 215 + e.slot * 30 + e.dy, w };
+      prev = x + e.dx;
+    }
+  } else {
+    const w = r.scans.length === 3 ? T['card-snapshot-3'] : T['card-snapshot-4'];
+    for (const e of r.scans) {
+      const col = e.slot % 2, row = Math.floor(e.slot / 2);
+      pos[e.path] = { x: M * 0.5 + col * (w + 26) + row * (w * 0.5) + e.dx,
+                      y: M * 0.6 + row * (w * 0.85) + col * 18 + e.dy,
+                      w: w * e.scale };
+    }
+  }
+  return pos;
+}
+
+function select(i) {
+  cur = recipes[i]; sel = null; touched = {}; markDirty(false);
+  document.querySelectorAll('#side .r').forEach(e => e.classList.remove('sel'));
+  $('#r' + i).classList.add('sel');
+  render();
+}
+
+function render() {
+  const r = cur, page = $('#page');
+  const snap = r.scans.length > 2;
+  page.style.width = pt(PW) + 'px';
+  page.style.height = pt(PH) + 'px';
+  page.innerHTML = '';
+  if (r.photo) {
+    const ph = document.createElement('img');
+    ph.className = 'photo';
+    ph.src = '/file?p=' + encodeURIComponent(r.photo);
+    ph.style.height = snap ? '100%' : '62%';
+    page.appendChild(ph);
+  } else {
+    const f = document.createElement('div');
+    f.className = 'photo';
+    f.style.cssText = `position:absolute;left:0;top:0;width:100%;height:${snap ? 100 : 62}%;background:var(--field)`;
+    page.appendChild(f);
+  }
+  if (!snap) {
+    const band = document.createElement('div');
+    band.className = 'band';
+    band.style.height = '38%';
+    page.appendChild(band);
+  } else {
+    const s = document.createElement('div');
+    s.className = 'scrim';
+    page.appendChild(s);
+  }
+  // title column guide + rough title block
+  const colPct = snap ? +T['card-title-col-snapshot'] || 58 : +T['card-title-col'] || 44;
+  const g = document.createElement('div');
+  g.className = 'guide';
+  g.style.width = colPct + '%';
+  page.appendChild(g);
+  const tb = document.createElement('div');
+  tb.className = 'titlebox' + (snap ? ' inv' : '');
+  tb.style.left = pt(T['space-page-margin']) + 'px';
+  tb.style.bottom = pt(T['space-page-margin'] * 0.9) + 'px';
+  tb.style.width = `calc(${colPct}% - ${pt(T['space-page-margin'])}px)`;
+  tb.innerHTML = `<div class="sec">${r.section}</div><div class="t">${(r.title_print || r.title).split('|').join('<br>')}</div>`;
+  page.appendChild(tb);
+
+  const geom = baseGeom(r);
+  r.scans.forEach((e, zi) => {                 // array order = stacking
+    const img = document.createElement('img');
+    img.className = 'card';
+    img.dataset.path = e.path;
+    img.src = '/file?p=' + encodeURIComponent('print/cards/' + e.path.split('/').pop());
+    const gp = geom[e.path];
+    img.style.width = pt(gp.w) + 'px';
+    img.style.left = pt(gp.x) + 'px';
+    img.style.top = pt(gp.y) + 'px';
+    img.style.zIndex = 10 + zi;
+    img.style.transform = `rotate(${e.tilt}deg)`;
+    if (sel === e.path) img.classList.add('sel');
+    hookCard(img, e);
+    page.appendChild(img);
+  });
+  syncPanel();
+}
+
+function hookCard(img, e) {
+  img.onpointerdown = ev => {
+    ev.preventDefault();
+    selCard(e.path);
+    const sx = ev.clientX, sy = ev.clientY, dx0 = e.dx, dy0 = e.dy;
+    img.setPointerCapture(ev.pointerId);
+    img.onpointermove = mv => {
+      e.dx = dx0 + (mv.clientX - sx) / VIEW;
+      e.dy = dy0 + (mv.clientY - sy) / VIEW;
+      touch(e.path, 'dx', 'dy');
+      render();
+    };
+    img.onpointerup = () => { img.onpointermove = null; };
+  };
+  img.onwheel = ev => {
+    ev.preventDefault();
+    selCard(e.path);
+    if (ev.shiftKey) {
+      e.scale = Math.max(0.1, +(e.scale + (ev.deltaY < 0 ? 0.02 : -0.02)).toFixed(3));
+      touch(e.path, 'scale');
+    } else {
+      e.tilt = +(e.tilt + (ev.deltaY < 0 ? 0.5 : -0.5)).toFixed(2);
+      touch(e.path, 'tilt');
+    }
+    render();
+  };
+}
+
+function selCard(p) { if (sel !== p) { sel = p; render(); } }
+function scan() { return cur.scans.find(s => s.path === sel); }
+function touch(p, ...fields) {
+  touched[p] = touched[p] || new Set();
+  fields.forEach(f => touched[p].add(f));
+  markDirty(true);
+}
+
+function syncPanel() {
+  const e = scan();
+  $('#which').textContent = e ? e.path.split('/').pop() : 'no card selected';
+  for (const [id, k] of [['#fdx', 'dx'], ['#fdy', 'dy'], ['#ftilt', 'tilt'], ['#fscale', 'scale']]) {
+    $(id).value = e ? +(+e[k]).toFixed(2) : '';
+    $(id).disabled = !e;
+  }
+}
+
+for (const [id, k] of [['#fdx', 'dx'], ['#fdy', 'dy'], ['#ftilt', 'tilt'], ['#fscale', 'scale']]) {
+  $(id).onchange = () => { const e = scan(); if (!e) return; e[k] = +$(id).value; touch(e.path, k); render(); };
+}
+$('#ztop').onclick = () => setZ('top');
+$('#zbottom').onclick = () => setZ('bottom');
+$('#zclear').onclick = () => setZ(null);
+function setZ(v) {
+  const e = scan(); if (!e) return;
+  e.z = v; touch(e.path, 'z');
+  // crude local restack preview: bottoms, then reversed reading order, then tops
+  const read = [...cur.scans].sort((a, b) => a.slot - b.slot);
+  const rev = [...read].reverse();
+  cur.scans = [...read.filter(s => s.z === 'bottom'),
+               ...rev.filter(s => s.z !== 'top' && s.z !== 'bottom'),
+               ...rev.filter(s => s.z === 'top')];
+  render();
+}
+$('#reset').onclick = () => {
+  const e = scan(); if (!e) return;
+  e.dx = 0; e.dy = 0; e.scale = 1; e.z = null;
+  touch(e.path, 'dx', 'dy', 'scale', 'z');
+  render();
+};
+$('#save').onclick = async () => {
+  const updates = {};
+  for (const [p, fields] of Object.entries(touched)) {
+    const e = cur.scans.find(s => s.path === p);
+    updates[p] = {};
+    for (const f of fields) updates[p][f] = f === 'z' ? (e.z || null) : e[f];
+  }
+  $('#status').textContent = 'saving…';
+  const res = await fetch('/save', { method: 'POST', body: JSON.stringify({ file: cur.file, updates }) });
+  if (res.ok) {
+    const keep = recipes.indexOf(cur);
+    const d = await (await fetch('/recipes')).json();
+    recipes = d.recipes; touched = {}; markDirty(false);
+    cur = recipes[keep]; render();
+    $('#status').textContent = 'saved';
+  } else { $('#status').textContent = 'SAVE FAILED'; }
+};
+window.onkeydown = ev => {
+  const e = scan(); if (!e || ev.target.tagName === 'INPUT') return;
+  const step = ev.shiftKey ? 10 : 1;
+  const map = { ArrowLeft: [-step, 0], ArrowRight: [step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] };
+  if (map[ev.key]) {
+    ev.preventDefault();
+    e.dx += map[ev.key][0]; e.dy += map[ev.key][1];
+    touch(e.path, 'dx', 'dy'); render();
+  }
+};
+boot();
+</script>

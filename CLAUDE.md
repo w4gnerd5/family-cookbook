@@ -153,6 +153,10 @@ serves `localhost:8765`, backed by the git-tracked ledger `curation-state.json` 
 decisions, family questions, slug audit). Edits save instantly and the page polls, so it can stay
 open. Never delete a ledger row — stamp its status `applied @ <commit>`.
 
+- `scripts/verso_editor.py` — art-direction editor on `localhost:8766`: drag cards
+  (dx/dy), wheel = tilt, shift+wheel = scale, z buttons; Save rewrites the recipe's
+  `scans:` frontmatter (touched fields only) and reruns md_to_data. CSS preview
+  replicates cookbook.typ geometry; the compiled PDF stays the referee.
 - `scripts/apply_curation.py` — executes ledger edits (cuts to `attic/`, section moves, renumbering)
 - `scripts/reconcile_slugs.py` — after hand-edited slugs: diffs by recipe ID, rewrites `see_also:`
   references, blocks collisions, refreshes the baseline

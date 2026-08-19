@@ -2,7 +2,13 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "curation",
+      "name": "verso-editor",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["scripts/verso_editor.py"],
+      "port": 8766
+    },
+    {
+      "name": "curation-dashboard",
       "runtimeExecutable": "python3",
       "runtimeArgs": ["scripts/curation_server.py"],
       "port": 8765
