@@ -1,0 +1,55 @@
+# Book-level content — single source for print (Typst reads this directly)
+# and the future web build. Layout lives in print/cookbook.typ; style tokens
+# in tokens.yaml; recipe content in the .md files. A fork should only ever
+# need to touch the .md files, tokens.yaml, and this file.
+
+title: Family Cookbook          # working title; Paul decides the real one
+title_lead: The family cookbook of    # eyebrow line above the authors
+authors: Paul & Nino Wagner
+subtitle: Georgian · Russian · Ukrainian · Armenian
+site_prefix: family-cookbook    # printed in every footer before the slug
+site_line: family-cookbook — domain pending   # under the colophon QR
+
+colophon:
+  - >-
+    Family recipes from Georgian, Russian, Ukrainian, and Armenian kitchens,
+    collected from handwritten cards, notebooks, and internet printouts.
+    Scanned, transcribed, and typeset in 2026.
+  - >-
+    Recipes are numbered within their section, and a number never changes
+    once printed. The order is deliberate. Variants of the same dish sit
+    next to each other, and Zeinab's notebook runs through the whole book
+    rather than sitting in one block. Sheets added to the binder later take
+    the next free number in their section.
+  - >-
+    Dish photographs are illustrative. Most come from free photo libraries
+    and are credited at the address below; a few are AI renderings where no
+    faithful photograph exists. The scans are the real thing.
+
+dedication:
+  original: |-
+    ჩემო სიცოცხლე და სიყვარულო.
+    ეს ვეფხისტყაოსანს ჰგავს, მაგრამ
+    ყველაფერი დაწვრილებით ჩაგიწერე,
+    თორემ ძნელი სულ არ არის.
+    აბა შენ იცი, არ შემარცხვინო.
+  translation: >-
+    My life and my love. This looks like the Vepkhistqaosani, but I wrote
+    everything out for you in detail; it really isn't difficult. Now it's up
+    to you — don't embarrass me.
+  attribution: Zeinab, mid-page in her notebook, between recipes
+
+labels:
+  contents: Contents
+  ingredients: Ingredients
+  instructions: Instructions
+  notes: Notes
+  see_also: See also
+  original: Original
+
+# lead phrases for see_also cross-references, keyed by rel:
+phrases:
+  variant: Another version
+  uses: Made with
+  pairs: Goes with
+  default: See

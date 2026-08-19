@@ -21,6 +21,10 @@ batches/            Legacy CSVs from the abandoned Affinity Data Merge workflow
 print/              Typst book: cookbook.typ, tokens.typ + recipes.json (generated)
 web/                tokens.css (generated); static site to come
 tokens.yaml         Design tokens — single source for print and web styling
+book.yaml           Book-level content (title, colophon, dedication, labels,
+                    footer prefix, see_also phrases) — read directly by Typst;
+                    the web build will consume the same file. cookbook.typ is
+                    layout only: a fork touches .md files, tokens.yaml, book.yaml
 recipes-index.csv   Machine-readable index (generated)
 RECIPES.md          Human-readable index table (generated)
 ```

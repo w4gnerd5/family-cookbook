@@ -3,6 +3,7 @@
 // 3+ scans fall back to "snapshot" (full field, scattered cards).
 // Build: typst compile --root .. --font-path ../assets/fonts cookbook.typ cookbook.pdf
 #import "tokens.typ": *
+#let BOOK = yaml("../book.yaml")   // book-level content; layout stays here
 
 #let B = space-bleed          // 0 for proofs; 3mm for production runs
 #let M = space-page-margin
@@ -46,7 +47,7 @@
   } else { "" }
   let id = label-text(r.section + "  ·  " + str(r.number) + suffix,
     fill: if inv { white } else { color-accent }, size: size-footer)
-  let slug = label-text("family-cookbook / " + r.slug,
+  let slug = label-text(BOOK.site_prefix + " / " + r.slug,
     fill: if inv { rgb(255, 255, 255, 75%) } else { color-label }, size: size-footer)
   if calc.even(here().page()) {
     grid(columns: (auto, 1fr), column-gutter: 16pt, id, align(right, slug))
@@ -176,11 +177,11 @@
 
 #let recto(r) = {
   block(breakable: false, {
-    subhead("Ingredients")
+    subhead(BOOK.labels.ingredients)
     // ingredients and method both read at body size; notes/see-also demure
     for it in r.ingredients { ing-item(it) }
   })
-  subhead("Instructions")
+  subhead(BOOK.labels.instructions)
   // a single-step method reads as prose; numbering starts earning its keep at 2
   let steps = r.instructions.filter(it => type(it) != dictionary)
   if steps.len() == 1 and r.instructions.len() == 1 {
@@ -200,22 +201,17 @@
     section-guard(rendered)
   }
   if r.notes.len() > 0 {
-    subhead("Notes")
+    subhead(BOOK.labels.notes)
     set text(size: size-small)
     section-guard(r.notes.map(ing-item))
   }
   // Cross-references: authored as frozen slugs in frontmatter, resolved to
   // section + number at build time so renumbering can never strand a pointer.
   if r.see_also.len() > 0 {
-    let phrase = (
-      variant: "Another version",
-      uses: "Made with",
-      pairs: "Goes with",
-    )
-    subhead("See also")
+    subhead(BOOK.labels.see_also)
     set text(size: size-small)
     section-guard(r.see_also.map(ref => {
-      let lead = phrase.at(ref.at("rel", default: ""), default: "See")
+      let lead = BOOK.phrases.at(ref.at("rel", default: ""), default: BOOK.phrases.default)
       block({
         text(fill: color-muted, lead + ": ")
         text(fill: color-ink, ref.title)
@@ -236,7 +232,7 @@
     // keep-together: the box never breaks; it pushes whole to the next page.
     // Safe while no original exceeds one text column (longest today: shu, ~650pt).
     block(breakable: false, fill: color-original-bg, inset: 12pt, width: 100%, {
-      label-text("Original")
+      label-text(BOOK.labels.original)
       v(space-label-gap * 1.6)
       set text(size: size-small, fill: color-muted, font: (font-serif, font-serif-georgian), lang: "ru")
       // segments come from md_to_data: #### labels in the .md become styled
@@ -262,21 +258,20 @@
 // ---------- front matter ----------
 // Sheet plan: 1 half-title / 2 blank · 3 title / 4 colophon · 5 dedication
 // (facing the colophon across the spread) / 6 blank · 7+ contents.
-// BOOK-TITLE is a working title; Paul decides the real one.
-#let BOOK-TITLE = "Family Cookbook"
+// All content comes from book.yaml; this file is layout only.
 
 #page({
-  align(center + horizon, label-text(BOOK-TITLE, fill: color-label))
+  align(center + horizon, label-text(BOOK.title, fill: color-label))
 })
 
 #pagebreak(to: "odd", weak: true)
 #page({
   align(center + horizon, {
-    label-text("The " + lower(BOOK-TITLE) + " of")
+    label-text(BOOK.title_lead)
     v(14pt)
-    text(size: 34pt, fill: color-ink, "Paul & Nino Wagner")
+    text(size: 34pt, fill: color-ink, BOOK.authors)
     v(14pt)
-    label-text("Georgian · Russian · Ukrainian · Armenian", fill: color-accent)
+    label-text(BOOK.subtitle, fill: color-accent)
   })
 })
 
@@ -285,46 +280,27 @@
   set text(size: size-small, fill: color-muted)
   set par(leading: 0.65em, spacing: 0.85em)
   align(bottom, block(width: 80%, {
-    par[Family recipes from Georgian, Russian, Ukrainian, and Armenian
-      kitchens, collected from handwritten cards, notebooks, and internet
-      printouts. Scanned, transcribed, and typeset in 2026.]
-    par[Recipes are numbered within their section, and a number never changes
-      once printed. The order is deliberate. Variants of the same dish sit
-      next to each other, and Zeinab's notebook runs through the whole book
-      rather than sitting in one block. Sheets added to the binder later
-      take the next free number in their section.]
-    par[Dish photographs are illustrative. Most come from free photo
-      libraries and are credited at the address below; a few are AI
-      renderings where no faithful photograph exists. The scans are the
-      real thing.]
+    for p in BOOK.colophon { par(p) }
     v(6pt)
     // QR placeholder until the domain decision lands (roadmap: Production)
     rect(width: 44pt, height: 44pt, stroke: 0.5pt + color-label,
       align(center + horizon, label-text("QR")))
     v(2pt)
-    label-text("family-cookbook — domain pending")
+    label-text(BOOK.site_line)
   }))
 })
 
-// dedication: Zeinab's Georgian note from IMG_1241, verbatim, facing the colophon
+// dedication, verbatim, facing the colophon
 #page({
   align(center + horizon, block(width: 75%, {
     set text(font: (font-serif, font-serif-georgian), size: size-description)
     set par(leading: 0.85em)
-    align(center, [
-      ჩემო სიცოცხლე და სიყვარულო. \
-      ეს ვეფხისტყაოსანს ჰგავს, მაგრამ \
-      ყველაფერი დაწვრილებით ჩაგიწერე, \
-      თორემ ძნელი სულ არ არის. \
-      აბა შენ იცი, არ შემარცხვინო.
-    ])
+    align(center, BOOK.dedication.original.split("\n").join(linebreak()))
     v(14pt)
     set text(size: size-small, style: "italic", fill: color-muted)
-    align(center, [My life and my love. This looks like the Vepkhistqaosani,
-      but I wrote everything out for you in detail; it really isn't
-      difficult. Now it's up to you — don't embarrass me.])
+    align(center, BOOK.dedication.translation)
     v(10pt)
-    align(center, label-text("Zeinab, mid-page in her notebook, between recipes"))
+    align(center, label-text(BOOK.dedication.attribution))
   }))
 })
 
@@ -334,7 +310,7 @@
   let recipes = json("recipes.json")
   // the label rides in the top margin band (place = no flow height), because
   // the two-column list needs the full text column to fit on one page
-  place(top + left, dy: -26pt, label-text("Contents"))
+  place(top + left, dy: -26pt, label-text(BOOK.labels.contents))
   set text(size: size-small)
   columns(2, gutter: 24pt, {
     let cur = ""
