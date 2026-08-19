@@ -71,6 +71,7 @@ the original recipe cards are family material.
 - **Adjarian Khachapuri** — photo by Helen Owl, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Adjarian_Khachapuri.jpg)
 - **Red Tkemali (Plum Sauce)** — photo by Jelger Groeneveld, CC BY 2.0 (https://commons.wikimedia.org/wiki/File:Red_tkemali.jpg)
 - **Ideal Cake (Ideali)** — photo by Nadin Sh, Pexels License (https://www.pexels.com/photo/delicious-pastry-with-layers-19062745/)
+- **'"Eskimo" Cake'** — photo by ,  (ai-generated)
 - **Apple Layered Strudel** — photo by FakirNL, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Apfelstrudel_with_whipped_cream.jpg)
 - **Easter Paska/Kulich** — photo by Wolverène, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Kulichi.jpg)
 - **Ajika** — photo by Georgian Recipes at Georgia About, CC BY 3.0 (https://commons.wikimedia.org/wiki/File:Megrelian_ajika.jpg)
@@ -78,4 +79,4 @@ the original recipe cards are family material.
 - **Pirozhki with Kefir** — photo by Miha Ulanov, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Pirozhki.jpg)
 - **Marinated Bell Peppers** — photo by paperfacets, CC BY 2.0 (https://www.flickr.com/photos/29412979@N06/5405362230)
 
-73 recipes with sourced photos; 14 awaiting photos.
+74 recipes with sourced photos; 13 awaiting photos.

@@ -4826,14 +4826,14 @@
     "dy": 0.0
    }
   ],
-  "title": "'\"Eskimo\" Cake'",
-  "title_print": "'\"Eskimo\" Cake'",
+  "title": "“Eskimo” Cake",
+  "title_print": "“Eskimo” Cake",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
   "number": 5,
   "image": "assets/georgian/1259/IMG_1259.png",
-  "photo": "",
+  "photo": "assets/georgian/1259/dish.jpg",
   "inverse": false,
   "see_also": [
    {
