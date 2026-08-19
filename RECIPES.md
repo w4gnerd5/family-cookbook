@@ -72,7 +72,7 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Desserts & Sweets | 2 | Soft Ginger Cookies | georgian | soft-ginger-cookies | assets/georgian/1199/IMG_1199.md |
 | Desserts & Sweets | 3 | Ideal Cake (Ideali) | georgian | ideal-cake-ideali | assets/georgian/1258/IMG_1258.md |
 | Desserts & Sweets | 4 | Apple Layered Strudel | georgian | apple-layered-strudel | assets/georgian/1261/IMG_1261.md |
-| Desserts & Sweets | 5 | “Eskimo” Cake | georgian | eskimo-cake | assets/georgian/1259/IMG_1259.md |
+| Desserts & Sweets | 5 | "Eskimo" Cake | georgian | eskimo-cake | assets/georgian/1259/IMG_1259.md |
 | Desserts & Sweets | 6 | Czech Baklava | georgian | czech-baklava | assets/georgian/1190/IMG_1190.md |
 | Desserts & Sweets | 7 | Indian Pudding | english | indian-pudding | assets/english/1272/IMG_1272.md |
 | Desserts & Sweets | 8 | Gozinaki Proportions | georgian | gozinaki-proportions | assets/georgian/1252/IMG_1252.md |

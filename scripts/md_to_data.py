@@ -20,6 +20,20 @@ SECTIONS = [
 ]
 
 
+
+def unquote(v):
+    """Strip surrounding double quotes only as a matching pair, so a value like
+    '"Eskimo" Cake' survives verbatim."""
+    v = v.strip()
+    if len(v) >= 2 and v[0] == '"' and v[-1] == '"':
+        return v[1:-1]
+    return v
+
+def smart_quotes(t):
+    """Curl straight double-quote pairs for print ("Eskimo" -> “Eskimo”)."""
+    return re.sub(r'"([^"]+)"', "“\\1”", t)
+
+
 def clean_original(text):
     """Original blocks print verbatim, so markdown-isms in the .md would print
     literally. Split into labeled segments and strip transcription markup:
@@ -67,15 +81,15 @@ def parse_md(path):
             item = line[4:].strip()
             if item.endswith(":") or ": " in item:
                 k2, v2 = item.split(":", 1)
-                fm[key].append({k2.strip(): v2.strip().strip('"')})
+                fm[key].append({k2.strip(): unquote(v2)})
             else:
                 fm[key].append(item)
         elif line.startswith("    ") and key and fm[key] and isinstance(fm[key][-1], dict):
             k2, v2 = line.strip().split(":", 1)
-            fm[key][-1][k2.strip()] = v2.strip().strip('"')
+            fm[key][-1][k2.strip()] = unquote(v2)
         elif ":" in line:
             k, v = line.split(":", 1)
-            k, v = k.strip(), v.strip().strip('"')
+            k, v = k.strip(), unquote(v)
             if v == "":
                 fm[k], key = [], k
             else:
@@ -144,9 +158,10 @@ def parse_md(path):
         "scans": scans,
         # A `|` in the title is a print-only break hint: it wraps the title at a
         # chosen point on the verso. Every other consumer (index, ToC, web, see_also)
-        # gets the clean title.
-        "title": re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip(),
-        "title_print": fm.get("title", "").strip(),
+        # gets the clean title. Straight quote pairs curl for print; the .md
+        # stays plain.
+        "title": smart_quotes(re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip()),
+        "title_print": smart_quotes(fm.get("title", "").strip()),
         "language": fm.get("language", ""),
         "section": fm.get("section", ""),
         "batch": fm.get("batch", ""),

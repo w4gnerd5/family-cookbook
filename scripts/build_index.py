@@ -8,6 +8,15 @@ ROOT = Path(__file__).resolve().parent.parent
 FIELDS = ["filename", "title", "language", "section", "number", "slug", "batch", "source_image"]
 
 
+
+def unquote(v):
+    """Strip surrounding double quotes only as a matching pair, so a value like
+    '"Eskimo" Cake' survives verbatim."""
+    v = v.strip()
+    if len(v) >= 2 and v[0] == '"' and v[-1] == '"':
+        return v[1:-1]
+    return v
+
 def frontmatter(path):
     m = re.match(r"---\n(.*?)\n---\n", path.read_text(), re.S)
     if not m:
@@ -18,15 +27,15 @@ def frontmatter(path):
             item = line[4:].strip()
             if item.endswith(":") or ": " in item:
                 k2, v2 = item.split(":", 1)
-                fm[key].append({k2.strip(): v2.strip().strip('"')})
+                fm[key].append({k2.strip(): unquote(v2)})
             else:
                 fm[key].append(item)
         elif line.startswith("    ") and key and fm[key] and isinstance(fm[key][-1], dict):
             k2, v2 = line.strip().split(":", 1)
-            fm[key][-1][k2.strip()] = v2.strip().strip('"')
+            fm[key][-1][k2.strip()] = unquote(v2)
         elif ":" in line:
             k, v = line.split(":", 1)
-            k, v = k.strip(), v.strip().strip('"')
+            k, v = k.strip(), unquote(v)
             if v == "":
                 fm[k], key = [], k
             else:
