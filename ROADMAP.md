@@ -71,9 +71,9 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
   render Paul generated (photo_source: ai-generated)
 - [ ] Photo quality swaps flagged by agents: 1278 crock-pot chicken (portrait,
   800px), 1280 breakfast strata (weak aesthetics), 1162 stroganoff (mediocre)
-- [ ] Tweak exposure of scan cards on a lot of items: many bake darker or
-  muddier than the originals; normalize levels in make_cards.py with a
-  per-scan override for the stubborn ones
+- [x] Card exposure: white-point normalization in make_cards.py (97th
+  percentile -> ~247, gain capped 1.6x), per-scan `exposure:` frontmatter
+  override for stubborn scans; whole cache rebaked
 - [ ] Colophon line disclosing illustrative images
 - [x] Full-bleed snapshot verso: white text + gradient scrim, always on
   (inverse: frontmatter flag retired 2026-08-18)
