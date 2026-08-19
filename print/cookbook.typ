@@ -259,8 +259,114 @@
   }
 }
 
+// ---------- front matter ----------
+// Sheet plan: 1 half-title / 2 blank · 3 title / 4 colophon · 5 dedication
+// (facing the colophon across the spread) / 6 blank · 7+ contents.
+// BOOK-TITLE is a working title; Paul decides the real one.
+#let BOOK-TITLE = "Family Cookbook"
+
+#page({
+  align(center + horizon, label-text(BOOK-TITLE, fill: color-label))
+})
+
+#pagebreak(to: "odd", weak: true)
+#page({
+  align(center + horizon, {
+    label-text("The " + lower(BOOK-TITLE) + " of")
+    v(14pt)
+    text(size: 34pt, fill: color-ink, "Paul & Nino Wagner")
+    v(14pt)
+    label-text("Georgian · Russian · Ukrainian · Armenian", fill: color-accent)
+  })
+})
+
+// colophon lands on the title sheet's back (verso) by natural flow
+#page({
+  set text(size: size-small, fill: color-muted)
+  set par(leading: 0.65em, spacing: 0.85em)
+  align(bottom, block(width: 80%, {
+    par[Family recipes from Georgian, Russian, Ukrainian, and Armenian
+      kitchens, collected from handwritten cards, notebooks, and internet
+      printouts. Scanned, transcribed, and typeset in 2026.]
+    par[Recipes are numbered within their section, and a number never changes
+      once printed. The order is deliberate. Variants of the same dish sit
+      next to each other, and Zeinab's notebook runs through the whole book
+      rather than sitting in one block. Sheets added to the binder later
+      take the next free number in their section.]
+    par[Dish photographs are illustrative. Most come from free photo
+      libraries and are credited at the address below; a few are AI
+      renderings where no faithful photograph exists. The scans are the
+      real thing.]
+    v(6pt)
+    // QR placeholder until the domain decision lands (roadmap: Production)
+    rect(width: 44pt, height: 44pt, stroke: 0.5pt + color-label,
+      align(center + horizon, label-text("QR")))
+    v(2pt)
+    label-text("family-cookbook — domain pending")
+  }))
+})
+
+// dedication: Zeinab's Georgian note from IMG_1241, verbatim, facing the colophon
+#page({
+  align(center + horizon, block(width: 75%, {
+    set text(font: (font-serif, font-serif-georgian), size: size-description)
+    set par(leading: 0.85em)
+    align(center, [
+      ჩემო სიცოცხლე და სიყვარულო. \
+      ეს ვეფხისტყაოსანს ჰგავს, მაგრამ \
+      ყველაფერი დაწვრილებით ჩაგიწერე, \
+      თორემ ძნელი სულ არ არის. \
+      აბა შენ იცი, არ შემარცხვინო.
+    ])
+    v(14pt)
+    set text(size: size-small, style: "italic", fill: color-muted)
+    align(center, [My life and my love. This looks like the Vepkhistqaosani,
+      but I wrote everything out for you in detail; it really isn't
+      difficult. Now it's up to you — don't embarrass me.])
+    v(10pt)
+    align(center, label-text("Zeinab, mid-page in her notebook, between recipes"))
+  }))
+})
+
+// ---------- table of contents ----------
+#pagebreak(to: "odd", weak: true)
+#page({
+  let recipes = json("recipes.json")
+  // the label rides in the top margin band (place = no flow height), because
+  // the two-column list needs the full text column to fit on one page
+  place(top + left, dy: -26pt, label-text("Contents"))
+  set text(size: size-small)
+  columns(2, gutter: 24pt, {
+    let cur = ""
+    for r in recipes {
+      if r.section != cur {
+        cur = r.section
+        block(above: space-block, below: space-label-gap, sticky: true,
+          label-text(cur, fill: color-accent))
+      }
+      block(grid(columns: (16pt, 1fr), column-gutter: 6pt,
+        text(font: font-sans, size: size-footer, fill: color-accent, str(r.number)),
+        text(fill: color-body, r.title)))
+    }
+  })
+})
+
 // ---------- book ----------
-#for r in json("recipes.json") {
+#let divider(section) = {
+  pagebreak(to: "odd", weak: true)
+  page(footer: none, {
+    // tab position: name at the outer (left, since dividers land on rectos'
+    // odd pages... they bind right) edge, vertically upper third
+    place(right + top, dy: 25%,
+      align(right, text(size: 30pt, fill: color-ink, section)))
+  })
+}
+
+#let recipes = json("recipes.json")
+#for (i, r) in recipes.enumerate() {
+  if i == 0 or recipes.at(i - 1).section != r.section {
+    divider(r.section)
+  }
   verso(r)
   {
     set page(footer: pad(bottom: B, footer-line(r)))

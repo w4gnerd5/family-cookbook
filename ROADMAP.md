@@ -66,14 +66,17 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 
 - [x] Source dish photos from free libraries (81/87 done, all attributed in
   frontmatter and CREDITS.md; 4 agents, Wikimedia Commons almost throughout)
-- [ ] Fill the 6 photo gaps: bazhe, Ideal cake, Eskimo cake (nothing faithful on
-  free sources — Paul finds or we generate), conversions table + 2 continuation
-  pages (need no photo)
+- [x] Photo gaps closed (2026-08-18, stock-first order per Paul: curated free
+  sites before Commons): bazhe + Ideal cake from Pexels, Eskimo cake is an AI
+  render Paul generated (photo_source: ai-generated)
 - [ ] Photo quality swaps flagged by agents: 1278 crock-pot chicken (portrait,
   800px), 1280 breakfast strata (weak aesthetics), 1162 stroganoff (mediocre)
+- [ ] Tweak exposure of scan cards on a lot of items: many bake darker or
+  muddier than the originals; normalize levels in make_cards.py with a
+  per-scan override for the stubborn ones
 - [ ] Colophon line disclosing illustrative images
-- [x] Full-bleed snapshot verso: `inverse: true` flips text to white and adds
-  a bottom gradient scrim (decided; apply per photo during the art-direction pass)
+- [x] Full-bleed snapshot verso: white text + gradient scrim, always on
+  (inverse: frontmatter flag retired 2026-08-18)
 
 - Collaborators replace any photo via PR; CREDITS.md regenerates from frontmatter
 
@@ -81,15 +84,16 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 
 ## 4. Book furniture
 
-- [ ] Title page and half-title
-- [ ] Table of contents: sections in order, recipes by number (hymnal model)
-- [ ] Section divider pages (tab-ready for the binder)
-- [ ] Colophon: credits, the one QR code to the site, image disclosure, and a
-  paragraph stating how the book is ordered (an order this deliberate is
-  invisible unless stated)
-- [ ] Dedication page: Zeinab's Georgian note from IMG_1241, facing the colophon
+- [x] Title page and half-title (BOOK-TITLE is a working placeholder — Paul
+  decides the real title)
+- [x] Table of contents: one recto page, two columns, numbers not page numbers
+- [x] Section divider pages (odd/recto, name at outer edge; the divider's back
+  is the first recipe's photo verso — revisit if tabs need a blank back)
+- [x] Colophon: ordering paragraph, image disclosure, QR placeholder (real QR
+  blocks on the domain decision in Production)
+- [x] Dedication page: Zeinab's Georgian note, verbatim, facing the colophon
 - [ ] Scribe index at the back: follow one hand end to end
-- [ ] Decide: cluster-language or keep interleaved sections (decided: interleaved)
+- [x] Decide: cluster-language or keep interleaved sections (decided: interleaved)
 
 
 
