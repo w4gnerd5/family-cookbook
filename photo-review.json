@@ -45,8 +45,8 @@
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Round 2: review the applied/AI photo in place; note here to redo, re-scout, or approve.",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "can we flip this horizontally?",
+     "action_comment": "Flipped horizontally in place."
     }
    ]
   },
@@ -57,7 +57,7 @@
    "file": "assets/georgian/1198/IMG_1198.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1198/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -106,7 +106,7 @@
    "file": "assets/georgian/1233/IMG_1233.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1233/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -155,7 +155,7 @@
    "file": "assets/georgian/1236/IMG_1236.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1236/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -204,7 +204,7 @@
    "file": "assets/georgian/1241/IMG_1242.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1241/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -243,7 +243,7 @@
    "file": "assets/georgian/1243/IMG_1243.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1243/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -292,7 +292,7 @@
    "file": "assets/english/1228/IMG_1228.md",
    "inventory_note": "needs a new photo.  try to find something rustic and hearty looking",
    "current_photo": "assets/english/1228/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -341,7 +341,7 @@
    "file": "assets/english/1285/IMG_1285.md",
    "inventory_note": "needs new photo. ensure no corn in photo",
    "current_photo": "assets/english/1285/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -390,7 +390,7 @@
    "file": "assets/english/1210/IMG_1210.md",
    "inventory_note": "nees new photo",
    "current_photo": "assets/english/1210/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -429,7 +429,7 @@
    "file": "assets/english/1213/IMG_1213.md",
    "inventory_note": "needs new photo. make sure it a crok pot not a roasted chicken",
    "current_photo": "assets/english/1213/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -468,7 +468,7 @@
    "file": "assets/english/1216/IMG_1216.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1216/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -507,7 +507,7 @@
    "file": "assets/english/1217/IMG_1217.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1217/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -546,7 +546,7 @@
    "file": "assets/english/1221/IMG_1221.md",
    "inventory_note": "new photo needed.",
    "current_photo": "assets/english/1221/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -595,7 +595,7 @@
    "file": "assets/english/1222/IMG_1222.md",
    "inventory_note": "needs new photo, wider shot, try for colorful more baja style with veg and white cheese",
    "current_photo": "assets/english/1222/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -644,7 +644,7 @@
    "file": "assets/english/1229/IMG_1229.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1229/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -683,7 +683,7 @@
    "file": "assets/english/1280/IMG_1280.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1280/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -732,7 +732,7 @@
    "file": "assets/english/1282/IMG_1282.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1282/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -771,7 +771,7 @@
    "file": "assets/english/1288/IMG_1288.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1288/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -810,7 +810,7 @@
    "file": "assets/english/1291/IMG_1291.md",
    "inventory_note": "needs new photo, this is more like a shakshuka with beans",
    "current_photo": "assets/english/1291/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -849,7 +849,7 @@
    "file": "assets/english/1295/IMG_1295.md",
    "inventory_note": "needs new photo. this is a one pot dish",
    "current_photo": "assets/english/1295/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -898,7 +898,7 @@
    "file": "assets/english/1297/IMG_1297.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1297/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -926,7 +926,7 @@
    "file": "assets/georgian/1162/IMG_1162.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1162/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -984,8 +984,8 @@
       }
      ],
      "panel_note": "Round 2 per your note: chashushuli (Georgian tomato beef stew). No stock photo is labeled chashushuli; these are the closest visual matches, ranked.",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "use 1st",
+     "action_comment": "Applied your pick (Mohamed Olwy)."
     }
    ]
   },
@@ -996,7 +996,7 @@
    "file": "assets/georgian/1200/IMG_1200.md",
    "inventory_note": "needs new photo, ensure its not breakfast variant with eggs. no eggs, also the lang was english not georgian.",
    "current_photo": "assets/georgian/1200/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -1023,8 +1023,8 @@
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Round 2: review the applied/AI photo in place; note here to redo, re-scout, or approve.",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i replaced with ai",
+     "action_comment": "AI render registered, photo_source set to ai-generated (4800x3584)."
     }
    ]
   },
@@ -1035,7 +1035,7 @@
    "file": "assets/georgian/1201/IMG_1201.md",
    "inventory_note": "needs new photo, more casserole looking, also english not georgian",
    "current_photo": "assets/georgian/1201/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1074,7 +1074,7 @@
    "file": "assets/georgian/1250/IMG_1250.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1250/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1123,7 +1123,7 @@
    "file": "assets/georgian/1254/IMG_1254.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1254/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1162,7 +1162,7 @@
    "file": "assets/english/1215/IMG_1215.md",
    "inventory_note": "needs new pic. make sure it has cranberries, chicken and pecans",
    "current_photo": "assets/english/1215/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1190,7 +1190,7 @@
    "file": "assets/english/1281/IMG_1281.md",
    "inventory_note": "needs new photo, fussili, tomato, brocolli, olives, fetta",
    "current_photo": "assets/english/1281/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1218,7 +1218,7 @@
    "file": "assets/georgian/1247/IMG_1247.md",
    "inventory_note": "needs new photo. make sure its a mayo based salad with radish, chicken and onion.",
    "current_photo": "assets/georgian/1247/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1246,7 +1246,7 @@
    "file": "assets/georgian/1257/IMG_1257.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1257/dish.jpg",
-   "status": "applied",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1285,7 +1285,7 @@
    "file": "assets/georgian/1270/IMG_1270.md",
    "inventory_note": "needs new photo, try adding slavic to the search, jars look cool",
    "current_photo": "assets/georgian/1270/dish.jpg",
-   "status": "open",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1334,7 +1334,7 @@
    "file": "assets/english/1272/IMG_1272.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1272/dish.jpg",
-   "status": "open",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1362,7 +1362,7 @@
    "file": "assets/georgian/1199/IMG_1199.md",
    "inventory_note": "neefds new photo",
    "current_photo": "assets/georgian/1199/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -1389,8 +1389,8 @@
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Round 2: review the applied/AI photo in place; note here to redo, re-scout, or approve.",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "us https://www.pexels.com/photo/fresh-homemade-ginger-cookies-with-sugar-coating-30468106/",
+     "action_comment": "Applied your pick (khats cassim)."
     }
    ]
   },
@@ -1401,7 +1401,7 @@
    "file": "assets/georgian/1261/IMG_1261.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1261/dish.jpg",
-   "status": "open",
+   "status": "keep-current",
    "rounds": [
     {
      "n": 1,
@@ -1450,7 +1450,7 @@
    "file": "assets/english/1219/IMG_1219.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1219/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -1466,8 +1466,8 @@
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Round 2: review the applied/AI photo in place; note here to redo, re-scout, or approve.",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "https://www.pexels.com/photo/dog-sitting-by-table-in-kitchen-19086863/\n\nuse this, you may have to re crop.",
+     "action_comment": "Applied your pick (Amar Preciado). The verso photo field cover-crops automatically; if the dog sits wrong in the tall crop, say so and I'll pre-crop the file."
     }
    ]
   },
@@ -1478,7 +1478,7 @@
    "file": "assets/english/1231/IMG_1231.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1231/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -1515,8 +1515,8 @@
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Round 2: review the applied/AI photo in place; note here to redo, re-scout, or approve.",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "use this https://www.pexels.com/photo/wooden-spatula-with-colorful-dry-condiments-4198430/",
+     "action_comment": "Applied your pick (Karola G)."
     }
    ]
   },
@@ -1527,7 +1527,7 @@
    "file": "assets/georgian/1235/IMG_1235.md",
    "inventory_note": "needs a photo, a scale maybe",
    "current_photo": "",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -1554,8 +1554,8 @@
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Round 2: review the applied/AI photo in place; note here to redo, re-scout, or approve.",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "use https://www.pexels.com/photo/a-person-putting-the-flour-on-a-weighing-scale-8176580/",
+     "action_comment": "Applied your pick (Ron Lach)."
     }
    ]
   }

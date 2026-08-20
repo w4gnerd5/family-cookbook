@@ -7,8 +7,8 @@
     "scale": 1.2,
     "tilt": -21.1,
     "z": "bottom",
-    "dx": 165.72,
-    "dy": 121.73,
+    "dx": 188.21,
+    "dy": 45.83,
     "aspect": 0.7468,
     "slot": 0
    },
@@ -16,8 +16,8 @@
     "path": "assets/georgian/1241/IMG_1242.png",
     "scale": 1.26,
     "z": "bottom",
-    "dx": -86.63,
-    "dy": 9.9,
+    "dx": -83.05,
+    "dy": -40.69,
     "tilt": -2.09,
     "aspect": 0.7448,
     "slot": 1
@@ -27,8 +27,8 @@
     "scale": 0.8,
     "tilt": -14.14,
     "z": "top",
-    "dx": 6.94,
-    "dy": 73.82,
+    "dx": 40.6,
+    "dy": 12.9,
     "aspect": 1.5515,
     "slot": 2
    }
@@ -3209,12 +3209,12 @@
   "scans": [
    {
     "path": "assets/georgian/1200/IMG_1200.png",
+    "dx": 0.67,
+    "dy": 105.01,
     "scale": 1.0,
     "tilt": -2.66,
     "aspect": 1.7518,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "New Seasons Market Cheesy Chilaquiles Casserole",
@@ -3264,12 +3264,12 @@
   "scans": [
    {
     "path": "assets/georgian/1201/IMG_1201.png",
+    "dx": 15.8,
+    "dy": 122.62,
     "scale": 1.0,
     "tilt": -1.84,
     "aspect": 1.6945,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Vegetable Enchilada Casserole",
