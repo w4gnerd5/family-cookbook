@@ -4,14 +4,26 @@
     {
       "name": "verso-editor",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["scripts/verso_editor.py"],
+      "runtimeArgs": [
+        "scripts/verso_editor.py"
+      ],
       "port": 8766
     },
     {
       "name": "curation-dashboard",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["scripts/curation_server.py"],
+      "runtimeArgs": [
+        "scripts/curation_server.py"
+      ],
       "port": 8765
+    },
+    {
+      "name": "photo-review",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "scripts/photo_review.py"
+      ],
+      "port": 8767
     }
   ]
 }

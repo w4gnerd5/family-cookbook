@@ -1,0 +1,123 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Photo review</title>
+<style>
+  :root { --accent: #C05B38; --ok: #6a9955; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 13px/1.45 -apple-system, sans-serif; background: #2b2b2b; color: #ddd; padding: 18px 22px 80px; }
+  h1 { font-size: 14px; text-transform: uppercase; letter-spacing: .1em; color: #9A917D; }
+  #summary { color: #999; margin-bottom: 14px; }
+  .recipe { border-top: 1px solid #444; padding: 14px 0 8px; }
+  .rhead { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .rhead b { font-size: 14px; color: #fff; }
+  .rhead .img { color: #9A917D; font-size: 11px; }
+  .rhead .inote { color: #b89; font-style: italic; }
+  .rhead select { background: #333; color: #eee; border: 1px solid #555; border-radius: 4px; padding: 3px 6px; }
+  .rhead select.applied { border-color: var(--ok); color: var(--ok); }
+  .round { display: grid; grid-template-columns: 96px 110px 1fr 260px; gap: 12px; padding: 10px 0 6px 8px; }
+  .roundlabel { color: #9A917D; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+  .current img, .cand img { width: 100%; border-radius: 4px; display: block; }
+  .current .cap, .cand .cap { font-size: 10px; color: #999; margin-top: 3px; }
+  .cands { display: flex; gap: 10px; flex-wrap: wrap; }
+  .cand { width: 150px; }
+  .cand a { color: #7ab; text-decoration: none; }
+  .cand .rank { color: var(--accent); font-weight: 700; }
+  .cand .why { font-size: 10px; color: #888; margin-top: 2px; max-height: 4.2em; overflow: hidden; }
+  .cand:hover .why { max-height: none; }
+  .panelnote { color: #c77; font-size: 12px; font-style: italic; max-width: 60ch; }
+  .notes textarea { width: 100%; height: 72px; background: #333; color: #eee; border: 1px solid #555;
+                    border-radius: 5px; padding: 6px; font: 12px/1.4 -apple-system, sans-serif; resize: vertical; }
+  .notes textarea.saved { border-color: var(--ok); }
+  .notes .aac { margin-top: 6px; font-size: 12px; color: #e8a87c; white-space: pre-wrap; }
+  .notes .aac:before { content: "after action: "; color: #9A917D; font-size: 10px; text-transform: uppercase; letter-spacing: .08em; }
+  .notes .aac:empty { display: none; }
+</style>
+<h1>Photo review — round ledger</h1>
+<div id="summary"></div>
+<div id="list"></div>
+<script>
+const $ = q => document.querySelector(q);
+let mtime = 0, editing = false;
+
+function esc(t) { const d = document.createElement('div'); d.textContent = t || ''; return d.innerHTML; }
+
+function render(state) {
+  const list = $('#list');
+  const open = state.recipes.filter(r => r.status === 'open').length;
+  $('#summary').textContent = `${state.recipes.length} recipes · ${open} open · notes autosave · your note tells Claude what to do; "after action" is Claude's reply`;
+  list.innerHTML = '';
+  for (const r of state.recipes) {
+    const div = document.createElement('div');
+    div.className = 'recipe';
+    const cur = r.current_photo
+      ? `<img src="/file?p=${encodeURIComponent(r.current_photo)}"><div class="cap">current</div>`
+      : `<div class="cap">no current photo</div>`;
+    let rounds = '';
+    for (const rd of r.rounds) {
+      const cands = rd.candidates.length
+        ? rd.candidates.map(c => `
+          <div class="cand">
+            <a href="${esc(c.page_url)}" target="_blank" rel="noopener">
+              <img src="/file?p=${encodeURIComponent('print/photo-cands/' + c.thumb)}" title="${esc(c.why)}">
+            </a>
+            <div class="cap"><span class="rank">${c.rank === 1 ? '1st' : c.rank === 2 ? '2nd' : '#' + c.rank}</span>
+              <a href="${esc(c.page_url)}" target="_blank" rel="noopener">${esc(c.author)} · ${esc(c.site)}</a></div>
+            <div class="why">${esc(c.why)}</div>
+          </div>`).join('')
+        : `<div class="panelnote">${esc(rd.panel_note || 'no candidates this round')}</div>`;
+      rounds += `
+        <div class="round">
+          <div class="roundlabel">round ${rd.n}<br>${esc(rd.date || '')}</div>
+          <div class="current">${rd.n === 1 ? cur : ''}</div>
+          <div class="cands">${cands}</div>
+          <div class="notes">
+            <textarea placeholder="notes for Claude — e.g. take 2nd · crop tighter · hate both, redo with…"
+              data-img="${esc(r.img)}" data-round="${rd.n}">${esc(rd.user_note)}</textarea>
+            <div class="aac">${esc(rd.action_comment)}</div>
+          </div>
+        </div>`;
+    }
+    div.innerHTML = `
+      <div class="rhead">
+        <b>${esc(r.title)}</b><span class="img">${esc(r.img)}</span>
+        <select data-img="${esc(r.img)}" class="${r.status === 'applied' ? 'applied' : ''}">
+          ${['open', 'applied', 'render', 'keep-current', 'skip'].map(s =>
+            `<option ${s === r.status ? 'selected' : ''}>${s}</option>`).join('')}
+        </select>
+        <span class="inote">${esc(r.inventory_note)}</span>
+      </div>${rounds}`;
+    list.appendChild(div);
+  }
+  hook();
+}
+
+function hook() {
+  document.querySelectorAll('.notes textarea').forEach(t => {
+    t.onfocus = () => editing = true;
+    t.onblur = () => { editing = false; };
+    let timer;
+    t.oninput = () => {
+      clearTimeout(timer);
+      timer = setTimeout(async () => {
+        const res = await fetch('/update', { method: 'POST', body: JSON.stringify(
+          { img: t.dataset.img, round: +t.dataset.round, field: 'user_note', value: t.value }) });
+        t.classList.toggle('saved', res.ok);
+        setTimeout(() => t.classList.remove('saved'), 1200);
+      }, 500);
+    };
+  });
+  document.querySelectorAll('.rhead select').forEach(s => {
+    s.onchange = () => fetch('/update', { method: 'POST', body: JSON.stringify(
+      { img: s.dataset.img, field: 'status', value: s.value }) });
+  });
+}
+
+async function poll() {
+  try {
+    const d = await (await fetch('/state')).json();
+    if (d.mtime !== mtime && !editing) { mtime = d.mtime; render(d.state); }
+  } catch (e) {}
+  setTimeout(poll, 2500);
+}
+poll();
+</script>

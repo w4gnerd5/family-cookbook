@@ -1,0 +1,1199 @@
+{
+ "rounds_are_append_only": true,
+ "recipes": [
+  {
+   "img": "IMG_1209",
+   "slug": "no-knead-bread",
+   "title": "No-Knead Bread",
+   "file": "assets/english/1209/IMG_1209.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1209/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1209-1.jpg",
+       "page_url": "https://www.pexels.com/photo/freshly-baked-sourdough-bread-in-dutch-oven-31428933/",
+       "image_url": "https://images.pexels.com/photos/31428933/pexels-photo-31428933.jpeg",
+       "author": "Frank Schrader",
+       "site": "pexels",
+       "license": "Pexels License (free)",
+       "why": "Most faithful to Lahey: unscored ragged-tear crust still in the cast-iron pot, home-baked on real wood, verified 5000x3333 so the pot survives a centered A4 portrait crop at ~2357px short side."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1209-2.jpg",
+       "page_url": "https://www.pexels.com/photo/freshly-baked-loaf-of-bread-on-kitchen-counter-30507250/",
+       "image_url": "https://images.pexels.com/photos/30507250/pexels-photo-30507250.jpeg",
+       "author": "Merve",
+       "site": "pexels",
+       "license": "Pexels License (free)",
+       "why": "Best mood (warm lived-in kitchen, loaf on parchment with the red Dutch oven telling the method) and verified 6240x4160, but the loaf sits left of center so a strict tall center crop clips it; needs an off-center crop, hence second."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1198",
+   "slug": "vareniki-with-boiling-water-dough",
+   "title": "Vareniki with Boiling Water Dough",
+   "file": "assets/georgian/1198/IMG_1198.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1198/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1198-1.jpg",
+       "page_url": "https://www.pexels.com/photo/plate-of-boiled-dumplings-18139203/",
+       "image_url": "https://images.pexels.com/photos/18139203/pexels-photo-18139203.jpeg",
+       "author": "Nadin Sh",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live and free: boiled half-moon dumplings on a plate over a rustic wooden table in soft natural light, home-cooked rather than studio-styled, and the file runs to 4330px+ so a full-bleed A4 tall crop has plenty of room."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1198-2.jpg",
+       "page_url": "https://www.pexels.com/photo/cooked-pierogi-on-ceramic-plate-8601675/",
+       "image_url": "https://images.pexels.com/photos/8601675/pexels-photo-8601675.jpeg",
+       "author": "Polina Tankilevitch",
+       "site": "pexels",
+       "license": "Pexels License (free to use)",
+       "why": "Verified live and free: hand-crimped boiled vareniki on a ceramic plate in natural light, faithful to the dish, but the near-minimal background reads cooler and less like a family table than the first, so it is the fallback."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1233",
+   "slug": "scalded-crepes-zavarnyye-blini",
+   "title": "Scalded Crepes (Zavarnyye Blini)",
+   "file": "assets/georgian/1233/IMG_1233.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1233/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1233-1.jpg",
+       "page_url": "https://unsplash.com/photos/UyODJtvADoc",
+       "image_url": "https://images.unsplash.com/photo-1770802839187-c934d868039d?fm=jpg&q=85&w=3000&auto=format",
+       "author": "Urfa Sahi",
+       "site": "unsplash",
+       "license": "Unsplash License (free tier; page shows \"Free to use under the Unsplash License\", no Unsplash+ badge)",
+       "why": "Page verified: a stack of crepes with traditional Russian decorations shot at a Maslenitsa celebration on a real Sony A7RIII, so the cultural context is documentary rather than staged, and the og:image serves at 3000px wide with a tall native frame that survives an A4 portrait crop."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1233-2.jpg",
+       "page_url": "https://www.pexels.com/photo/brown-bread-with-white-cream-4966599/",
+       "image_url": "https://images.pexels.com/photos/4966599/pexels-photo-4966599.jpeg",
+       "author": "cottonbro studio",
+       "site": "pexels",
+       "license": "Pexels License (free, verified \"Free download\" on the page, no attribution required)",
+       "why": "Page verified as a free close-up of a stack of traditional Russian blini by cottonbro studio, faithful to the dish, but it is a dark studio-lit series rather than a real-kitchen scene and I could not confirm the claimed 2333x3500 portrait dimensions from the page, so the tall crop carries some risk; the three duplicate submissions of this same photo are folded into this one entry."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1236",
+   "slug": "oven-baked-brioches",
+   "title": "Oven-Baked Brioches",
+   "file": "assets/georgian/1236/IMG_1236.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1236/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1236-1.jpg",
+       "page_url": "https://www.pexels.com/photo/freshly-baked-buns-on-a-tray-19512381/",
+       "image_url": "https://images.pexels.com/photos/19512381/pexels-photo-19512381/free-photo-of-freshly-baked-buns-on-a-tray.jpeg",
+       "author": "Zehra Yılmaz",
+       "site": "pexels",
+       "license": "Pexels License (free)",
+       "why": "Verified: knotted egg-washed enriched-dough buns crowding a home pan on parchment, cool natural light off marble, uneven blistered browning that only a domestic oven gives; no toppings the recipe doesn't call for, and 3456x5184 portrait survives a full-bleed A4 crop with room to spare."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1236-2.jpg",
+       "page_url": "https://www.pexels.com/photo/freshly-baked-homemade-brioche-buns-38433899/",
+       "image_url": "https://images.pexels.com/photos/38433899/pexels-photo-38433899.jpeg?cs=tinysrgb&w=4330&fit=max",
+       "author": "zahara",
+       "site": "pexels",
+       "license": "Pexels License (free)",
+       "why": "Verified: a full tray of glossy golden brioche rolls on crumpled parchment, 3072x4096 portrait, honestly the dish, but the page confirms sesame seeds the recipe never mentions and the light is warm oven-glow rather than daylight, so it ranks second."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1242",
+   "slug": "zeinabs-khachapuri",
+   "title": "Zeinab's Khachapuri",
+   "file": "assets/georgian/1241/IMG_1242.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1241/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1242-1.jpg",
+       "page_url": "https://www.pexels.com/photo/authentic-georgian-cheese-bread-on-parchment-33637714/",
+       "image_url": "https://images.pexels.com/photos/33637714/pexels-photo-33637714.jpeg",
+       "author": "Anhelina Vasylyk",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live and free on Pexels; inspected the file itself at 4000x6000 native portrait, which crops to full-bleed A4 with room to spare. A round closed Imeretian-style loaf with molten white cheese showing through three slashes, blistered and unevenly browned like a home oven produced it, on crumpled parchment in warm directional light. No studio white box, no AI tells (the crumb, char spots, and parchment creases all read as real), and no egg-boat form that would misrepresent the recipe. All four scout submissions are the same photograph under two URL forms, so this is the single surviving candidate."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1243",
+   "slug": "yeast-dough-for-khachapuri-pies-and-pirozhki",
+   "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
+   "file": "assets/georgian/1243/IMG_1243.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1243/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1243-1.jpg",
+       "page_url": "https://www.pexels.com/photo/hands-kneading-a-dough-5903446/",
+       "image_url": "https://images.pexels.com/photos/5903446/pexels-photo-5903446.jpeg",
+       "author": "Roman Odintsov",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Page verified live and free with no Pexels+ badge; subject is hands working soft yeast dough on a marble counter in a home kitchen under warm indoor light, which is exactly the stage this universal dough recipe ends at, and the native portrait framing takes a full-bleed A4 crop without surgery."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1243-2.jpg",
+       "page_url": "https://www.pexels.com/photo/chef-making-dough-for-cookies-in-bakery-6287300/",
+       "image_url": "https://images.pexels.com/photos/6287300/pexels-photo-6287300.jpeg",
+       "author": "Klaus Nielsen",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live and free; honest hands-in-flour kneading shot with good dust and texture, ranked second because the bakery-workbench framing reads more professional kitchen than family table, and the page would not confirm orientation or original pixel dimensions."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1228",
+   "slug": "old-fashioned-beef-stew",
+   "title": "Old-Fashioned Beef Stew",
+   "file": "assets/english/1228/IMG_1228.md",
+   "inventory_note": "needs a new photo.  try to find something rustic and hearty looking",
+   "current_photo": "assets/english/1228/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1228-1.jpg",
+       "page_url": "https://unsplash.com/photos/y_7KLDoPlAc",
+       "image_url": "https://images.unsplash.com/photo-1664741662725-bd131742b7b7?fm=jpg&q=90&w=6000",
+       "author": "Laura Ohlman",
+       "site": "unsplash",
+       "license": "Unsplash License (free, verified not Unsplash+)",
+       "why": "Verified free and viewed at full size: overhead brown ceramic bowl of beef, potato and carrot in opaque brown gravy, sourdough loaf, worn spoon, frayed plaid on weathered wood in soft natural light. Faithful to the dish, exactly the rustic hearty mood in the owner note, Sony A7III original ~6000x4000 so a tall center crop on the bowl still clears 1600px short side."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1228-2.jpg",
+       "page_url": "https://unsplash.com/photos/white-ceramic-bowl-with-food-JXYdIWqA5IM",
+       "image_url": "https://images.unsplash.com/photo-1608500219063-e5164085cd6f?fm=jpg&q=90&w=6000",
+       "author": "Nathan Dumlao",
+       "site": "unsplash",
+       "license": "Unsplash License (free, verified not Unsplash+)",
+       "why": "Verified free and native portrait, so it is the safest A4 full-bleed crop of the set: dark braised beef and carrot in a stoneware bowl with red wine, candle, rosemary and checked linen in real window light. Slightly less literal than the Ohlman frame (scallion/chili garnish, no visible potato) which is why it ranks second."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1285",
+   "slug": "ina-gartens-unforgettable-beef-stew",
+   "title": "Ina Garten's Unforgettable Beef Stew",
+   "file": "assets/english/1285/IMG_1285.md",
+   "inventory_note": "needs new photo. ensure no corn in photo",
+   "current_photo": "assets/english/1285/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1285-1.jpg",
+       "page_url": "https://unsplash.com/photos/a-bowl-of-stew-with-potatoes-carrots-and-meat-WgrOML7JhSU",
+       "image_url": "https://images.unsplash.com/photo-1689860892307-7db54ab276ba?fm=jpg&q=90&w=3000",
+       "author": "nilufar nattaq",
+       "site": "unsplash",
+       "license": "Unsplash License (free, not Unsplash+) - verified on the photo page",
+       "why": "Verified free tier and inspected at 1600x2400: braised beef chunks, carrots, whole baby potatoes and browned onion in a dark bowl with rosemary sprigs and rustic bread alongside, which is Ina's ingredient list almost item for item. Natively portrait, so the full-bleed A4 crop is free rather than a rescue, and the short side is ~3000px at the CDN width used. No corn. Styling is dark-and-moody rather than filtered glamour, and the food reads cooked, not built. Only quibble: a few green peas and a brown-gray broth rather than a visibly wine-dark one."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1285-2.jpg",
+       "page_url": "https://www.pexels.com/photo/cooked-food-on-white-ceramic-plate-3981486/",
+       "image_url": "https://images.pexels.com/photos/3981486/pexels-photo-3981486.jpeg",
+       "author": "tomateoignons",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified free and inspected: genuinely lovely soft window light on a hand-glazed bowl, wine-dark sauce and beef with carrots, and definitively corn-free. Ranked second on two counts the scouts undersold: it is a chef's plating with green beans and pickled pink radish and no potatoes, which drifts from the dish, and it is landscape with a wide low bowl, so a tall A4 center crop slices both ends off the bowl."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1210",
+   "slug": "cashew-nut-loaf",
+   "title": "Cashew Nut Loaf",
+   "file": "assets/english/1210/IMG_1210.md",
+   "inventory_note": "nees new photo",
+   "current_photo": "assets/english/1210/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1210-1.jpg",
+       "page_url": "https://www.pexels.com/photo/brown-bread-with-assorted-nuts-on-wooden-tray-9728581/",
+       "image_url": "https://images.pexels.com/photos/9728581/pexels-photo-9728581.jpeg",
+       "author": "Sascha Lechner",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified: page live, free Pexels tier, 4000x6000 native portrait so a full-bleed A4 crop loses nothing. Visually confirmed it is a genuine baked vegetarian nut loaf, glazed and sliced, cut face dense with whole nuts and grain filler, on a wooden board with mash and herbs softly behind in warm directional light. Real-kitchen mood, not a studio white box, no AI tells. Only caveat: the visible nuts read as almonds and hazelnuts rather than cashews, which is invisible at print size and does not undercut the mid-century vegetarian-meatloaf idiom the recipe page describes. All four scouts submitted this same photo; nothing else needed adjudicating."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1213",
+   "slug": "whole-chicken-crock-pot",
+   "title": "Whole Chicken Crock Pot",
+   "file": "assets/english/1213/IMG_1213.md",
+   "inventory_note": "needs new photo. make sure it a crok pot not a roasted chicken",
+   "current_photo": "assets/english/1213/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1213-1.jpg",
+       "page_url": "https://unsplash.com/photos/StMkapA93O4",
+       "image_url": "https://images.unsplash.com/photo-1627880872609-f7ddd76616c2?fm=jpg&q=90&w=3000",
+       "author": "Jurien Huggins",
+       "site": "unsplash",
+       "license": "Unsplash License (free tier, verified on page: \"Free to use under the Unsplash License\", not Unsplash+)",
+       "why": "Verified by downloading and viewing the file: one whole uncarved chicken in a blue enameled pot with diced onion, carrot and celery, steaming on a home gas stove in natural light, stainless ladle on the counter behind. Satisfies the owner's hard constraint outright (a whole bird inside a cooking vessel, zero roasted-bird read) and the mood is real kitchen, not studio. Native ~3000px wide and already portrait-proportioned, so a tall A4 crop holds the pot and loses only the handles. Two honest caveats: the bird is submerged in broth where the recipe adds no liquid, and the poached skin is pale rather than burnished, so it photographs as chicken soup in progress more than as a spice-rubbed crock-pot bird. It is the only free image across all three sites that meets the hard constraint at all."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1216",
+   "slug": "turkey-and-quinoa-meatloaf",
+   "title": "Turkey and Quinoa Meatloaf",
+   "file": "assets/english/1216/IMG_1216.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1216/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1216-1.jpg",
+       "page_url": "https://www.pexels.com/photo/delicious-meatloaf-with-coleslaw-and-soup-34326258/",
+       "image_url": "https://images.pexels.com/photos/34326258/pexels-photo-34326258.jpeg",
+       "author": "Anhelina Vasylyk",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live and free: two thick sliced portions under a dark red glaze with a pale, turkey-plausible interior, shot in warm natural light on a wood table with visible human plating; 4000x6000 portrait native, so a tall full-bleed A4 crop is trivial. Only real reservation is the crumb-crusted edge, which can read as a breaded cutlet at print size, and the coleslaw and tomato soup add plate clutter the recipe does not mention (both croppable)."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1217",
+   "slug": "apple-cider-braised-pork-shoulder",
+   "title": "Apple Cider Braised Pork Shoulder",
+   "file": "assets/english/1217/IMG_1217.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1217/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1217-1.jpg",
+       "page_url": "https://www.pexels.com/photo/steaming-tender-pulled-pork-on-rustic-wooden-board-36850055/",
+       "image_url": "https://images.pexels.com/photos/36850055/pexels-photo-36850055.jpeg",
+       "author": "Mohamed Olwy",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Page verified live on Pexels free tier, photographer-uploaded, not sponsored; full resolution ~6117px wide so a tall A4 center crop keeps well over 1600px on the short side, and the warm ambient light on a scarred board reads as real-kitchen rather than studio. Faithfulness caveat: it is pork shoulder cooked to falling apart, but the Pexels description frames it as barbecue-spiced pulled pork, and none of the recipe's cider-braise signals (apple wedges, red onion, garlic head, herb bundle, braising liquid) are present, so it is a generic stand-in rather than the dish itself."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1221",
+   "slug": "skillet-chicken-bulgogi",
+   "title": "Skillet Chicken Bulgogi",
+   "file": "assets/english/1221/IMG_1221.md",
+   "inventory_note": "new photo needed.",
+   "current_photo": "assets/english/1221/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1221-1.jpg",
+       "page_url": "https://www.pexels.com/photo/plate-of-cooked-meat-with-cooked-vegetable-2116094/",
+       "image_url": "https://images.pexels.com/photos/2116094/pexels-photo-2116094.jpeg",
+       "author": "Jer Chung",
+       "site": "pexels",
+       "license": "Pexels License (free)",
+       "why": "Verified free at 4674x3506: overhead plate of glossy soy-glazed chicken pieces with scallions and both white and black sesame, on a dark woven placemat with linen and cutlery, so the dish and the real-table mood both match; a centered A4 tall crop keeps the whole plate and drops the cutlery."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1221-2.jpg",
+       "page_url": "https://www.pexels.com/photo/delicious-teriyaki-chicken-rice-bowl-close-up-28442544/",
+       "image_url": "https://images.pexels.com/photos/28442544/pexels-photo-28442544.jpeg",
+       "author": "Nadin Sh",
+       "site": "pexels",
+       "license": "Pexels License (free)",
+       "why": "Verified free, native portrait 3973x5302 on warm wood in soft directional light: sliced glazed chicken with scallion and sesame over rice fits 'serve over rice', but the caramel-dark teriyaki glaze and restaurant-neat fanned slices read less like a home skillet than the winner."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1222",
+   "slug": "fresh-huevos-rancheros",
+   "title": "Fresh Huevos Rancheros",
+   "file": "assets/english/1222/IMG_1222.md",
+   "inventory_note": "needs new photo, wider shot, try for colorful more baja style with veg and white cheese",
+   "current_photo": "assets/english/1222/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1222-1.jpg",
+       "page_url": "https://unsplash.com/photos/a-white-plate-topped-with-food-on-top-of-a-colorful-table-cloth-5FwOQpGW3mU",
+       "image_url": "https://images.unsplash.com/photo-1721032740848-7c6d8adea99b?fm=jpg&q=85&w=6000",
+       "author": "Alimentos Fotogénicos",
+       "site": "unsplash",
+       "license": "Unsplash License (free; page confirms 'Free to use under the Unsplash License', no Unsplash+ badge)",
+       "why": "Verified by eye, not just by defense: one tortilla under a fried egg, chunky ranchera salsa with visible roasted chile strips and tomato, refried beans dusted with crumbled queso fresco plus a wedge of it, on a saturated Mexican plaid cloth — it satisfies every hard constraint (colorful, baja, veg, white cheese) and matches the recipe's one-tortilla serving literally; 3:2 landscape but the plate sits dead center in a ~6000x4000 frame, so a tall A4 crop is comfortable."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1222-2.jpg",
+       "page_url": "https://unsplash.com/photos/mkOpQDcFrx0",
+       "image_url": "https://images.unsplash.com/photo-1585975754487-25489eabf36a?fm=jpg&q=85&w=4000",
+       "author": "Paul Hanaoka",
+       "site": "unsplash",
+       "license": "Unsplash License (free; page confirms free use, no Unsplash+ badge)",
+       "why": "Best photograph of the two — native portrait ~4000x6000, soft window light, real wood counter, honest restaurant plate with sunny eggs, red salsa, avocado, cilantro and cotija crumbles — but it misses the note's 'colorful baja' brief (muted grey rain-window palette) and the dish is a black-bean bowl with tostada shards rather than eggs on tortillas with refried beans, so it is second on faithfulness."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1229",
+   "slug": "company-pot-roast",
+   "title": "Company Pot Roast",
+   "file": "assets/english/1229/IMG_1229.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1229/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1229-1.jpg",
+       "page_url": "https://www.pexels.com/photo/meat-and-fruit-on-plate-6545671/",
+       "image_url": "https://images.pexels.com/photos/6545671/pexels-photo-6545671.jpeg",
+       "author": "Thiago Rebouças",
+       "site": "pexels",
+       "license": "Pexels License (free)",
+       "why": "Verified live and free: 6000x4000 (short side 4000, ample for a full-bleed tall crop), and the frame is genuinely the dish — chuck sliced across the shredding grain, glossy with braising juices, carrots, potatoes, and collapsed onions on a plate over warm wood in natural light, no white-box studio look and no AI tells. Center vertical strip holds meat plus vegetables, so an A4 portrait crop survives; only weakness is a tight macro framing and slightly hot saturation, both fixable at card bake with exposure."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1280",
+   "slug": "bacon-and-gruyere-breakfast-casserole",
+   "title": "Bacon and Gruyere Breakfast Casserole",
+   "file": "assets/english/1280/IMG_1280.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1280/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1280-1.jpg",
+       "page_url": "https://www.pexels.com/photo/6163259/",
+       "image_url": "https://images.pexels.com/photos/6163259/pexels-photo-6163259.jpeg",
+       "author": "Maksim Goncharenok",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live: overhead of a genuinely home-baked casserole in a glass dish on a wood board, deep golden cheese crust with browned bits that read as bacon, warm natural light and no studio styling; closest fidelity to a Gruyere-topped egg bake, and the rectangular dish fills frame well enough to survive a tall center crop."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1280-2.jpg",
+       "page_url": "https://www.pexels.com/photo/hand-of-a-person-placing-a-dish-in-a-baking-pan-onto-a-table-25749303/",
+       "image_url": "https://images.pexels.com/photos/25749303/pexels-photo-25749303.jpeg",
+       "author": "Zehra Yilmaz",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live and confirmed a baked egg dish served straight from the pan by a visible hand, which nails the cooked-by-a-person mood at high resolution (~4000px), but the crust is plainer and the hand at frame edge risks being amputated by a portrait crop, so it ranks second."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1282",
+   "slug": "slow-roasted-crispy-pork-belly",
+   "title": "Slow-Roasted Crispy Pork Belly",
+   "file": "assets/english/1282/IMG_1282.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1282/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1282-1.jpg",
+       "page_url": "https://www.pexels.com/photo/close-up-photo-of-a-dish-with-crispy-pork-skin-8408377/",
+       "image_url": "https://images.pexels.com/photos/8408377/pexels-photo-8408377.jpeg",
+       "author": "Amanda Lim",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live on Pexels free tier; native portrait 4160x6240 so a full-bleed A4 crop loses nothing. Inspected the actual pixels: thick blistered golden crackling over clean fat-and-meat strata on a dark plate, carved on a worn wooden board with the cook's hands and knife soft in the frame, warm low ambient light. Faithful to the slow-then-blast crackling method, and it reads as a person's kitchen rather than a studio."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1288",
+   "slug": "garlic-braised-short-ribs-with-red-wine",
+   "title": "Garlic Braised Short Ribs With Red Wine",
+   "file": "assets/english/1288/IMG_1288.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1288/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1288-1.jpg",
+       "page_url": "https://www.pexels.com/photo/sunlight-over-food-on-plate-8112923/",
+       "image_url": "https://images.pexels.com/photos/8112923/pexels-photo-8112923.jpeg",
+       "author": "Rachel Claire",
+       "site": "pexels",
+       "license": "Pexels License (free)",
+       "why": "Verified free and native portrait (3:2 tall, ~4160x6240), and the single dark lacquered braised rib in its glossy wine-colored jus with citrus zest on top reads as this exact recipe finished with lemon; the raking hard sunlight and leaf shadows are genuine natural light rather than studio fill, so it survives a full-bleed A4 crop with real mood. Caveat: the plating is restaurant fine dining (radish coins, shredded zest nest, no visible garlic), so it is faithful to the braise but not to the rustic home-kitchen register."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1291",
+   "slug": "tuscan-farmers-breakfast",
+   "title": "Tuscan Farmers Breakfast",
+   "file": "assets/english/1291/IMG_1291.md",
+   "inventory_note": "needs new photo, this is more like a shakshuka with beans",
+   "current_photo": "assets/english/1291/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1291-1.jpg",
+       "page_url": "https://www.pexels.com/photo/shakshuka-with-bread-on-table-9928336/",
+       "image_url": "https://images.pexels.com/photos/9928336/pexels-photo-9928336.jpeg",
+       "author": "Dasha Klimova",
+       "site": "pexels",
+       "license": "Pexels License (free to use, no attribution required)",
+       "why": "Verified live on Pexels free tier at native 2000x3000 portrait: overhead cast-iron pan with eggs set in wells of tomato sauce, chopped herbs and sliced chili on top, charred sourdough and a jar of green herb sauce that reads as the gremolata, all on a warm wood board in natural light. Matches the owner's 'shakshuka with beans' framing and every element of the description except the beans themselves, which would sit under the sauce anyway; no studio white box, no AI tells, and it takes the tall A4 crop with room to spare."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1295",
+   "slug": "chicken-rice-and-spices-bake",
+   "title": "Chicken, Rice, and Spices Bake",
+   "file": "assets/english/1295/IMG_1295.md",
+   "inventory_note": "needs new photo. this is a one pot dish",
+   "current_photo": "assets/english/1295/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1295-1.jpg",
+       "page_url": "https://www.pexels.com/photo/a-skillet-with-chicken-and-noodles-on-top-of-a-table-28080436/",
+       "image_url": "https://images.pexels.com/photos/28080436/pexels-photo-28080436.jpeg",
+       "author": "one click (@rafaellenss)",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified: browned skin-on chicken pieces sitting directly on yellow spiced rice in the black wood-handled pan it cooked in, on a bare wood table under warm side light, so the one-pot constraint holds without a plated cheat; I test-cropped it to A4 portrait and the pan still fills the frame with both handles and the wood table reading, and at 6123x4082 the crop leaves ~2900px on the short side. The nest of crisp fried onions on top is the only real deviation and it does not contradict the recipe."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1295-2.jpg",
+       "page_url": "https://www.pexels.com/photo/traditional-kerala-chicken-biryani-in-clay-pot-34159109/",
+       "image_url": "https://images.pexels.com/photos/34159109/pexels-photo-34159109.jpeg",
+       "author": "Shalini Shakthi",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified free and genuinely native portrait (2:3, 4128x6192) with dark headroom that would carry the verso title well, and the dish itself is one pot of turmeric rice under a browned leg quarter; ranked second because the execution is dark commercial styling rather than a real kitchen (rim-lit black backdrop, piped smoke, dried chilies and star anise scattered as props) and the flanking pots of pickle and sliced onion dilute the one-pot read the owner note demands."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1297",
+   "slug": "crispy-pork-and-watermelon-salad",
+   "title": "Crispy Pork and Watermelon Salad",
+   "file": "assets/english/1297/IMG_1297.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1297/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [],
+     "panel_note": "Panel rejected all candidates: Only candidate was Pexels 34314497 (ERIVELTO Martins, \"Delicious Crispy Pork Belly with Fresh Lime\"). Page verified: exists, free Pexels License, 2578x1772. Rejected on two independent grounds. (1) Fidelity: the recipe is a salad — chilled watermelon cubes, pickled shallot, chili, herbs, crispy pork tossed through. The image is Brazilian torresmo: four chunks of fried pork belly and two lime wedge",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1162",
+   "slug": "lyudmilas-beef-stroganoff",
+   "title": "Lyudmila's Beef Stroganoff",
+   "file": "assets/georgian/1162/IMG_1162.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1162/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1162-1.jpg",
+       "page_url": "https://www.pexels.com/photo/cooked-food-1998918/",
+       "image_url": "https://images.pexels.com/photos/1998918/pexels-photo-1998918.jpeg",
+       "author": "Kristina Paukshtite",
+       "site": "pexels",
+       "license": "Pexels License (free, commercial use OK, attribution not required)",
+       "why": "Verified: page live, free Pexels tier, native portrait 2:3 at high resolution (1200x1800 at the compressed size, full-res well above the 1600px short-side floor), so the full-bleed A4 portrait crop needs no reframing. Content is genuinely stroganoff and genuinely this variant: seared beef strips and softened onion in a creamy sauce visibly tinted paprika/tomato rather than white sour cream, over mashed potato, in a dark bowl on worn wood under warm low window light with a green glass tumbler out of focus behind. Only demerit is the upright scallion stalk garnish and a scattered dark crumb, which read slightly restaurant-plated, but the untidy ladling and real-table setting keep it on the right side of the line. Soft dark upper third gives white title type a clean place to sit."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1200",
+   "slug": "new-seasons-market-cheesy-chilaquiles-casserole",
+   "title": "New Seasons Market Cheesy Chilaquiles Casserole",
+   "file": "assets/georgian/1200/IMG_1200.md",
+   "inventory_note": "needs new photo, ensure its not breakfast variant with eggs. no eggs, also the lang was english not georgian.",
+   "current_photo": "assets/georgian/1200/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1200-1.jpg",
+       "page_url": "https://www.pexels.com/photo/delicious-baked-enchiladas-with-cheese-topping-35081817/",
+       "image_url": "https://images.pexels.com/photos/35081817/pexels-photo-35081817.jpeg",
+       "author": "Zehra Yılmaz",
+       "site": "pexels",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live and free on Pexels, 3456x5184 native portrait so a full-bleed A4 crop costs nothing. Frame is exactly the dish: tortillas baked into red sauce under browned bubbling cheese, served from the pan, cilantro scattered by hand, one scorched corner and sauce baked onto the dish wall. No eggs. Soft daylight, home oven, no studio sterility and no AI tells."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1201",
+   "slug": "vegetable-enchilada-casserole",
+   "title": "Vegetable Enchilada Casserole",
+   "file": "assets/georgian/1201/IMG_1201.md",
+   "inventory_note": "needs new photo, more casserole looking, also english not georgian",
+   "current_photo": "assets/georgian/1201/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1201-1.jpg",
+       "page_url": "https://www.pexels.com/photo/delicious-baked-enchiladas-with-cheese-topping-35081817/",
+       "image_url": "https://images.pexels.com/photos/35081817/pexels-photo-35081817.jpeg",
+       "author": "Zehra Yılmaz",
+       "site": "pexels",
+       "license": "Pexels License (free, commercial use, no attribution required)",
+       "why": "Verified live and free on Pexels; downloaded file is 3456x5184 native portrait, so a full-bleed A4 crop is trivial. Satisfies both hard constraints: rolled tortillas baked in a white ceramic dish reads as casserole rather than plated enchiladas, and it is unmistakably Tex-Mex, not Georgian. Home-cooked signals throughout (uneven cheese browning, one scorched tortilla end, sauce baked onto the rim, parsley scattered by hand) with soft directional daylight and no studio gloss. Only weakness is that the filling is not visible, so the bean/corn/zucchini detail is neither shown nor contradicted."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1250",
+   "slug": "beef-eggplant-bell-pepper-boat-khortsia-tsomshi",
+   "title": "Beef Eggplant / Bell Pepper Boat (Khortsia Tsomshi)",
+   "file": "assets/georgian/1250/IMG_1250.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1250/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1250-1.jpg",
+       "page_url": "https://www.pexels.com/photo/delicious-baked-stuffed-eggplants-with-tomatoes-29040190/",
+       "image_url": "https://images.pexels.com/photos/29040190/pexels-photo-29040190.jpeg",
+       "author": "Yesim G. Ozdemir",
+       "site": "pexels.com",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified 4896x3264 on a live free Pexels page; I opened the file and it is the recipe's silhouette almost exactly - eggplants split lengthwise into boats, packed with browned ground beef, garnish standing upright out of the filling the way the garlic sails are described, baked in a juices-pooled home tray with uneven browning and warm directional light. Dark and texture-rich, which is what the always-on white-text scrim on the versos wants. Landscape, but the repeating rows mean a tall A4 center crop still holds two full boats at ~3264px on the short side, and it replaces the off-policy Wikimedia source currently in the frontmatter."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1250-2.jpg",
+       "page_url": "https://www.pexels.com/photo/delicious-stuffed-eggplant-in-tomato-sauce-38163956/",
+       "image_url": "https://images.pexels.com/photos/38163956/pexels-photo-38163956.jpeg",
+       "author": "Gözde Z.",
+       "site": "pexels.com",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified free and native portrait 3072x4096, so the full-bleed A4 crop is free, and the whole fried green pepper alongside picks up the recipe's pepper half - but the scout oversold it: the meat sits as a coarse ridge laid on top of largely whole eggplants swimming in a soupy tomato sauce, so the boat shape the recipe is named for does not read. The bright cream bowl also fights the white-over-scrim treatment. Good photograph, second-best match."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1254",
+   "slug": "american-kebab",
+   "title": "American Kebab",
+   "file": "assets/georgian/1254/IMG_1254.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1254/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1254-1.jpg",
+       "page_url": "https://www.pexels.com/photo/grilled-seekh-kebabs-on-skewers-close-up-37080242/",
+       "image_url": "https://images.pexels.com/photos/37080242/pexels-photo-37080242.jpeg",
+       "author": "Mohamed Olwy",
+       "site": "pexels.com",
+       "license": "Pexels License (free, commercial use, no attribution required)",
+       "why": "Verified live and free on Pexels; inspected pixels show minced-meat kebabs on flat skewers over coals with irregular hand-formed texture and uneven char, which is exactly this recipe's ground extra-lean beef form rather than cubed shish. Native portrait 4:5 (2832x3540) so a full-bleed A4 tall crop is free money, and the dark grill ground with warm highlights carries white type over a scrim. Nothing sterile, nothing AI-looking, no styling props."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1215",
+   "slug": "holiday-chicken-salad",
+   "title": "Holiday Chicken Salad",
+   "file": "assets/english/1215/IMG_1215.md",
+   "inventory_note": "needs new pic. make sure it has cranberries, chicken and pecans",
+   "current_photo": "assets/english/1215/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [],
+     "panel_note": "Panel rejected all candidates: both scouts came back empty",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1281",
+   "slug": "greek-broccoli-pasta-salad",
+   "title": "Greek Broccoli Pasta Salad",
+   "file": "assets/english/1281/IMG_1281.md",
+   "inventory_note": "needs new photo, fussili, tomato, brocolli, olives, fetta",
+   "current_photo": "assets/english/1281/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [],
+     "panel_note": "Panel rejected all candidates: Both candidates verified live on Pexels and both are genuinely free-tier, correctly attributed, and correctly described by their scouts (12354402 \"Fusilli Pasta with Feta and Olives\" by Ayrat; 8385550 \"Vibrant pasta salad with fresh vegetables and feta cheese, captured from above\" by Lisa Fotios). Both fail the same absolute test: the owner note names broccoli, and neither frame contains any. Beyo",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1247",
+   "slug": "chicken-salad",
+   "title": "Chicken Salad",
+   "file": "assets/georgian/1247/IMG_1247.md",
+   "inventory_note": "needs new photo. make sure its a mayo based salad with radish, chicken and onion.",
+   "current_photo": "assets/georgian/1247/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [],
+     "panel_note": "Panel rejected all candidates: Both scouts submitted the same image (Pexels 7372055, \"A Salad with Herbs on a Plate\" by Natia). I verified the page: it exists, is free Pexels License, 3472x4624 portrait, good natural-light home-table mood. But the page's own caption describes it as \"a fresh and creamy radish salad garnished with herbs\" — a meatless radish-and-cream salad. Both scouts concede in their own defenses that the pale ",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1257",
+   "slug": "red-tkemali-plum-sauce",
+   "title": "Red Tkemali (Plum Sauce)",
+   "file": "assets/georgian/1257/IMG_1257.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1257/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1257-1.jpg",
+       "page_url": "https://www.pexels.com/photo/red-beverage-in-cup-16073917/",
+       "image_url": "https://images.pexels.com/photos/16073917/pexels-photo-16073917.jpeg",
+       "author": "Гульнара Михайлець (Gulnara Mikhailets)",
+       "site": "pexels.com",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live and free; I pulled the file and looked at it. Thick dark-red cooked fruit sauce with whole skin-on fruit halves still intact, a long chili, walnuts and burlap on dark wood, warm window light, used spoon standing in it. That is a credible red tkemali table even though the photographer's own caption says pepper jam, and the props are Caucasian rather than generic. Native portrait 2722x4082, so the tall A4 crop runs straight down the glass with the chili holding the left edge. Caveat for the owner: it is served in a podstakannik tea glass, not a sauce bowl, which is the one thing a Georgian reader might blink at."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1270",
+   "slug": "marinated-bell-peppers",
+   "title": "Marinated Bell Peppers",
+   "file": "assets/georgian/1270/IMG_1270.md",
+   "inventory_note": "needs new photo, try adding slavic to the search, jars look cool",
+   "current_photo": "assets/georgian/1270/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1270-1.jpg",
+       "page_url": "https://pixabay.com/photos/pickled-peppers-pepper-ratunda-2788676/",
+       "image_url": "https://cdn.pixabay.com/photo/2017/09/26/13/50/pickled-peppers-2788676_1280.jpg",
+       "author": "arinaja",
+       "site": "pixabay.com",
+       "license": "Pixabay Content License (free, no attribution required)",
+       "why": "Verified and confirmed by eye: whole squat ratunda/gogoshary bell peppers packed in marinade with garlic cloves, allspice berries and parsley in a plaid twist-lid jar, on weathered wood with a blue cloth, raw peppers and garlic bulbs staged around it. It is the dish, it is unmistakably Slavic home canning, and the jar is the subject, which is the owner's note satisfied on all three points. Real light, real depth of field, no AI tells, no studio box. Two practical notes: the CDN link is only 1280x853, so pull the 6000x4000 original from the page download for print; and the jar sits slightly right of center, so shift the A4 portrait crop about 5 percent right to keep it whole. Pixabay is third in site preference, correctly overridden here because neither Pexels nor Unsplash has an actual marinated bell pepper."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1270-2.jpg",
+       "page_url": "https://www.pexels.com/photo/rustic-kitchen-scene-with-preserved-vegetables-in-jars-28645470/",
+       "image_url": "https://images.pexels.com/photos/28645470/pexels-photo-28645470.jpeg",
+       "author": "hello aesthe",
+       "site": "pexels.com",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Fallback only, and its defense does not survive inspection. Page and 6000x4000 file are real and free, the mood is genuinely good (barn wood, warm side light, paper-capped jars and twine), but there is not a bell pepper in the frame: the front jar holds long thin red chilies with a bay leaf and lemon slice, the back left jar is tomatoes, the right jar is shredded red cabbage or beets. The scout called the front jar 'exactly this recipe' and it is not. As a generic preserving still-life it would read fine; as the photo facing a marinated bell pepper recipe it shows the reader the wrong vegetable. Also the jar cluster sits right of center, so a straight centered portrait crop clips the right jar."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1272",
+   "slug": "indian-pudding",
+   "title": "Indian Pudding",
+   "file": "assets/english/1272/IMG_1272.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1272/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [],
+     "panel_note": "Panel rejected all candidates: Both candidates verified as genuine free-tier Pexels pages, and both rejected on fidelity — each one's own page contradicts its defense.\n\nPexels 7553034 (Yunus Emre Can): the page caption reads \"warm drink and chocolate puddings on a wooden table.\" The scout argued the color \"reads molasses rather than pale gold,\" but the photographer titled and tagged them chocolate. Dark glossy individual crocks",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1199",
+   "slug": "soft-ginger-cookies",
+   "title": "Soft Ginger Cookies",
+   "file": "assets/georgian/1199/IMG_1199.md",
+   "inventory_note": "neefds new photo",
+   "current_photo": "assets/georgian/1199/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1199-1.jpg",
+       "page_url": "https://www.pexels.com/photo/fresh-homemade-ginger-cookies-with-sugar-coating-30468106/",
+       "image_url": "https://images.pexels.com/photos/30468106/pexels-photo-30468106.jpeg",
+       "author": "khats cassim",
+       "site": "pexels.com",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified live on Pexels free tier at 3600x2400 (short side 2400px, well past the print floor); the frame is thick domed drop cookies with soda-driven crackle tops, coarse sanding sugar and a deep amber crumb, which is the molasses soft-ginger cookie and not cut-out gingerbread; daylight, shallow focus, cookies leaning in a plain box rather than a styled sweep, and the subject fills the frame edge to edge so a tall A4 center crop lands on whole cookies. Only reservation is how tight the macro is, so the crop gives no table context."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1261",
+   "slug": "apple-layered-strudel",
+   "title": "Apple Layered Strudel",
+   "file": "assets/georgian/1261/IMG_1261.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/georgian/1261/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1261-1.jpg",
+       "page_url": "https://www.pexels.com/photo/sliced-bread-in-a-parchment-paper-9589796/",
+       "image_url": "https://images.pexels.com/photos/9589796/pexels-photo-9589796.jpeg",
+       "author": "Yulia Ilina",
+       "site": "pexels.com",
+       "license": "Pexels License (free, commercial use, no attribution required)",
+       "why": "Verified live and free on Pexels; native portrait orientation and a cut end that literally shows the apple-filled layered spiral, so the tall A4 crop keeps the dish's defining feature with only board edge lost."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1261-2.jpg",
+       "page_url": "https://www.pexels.com/photo/close-up-photo-of-baked-bread-with-star-anise-9589795/",
+       "image_url": "https://images.pexels.com/photos/9589795/pexels-photo-9589795.jpeg",
+       "author": "Yulia Ilina",
+       "site": "pexels.com",
+       "license": "Pexels License (free, commercial use, no attribution required)",
+       "why": "Verified live and free, same shoot and same rustic daylight mood, but landscape framing with the loaf running diagonally means a portrait crop cuts one or both ends off; keep as backup."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1219",
+   "slug": "lucky-and-rippys-favorite-dog-food",
+   "title": "Lucky and Rippy's Favorite Dog Food",
+   "file": "assets/english/1219/IMG_1219.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1219/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [],
+     "panel_note": "Panel rejected all candidates: Both candidates verified live on Pexels (pages exist, free Pexels License, portrait, adequate resolution), and both fail on faithfulness once you actually look at the pixels rather than the caption.\n\nPexels 38244651 (Ahmad Shakir Shamsulbadri, 1200x1600 fetched, native ~2025x2700): overhead four-bowl human family dinner on a patterned tray — two bowls of herby chicken broth with whole black pepper",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1231",
+   "slug": "bbq-rub",
+   "title": "BBQ Rub",
+   "file": "assets/english/1231/IMG_1231.md",
+   "inventory_note": "needs new photo",
+   "current_photo": "assets/english/1231/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1231-1.jpg",
+       "page_url": "https://www.pexels.com/photo/spices-in-bowl-and-on-spoon-5502080/",
+       "image_url": "https://images.pexels.com/photos/5502080/pexels-photo-5502080.jpeg",
+       "author": "Eva Bronzini",
+       "site": "pexels.com",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified free on Pexels and, contrary to the page's own 'landscape' label, the file is native 2:3 portrait (3370x5055), so the full-bleed A4 crop is free. Ground rub heaped in a worn wooden bowl with chili flakes spilling off a tarnished spoon onto a scarred work surface reads as a blend someone mixed by hand: warm directional light, real texture, no studio gloss, and the open lower-right field takes a title cleanly."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1231-2.jpg",
+       "page_url": "https://www.pexels.com/photo/brown-powder-on-the-bowl-5740405/",
+       "image_url": "https://images.pexels.com/photos/5740405/pexels-photo-5740405.jpeg",
+       "author": "Eva Bronzini",
+       "site": "pexels.com",
+       "license": "Pexels License (free, no attribution required)",
+       "why": "Verified free and native portrait 2:3 (3499x5249), but the scout oversold it: the mound is fine, uniform, single-color powder that reads as cocoa or cinnamon rather than a paprika-and-sugar rub, and roughly two thirds of the frame is empty near-black bowl. Printable as a fallback, weak as a first choice."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
+   "img": "IMG_1235",
+   "slug": "baking-ingredient-weight-to-cup-conversions",
+   "title": "Baking Ingredient Weight to Cup Conversions",
+   "file": "assets/georgian/1235/IMG_1235.md",
+   "inventory_note": "needs a photo, a scale maybe",
+   "current_photo": "",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1235-1.jpg",
+       "page_url": "https://www.pexels.com/photo/a-person-putting-the-flour-on-a-weighing-scale-8176580/",
+       "image_url": "https://images.pexels.com/photos/8176580/pexels-photo-8176580.jpeg",
+       "author": "Ron Lach",
+       "site": "pexels",
+       "license": "Pexels License (free, commercial use OK, no attribution required)",
+       "why": "Verified live and free on Pexels; both scouts converged on this one file. Downloaded and inspected: native portrait 3909x5864, hands spooning flour onto a cream mechanical balance scale with a mixing bowl and glass flour jar alongside, soft window light and a real kitchen behind. Satisfies the owner's scale constraint literally, depicts weighing rather than a styled flat-lay, and the tall A4 bleed crop keeps the scale centered with headroom for a title block. Scout 2's stated 4082x2550 landscape dimensions were wrong; the file is portrait, which only helps here."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  }
+ ]
+}

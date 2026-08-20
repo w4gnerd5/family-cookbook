@@ -528,10 +528,10 @@
   "scans": [
    {
     "path": "assets/georgian/1186/IMG_1186.png",
-    "tilt": 5.24,
-    "dx": 14.19,
-    "dy": 115.16,
-    "scale": 1.0,
+    "scale": 0.9,
+    "tilt": 4.24,
+    "dx": -15.44,
+    "dy": 92.22,
     "aspect": 1.0235,
     "slot": 0
    }
@@ -1076,7 +1076,7 @@
   "scribe": "Zeinab",
   "scribe_confidence": 9,
   "slug": "puff-pastry",
-  "description": "A rough puff pastry and the layered savory pirog it was written for. Cutting cold butter into the flour rather than working it in leaves distinct sheets of fat that turn to steam in the oven and force the pastry open into flaky layers. The proportions given are for one pie.",
+  "description": "This recipe describes a \"rough puff\" or flaky pastry dough where the key to success is maintaining the cold temperature of the ingredients. By cutting the butter into the flour rather than fully incorporating it, you create distinct layers of fat that release steam during baking, creating the airy, shattered texture essential for traditional Slavic sweet or savory pies.",
   "ingredients": [
    {
     "group": "For the Dough"
@@ -2186,21 +2186,21 @@
   "scans": [
    {
     "path": "assets/english/1229/IMG_1230.png",
-    "scale": 1.0,
-    "tilt": 3.4,
+    "scale": 1.04,
+    "tilt": 3.9,
+    "dx": 6.56,
+    "dy": -57.7,
     "aspect": 0.7802,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1229/IMG_1229.png",
-    "scale": 1.0,
-    "tilt": -1.49,
+    "scale": 1.06,
+    "tilt": -1.99,
+    "dx": 13.02,
+    "dy": 74.33,
     "aspect": 0.7807,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Company Pot Roast",
@@ -2258,12 +2258,12 @@
   "scans": [
    {
     "path": "assets/georgian/1178/IMG_1178.png",
-    "scale": 1.0,
+    "scale": 1.1,
+    "dx": 4.35,
+    "dy": 48.86,
     "tilt": -2.3,
     "aspect": 0.7746,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Rusiko's Cutlets",
@@ -2318,12 +2318,12 @@
   "scans": [
    {
     "path": "assets/english/1213/IMG_1213.png",
-    "scale": 1.0,
-    "tilt": 1.34,
+    "scale": 1.12,
+    "tilt": 0.84,
+    "dx": 14.44,
+    "dy": 50.99,
     "aspect": 0.7781,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Whole Chicken Crock Pot",
@@ -2378,12 +2378,12 @@
   "scans": [
    {
     "path": "assets/georgian/1162/IMG_1162.png",
-    "scale": 1.0,
-    "tilt": 2.65,
+    "scale": 1.18,
+    "tilt": 1.65,
+    "dx": 12.53,
+    "dy": 7.1,
     "aspect": 0.7103,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Lyudmila's Beef Stroganoff",
@@ -2441,12 +2441,12 @@
   "scans": [
    {
     "path": "assets/english/1214/IMG_1214.png",
-    "scale": 1.0,
-    "tilt": -1.61,
+    "scale": 1.1,
+    "tilt": -2.61,
+    "dx": 2.47,
+    "dy": 68.05,
     "aspect": 0.7786,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Turkey Meatloaf",
@@ -2508,12 +2508,12 @@
   "scans": [
    {
     "path": "assets/english/1216/IMG_1216.png",
-    "scale": 1.0,
-    "tilt": 3.01,
+    "scale": 1.08,
+    "tilt": 2.01,
+    "dx": -3.2,
+    "dy": 17.56,
     "aspect": 0.7824,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Turkey and Quinoa Meatloaf",
@@ -2579,21 +2579,21 @@
   "scans": [
    {
     "path": "assets/georgian/1181/IMG_1187.png",
-    "scale": 1.0,
+    "scale": 0.8,
+    "dx": -47.92,
+    "dy": 11.67,
     "tilt": -2.5,
     "aspect": 1.028,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/georgian/1181/IMG_1181.png",
-    "scale": 1.0,
-    "tilt": 2.34,
+    "scale": 1.06,
+    "tilt": 7.84,
+    "dx": 14.19,
+    "dy": 129.12,
     "aspect": 1.4908,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Camca - Sumsa",
@@ -2666,21 +2666,21 @@
   "scans": [
    {
     "path": "assets/english/1210/IMG_1211.png",
-    "scale": 1.0,
+    "scale": 1.12,
+    "dx": 85.05,
+    "dy": 146.85,
     "tilt": 2.53,
     "aspect": 0.6539,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1210/IMG_1210.png",
-    "scale": 1.0,
-    "tilt": -2.38,
+    "scale": 1.22,
+    "tilt": -5.38,
+    "dx": -31.62,
+    "dy": -21.11,
     "aspect": 0.6462,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Cashew Nut Loaf",
@@ -2736,21 +2736,21 @@
   "scans": [
    {
     "path": "assets/english/1295/IMG_1296.png",
-    "scale": 1.0,
-    "tilt": -3.13,
+    "scale": 1.06,
+    "tilt": -6.13,
+    "dx": 41.03,
+    "dy": -20.35,
     "aspect": 0.7786,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1295/IMG_1295.png",
-    "scale": 1.0,
+    "scale": 1.06,
     "tilt": 2.02,
+    "dx": 19.04,
+    "dy": 101.12,
     "aspect": 0.7808,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Chicken, Rice, and Spices Bake",
@@ -2808,12 +2808,12 @@
   "scans": [
    {
     "path": "assets/georgian/1253/IMG_1253.png",
-    "scale": 1.0,
+    "scale": 1.14,
+    "dx": 16.54,
+    "dy": 53.31,
     "tilt": 1.64,
     "aspect": 0.7485,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Achma-Makarina",
@@ -2857,12 +2857,12 @@
   "scans": [
    {
     "path": "assets/english/1280/IMG_1280.png",
-    "scale": 1.0,
-    "tilt": 2.85,
+    "scale": 1.12,
+    "tilt": -6.65,
+    "dx": 2.46,
+    "dy": 53.17,
     "aspect": 0.774,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Bacon and Gruyere Breakfast Casserole",
@@ -2914,21 +2914,21 @@
   "scans": [
    {
     "path": "assets/english/1291/IMG_1292.png",
+    "tilt": 0.29,
+    "dx": 127.11,
+    "dy": 93.24,
     "scale": 1.0,
-    "tilt": -1.71,
     "aspect": 0.7875,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1291/IMG_1291.png",
+    "tilt": -3.13,
+    "dx": -64.4,
+    "dy": 4.99,
     "scale": 1.0,
-    "tilt": 3.37,
     "aspect": 0.7847,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Tuscan Farmers Breakfast",
@@ -5323,12 +5323,12 @@
   "scans": [
    {
     "path": "assets/english/1219/IMG_1219.png",
+    "tilt": 3.55,
+    "dx": -11.32,
+    "dy": -13.54,
     "scale": 1.0,
-    "tilt": 2.55,
     "aspect": 0.7732,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Lucky and Rippy's Favorite Dog Food",
