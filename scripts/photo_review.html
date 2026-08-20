@@ -53,6 +53,7 @@ function render(state) {
       ? `<img src="/file?p=${encodeURIComponent(r.current_photo)}"><div class="cap">current</div>`
       : `<div class="cap">no current photo</div>`;
     let rounds = '';
+    const last = Math.max(...r.rounds.map(x => x.n));
     for (const rd of r.rounds) {
       const cands = rd.candidates.length
         ? rd.candidates.map(c => `
@@ -66,7 +67,7 @@ function render(state) {
           </div>`).join('')
         : `<div class="panelnote">${esc(rd.panel_note || 'no candidates this round')}</div>`;
       rounds += `
-        <div class="round">
+        <div class="round" style="opacity: ${rd.n === last ? 1 : 0.55}">
           <div class="roundlabel">round ${rd.n}<br>${esc(rd.date || '')}</div>
           <div class="current">${rd.n === 1 ? cur : ''}</div>
           <div class="cands">${cands}</div>
