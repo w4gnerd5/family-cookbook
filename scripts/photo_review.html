@@ -73,6 +73,7 @@ function render(state) {
           <div class="cands">${cands}</div>
           <div class="notes">
             <textarea placeholder="notes for Claude — e.g. take 2nd · crop tighter · hate both, redo with…"
+              ${rd.locked ? 'readonly style="opacity:.7;border-style:dashed"' : ''}
               data-img="${esc(r.img)}" data-round="${rd.n}">${esc(rd.user_note)}</textarea>
             <div class="aac">${esc(rd.action_comment)}</div>
           </div>

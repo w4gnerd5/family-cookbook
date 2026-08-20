@@ -37,7 +37,8 @@
      ],
      "panel_note": "",
      "user_note": "use this www.pexels.com/photo/a-bread-with-sprinkled-flour-on-a-wooden-surface-9482667/",
-     "action_comment": "Applied your pick."
+     "action_comment": "Applied your pick.",
+     "locked": true
     },
     {
      "n": 2,
@@ -85,7 +86,8 @@
      ],
      "panel_note": "",
      "user_note": "1",
-     "action_comment": "Applied panel pick #1 (Nadin Sh, pexels)."
+     "action_comment": "Applied panel pick #1 (Nadin Sh, pexels).",
+     "locked": true
     },
     {
      "n": 2,
@@ -133,7 +135,8 @@
      ],
      "panel_note": "",
      "user_note": "use this one unsplash.com/photos/pancake-cake-with-red-caviar-and-sour-cream-NTNxQer6RsU",
-     "action_comment": "Applied your pick (blini stack with caviar and sour cream)."
+     "action_comment": "Applied your pick (blini stack with caviar and sour cream).",
+     "locked": true
     },
     {
      "n": 2,
@@ -181,7 +184,8 @@
      ],
      "panel_note": "",
      "user_note": "use this www.pexels.com/photo/close-up-photo-of-pirozhki-bread-8599648/",
-     "action_comment": "Applied your pick."
+     "action_comment": "Applied your pick.",
+     "locked": true
     },
     {
      "n": 2,
@@ -219,7 +223,8 @@
      ],
      "panel_note": "",
      "user_note": "use this www.pexels.com/photo/close-up-of-cutting-kchachapuri-16260567/",
-     "action_comment": "Applied your pick."
+     "action_comment": "Applied your pick.",
+     "locked": true
     },
     {
      "n": 2,
@@ -267,7 +272,8 @@
      ],
      "panel_note": "",
      "user_note": "1",
-     "action_comment": "Applied panel pick #1 (Roman Odintsov, pexels)."
+     "action_comment": "Applied panel pick #1 (Roman Odintsov, pexels).",
+     "locked": true
     },
     {
      "n": 2,
@@ -315,7 +321,8 @@
      ],
      "panel_note": "",
      "user_note": "1",
-     "action_comment": "Applied panel pick #1 (Laura Ohlman, unsplash)."
+     "action_comment": "Applied panel pick #1 (Laura Ohlman, unsplash).",
+     "locked": true
     },
     {
      "n": 2,
@@ -363,7 +370,8 @@
      ],
      "panel_note": "",
      "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. RESOLUTION LOW (1368x768): please regenerate larger — this prints soft."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. RESOLUTION LOW (1368x768): please regenerate larger — this prints soft.",
+     "locked": true
     },
     {
      "n": 2,
@@ -401,7 +409,8 @@
      ],
      "panel_note": "",
      "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. RESOLUTION LOW (1195x896): please regenerate larger — this prints soft."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. RESOLUTION LOW (1195x896): please regenerate larger — this prints soft.",
+     "locked": true
     },
     {
      "n": 2,
@@ -439,7 +448,8 @@
      ],
      "panel_note": "",
      "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. RESOLUTION LOW (1408x768): please regenerate larger — this prints soft."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. RESOLUTION LOW (1408x768): please regenerate larger — this prints soft.",
+     "locked": true
     },
     {
      "n": 2,
@@ -477,7 +487,8 @@
      ],
      "panel_note": "",
      "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated.",
+     "locked": true
     },
     {
      "n": 2,
@@ -515,7 +526,8 @@
      ],
      "panel_note": "",
      "user_note": "1",
-     "action_comment": "Applied panel pick #1 (Mohamed Olwy, pexels)."
+     "action_comment": "Applied panel pick #1 (Mohamed Olwy, pexels).",
+     "locked": true
     },
     {
      "n": 2,
@@ -563,7 +575,8 @@
      ],
      "panel_note": "",
      "user_note": "use this www.pexels.com/photo/cooked-food-on-black-ceramic-bowl-8481844/",
-     "action_comment": "Applied your pick."
+     "action_comment": "Applied your pick.",
+     "locked": true
     },
     {
      "n": 2,
@@ -611,7 +624,8 @@
      ],
      "panel_note": "",
      "user_note": "2",
-     "action_comment": "Applied panel pick #2 (Paul Hanaoka, unsplash)."
+     "action_comment": "Applied panel pick #2 (Paul Hanaoka, unsplash).",
+     "locked": true
     },
     {
      "n": 2,
@@ -649,7 +663,8 @@
      ],
      "panel_note": "",
      "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated.",
+     "locked": true
     },
     {
      "n": 2,
@@ -697,7 +712,8 @@
      ],
      "panel_note": "",
      "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated.",
+     "locked": true
     },
     {
      "n": 2,
@@ -735,7 +751,8 @@
      ],
      "panel_note": "",
      "user_note": "1",
-     "action_comment": "Applied panel pick #1 (Amanda Lim, pexels)."
+     "action_comment": "Applied panel pick #1 (Amanda Lim, pexels).",
+     "locked": true
     },
     {
      "n": 2,
@@ -773,7 +790,8 @@
      ],
      "panel_note": "",
      "user_note": "1",
-     "action_comment": "Applied panel pick #1 (Rachel Claire, pexels)."
+     "action_comment": "Applied panel pick #1 (Rachel Claire, pexels).",
+     "locked": true
     },
     {
      "n": 2,
@@ -811,7 +829,8 @@
      ],
      "panel_note": "",
      "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated.",
+     "locked": true
     },
     {
      "n": 2,
@@ -859,7 +878,8 @@
      ],
      "panel_note": "",
      "user_note": "use this www.pexels.com/photo/rice-and-chicken-meal-on-the-plate-16020573/",
-     "action_comment": "Applied your pick."
+     "action_comment": "Applied your pick.",
+     "locked": true
     },
     {
      "n": 2,
@@ -886,7 +906,8 @@
      "candidates": [],
      "panel_note": "Panel rejected all candidates: Only candidate was Pexels 34314497 (ERIVELTO Martins, \"Delicious Crispy Pork Belly with Fresh Lime\"). Page verified: exists, free Pexels License, 2578x1772. Rejected on two independent grounds. (1) Fidelity: the recipe is a salad — chilled watermelon cubes, pickled shallot, chili, herbs, crispy pork tossed through. The image is Brazilian torresmo: four chunks of fried pork belly and two lime wedge",
      "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated.",
+     "locked": true
     },
     {
      "n": 2,
@@ -924,7 +945,8 @@
      ],
      "panel_note": "",
      "user_note": "look for something called Chashushuli",
-     "action_comment": "Chashushuli round 2 being scouted — candidates will appear as round 2."
+     "action_comment": "Chashushuli round 2 being scouted — candidates will appear as round 2.",
+     "locked": true
     },
     {
      "n": 2,
@@ -993,7 +1015,8 @@
      ],
      "panel_note": "",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "",
+     "locked": true
     },
     {
      "n": 2,
@@ -1031,7 +1054,8 @@
      ],
      "panel_note": "",
      "user_note": "1",
-     "action_comment": "Applied panel pick #1 (Zehra Yılmaz, pexels)."
+     "action_comment": "Applied panel pick #1 (Zehra Yılmaz, pexels).",
+     "locked": true
     },
     {
      "n": 2,
@@ -1079,7 +1103,8 @@
      ],
      "panel_note": "",
      "user_note": "i had to change the name here.  there was a mistranlation. in fact can you review and make sure my new translation makes more sesnse. also replaced current photo with ai generated from nano bananna 2",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help. Title verified against the scan: original says 'badrijani da bulgaruli tsitsaka' (eggplant and bell peppers) and 'khortsis parshi' (meat filling) — 'Khortsia Tsomshi' was a corruption, your retitle is right. Frontmatter title + slug synced, description corrected (no parboiling; tomato juice not paste)."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help. Title verified against the scan: original says 'badrijani da bulgaruli tsitsaka' (eggplant and bell peppers) and 'khortsis parshi' (meat filling) — 'Khortsia Tsomshi' was a corruption, your retitle is right. Frontmatter title + slug synced, description corrected (no parboiling; tomato juice not paste).",
+     "locked": true
     },
     {
      "n": 2,
@@ -1117,7 +1142,8 @@
      ],
      "panel_note": "",
      "user_note": "1",
-     "action_comment": "Applied panel pick #1 (Mohamed Olwy, pexels.com)."
+     "action_comment": "Applied panel pick #1 (Mohamed Olwy, pexels.com).",
+     "locked": true
     },
     {
      "n": 2,
@@ -1144,7 +1170,8 @@
      "candidates": [],
      "panel_note": "Panel rejected all candidates: both scouts came back empty",
      "user_note": "replaced photo with ai",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help.",
+     "locked": true
     },
     {
      "n": 2,
@@ -1171,7 +1198,8 @@
      "candidates": [],
      "panel_note": "Panel rejected all candidates: Both candidates verified live on Pexels and both are genuinely free-tier, correctly attributed, and correctly described by their scouts (12354402 \"Fusilli Pasta with Feta and Olives\" by Ayrat; 8385550 \"Vibrant pasta salad with fresh vegetables and feta cheese, captured from above\" by Lisa Fotios). Both fail the same absolute test: the owner note names broccoli, and neither frame contains any. Beyo",
      "user_note": "replaced photo with ai",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help.",
+     "locked": true
     },
     {
      "n": 2,
@@ -1198,7 +1226,8 @@
      "candidates": [],
      "panel_note": "Panel rejected all candidates: Both scouts submitted the same image (Pexels 7372055, \"A Salad with Herbs on a Plate\" by Natia). I verified the page: it exists, is free Pexels License, 3472x4624 portrait, good natural-light home-table mood. But the page's own caption describes it as \"a fresh and creamy radish salad garnished with herbs\" — a meatless radish-and-cream salad. Both scouts concede in their own defenses that the pale ",
      "user_note": "replaced with ai",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help.",
+     "locked": true
     },
     {
      "n": 2,
@@ -1236,7 +1265,8 @@
      ],
      "panel_note": "",
      "user_note": "replaced with ai",
-     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help."
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help.",
+     "locked": true
     },
     {
      "n": 2,
@@ -1284,7 +1314,8 @@
      ],
      "panel_note": "",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "",
+     "locked": true
     },
     {
      "n": 2,
@@ -1311,7 +1342,8 @@
      "candidates": [],
      "panel_note": "Panel rejected all candidates: Both candidates verified as genuine free-tier Pexels pages, and both rejected on fidelity — each one's own page contradicts its defense.\n\nPexels 7553034 (Yunus Emre Can): the page caption reads \"warm drink and chocolate puddings on a wooden table.\" The scout argued the color \"reads molasses rather than pale gold,\" but the photographer titled and tagged them chocolate. Dark glossy individual crocks",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "",
+     "locked": true
     },
     {
      "n": 2,
@@ -1349,7 +1381,8 @@
      ],
      "panel_note": "",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "",
+     "locked": true
     },
     {
      "n": 2,
@@ -1397,7 +1430,8 @@
      ],
      "panel_note": "",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "",
+     "locked": true
     },
     {
      "n": 2,
@@ -1424,7 +1458,8 @@
      "candidates": [],
      "panel_note": "Panel rejected all candidates: Both candidates verified live on Pexels (pages exist, free Pexels License, portrait, adequate resolution), and both fail on faithfulness once you actually look at the pixels rather than the caption.\n\nPexels 38244651 (Ahmad Shakir Shamsulbadri, 1200x1600 fetched, native ~2025x2700): overhead four-bowl human family dinner on a patterned tray — two bowls of herby chicken broth with whole black pepper",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "",
+     "locked": true
     },
     {
      "n": 2,
@@ -1472,7 +1507,8 @@
      ],
      "panel_note": "",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "",
+     "locked": true
     },
     {
      "n": 2,
@@ -1510,7 +1546,8 @@
      ],
      "panel_note": "",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "",
+     "locked": true
     },
     {
      "n": 2,

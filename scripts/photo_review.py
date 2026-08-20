@@ -77,6 +77,8 @@ class H(BaseHTTPRequestHandler):
                 rnd = next((r for r in rec["rounds"] if r["n"] == upd["round"]), None)
                 if rnd is None:
                     return self._send(404, b'{"error": "unknown round"}')
+                if rnd.get("locked"):
+                    return self._send(423, b'{"error": "round is locked"}')
                 rnd["user_note"] = str(upd["value"])[:4000]
             else:
                 return self._send(400, b'{"error": "field not editable"}')
