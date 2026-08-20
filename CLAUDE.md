@@ -160,6 +160,11 @@ open. Never delete a ledger row — stamp its status `applied @ <commit>`.
   card/title collisions are visible. "Proof PDF pages" saves then compiles just
   that recipe via `typst compile --input only=<slug>` (no front matter, no
   dividers) into print/preview/ and shows the pages in an overlay.
+- `scripts/photo_review.py` — photo-swap review on `localhost:8767`, backed by the
+  git-tracked round ledger `photo-review.json`: per recipe, each scout/judge round
+  is a row with candidate thumbnails linked to their source pages, Paul's note
+  telling Claude what to do, and Claude's after-action comment once done. Rounds
+  are append-only; thumbs cache in `print/photo-cands/` (gitignored).
 - `scripts/apply_curation.py` — executes ledger edits (cuts to `attic/`, section moves, renumbering)
 - `scripts/reconcile_slugs.py` — after hand-edited slugs: diffs by recipe ID, rewrites `see_also:`
   references, blocks collisions, refreshes the baseline
