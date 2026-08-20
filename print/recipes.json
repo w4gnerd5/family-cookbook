@@ -918,15 +918,15 @@
    {
     "path": "assets/georgian/1236/IMG_1236.png",
     "scale": 1.0,
-    "tilt": 2.55,
+    "tilt": 1.23,
     "aspect": 0.9744,
     "slot": 0,
     "dx": 0.0,
     "dy": 0.0
    }
   ],
-  "title": "Oven-Baked Brioches",
-  "title_print": "Oven-Baked Brioches",
+  "title": "Oven-Baked Pirozhki",
+  "title_print": "Oven-Baked Pirozhki",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -937,16 +937,16 @@
   "see_also": [],
   "scribe": "",
   "scribe_confidence": 0,
-  "slug": "oven-baked-brioches",
-  "description": "This recipe utilizes a traditional \"starter\" (preferment) method, which is the secret to achieving a light, airy crumb in yeast-based breads. By first activating the yeast with a small amount of flour and warm water, you ensure a strong ferment that gives these brioches their characteristic soft texture and rich flavor even without excessive dairy.",
+  "slug": "oven-baked-pirozhki",
+  "description": "A dough for oven-baked pirozhki, built on a traditional \"starter\" (preferment). Activating the yeast first with a little flour and warm water gives a strong ferment, and scalding the main flour with boiling water makes the dough soft and pliable, for buns with a light, airy crumb.",
   "ingredients": [
    "3 tablespoons flour",
    "1 teaspoon sugar",
    "1 teaspoon salt",
    "7-8 grams yeast",
    "150 ml boiling water",
-   "Separately: 300 grams flour",
-   "2 tablespoons oil"
+   "Separately: 800 grams flour",
+   "4 tablespoons oil"
   ],
   "instructions": [
    "- Mix the first five ingredients (3 tablespoons of flour, sugar, salt, yeast, and warm water) to create a starter.",

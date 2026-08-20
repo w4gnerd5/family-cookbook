@@ -18,7 +18,7 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Breads & Doughs | 10 | Yeast Dough for Khachapuri, Pies, and Pirozhki | georgian | yeast-dough-for-khachapuri-pies-and-pirozhki | assets/georgian/1243/IMG_1243.md |
 | Breads & Doughs | 11 | Russian Pirozhki with Scalded Yeast Dough (Yields 30) | georgian | russian-pirozhki-with-scalded-yeast-dough | assets/georgian/1184/IMG_1184.md |
 | Breads & Doughs | 12 | Pirozhki with Kefir | georgian | pirozhki-with-kefir | assets/georgian/1269/IMG_1269.md |
-| Breads & Doughs | 13 | Oven-Baked Brioches | georgian | oven-baked-brioches | assets/georgian/1236/IMG_1236.md |
+| Breads & Doughs | 13 | Oven-Baked Pirozhki | georgian | oven-baked-pirozhki | assets/georgian/1236/IMG_1236.md |
 | Breads & Doughs | 14 | Mom's Zucchini Bread | english | moms-zucchini-bread | assets/english/1290/IMG_1290.md |
 | Breads & Doughs | 15 | Puff Pastry and Layered Pirog | georgian | puff-pastry | assets/georgian/1237/IMG_1237.md |
 | Breads & Doughs | 16 | Traditional Georgian Bread Shaping Instructions | georgian | traditional-georgian-bread-shaping-instructions | assets/georgian/1168/IMG_1168.md |

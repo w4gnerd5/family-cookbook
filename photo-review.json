@@ -36,7 +36,7 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
+     "user_note": "use this www.pexels.com/photo/a-bread-with-sprinkled-flour-on-a-wooden-surface-9482667/",
      "action_comment": ""
     }
    ]
@@ -76,7 +76,7 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
+     "user_note": "1",
      "action_comment": ""
     }
    ]
@@ -116,15 +116,15 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
+     "user_note": "use this one unsplash.com/photos/pancake-cake-with-red-caviar-and-sour-cream-NTNxQer6RsU",
      "action_comment": ""
     }
    ]
   },
   {
    "img": "IMG_1236",
-   "slug": "oven-baked-brioches",
-   "title": "Oven-Baked Brioches",
+   "slug": "oven-baked-pirozhki",
+   "title": "Oven-Baked Pirozhki",
    "file": "assets/georgian/1236/IMG_1236.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1236/dish.jpg",
@@ -157,7 +157,7 @@
      ],
      "panel_note": "",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "Recipe was mistitled: the Georgian original says 'perashkebi ghumelshi' = oven pirozhki. Title/slug/description fixed, flour 300->800g and oil 2->4 tbsp corrected against the scan. Round-1 candidates were scouted for 'brioches' — visually close (glossy egg-washed buns) but note here if you want a round 2 scouted for pirozhki proper."
     }
    ]
   },
