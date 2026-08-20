@@ -69,7 +69,7 @@ function render(state) {
       rounds += `
         <div class="round" style="opacity: ${rd.n === last ? 1 : 0.55}">
           <div class="roundlabel">round ${rd.n}<br>${esc(rd.date || '')}</div>
-          <div class="current">${rd.n === 1 ? cur : ''}</div>
+          <div class="current">${rd.n === last ? cur : ''}</div>
           <div class="cands">${cands}</div>
           <div class="notes">
             <textarea placeholder="notes for Claude — e.g. take 2nd · crop tighter · hate both, redo with…"
