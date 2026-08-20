@@ -8,7 +8,7 @@
    "file": "assets/english/1209/IMG_1209.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1209/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -37,7 +37,7 @@
      ],
      "panel_note": "",
      "user_note": "use this www.pexels.com/photo/a-bread-with-sprinkled-flour-on-a-wooden-surface-9482667/",
-     "action_comment": ""
+     "action_comment": "Applied your pick."
     }
    ]
   },
@@ -48,7 +48,7 @@
    "file": "assets/georgian/1198/IMG_1198.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1198/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -77,7 +77,7 @@
      ],
      "panel_note": "",
      "user_note": "1",
-     "action_comment": ""
+     "action_comment": "Applied panel pick #1 (Nadin Sh, pexels)."
     }
    ]
   },
@@ -88,7 +88,7 @@
    "file": "assets/georgian/1233/IMG_1233.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1233/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -117,7 +117,7 @@
      ],
      "panel_note": "",
      "user_note": "use this one unsplash.com/photos/pancake-cake-with-red-caviar-and-sour-cream-NTNxQer6RsU",
-     "action_comment": ""
+     "action_comment": "Applied your pick (blini stack with caviar and sour cream)."
     }
    ]
   },
@@ -128,7 +128,7 @@
    "file": "assets/georgian/1236/IMG_1236.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1236/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -156,8 +156,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": "Recipe was mistitled: the Georgian original says 'perashkebi ghumelshi' = oven pirozhki. Title/slug/description fixed, flour 300->800g and oil 2->4 tbsp corrected against the scan. Round-1 candidates were scouted for 'brioches' — visually close (glossy egg-washed buns) but note here if you want a round 2 scouted for pirozhki proper."
+     "user_note": "use this www.pexels.com/photo/close-up-photo-of-pirozhki-bread-8599648/",
+     "action_comment": "Applied your pick."
     }
    ]
   },
@@ -168,7 +168,7 @@
    "file": "assets/georgian/1241/IMG_1242.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1241/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -186,8 +186,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "use this www.pexels.com/photo/close-up-of-cutting-kchachapuri-16260567/",
+     "action_comment": "Applied your pick."
     }
    ]
   },
@@ -198,7 +198,7 @@
    "file": "assets/georgian/1243/IMG_1243.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1243/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -226,8 +226,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "1",
+     "action_comment": "Applied panel pick #1 (Roman Odintsov, pexels)."
     }
    ]
   },
@@ -238,7 +238,7 @@
    "file": "assets/english/1228/IMG_1228.md",
    "inventory_note": "needs a new photo.  try to find something rustic and hearty looking",
    "current_photo": "assets/english/1228/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -266,8 +266,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "1",
+     "action_comment": "Applied panel pick #1 (Laura Ohlman, unsplash)."
     }
    ]
   },
@@ -278,7 +278,7 @@
    "file": "assets/english/1285/IMG_1285.md",
    "inventory_note": "needs new photo. ensure no corn in photo",
    "current_photo": "assets/english/1285/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -306,8 +306,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. RESOLUTION LOW (1368x768): please regenerate larger — this prints soft."
     }
    ]
   },
@@ -318,7 +318,7 @@
    "file": "assets/english/1210/IMG_1210.md",
    "inventory_note": "nees new photo",
    "current_photo": "assets/english/1210/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -336,8 +336,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. RESOLUTION LOW (1195x896): please regenerate larger — this prints soft."
     }
    ]
   },
@@ -348,7 +348,7 @@
    "file": "assets/english/1213/IMG_1213.md",
    "inventory_note": "needs new photo. make sure it a crok pot not a roasted chicken",
    "current_photo": "assets/english/1213/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -366,8 +366,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. RESOLUTION LOW (1408x768): please regenerate larger — this prints soft."
     }
    ]
   },
@@ -378,7 +378,7 @@
    "file": "assets/english/1216/IMG_1216.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1216/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -396,8 +396,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
     }
    ]
   },
@@ -408,7 +408,7 @@
    "file": "assets/english/1217/IMG_1217.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1217/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -426,8 +426,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "1",
+     "action_comment": "Applied panel pick #1 (Mohamed Olwy, pexels)."
     }
    ]
   },
@@ -438,7 +438,7 @@
    "file": "assets/english/1221/IMG_1221.md",
    "inventory_note": "new photo needed.",
    "current_photo": "assets/english/1221/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -466,8 +466,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "use this www.pexels.com/photo/cooked-food-on-black-ceramic-bowl-8481844/",
+     "action_comment": "Applied your pick."
     }
    ]
   },
@@ -478,7 +478,7 @@
    "file": "assets/english/1222/IMG_1222.md",
    "inventory_note": "needs new photo, wider shot, try for colorful more baja style with veg and white cheese",
    "current_photo": "assets/english/1222/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -506,8 +506,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "2",
+     "action_comment": "Applied panel pick #2 (Paul Hanaoka, unsplash)."
     }
    ]
   },
@@ -518,7 +518,7 @@
    "file": "assets/english/1229/IMG_1229.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1229/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -536,8 +536,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
     }
    ]
   },
@@ -548,7 +548,7 @@
    "file": "assets/english/1280/IMG_1280.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1280/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -576,8 +576,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
     }
    ]
   },
@@ -588,7 +588,7 @@
    "file": "assets/english/1282/IMG_1282.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1282/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -606,8 +606,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "1",
+     "action_comment": "Applied panel pick #1 (Amanda Lim, pexels)."
     }
    ]
   },
@@ -618,7 +618,7 @@
    "file": "assets/english/1288/IMG_1288.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1288/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -636,8 +636,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "1",
+     "action_comment": "Applied panel pick #1 (Rachel Claire, pexels)."
     }
    ]
   },
@@ -648,7 +648,7 @@
    "file": "assets/english/1291/IMG_1291.md",
    "inventory_note": "needs new photo, this is more like a shakshuka with beans",
    "current_photo": "assets/english/1291/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -666,8 +666,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
     }
    ]
   },
@@ -678,7 +678,7 @@
    "file": "assets/english/1295/IMG_1295.md",
    "inventory_note": "needs new photo. this is a one pot dish",
    "current_photo": "assets/english/1295/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -706,8 +706,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "use this www.pexels.com/photo/rice-and-chicken-meal-on-the-plate-16020573/",
+     "action_comment": "Applied your pick."
     }
    ]
   },
@@ -718,15 +718,15 @@
    "file": "assets/english/1297/IMG_1297.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/english/1297/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Panel rejected all candidates: Only candidate was Pexels 34314497 (ERIVELTO Martins, \"Delicious Crispy Pork Belly with Fresh Lime\"). Page verified: exists, free Pexels License, 2578x1772. Rejected on two independent grounds. (1) Fidelity: the recipe is a salad — chilled watermelon cubes, pickled shallot, chili, herbs, crispy pork tossed through. The image is Brazilian torresmo: four chunks of fried pork belly and two lime wedge",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i replaced the current dish.jpg with an ai generated one from nano banana 2",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated."
     }
    ]
   },
@@ -755,6 +755,45 @@
       }
      ],
      "panel_note": "",
+     "user_note": "look for something called Chashushuli",
+     "action_comment": "Chashushuli round 2 being scouted — candidates will appear as round 2."
+    },
+    {
+     "n": 2,
+     "date": "2026-08-19",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "IMG_1162-r2-36829355.jpg",
+       "page_url": "https://www.pexels.com/photo/delicious-beef-stew-with-peppers-and-tomatoes-36829355/",
+       "image_url": "https://images.pexels.com/photos/36829355/pexels-photo-36829355.jpeg",
+       "author": "Mohamed Olwy",
+       "site": "pexels",
+       "license": "Pexels License",
+       "why": "Closest to chashushuli: beef chunks in a bright tomato-pepper stew, close-up, rustic."
+      },
+      {
+       "rank": 2,
+       "thumb": "IMG_1162-r2-5713756.jpg",
+       "page_url": "https://www.pexels.com/photo/vegetable-dish-on-blue-ceramic-bowl-5713756/",
+       "image_url": "https://images.pexels.com/photos/5713756/pexels-photo-5713756.jpeg",
+       "author": "Farhad Ibrahimzade",
+       "site": "pexels",
+       "license": "Pexels License",
+       "why": "Beef stew with peppers and herbs in a rustic bowl; Caucasus-adjacent plating (Ibrahimzade shoots Azeri/Caucasus food)."
+      },
+      {
+       "rank": 3,
+       "thumb": "IMG_1162-r2-38441086.jpg",
+       "page_url": "https://www.pexels.com/photo/traditional-hungarian-goulash-in-red-pot-38441086/",
+       "image_url": "https://images.pexels.com/photos/38441086/pexels-photo-38441086.jpeg",
+       "author": "kirpiklipencere",
+       "site": "pexels",
+       "license": "Pexels License",
+       "why": "Goulash in a red pot on a checkered cloth; homiest mood, but reads Hungarian rather than Georgian."
+      }
+     ],
+     "panel_note": "Round 2 per your note: chashushuli (Georgian tomato beef stew). No stock photo is labeled chashushuli; these are the closest visual matches, ranked.",
      "user_note": "",
      "action_comment": ""
     }
@@ -797,7 +836,7 @@
    "file": "assets/georgian/1201/IMG_1201.md",
    "inventory_note": "needs new photo, more casserole looking, also english not georgian",
    "current_photo": "assets/georgian/1201/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -815,19 +854,19 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "1",
+     "action_comment": "Applied panel pick #1 (Zehra Yılmaz, pexels)."
     }
    ]
   },
   {
    "img": "IMG_1250",
-   "slug": "beef-eggplant-bell-pepper-boat-khortsia-tsomshi",
-   "title": "Beef Eggplant / Bell Pepper Boat (Khortsia Tsomshi)",
+   "slug": "beef-stuffed-eggplant-and-pepper-boats",
+   "title": "Beef Stuffed Eggplant & Bell Pepper Boats",
    "file": "assets/georgian/1250/IMG_1250.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1250/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -855,8 +894,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "i had to change the name here.  there was a mistranlation. in fact can you review and make sure my new translation makes more sesnse. also replaced current photo with ai generated from nano bananna 2",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help. Title verified against the scan: original says 'badrijani da bulgaruli tsitsaka' (eggplant and bell peppers) and 'khortsis parshi' (meat filling) — 'Khortsia Tsomshi' was a corruption, your retitle is right. Frontmatter title + slug synced, description corrected (no parboiling; tomato juice not paste)."
     }
    ]
   },
@@ -867,7 +906,7 @@
    "file": "assets/georgian/1254/IMG_1254.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1254/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -885,8 +924,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "1",
+     "action_comment": "Applied panel pick #1 (Mohamed Olwy, pexels.com)."
     }
    ]
   },
@@ -897,15 +936,15 @@
    "file": "assets/english/1215/IMG_1215.md",
    "inventory_note": "needs new pic. make sure it has cranberries, chicken and pecans",
    "current_photo": "assets/english/1215/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Panel rejected all candidates: both scouts came back empty",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "replaced photo with ai",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help."
     }
    ]
   },
@@ -916,15 +955,15 @@
    "file": "assets/english/1281/IMG_1281.md",
    "inventory_note": "needs new photo, fussili, tomato, brocolli, olives, fetta",
    "current_photo": "assets/english/1281/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Panel rejected all candidates: Both candidates verified live on Pexels and both are genuinely free-tier, correctly attributed, and correctly described by their scouts (12354402 \"Fusilli Pasta with Feta and Olives\" by Ayrat; 8385550 \"Vibrant pasta salad with fresh vegetables and feta cheese, captured from above\" by Lisa Fotios). Both fail the same absolute test: the owner note names broccoli, and neither frame contains any. Beyo",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "replaced photo with ai",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help."
     }
    ]
   },
@@ -935,15 +974,15 @@
    "file": "assets/georgian/1247/IMG_1247.md",
    "inventory_note": "needs new photo. make sure its a mayo based salad with radish, chicken and onion.",
    "current_photo": "assets/georgian/1247/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
      "date": "2026-08-19",
      "candidates": [],
      "panel_note": "Panel rejected all candidates: Both scouts submitted the same image (Pexels 7372055, \"A Salad with Herbs on a Plate\" by Natia). I verified the page: it exists, is free Pexels License, 3472x4624 portrait, good natural-light home-table mood. But the page's own caption describes it as \"a fresh and creamy radish salad garnished with herbs\" — a meatless radish-and-cream salad. Both scouts concede in their own defenses that the pale ",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "replaced with ai",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help."
     }
    ]
   },
@@ -954,7 +993,7 @@
    "file": "assets/georgian/1257/IMG_1257.md",
    "inventory_note": "needs new photo",
    "current_photo": "assets/georgian/1257/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -972,8 +1011,8 @@
       }
      ],
      "panel_note": "",
-     "user_note": "",
-     "action_comment": ""
+     "user_note": "replaced with ai",
+     "action_comment": "Your AI render is in place (renamed photo.jpg -> dish.jpg per the dish.* convention), photo_source set to ai-generated. Resolution 2400x1792 prints ~150dpi after the tall crop; upsizing to 4800-class like your later renders would help."
     }
    ]
   },

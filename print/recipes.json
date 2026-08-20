@@ -3553,7 +3553,7 @@
    {
     "path": "assets/georgian/1250/IMG_1251.png",
     "scale": 1.0,
-    "tilt": 3.08,
+    "tilt": -3.11,
     "aspect": 0.7468,
     "slot": 1,
     "dx": 0.0,
@@ -3562,15 +3562,15 @@
    {
     "path": "assets/georgian/1250/IMG_1250.png",
     "scale": 1.0,
-    "tilt": 3.11,
+    "tilt": -2.99,
     "aspect": 0.742,
     "slot": 0,
     "dx": 0.0,
     "dy": 0.0
    }
   ],
-  "title": "Beef Eggplant / Bell Pepper Boat (Khortsia Tsomshi)",
-  "title_print": "Beef Eggplant / Bell Pepper Boat (Khortsia Tsomshi)",
+  "title": "Beef Stuffed Eggplant & Bell Pepper Boats",
+  "title_print": "Beef Stuffed Eggplant & Bell Pepper Boats",
   "language": "georgian",
   "section": "Mains",
   "batch": "",
@@ -3581,8 +3581,8 @@
   "see_also": [],
   "scribe": "",
   "scribe_confidence": 0,
-  "slug": "beef-eggplant-bell-pepper-boat-khortsia-tsomshi",
-  "description": "This traditional Georgian preparation transforms tender parboiled meat into a decorative centerpiece by garnishing it with garlic cloves shaped like a boat's sails. The method of \"half-boiling\" the meat first ensures it remains succulent during the final high-heat bake, while seasoning with fresh herbs and bell peppers provides the aromatic complexity characteristic of Caucasian cuisine.",
+  "slug": "beef-stuffed-eggplant-and-pepper-boats",
+  "description": "Eggplant halves and bell pepper boats filled with a beef and onion farsh cooked in butter and brightened with tomato juice (Zeinab is emphatic: juice, not paste). Halved garlic cloves are stuck into the filling like a boat's sails, and the boats get a short finish in a hot oven just before serving.",
   "ingredients": [
    "Medium-small eggplants",
    "Assorted bell peppers (red, green, and yellow; preferably medium-large)",

@@ -55,7 +55,7 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Mains | 22 | Baked Salmon with Dill Garlic Beurre Blanc | english | baked-salmon-with-dill-garlic-beurre-blanc | assets/english/1279/IMG_1279.md |
 | Mains | 23 | American Kebab | georgian | american-kebab | assets/georgian/1254/IMG_1254.md |
 | Mains | 24 | Garlic Braised Short Ribs With Red Wine | english | garlic-braised-short-ribs-with-red-wine | assets/english/1288/IMG_1288.md |
-| Mains | 25 | Beef Eggplant / Bell Pepper Boat (Khortsia Tsomshi) | georgian | beef-eggplant-bell-pepper-boat-khortsia-tsomshi | assets/georgian/1250/IMG_1250.md |
+| Mains | 25 | Beef Stuffed Eggplant & Bell Pepper Boats | georgian | beef-stuffed-eggplant-and-pepper-boats | assets/georgian/1250/IMG_1250.md |
 | Mains | 26 | Apple Cider Braised Pork Shoulder | english | apple-cider-braised-pork-shoulder | assets/english/1217/IMG_1217.md |
 | Mains | 27 | Slow-Roasted Crispy Pork Belly | english | slow-roasted-crispy-pork-belly | assets/english/1282/IMG_1282.md |
 | Mains | 28 | Homemade Merguez Sausage | english | homemade-merguez-sausage | assets/english/1205/IMG_1205.md |
