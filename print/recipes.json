@@ -101,8 +101,8 @@
    {
     "path": "assets/english/1209/IMG_1277.png",
     "tilt": 2.22,
-    "dx": 64.97,
-    "dy": -131.86,
+    "dx": 67.08,
+    "dy": -68.42,
     "scale": 1.0,
     "aspect": 0.7763,
     "slot": 1
@@ -111,8 +111,8 @@
     "path": "assets/english/1209/IMG_1209.png",
     "scale": 1.06,
     "tilt": -6.97,
-    "dx": -13.29,
-    "dy": 0.68,
+    "dx": -7.27,
+    "dy": 80.85,
     "aspect": 0.7744,
     "slot": 0
    }
@@ -172,8 +172,8 @@
     "path": "assets/english/1274/IMG_1274.png",
     "scale": 1.04,
     "tilt": 2.85,
-    "dx": -4.73,
-    "dy": -13.54,
+    "dx": 4.03,
+    "dy": 44.58,
     "aspect": 0.7693,
     "slot": 0
    }
@@ -235,8 +235,8 @@
     "path": "assets/georgian/1161/IMG_1161.png",
     "scale": 1.1,
     "tilt": 4.15,
-    "dx": -6.0,
-    "dy": -39.66,
+    "dx": 14.2,
+    "dy": 43.45,
     "aspect": 0.7229,
     "slot": 0
    }
@@ -299,8 +299,8 @@
    {
     "path": "assets/georgian/1198/IMG_1198.png",
     "scale": 1.02,
-    "dx": -1.07,
-    "dy": 46.11,
+    "dx": 8.08,
+    "dy": 80.01,
     "tilt": 2.5,
     "aspect": 0.7801,
     "slot": 0
@@ -363,8 +363,8 @@
    {
     "path": "assets/georgian/1180/IMG_1180.png",
     "tilt": -2.07,
-    "dx": -22.35,
-    "dy": 90.66,
+    "dx": 16.61,
+    "dy": 183.55,
     "scale": 1.0,
     "aspect": 1.4769,
     "slot": 0
@@ -598,29 +598,29 @@
   "scans": [
    {
     "path": "assets/georgian/1233/IMG_1234.png",
-    "dx": -6.01,
-    "dy": 2.71,
-    "scale": 1.0,
+    "scale": 0.85,
+    "dx": -50.64,
+    "dy": -49.74,
     "tilt": 3.39,
     "aspect": 0.9874,
     "slot": 1
    },
    {
     "path": "assets/georgian/1233/IMG_1233.png",
+    "scale": 0.85,
     "tilt": -6.61,
-    "dx": 117.09,
-    "dy": 94.57,
-    "scale": 1.0,
+    "dx": 83.5,
+    "dy": -4.68,
     "aspect": 0.9913,
     "slot": 0
    },
    {
     "path": "assets/georgian/1233/IMG_1232.png",
-    "scale": 1.08,
-    "tilt": 3.93,
+    "scale": 0.87,
+    "tilt": -19.07,
     "z": "top",
-    "dx": 42.33,
-    "dy": -24.78,
+    "dx": 154.47,
+    "dy": 210.21,
     "aspect": 0.9981,
     "slot": 2
    }
@@ -687,8 +687,8 @@
    {
     "path": "assets/georgian/1243/IMG_1243.png",
     "scale": 1.16,
-    "dx": 13.97,
-    "dy": 16.73,
+    "dx": 13.73,
+    "dy": 1.17,
     "tilt": 2.44,
     "aspect": 0.7233,
     "slot": 0
@@ -1028,39 +1028,39 @@
   "scans": [
    {
     "path": "assets/georgian/1237/IMG_1240.png",
+    "dx": -31.91,
+    "dy": 159.1,
     "scale": 1.0,
     "tilt": 1.63,
     "aspect": 0.7231,
-    "slot": 3,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 3
    },
    {
     "path": "assets/georgian/1237/IMG_1239.png",
+    "dx": 204.84,
+    "dy": 265.68,
     "scale": 1.0,
     "tilt": -2.26,
     "aspect": 0.7352,
-    "slot": 2,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 2
    },
    {
     "path": "assets/georgian/1237/IMG_1238.png",
+    "dx": -153.49,
+    "dy": -10.33,
     "scale": 1.0,
     "tilt": -1.75,
     "aspect": 0.7302,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/georgian/1237/IMG_1237.png",
+    "dx": 5.14,
+    "dy": -16.19,
     "scale": 1.0,
     "tilt": 2.21,
     "aspect": 0.7002,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Puff Pastry and Layered Pirog",
@@ -3101,30 +3101,30 @@
   "scans": [
    {
     "path": "assets/english/1222/IMG_1225.png",
+    "dx": -188.72,
+    "dy": -238.48,
     "scale": 1.0,
     "tilt": -1.5,
     "aspect": 0.784,
-    "slot": 3,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 3
    },
    {
     "path": "assets/english/1222/IMG_1224.png",
+    "dx": -103.47,
+    "dy": -109.06,
     "scale": 1.0,
     "tilt": 3.24,
     "aspect": 0.7803,
-    "slot": 2,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 2
    },
    {
     "path": "assets/english/1222/IMG_1223.png",
+    "tilt": 18.0,
+    "dx": -102.93,
+    "dy": 67.76,
     "scale": 1.0,
-    "tilt": 2.0,
     "aspect": 0.7756,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1222/IMG_1222.png",
@@ -3209,10 +3209,10 @@
   "scans": [
    {
     "path": "assets/georgian/1200/IMG_1200.png",
-    "dx": 0.67,
-    "dy": 105.01,
-    "scale": 1.0,
-    "tilt": -2.66,
+    "scale": 1.3,
+    "tilt": 75.84,
+    "dx": 32.78,
+    "dy": 120.06,
     "aspect": 1.7518,
     "slot": 0
    }
@@ -3264,10 +3264,10 @@
   "scans": [
    {
     "path": "assets/georgian/1201/IMG_1201.png",
-    "dx": 15.8,
-    "dy": 122.62,
-    "scale": 1.0,
-    "tilt": -1.84,
+    "scale": 1.22,
+    "tilt": 65.66,
+    "dx": 19.18,
+    "dy": 139.73,
     "aspect": 1.6945,
     "slot": 0
    }
@@ -3328,7 +3328,7 @@
   "scans": [
    {
     "path": "assets/english/1221/IMG_1221.png",
-    "scale": 1.0,
+    "scale": 1.12,
     "tilt": -2.24,
     "aspect": 0.7775,
     "slot": 0,
@@ -3381,7 +3381,7 @@
   "scans": [
    {
     "path": "assets/english/1279/IMG_1279.png",
-    "scale": 1.0,
+    "scale": 1.1,
     "tilt": -1.59,
     "aspect": 0.7832,
     "slot": 0,
@@ -3432,12 +3432,12 @@
   "scans": [
    {
     "path": "assets/georgian/1254/IMG_1254.png",
-    "scale": 1.0,
-    "tilt": 1.71,
+    "scale": 1.16,
+    "tilt": -8.29,
+    "dx": -2.51,
+    "dy": 44.38,
     "aspect": 0.7566,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "American Kebab",
@@ -3482,21 +3482,21 @@
   "scans": [
    {
     "path": "assets/english/1288/IMG_1289.png",
+    "dx": 17.65,
+    "dy": 5.21,
     "scale": 1.0,
     "tilt": -1.63,
     "aspect": 0.7784,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1288/IMG_1288.png",
+    "dx": 8.28,
+    "dy": 105.04,
     "scale": 1.0,
     "tilt": -1.71,
     "aspect": 0.7786,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Garlic Braised Short Ribs With Red Wine",
@@ -3552,21 +3552,21 @@
   "scans": [
    {
     "path": "assets/georgian/1250/IMG_1251.png",
+    "tilt": 1.39,
+    "dx": 89.98,
+    "dy": -5.58,
     "scale": 1.0,
-    "tilt": -3.11,
     "aspect": 0.7468,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/georgian/1250/IMG_1250.png",
+    "dx": -26.36,
+    "dy": 92.77,
     "scale": 1.0,
     "tilt": -2.99,
     "aspect": 0.742,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Beef Stuffed Eggplant & Bell Pepper Boats",
@@ -3620,21 +3620,21 @@
   "scans": [
    {
     "path": "assets/english/1217/IMG_1218.png",
+    "dx": 40.34,
+    "dy": 1.63,
     "scale": 1.0,
     "tilt": 2.61,
     "aspect": 0.7796,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1217/IMG_1217.png",
+    "dx": 4.65,
+    "dy": 120.54,
     "scale": 1.0,
     "tilt": -3.13,
     "aspect": 0.7768,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Apple Cider Braised Pork Shoulder",
@@ -3693,30 +3693,30 @@
   "scans": [
    {
     "path": "assets/english/1282/IMG_1284.png",
+    "dx": 91.75,
+    "dy": -267.76,
     "scale": 1.0,
     "tilt": -3.14,
     "aspect": 0.7802,
-    "slot": 2,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 2
    },
    {
     "path": "assets/english/1282/IMG_1283.png",
+    "dx": -51.59,
+    "dy": -20.7,
     "scale": 1.0,
     "tilt": -3.27,
     "aspect": 0.786,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1282/IMG_1282.png",
+    "tilt": 3.75,
+    "dx": 283.31,
+    "dy": -20.72,
     "scale": 1.0,
-    "tilt": 3.25,
     "aspect": 0.7763,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Slow-Roasted Crispy Pork Belly",
@@ -3777,21 +3777,21 @@
   "scans": [
    {
     "path": "assets/english/1205/IMG_1206.png",
+    "dx": 14.77,
+    "dy": 17.38,
     "scale": 1.0,
     "tilt": -1.65,
     "aspect": 0.7805,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1205/IMG_1205.png",
+    "dx": 3.29,
+    "dy": 116.71,
     "scale": 1.0,
     "tilt": 1.71,
     "aspect": 0.7798,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Homemade Merguez Sausage",
@@ -3847,39 +3847,39 @@
   "scans": [
    {
     "path": "assets/english/1297/IMG_1300.png",
-    "scale": 1.0,
+    "scale": 1.4,
+    "dx": -309.77,
+    "dy": -300.69,
     "tilt": -1.85,
     "aspect": 1.2842,
-    "slot": 3,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 3
    },
    {
     "path": "assets/english/1297/IMG_1299.png",
-    "scale": 1.0,
+    "scale": 1.4,
+    "dx": 84.13,
+    "dy": -265.73,
     "tilt": 2.18,
     "aspect": 1.268,
-    "slot": 2,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 2
    },
    {
     "path": "assets/english/1297/IMG_1298.png",
-    "scale": 1.0,
+    "scale": 1.4,
+    "dx": -141.19,
+    "dy": -90.97,
     "tilt": 3.24,
     "aspect": 1.2607,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1297/IMG_1297.png",
-    "scale": 1.0,
+    "scale": 1.4,
     "tilt": -1.61,
+    "dx": 137.96,
+    "dy": -25.84,
     "aspect": 1.2652,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Crispy Pork and Watermelon Salad",
@@ -4000,12 +4000,12 @@
    },
    {
     "path": "assets/georgian/1246/IMG_1246.png",
+    "dx": -14.1,
+    "dy": 107.38,
     "scale": 1.0,
     "tilt": -2.69,
     "aspect": 0.7359,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Christmas Salad",
@@ -4076,12 +4076,12 @@
   "scans": [
    {
     "path": "assets/georgian/1247/IMG_1247.png",
+    "dx": -8.42,
+    "dy": 87.39,
     "scale": 1.0,
     "tilt": 2.5,
     "aspect": 0.7388,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Chicken Salad",
@@ -4138,12 +4138,12 @@
   "scans": [
    {
     "path": "assets/english/1215/IMG_1215.png",
+    "dx": -4.01,
+    "dy": 93.04,
     "scale": 1.0,
     "tilt": -1.29,
     "aspect": 0.7796,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Holiday Chicken Salad",
@@ -4205,12 +4205,12 @@
   "scans": [
    {
     "path": "assets/english/1281/IMG_1281.png",
+    "dx": 1.58,
+    "dy": 93.08,
     "scale": 1.0,
     "tilt": 2.1,
     "aspect": 0.7877,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Greek Broccoli Pasta Salad",
@@ -4281,12 +4281,12 @@
   "scans": [
    {
     "path": "assets/georgian/1257/IMG_1257.png",
-    "scale": 1.0,
+    "scale": 1.08,
+    "dx": -5.26,
+    "dy": 91.98,
     "tilt": 1.65,
     "aspect": 0.7517,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Red Tkemali (Plum Sauce)",
@@ -5324,8 +5324,8 @@
    {
     "path": "assets/english/1219/IMG_1219.png",
     "tilt": 3.55,
-    "dx": -11.32,
-    "dy": -13.54,
+    "dx": 6.59,
+    "dy": 62.78,
     "scale": 1.0,
     "aspect": 0.7732,
     "slot": 0

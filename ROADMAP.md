@@ -48,8 +48,10 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
   note scans ride on top like sticky notes offset down-right; full-size sheets
   stay full size, nudged so their writing peeks (Paul Bread done, b1d7ca1).
 - [ ] Tune the 3+ scan snapshot composition (gap between card cluster and title)
-- [ ] Full seam pass over all pages (185 as of the typography round): widows,
-  orphans, stranded subheads, long-recipe spillover
+- [x] Full seam pass (2026-08-20, 201 pages): text-layer scan of every page
+  boundary + visual check of all 37 spillover pages — clean. The rhythm
+  guards (sticky labels, section-guard, unbreakable paragraphs,
+  keep-together Original box) prevent the defect classes by construction
 - [x] Method-number baseline alignment; ingredient list leading
 - [x] Footer page suffix (`MAINS · 7 · 2/3`): page-within-recipe on every page,
   always shown; trailing parity blanks don't count
