@@ -76,7 +76,7 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [x] Card exposure: white-point normalization in make_cards.py (97th
   percentile -> ~247, gain capped 1.6x), per-scan `exposure:` frontmatter
   override for stubborn scans; whole cache rebaked
-- [ ] Colophon line disclosing illustrative images
+- [x] Colophon line disclosing illustrative images (in book.yaml colophon P3)
 - [x] Full-bleed snapshot verso: white text + gradient scrim, always on
   (inverse: frontmatter flag retired 2026-08-18)
 
