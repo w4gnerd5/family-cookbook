@@ -12,10 +12,9 @@ from PIL import Image, ImageFilter
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "print" / "cards"
-# px on the long side. A card prints up to ~330pt wide, so 1400 lands near
-# 220 dpi on the page: handwriting stays crisp and the graph-paper grid holds.
-# Override for a cheap proof: CARD_MAX_DIM=1000 python3 scripts/make_cards.py
-MAX_DIM = int(os.environ.get("CARD_MAX_DIM", 1400))
+# px on the long side of a baked card. Default is full quality; drop it only
+# when a file-size limit forces the issue. See README, "Card resolution".
+MAX_DIM = int(os.environ.get("CARD_MAX_DIM", 1800))
 BLUR = 22               # shadow softness (px, post-resize)
 OFFSET = (6, 16)        # shadow displacement
 OPACITY = 80            # 0-255

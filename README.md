@@ -95,6 +95,51 @@ Brief contextual description with historical or cultural notes.
 [Original text preserved for reference]
 ```
 
+## Card resolution
+
+The scan cards on each verso are baked once into `print/cards/` by
+`scripts/make_cards.py` and then embedded in the PDF. They are the bulk of the
+file, so their resolution sets how big the book is.
+
+`CARD_MAX_DIM` caps the long side of a baked card in pixels. The default is
+1800, which is full quality. Lower it only when something forces you to, and the
+only thing that realistically does is a print service's upload limit (Lulu caps
+uploads at 500 MB; others sit between 1 and 2 GB).
+
+Measured on this book, 201 pages:
+
+| CARD_MAX_DIM | dpi on the page | cards | whole PDF | what you lose |
+|---|---|---|---|---|
+| 1800 (default) | 286 | 390 MB | 515 MB | nothing |
+| 1400 | 222 | 271 MB | 401 MB | graph-paper grid softens slightly |
+| 1200 | 190 | ~168 MB | ~300 MB | grid goes mushy; handwriting still legible |
+| 1000 | 158 | ~117 MB | ~250 MB | visibly soft, fine for a markup dummy |
+
+The dpi figure is for a card printed at the full 330pt width. Cards scaled up
+per-recipe (`scale:` in frontmatter) land proportionally lower, so a card at
+`scale: 1.3` is around 220 dpi even at the 1800 default.
+
+Handwriting stays readable at every setting in that table. The detail that goes
+first is the pale graph-paper grid on Zeinab's notebook pages, which is part of
+what makes the cards read as her notebook rather than as anonymous paper.
+
+To build small, set the variable for the bake and then compile as usual:
+
+```bash
+CARD_MAX_DIM=1000 python3 scripts/make_cards.py
+typst compile --root . --font-path assets/fonts print/cookbook.typ print/cookbook.pdf
+```
+
+To go back to full quality, bake again without the variable:
+
+```bash
+python3 scripts/make_cards.py
+```
+
+The cache records the size it was baked at and wipes itself whenever that
+changes, so a book can never end up half one resolution and half another. A full
+rebake of all cards takes two or three minutes.
+
 ## Typesetting: title line breaks
 
 Recipe titles are set large on the verso page, in a column that fits only a few

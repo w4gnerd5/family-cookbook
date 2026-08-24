@@ -140,8 +140,8 @@ typst compile --root . --font-path assets/fonts print/cookbook.typ print/cookboo
 python3 scripts/build_index.py               # -> recipes-index.csv, RECIPES.md (also warns on missing frontmatter)
 python3 scripts/build_credits.py             # -> CREDITS.md from photo_source
 python3 scripts/make_cards.py                # bakes scan cards with drop shadows -> print/cards/
-                                             #   CARD_MAX_DIM=1000 for a cheap proof (default 1400;
-                                             #   cache self-invalidates when the size changes)
+                                             #   default 1800 (full quality); CARD_MAX_DIM lowers it
+                                             #   for a smaller PDF, see README "Card resolution"
 python3 scripts/refresh_slug_table.py        # dashboard slug audit table
 ```
 
