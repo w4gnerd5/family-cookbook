@@ -115,6 +115,17 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
   (her call, deferred until she has the dummy in hand)
 - [ ] Fold her marks back in; only then is the order beyond provisional
 
+## 6.5 Post-alpha cleanup (Paul, 2026-08-20)
+
+- [ ] Consolidate the three dashboards (curation :8765, verso editor :8766,
+  photo review :8767) into one master app — one server, one page, tabs
+- [ ] Semver for the book: version stamped in book.yaml, shown in the colophon;
+  tag releases (alpha = 0.x)
+- [ ] Central CHANGELOG.md at the root, versioned with the book
+- [ ] Per-recipe changelogs are NOT files — they live in git
+  (`git log --follow assets/<group>/<n>/<file>.md`); the website can render
+  them from history later
+
 ## 7. Production
 
 - [ ] Flip bleed token to 3mm; verify full-bleed at the chosen print service
