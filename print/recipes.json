@@ -24,17 +24,17 @@
    },
    {
     "path": "assets/georgian/1241/IMG_1202.png",
-    "scale": 0.8,
+    "scale": 0.94,
     "tilt": -14.14,
     "z": "top",
-    "dx": 40.6,
-    "dy": 12.9,
+    "dx": -44.44,
+    "dy": -175.87,
     "aspect": 1.5515,
     "slot": 2
    }
   ],
-  "title": "Zeinab's Khachapuri",
-  "title_print": "Zeinab's Khachapuri",
+  "title": "Zeinab's Khachapuri",
+  "title_print": "Zeinab's Khachapuri",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -49,7 +49,7 @@
     "note": "Gia Agirba's, on a yeast dough",
     "section": "Breads & Doughs",
     "number": 17,
-    "title": "Khachapuri Recipe by Gia Agirba"
+    "title": "Khachapuri Recipe by Gia Agirba"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
@@ -117,8 +117,8 @@
     "slot": 0
    }
   ],
-  "title": "No-Knead Bread",
-  "title_print": "No-Knead Bread",
+  "title": "No-Knead Bread",
+  "title_print": "No-Knead Bread",
   "language": "english",
   "section": "Breads & Doughs",
   "batch": "",
@@ -133,7 +133,7 @@
     "note": "same idea in two hours instead of twenty",
     "section": "Breads & Doughs",
     "number": 3,
-    "title": "2-Hour Fastest No Knead Bread"
+    "title": "2-Hour Fastest No Knead Bread"
    }
   ],
   "scribe": "printed",
@@ -178,8 +178,8 @@
     "slot": 0
    }
   ],
-  "title": "2-Hour Fastest No Knead Bread",
-  "title_print": "2-Hour Fastest No Knead Bread",
+  "title": "2-Hour Fastest No Knead Bread",
+  "title_print": "2-Hour Fastest No Knead Bread",
   "language": "english",
   "section": "Breads & Doughs",
   "batch": "",
@@ -193,7 +193,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 2,
-    "title": "No-Knead Bread"
+    "title": "No-Knead Bread"
    }
   ],
   "scribe": "printed",
@@ -241,8 +241,8 @@
     "slot": 0
    }
   ],
-  "title": "Dumpling Dough with Boiling Water (Super)",
-  "title_print": "Dumpling Dough with Boiling Water (Super)",
+  "title": "Dumpling Dough with Boiling Water (Super)",
+  "title_print": "Dumpling Dough with Boiling Water (Super)",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -256,14 +256,14 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 5,
-    "title": "Vareniki with Boiling Water Dough"
+    "title": "Vareniki with Boiling Water Dough"
    },
    {
     "slug": "vareniki-dough-dumpling-dough",
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 6,
-    "title": "Vareniki Dough (Dumpling Dough)"
+    "title": "Vareniki Dough (Dumpling Dough)"
    }
   ],
   "scribe": "Zeinab",
@@ -306,8 +306,8 @@
     "slot": 0
    }
   ],
-  "title": "Vareniki with Boiling Water Dough",
-  "title_print": "Vareniki with Boiling Water Dough",
+  "title": "Vareniki with Boiling Water Dough",
+  "title_print": "Vareniki with Boiling Water Dough",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -321,14 +321,14 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 4,
-    "title": "Dumpling Dough with Boiling Water (Super)"
+    "title": "Dumpling Dough with Boiling Water (Super)"
    },
    {
     "slug": "vareniki-dough-dumpling-dough",
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 6,
-    "title": "Vareniki Dough (Dumpling Dough)"
+    "title": "Vareniki Dough (Dumpling Dough)"
    }
   ],
   "scribe": "Zeinab",
@@ -370,8 +370,8 @@
     "slot": 0
    }
   ],
-  "title": "Vareniki Dough (Dumpling Dough)",
-  "title_print": "Vareniki Dough (Dumpling Dough)",
+  "title": "Vareniki Dough (Dumpling Dough)",
+  "title_print": "Vareniki Dough (Dumpling Dough)",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -385,14 +385,14 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 4,
-    "title": "Dumpling Dough with Boiling Water (Super)"
+    "title": "Dumpling Dough with Boiling Water (Super)"
    },
    {
     "slug": "vareniki-with-boiling-water-dough",
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 5,
-    "title": "Vareniki with Boiling Water Dough"
+    "title": "Vareniki with Boiling Water Dough"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
@@ -466,8 +466,8 @@
     "slot": 0
    }
   ],
-  "title": "Buttermilk Pancakes II",
-  "title_print": "Buttermilk Pancakes II",
+  "title": "Buttermilk Pancakes II",
+  "title_print": "Buttermilk Pancakes II",
   "language": "english",
   "section": "Breads & Doughs",
   "batch": "",
@@ -481,7 +481,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 9,
-    "title": "Scalded Crepes (Zavarnyye Blini)"
+    "title": "Scalded Crepes (Zavarnyye Blini)"
    },
    {
     "slug": "kefir-pancakes-with-baking-soda",
@@ -489,7 +489,7 @@
     "note": "no eggs, no scalding",
     "section": "Breads & Doughs",
     "number": 8,
-    "title": "Kefir Pancakes with Baking Soda"
+    "title": "Kefir Pancakes with Baking Soda"
    }
   ],
   "scribe": "printed",
@@ -536,8 +536,8 @@
     "slot": 0
    }
   ],
-  "title": "Kefir Pancakes with Baking Soda",
-  "title_print": "Kefir Pancakes with Baking Soda",
+  "title": "Kefir Pancakes with Baking Soda",
+  "title_print": "Kefir Pancakes with Baking Soda",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -551,7 +551,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 9,
-    "title": "Scalded Crepes (Zavarnyye Blini)"
+    "title": "Scalded Crepes (Zavarnyye Blini)"
    },
    {
     "slug": "buttermilk-pancakes-ii",
@@ -559,7 +559,7 @@
     "note": "the American thick-stack version",
     "section": "Breads & Doughs",
     "number": 7,
-    "title": "Buttermilk Pancakes II"
+    "title": "Buttermilk Pancakes II"
    }
   ],
   "scribe": "",
@@ -625,8 +625,8 @@
     "slot": 2
    }
   ],
-  "title": "Scalded Crepes (Zavarnyye Blini)",
-  "title_print": "Scalded Crepes (Zavarnyye Blini)",
+  "title": "Scalded Crepes (Zavarnyye Blini)",
+  "title_print": "Scalded Crepes (Zavarnyye Blini)",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -641,7 +641,7 @@
     "note": "no eggs, no scalding",
     "section": "Breads & Doughs",
     "number": 8,
-    "title": "Kefir Pancakes with Baking Soda"
+    "title": "Kefir Pancakes with Baking Soda"
    },
    {
     "slug": "buttermilk-pancakes-ii",
@@ -649,7 +649,7 @@
     "note": "the American thick-stack version",
     "section": "Breads & Doughs",
     "number": 7,
-    "title": "Buttermilk Pancakes II"
+    "title": "Buttermilk Pancakes II"
    }
   ],
   "scribe": "Zeinab",
@@ -694,8 +694,8 @@
     "slot": 0
    }
   ],
-  "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
-  "title_print": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
+  "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
+  "title_print": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -709,21 +709,21 @@
     "note": "pirozhki made with a scalded dough",
     "section": "Breads & Doughs",
     "number": 11,
-    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)"
+    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)"
    },
    {
     "slug": "pirozhki-with-kefir",
     "note": "pirozhki made with kefir",
     "section": "Breads & Doughs",
     "number": 12,
-    "title": "Pirozhki with Kefir"
+    "title": "Pirozhki with Kefir"
    },
    {
     "slug": "zeinabs-khachapuri",
     "note": "khachapuri made with a matsoni shortcrust",
     "section": "Breads & Doughs",
     "number": 1,
-    "title": "Zeinab's Khachapuri"
+    "title": "Zeinab's Khachapuri"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
@@ -784,8 +784,8 @@
     "slot": 1
    }
   ],
-  "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
-  "title_print": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
+  "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
+  "title_print": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -800,14 +800,14 @@
     "note": "quick kefir dough, no scalding",
     "section": "Breads & Doughs",
     "number": 12,
-    "title": "Pirozhki with Kefir"
+    "title": "Pirozhki with Kefir"
    },
    {
     "slug": "yeast-dough-for-khachapuri-pies-and-pirozhki",
     "note": "a milk-and-butter dough for the same pastries",
     "section": "Breads & Doughs",
     "number": 10,
-    "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki"
+    "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki"
    }
   ],
   "scribe": "Zeinab",
@@ -859,8 +859,8 @@
     "slot": 0
    }
   ],
-  "title": "Pirozhki with Kefir",
-  "title_print": "Pirozhki with Kefir",
+  "title": "Pirozhki with Kefir",
+  "title_print": "Pirozhki with Kefir",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -875,14 +875,14 @@
     "note": "the two-stage scalded dough",
     "section": "Breads & Doughs",
     "number": 11,
-    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)"
+    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)"
    },
    {
     "slug": "yeast-dough-for-khachapuri-pies-and-pirozhki",
     "note": "a milk-and-butter dough for the same pastries",
     "section": "Breads & Doughs",
     "number": 10,
-    "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki"
+    "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki"
    }
   ],
   "scribe": "Zeinab",
@@ -925,8 +925,8 @@
     "slot": 0
    }
   ],
-  "title": "Oven-Baked Pirozhki",
-  "title_print": "Oven-Baked Pirozhki",
+  "title": "Oven-Baked Pirozhki",
+  "title_print": "Oven-Baked Pirozhki",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -979,8 +979,8 @@
     "slot": 0
    }
   ],
-  "title": "Mom's Zucchini Bread",
-  "title_print": "Mom's Zucchini Bread",
+  "title": "Mom's Zucchini Bread",
+  "title_print": "Mom's Zucchini Bread",
   "language": "english",
   "section": "Breads & Doughs",
   "batch": "",
@@ -1063,8 +1063,8 @@
     "slot": 0
    }
   ],
-  "title": "Puff Pastry and Layered Pirog",
-  "title_print": "Puff Pastry and Layered Pirog",
+  "title": "Puff Pastry and Layered Pirog",
+  "title_print": "Puff Pastry and Layered Pirog",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -1220,8 +1220,8 @@
     "slot": 0
    }
   ],
-  "title": "Khachapuri Recipe by Gia Agirba",
-  "title_print": "Khachapuri Recipe by Gia Agirba",
+  "title": "Khachapuri Recipe by Gia Agirba",
+  "title_print": "Khachapuri Recipe by Gia Agirba",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -1236,7 +1236,7 @@
     "note": "Zeinab's, on a matsoni shortcrust",
     "section": "Breads & Doughs",
     "number": 1,
-    "title": "Zeinab's Khachapuri"
+    "title": "Zeinab's Khachapuri"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
@@ -1303,7 +1303,7 @@
     "slot": 0
    }
   ],
-  "title": "Adjarian Khachapuri",
+  "title": "Adjarian Khachapuri",
   "title_print": "Adjarian|Khachapuri",
   "language": "georgian",
   "section": "Breads & Doughs",
@@ -1319,7 +1319,7 @@
     "note": "Rusiko's hand",
     "section": "Breads & Doughs",
     "number": 20,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "adjarian-khachapuri-3",
@@ -1327,7 +1327,7 @@
     "note": "batch quantities, 10-11 pieces",
     "section": "Breads & Doughs",
     "number": 19,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
@@ -1404,8 +1404,8 @@
     "slot": 0
    }
   ],
-  "title": "Adjarian Khachapuri",
-  "title_print": "Adjarian Khachapuri",
+  "title": "Adjarian Khachapuri",
+  "title_print": "Adjarian Khachapuri",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -1419,7 +1419,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 18,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "adjarian-khachapuri-2",
@@ -1427,7 +1427,7 @@
     "note": "Rusiko's hand",
     "section": "Breads & Doughs",
     "number": 20,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    }
   ],
   "scribe": "",
@@ -1477,8 +1477,8 @@
     "slot": 0
    }
   ],
-  "title": "Adjarian Khachapuri",
-  "title_print": "Adjarian Khachapuri",
+  "title": "Adjarian Khachapuri",
+  "title_print": "Adjarian Khachapuri",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -1492,7 +1492,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 18,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "adjarian-khachapuri-3",
@@ -1500,7 +1500,7 @@
     "note": "batch quantities, 10-11 pieces",
     "section": "Breads & Doughs",
     "number": 19,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
@@ -1563,8 +1563,8 @@
     "slot": 0
    }
   ],
-  "title": "Old-Fashioned Beef Stew",
-  "title_print": "Old-Fashioned Beef Stew",
+  "title": "Old-Fashioned Beef Stew",
+  "title_print": "Old-Fashioned Beef Stew",
   "language": "english",
   "section": "Soups & Stews",
   "batch": "",
@@ -1579,7 +1579,7 @@
     "note": "doubled by hand on the card",
     "section": "Soups & Stews",
     "number": 2,
-    "title": "Old-Time Beef Stew"
+    "title": "Old-Time Beef Stew"
    },
    {
     "slug": "ina-gartens-unforgettable-beef-stew",
@@ -1587,7 +1587,7 @@
     "note": "wine and mushrooms struck out on the card",
     "section": "Soups & Stews",
     "number": 3,
-    "title": "Ina Garten's Unforgettable Beef Stew"
+    "title": "Ina Garten's Unforgettable Beef Stew"
    },
    {
     "slug": "beef-bourguignon",
@@ -1645,8 +1645,8 @@
     "slot": 0
    }
   ],
-  "title": "Old-Time Beef Stew",
-  "title_print": "Old-Time Beef Stew",
+  "title": "Old-Time Beef Stew",
+  "title_print": "Old-Time Beef Stew",
   "language": "english",
   "section": "Soups & Stews",
   "batch": "",
@@ -1660,7 +1660,7 @@
     "rel": "variant",
     "section": "Soups & Stews",
     "number": 1,
-    "title": "Old-Fashioned Beef Stew"
+    "title": "Old-Fashioned Beef Stew"
    },
    {
     "slug": "ina-gartens-unforgettable-beef-stew",
@@ -1668,7 +1668,7 @@
     "note": "wine and mushrooms struck out on the card",
     "section": "Soups & Stews",
     "number": 3,
-    "title": "Ina Garten's Unforgettable Beef Stew"
+    "title": "Ina Garten's Unforgettable Beef Stew"
    },
    {
     "slug": "beef-bourguignon",
@@ -1739,8 +1739,8 @@
     "slot": 0
    }
   ],
-  "title": "Ina Garten's Unforgettable Beef Stew",
-  "title_print": "Ina Garten's Unforgettable Beef Stew",
+  "title": "Ina Garten's Unforgettable Beef Stew",
+  "title_print": "Ina Garten's Unforgettable Beef Stew",
   "language": "english",
   "section": "Soups & Stews",
   "batch": "",
@@ -1754,7 +1754,7 @@
     "rel": "variant",
     "section": "Soups & Stews",
     "number": 1,
-    "title": "Old-Fashioned Beef Stew"
+    "title": "Old-Fashioned Beef Stew"
    },
    {
     "slug": "old-time-beef-stew",
@@ -1762,7 +1762,7 @@
     "note": "doubled by hand on the card",
     "section": "Soups & Stews",
     "number": 2,
-    "title": "Old-Time Beef Stew"
+    "title": "Old-Time Beef Stew"
    },
    {
     "slug": "beef-bourguignon",
@@ -1849,7 +1849,7 @@
     "rel": "variant",
     "section": "Soups & Stews",
     "number": 1,
-    "title": "Old-Fashioned Beef Stew"
+    "title": "Old-Fashioned Beef Stew"
    },
    {
     "slug": "old-time-beef-stew",
@@ -1857,7 +1857,7 @@
     "note": "doubled by hand on the card",
     "section": "Soups & Stews",
     "number": 2,
-    "title": "Old-Time Beef Stew"
+    "title": "Old-Time Beef Stew"
    },
    {
     "slug": "ina-gartens-unforgettable-beef-stew",
@@ -1865,7 +1865,7 @@
     "note": "wine and mushrooms struck out on the card",
     "section": "Soups & Stews",
     "number": 3,
-    "title": "Ina Garten's Unforgettable Beef Stew"
+    "title": "Ina Garten's Unforgettable Beef Stew"
    }
   ],
   "scribe": "printed",
@@ -1926,8 +1926,8 @@
     "slot": 0
    }
   ],
-  "title": "Parker's Split Pea Soup",
-  "title_print": "Parker's Split Pea Soup",
+  "title": "Parker's Split Pea Soup",
+  "title_print": "Parker's Split Pea Soup",
   "language": "english",
   "section": "Soups & Stews",
   "batch": "",
@@ -1990,8 +1990,8 @@
     "slot": 0
    }
   ],
-  "title": "Satsivi for One Large Turkey",
-  "title_print": "Satsivi for One Large Turkey",
+  "title": "Satsivi for One Large Turkey",
+  "title_print": "Satsivi for One Large Turkey",
   "language": "georgian",
   "section": "Mains",
   "batch": "",
@@ -2006,7 +2006,7 @@
     "note": "the sauce on its own",
     "section": "Preserves & Sauces",
     "number": 2,
-    "title": "Bazhe (Georgian Walnut Sauce)"
+    "title": "Bazhe (Georgian Walnut Sauce)"
    }
   ],
   "scribe": "",
@@ -2079,8 +2079,8 @@
     "slot": 0
    }
   ],
-  "title": "Perfect Roast Chicken",
-  "title_print": "Perfect Roast Chicken",
+  "title": "Perfect Roast Chicken",
+  "title_print": "Perfect Roast Chicken",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2135,8 +2135,8 @@
     "slot": 0
    }
   ],
-  "title": "Ami's Khinkali",
-  "title_print": "Ami's Khinkali",
+  "title": "Ami's Khinkali",
+  "title_print": "Ami's Khinkali",
   "language": "georgian",
   "section": "Mains",
   "batch": "batch-1",
@@ -2203,8 +2203,8 @@
     "slot": 0
    }
   ],
-  "title": "Company Pot Roast",
-  "title_print": "Company Pot Roast",
+  "title": "Company Pot Roast",
+  "title_print": "Company Pot Roast",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2266,8 +2266,8 @@
     "slot": 0
    }
   ],
-  "title": "Rusiko's Cutlets",
-  "title_print": "Rusiko's Cutlets",
+  "title": "Rusiko's Cutlets",
+  "title_print": "Rusiko's Cutlets",
   "language": "georgian",
   "section": "Mains",
   "batch": "batch-1",
@@ -2326,8 +2326,8 @@
     "slot": 0
    }
   ],
-  "title": "Whole Chicken Crock Pot",
-  "title_print": "Whole Chicken Crock Pot",
+  "title": "Whole Chicken Crock Pot",
+  "title_print": "Whole Chicken Crock Pot",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2386,8 +2386,8 @@
     "slot": 0
    }
   ],
-  "title": "Lyudmila's Beef Stroganoff",
-  "title_print": "Lyudmila's Beef Stroganoff",
+  "title": "Lyudmila's Beef Stroganoff",
+  "title_print": "Lyudmila's Beef Stroganoff",
   "language": "georgian",
   "section": "Mains",
   "batch": "batch-1",
@@ -2449,8 +2449,8 @@
     "slot": 0
    }
   ],
-  "title": "Turkey Meatloaf",
-  "title_print": "Turkey Meatloaf",
+  "title": "Turkey Meatloaf",
+  "title_print": "Turkey Meatloaf",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2465,7 +2465,7 @@
     "note": "quinoa in place of breadcrumbs",
     "section": "Mains",
     "number": 9,
-    "title": "Turkey and Quinoa Meatloaf"
+    "title": "Turkey and Quinoa Meatloaf"
    }
   ],
   "scribe": "printed",
@@ -2516,8 +2516,8 @@
     "slot": 0
    }
   ],
-  "title": "Turkey and Quinoa Meatloaf",
-  "title_print": "Turkey and Quinoa Meatloaf",
+  "title": "Turkey and Quinoa Meatloaf",
+  "title_print": "Turkey and Quinoa Meatloaf",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2531,7 +2531,7 @@
     "rel": "variant",
     "section": "Mains",
     "number": 8,
-    "title": "Turkey Meatloaf"
+    "title": "Turkey Meatloaf"
    }
   ],
   "scribe": "printed",
@@ -2596,8 +2596,8 @@
     "slot": 0
    }
   ],
-  "title": "Camca - Sumsa",
-  "title_print": "Camca - Sumsa",
+  "title": "Camca - Sumsa",
+  "title_print": "Camca - Sumsa",
   "language": "georgian",
   "section": "Mains",
   "batch": "",
@@ -2683,8 +2683,8 @@
     "slot": 0
    }
   ],
-  "title": "Cashew Nut Loaf",
-  "title_print": "Cashew Nut Loaf",
+  "title": "Cashew Nut Loaf",
+  "title_print": "Cashew Nut Loaf",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2753,8 +2753,8 @@
     "slot": 0
    }
   ],
-  "title": "Chicken, Rice, and Spices Bake",
-  "title_print": "Chicken, Rice, and Spices Bake",
+  "title": "Chicken, Rice, and Spices Bake",
+  "title_print": "Chicken, Rice, and Spices Bake",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2865,8 +2865,8 @@
     "slot": 0
    }
   ],
-  "title": "Bacon and Gruyere Breakfast Casserole",
-  "title_print": "Bacon and Gruyere Breakfast Casserole",
+  "title": "Bacon and Gruyere Breakfast Casserole",
+  "title_print": "Bacon and Gruyere Breakfast Casserole",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2931,8 +2931,8 @@
     "slot": 0
    }
   ],
-  "title": "Tuscan Farmers Breakfast",
-  "title_print": "Tuscan Farmers Breakfast",
+  "title": "Tuscan Farmers Breakfast",
+  "title_print": "Tuscan Farmers Breakfast",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3053,8 +3053,8 @@
     "slot": 0
    }
   ],
-  "title": "Shakshuka With Feta",
-  "title_print": "Shakshuka With Feta",
+  "title": "Shakshuka With Feta",
+  "title_print": "Shakshuka With Feta",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3136,8 +3136,8 @@
     "dy": 0.0
    }
   ],
-  "title": "Fresh Huevos Rancheros",
-  "title_print": "Fresh Huevos Rancheros",
+  "title": "Fresh Huevos Rancheros",
+  "title_print": "Fresh Huevos Rancheros",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3217,8 +3217,8 @@
     "slot": 0
    }
   ],
-  "title": "New Seasons Market Cheesy Chilaquiles Casserole",
-  "title_print": "New Seasons Market Cheesy Chilaquiles Casserole",
+  "title": "New Seasons Market Cheesy Chilaquiles Casserole",
+  "title_print": "New Seasons Market Cheesy Chilaquiles Casserole",
   "language": "english",
   "section": "Mains",
   "batch": "batch-1",
@@ -3272,8 +3272,8 @@
     "slot": 0
    }
   ],
-  "title": "Vegetable Enchilada Casserole",
-  "title_print": "Vegetable Enchilada Casserole",
+  "title": "Vegetable Enchilada Casserole",
+  "title_print": "Vegetable Enchilada Casserole",
   "language": "english",
   "section": "Mains",
   "batch": "batch-1",
@@ -3336,8 +3336,8 @@
     "slot": 0
    }
   ],
-  "title": "Skillet Chicken Bulgogi",
-  "title_print": "Skillet Chicken Bulgogi",
+  "title": "Skillet Chicken Bulgogi",
+  "title_print": "Skillet Chicken Bulgogi",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3389,8 +3389,8 @@
     "slot": 0
    }
   ],
-  "title": "Baked Salmon with Dill Garlic Beurre Blanc",
-  "title_print": "Baked Salmon with Dill Garlic Beurre Blanc",
+  "title": "Baked Salmon with Dill Garlic Beurre Blanc",
+  "title_print": "Baked Salmon with Dill Garlic Beurre Blanc",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3440,8 +3440,8 @@
     "slot": 0
    }
   ],
-  "title": "American Kebab",
-  "title_print": "American Kebab",
+  "title": "American Kebab",
+  "title_print": "American Kebab",
   "language": "georgian",
   "section": "Mains",
   "batch": "",
@@ -3499,8 +3499,8 @@
     "slot": 0
    }
   ],
-  "title": "Garlic Braised Short Ribs With Red Wine",
-  "title_print": "Garlic Braised Short Ribs With Red Wine",
+  "title": "Garlic Braised Short Ribs With Red Wine",
+  "title_print": "Garlic Braised Short Ribs With Red Wine",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3569,8 +3569,8 @@
     "slot": 0
    }
   ],
-  "title": "Beef Stuffed Eggplant & Bell Pepper Boats",
-  "title_print": "Beef Stuffed Eggplant & Bell Pepper Boats",
+  "title": "Beef Stuffed Eggplant & Bell Pepper Boats",
+  "title_print": "Beef Stuffed Eggplant & Bell Pepper Boats",
   "language": "georgian",
   "section": "Mains",
   "batch": "",
@@ -3637,8 +3637,8 @@
     "slot": 0
    }
   ],
-  "title": "Apple Cider Braised Pork Shoulder",
-  "title_print": "Apple Cider Braised Pork Shoulder",
+  "title": "Apple Cider Braised Pork Shoulder",
+  "title_print": "Apple Cider Braised Pork Shoulder",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3719,8 +3719,8 @@
     "slot": 0
    }
   ],
-  "title": "Slow-Roasted Crispy Pork Belly",
-  "title_print": "Slow-Roasted Crispy Pork Belly",
+  "title": "Slow-Roasted Crispy Pork Belly",
+  "title_print": "Slow-Roasted Crispy Pork Belly",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3794,8 +3794,8 @@
     "slot": 0
    }
   ],
-  "title": "Homemade Merguez Sausage",
-  "title_print": "Homemade Merguez Sausage",
+  "title": "Homemade Merguez Sausage",
+  "title_print": "Homemade Merguez Sausage",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3882,8 +3882,8 @@
     "slot": 0
    }
   ],
-  "title": "Crispy Pork and Watermelon Salad",
-  "title_print": "Crispy Pork and Watermelon Salad",
+  "title": "Crispy Pork and Watermelon Salad",
+  "title_print": "Crispy Pork and Watermelon Salad",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -4008,8 +4008,8 @@
     "slot": 0
    }
   ],
-  "title": "Christmas Salad",
-  "title_print": "Christmas Salad",
+  "title": "Christmas Salad",
+  "title_print": "Christmas Salad",
   "language": "georgian",
   "section": "Sides & Salads",
   "batch": "",
@@ -4024,7 +4024,7 @@
     "note": "the everyday one, five lines",
     "section": "Sides & Salads",
     "number": 2,
-    "title": "Chicken Salad"
+    "title": "Chicken Salad"
    },
    {
     "slug": "holiday-chicken-salad",
@@ -4032,7 +4032,7 @@
     "note": "the American version, cranberries and pecans",
     "section": "Sides & Salads",
     "number": 3,
-    "title": "Holiday Chicken Salad"
+    "title": "Holiday Chicken Salad"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
@@ -4084,8 +4084,8 @@
     "slot": 0
    }
   ],
-  "title": "Chicken Salad",
-  "title_print": "Chicken Salad",
+  "title": "Chicken Salad",
+  "title_print": "Chicken Salad",
   "language": "georgian",
   "section": "Sides & Salads",
   "batch": "",
@@ -4099,7 +4099,7 @@
     "rel": "variant",
     "section": "Sides & Salads",
     "number": 1,
-    "title": "Christmas Salad"
+    "title": "Christmas Salad"
    },
    {
     "slug": "holiday-chicken-salad",
@@ -4107,7 +4107,7 @@
     "note": "the American version, cranberries and pecans",
     "section": "Sides & Salads",
     "number": 3,
-    "title": "Holiday Chicken Salad"
+    "title": "Holiday Chicken Salad"
    }
   ],
   "scribe": "Zeinab",
@@ -4146,8 +4146,8 @@
     "slot": 0
    }
   ],
-  "title": "Holiday Chicken Salad",
-  "title_print": "Holiday Chicken Salad",
+  "title": "Holiday Chicken Salad",
+  "title_print": "Holiday Chicken Salad",
   "language": "english",
   "section": "Sides & Salads",
   "batch": "",
@@ -4161,7 +4161,7 @@
     "rel": "variant",
     "section": "Sides & Salads",
     "number": 1,
-    "title": "Christmas Salad"
+    "title": "Christmas Salad"
    },
    {
     "slug": "chicken-salad",
@@ -4169,7 +4169,7 @@
     "note": "the everyday one, five lines",
     "section": "Sides & Salads",
     "number": 2,
-    "title": "Chicken Salad"
+    "title": "Chicken Salad"
    }
   ],
   "scribe": "printed",
@@ -4213,8 +4213,8 @@
     "slot": 0
    }
   ],
-  "title": "Greek Broccoli Pasta Salad",
-  "title_print": "Greek Broccoli Pasta Salad",
+  "title": "Greek Broccoli Pasta Salad",
+  "title_print": "Greek Broccoli Pasta Salad",
   "language": "english",
   "section": "Sides & Salads",
   "batch": "",
@@ -4289,8 +4289,8 @@
     "slot": 0
    }
   ],
-  "title": "Red Tkemali (Plum Sauce)",
-  "title_print": "Red Tkemali (Plum Sauce)",
+  "title": "Red Tkemali (Plum Sauce)",
+  "title_print": "Red Tkemali (Plum Sauce)",
   "language": "georgian",
   "section": "Preserves & Sauces",
   "batch": "",
@@ -4342,8 +4342,8 @@
     "slot": 0
    }
   ],
-  "title": "Bazhe (Georgian Walnut Sauce)",
-  "title_print": "Bazhe (Georgian Walnut Sauce)",
+  "title": "Bazhe (Georgian Walnut Sauce)",
+  "title_print": "Bazhe (Georgian Walnut Sauce)",
   "language": "georgian",
   "section": "Preserves & Sauces",
   "batch": "batch-1",
@@ -4358,7 +4358,7 @@
     "note": "the same walnut base, poured over turkey",
     "section": "Mains",
     "number": 1,
-    "title": "Satsivi for One Large Turkey"
+    "title": "Satsivi for One Large Turkey"
    }
   ],
   "scribe": "",
@@ -4468,8 +4468,8 @@
     "slot": 0
    }
   ],
-  "title": "Marinated Bell Peppers",
-  "title_print": "Marinated Bell Peppers",
+  "title": "Marinated Bell Peppers",
+  "title_print": "Marinated Bell Peppers",
   "language": "georgian",
   "section": "Preserves & Sauces",
   "batch": "",
@@ -4545,8 +4545,8 @@
     "slot": 0
    }
   ],
-  "title": "Zeinab's Shu",
-  "title_print": "Zeinab's Shu",
+  "title": "Zeinab's Shu",
+  "title_print": "Zeinab's Shu",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "batch-1",
@@ -4656,8 +4656,8 @@
     "slot": 0
    }
   ],
-  "title": "Soft Ginger Cookies",
-  "title_print": "Soft Ginger Cookies",
+  "title": "Soft Ginger Cookies",
+  "title_print": "Soft Ginger Cookies",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "batch-1",
@@ -4713,8 +4713,8 @@
     "slot": 0
    }
   ],
-  "title": "Ideal Cake (Ideali)",
-  "title_print": "Ideal Cake (Ideali)",
+  "title": "Ideal Cake (Ideali)",
+  "title_print": "Ideal Cake (Ideali)",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -4770,8 +4770,8 @@
     "slot": 0
    }
   ],
-  "title": "Apple Layered Strudel",
-  "title_print": "Apple Layered Strudel",
+  "title": "Apple Layered Strudel",
+  "title_print": "Apple Layered Strudel",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -4828,8 +4828,8 @@
     "slot": 0
    }
   ],
-  "title": "“Eskimo” Cake",
-  "title_print": "“Eskimo” Cake",
+  "title": "“Eskimo” Cake",
+  "title_print": "“Eskimo” Cake",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -4923,8 +4923,8 @@
     "slot": 0
    }
   ],
-  "title": "Czech Baklava",
-  "title_print": "Czech Baklava",
+  "title": "Czech Baklava",
+  "title_print": "Czech Baklava",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "batch-1",
@@ -4988,8 +4988,8 @@
     "slot": 0
    }
   ],
-  "title": "Indian Pudding",
-  "title_print": "Indian Pudding",
+  "title": "Indian Pudding",
+  "title_print": "Indian Pudding",
   "language": "english",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -5178,8 +5178,8 @@
     "slot": 0
    }
   ],
-  "title": "Homemade Granola",
-  "title_print": "Homemade Granola",
+  "title": "Homemade Granola",
+  "title_print": "Homemade Granola",
   "language": "english",
   "section": "Pantry",
   "batch": "",
@@ -5278,8 +5278,8 @@
     "slot": 0
    }
   ],
-  "title": "BBQ Rub",
-  "title_print": "BBQ Rub",
+  "title": "BBQ Rub",
+  "title_print": "BBQ Rub",
   "language": "english",
   "section": "Pantry",
   "batch": "",
@@ -5329,8 +5329,8 @@
     "slot": 0
    }
   ],
-  "title": "Lucky and Rippy's Favorite Dog Food",
-  "title_print": "Lucky and Rippy's Favorite Dog Food",
+  "title": "Lucky and Rippy's Favorite Dog Food",
+  "title_print": "Lucky and Rippy's Favorite Dog Food",
   "language": "english",
   "section": "Pantry",
   "batch": "",

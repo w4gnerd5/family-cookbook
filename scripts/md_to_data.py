@@ -34,18 +34,19 @@ def smart_quotes(t):
     return re.sub(r'"([^"]+)"', "“\\1”", t)
 
 
-ORPHAN_MAX = 7   # chars; a longer trailing word fills its line and reads fine
+ORPHAN_MAX = 7        # body text: a longer trailing word fills its line
+ORPHAN_MAX_TITLE = 10  # 20pt titles hold fewer words per line, so bind further
 
 
-def bind_orphan(t):
-    """Join the last two words with a non-breaking space so a paragraph cannot
-    end with a SHORT single-word line. Only short words are bound: gluing a long
-    word to its neighbour just pushes the break earlier and orphans something
-    else (1168 printed 'Traditional Georgian / Bread / Shaping Instructions').
-    Titles are never auto-bound; `|` in the frontmatter is the control there."""
+def bind_orphan(t, max_len=ORPHAN_MAX):
+    """Join the last two words with a non-breaking space so a line cannot end
+    with a SHORT single-word orphan. Only short words are bound: gluing a long
+    word to its neighbour just pushes the break earlier and strands something
+    worse (1168 printed 'Traditional Georgian / Bread / Shaping Instructions'
+    until the cap went in). `|` in a title still overrides everything."""
     t = t.rstrip()
     i = t.rfind(" ")
-    if 0 < i and len(t) - i - 1 <= ORPHAN_MAX:
+    if 0 < i and len(t) - i - 1 <= max_len:
         t = t[:i] + "\u00a0" + t[i + 1:]
     return t
 
@@ -179,8 +180,10 @@ def parse_md(path):
         # chosen point on the verso. Every other consumer (index, ToC, web, see_also)
         # gets the clean title. Straight quote pairs curl for print; the .md
         # stays plain.
-        "title": smart_quotes(re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip()),
-        "title_print": smart_quotes(fm.get("title", "").strip()),
+        "title": bind_orphan(smart_quotes(re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip()),
+                             ORPHAN_MAX_TITLE),
+        "title_print": "|".join(bind_orphan(seg.strip(), ORPHAN_MAX_TITLE)
+            for seg in smart_quotes(fm.get("title", "").strip()).split("|")),
         "language": fm.get("language", ""),
         "section": fm.get("section", ""),
         "batch": fm.get("batch", ""),
