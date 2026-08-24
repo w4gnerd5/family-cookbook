@@ -46,9 +46,20 @@ function render(state) {
   const open = state.recipes.filter(r => r.status === 'open').length;
   $('#summary').textContent = `${state.recipes.length} recipes · ${open} open · notes autosave · your note tells Claude what to do; "after action" is Claude's reply`;
   list.innerHTML = '';
+  // resolved recipes collapse to one line; click the header to expand
+  const expanded = window.expanded = window.expanded || new Set();
   for (const r of state.recipes) {
     const div = document.createElement('div');
     div.className = 'recipe';
+    if (r.status !== 'open' && !expanded.has(r.img)) {
+      div.innerHTML = `<div class="rhead" style="cursor:pointer;opacity:.55">
+        <b>${esc(r.title)}</b><span class="img">${esc(r.img)}</span>
+        <span style="color:var(--ok);font-size:11px">${esc(r.status)}</span>
+        <span style="color:#666;font-size:11px">click to expand</span></div>`;
+      div.querySelector('.rhead').onclick = () => { expanded.add(r.img); render(state); };
+      list.appendChild(div);
+      continue;
+    }
     const cur = r.current_photo
       ? `<img src="/file?p=${encodeURIComponent(r.current_photo)}"><div class="cap">current</div>`
       : `<div class="cap">no current photo</div>`;
