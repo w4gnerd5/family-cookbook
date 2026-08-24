@@ -34,6 +34,15 @@ def smart_quotes(t):
     return re.sub(r'"([^"]+)"', "“\\1”", t)
 
 
+def bind_orphan(t):
+    """Join the last two words with a non-breaking space so a paragraph can
+    never end in a single-word orphan line; the pair wraps together."""
+    i = t.rstrip().rfind(" ")
+    if i > 0:
+        t = t[:i] + "\u00a0" + t[i + 1:]
+    return t
+
+
 def clean_original(text):
     """Original blocks print verbatim, so markdown-isms in the .md would print
     literally. Split into labeled segments and strip transcription markup:
@@ -160,8 +169,9 @@ def parse_md(path):
         # chosen point on the verso. Every other consumer (index, ToC, web, see_also)
         # gets the clean title. Straight quote pairs curl for print; the .md
         # stays plain.
-        "title": smart_quotes(re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip()),
-        "title_print": smart_quotes(fm.get("title", "").strip()),
+        "title": bind_orphan(smart_quotes(re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip())),
+        "title_print": "|".join(bind_orphan(seg.strip())
+            for seg in smart_quotes(fm.get("title", "").strip()).split("|")),
         "language": fm.get("language", ""),
         "section": fm.get("section", ""),
         "batch": fm.get("batch", ""),
@@ -173,7 +183,7 @@ def parse_md(path):
         "scribe": fm.get("scribe", "") or "",
         "scribe_confidence": int(fm.get("scribe_confidence", 0) or 0),
         "slug": fm.get("slug", "") or "",
-        "description": conv(desc_m.group(1).strip()) if desc_m else "",
+        "description": bind_orphan(conv(desc_m.group(1).strip())) if desc_m else "",
         "ingredients": items(section("Ingredients"), r"\*"),
         "instructions": items(section("Instructions"), r"\d+\."),
         "notes": items(section("Notes"), r"\*"),
