@@ -46,7 +46,9 @@ def bind_orphan(t, max_len=ORPHAN_MAX):
     until the cap went in). `|` in a title still overrides everything."""
     t = t.rstrip()
     i = t.rfind(" ")
-    if 0 < i and len(t) - i - 1 <= max_len:
+    # trailing punctuation is not visual bulk, so it does not count toward the cap
+    word = t[i + 1:].rstrip('.,;:!?)”"\'')
+    if 0 < i and len(word) <= max_len:
         t = t[:i] + "\u00a0" + t[i + 1:]
     return t
 
@@ -84,6 +86,8 @@ def clean_original(text):
     # template gives Georgian segments extra line spacing to look equally airy
     for seg in segs:
         seg["georgian"] = bool(re.search(r"[ა-ჿ]", seg["text"]))
+        # a long manuscript line wraps in print; keep its tail off a stub line
+        seg["text"] = "\n".join(bind_orphan(l) for l in seg["text"].split("\n"))
     return segs
 
 
@@ -146,7 +150,8 @@ def parse_md(path):
             if re.match(r"^\*\*.+:?\*\*:?$", line):
                 out.append({"group": line.strip("*:").strip("*")})
             elif re.match(rf"^{marker}", line):
-                out.append(conv(re.sub(rf"^{marker}\s*", "", line)))
+                # list items are paragraphs too: no lone stub on the last line
+                out.append(bind_orphan(conv(re.sub(rf"^{marker}\s*", "", line))))
         return out
 
     # normalize scan entries to dicts with art-direction defaults; tilt is
@@ -194,7 +199,9 @@ def parse_md(path):
         "photo": (fm.get("photo", "") or "") if (ROOT / (fm.get("photo") or "x")).is_file() else
                  (print(f"warn: missing photo for {path.name}, rendering field color") or ""),
         "inverse": str(fm.get("inverse", "")).lower() == "true",
-        "see_also": [e if isinstance(e, dict) else {"slug": e} for e in (fm.get("see_also") or []) if e],
+        "see_also": [({**e, "note": bind_orphan(e["note"])} if isinstance(e, dict) and e.get("note")
+                      else e if isinstance(e, dict) else {"slug": e})
+                     for e in (fm.get("see_also") or []) if e],
         "scribe": fm.get("scribe", "") or "",
         "scribe_confidence": int(fm.get("scribe_confidence", 0) or 0),
         "slug": fm.get("slug", "") or "",

@@ -71,8 +71,8 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [x] Photo gaps closed (2026-08-18, stock-first order per Paul: curated free
   sites before Commons): bazhe + Ideal cake from Pexels, Eskimo cake is an AI
   render Paul generated (photo_source: ai-generated)
-- [ ] Photo quality swaps flagged by agents: 1278 crock-pot chicken (portrait,
-  800px), 1280 breakfast strata (weak aesthetics), 1162 stroganoff (mediocre)
+- [x] Photo quality swaps done: 1280 and 1162 replaced during the photo review;
+  1278 no longer exists (atticed)
 - [x] Card exposure: white-point normalization in make_cards.py (97th
   percentile -> ~247, gain capped 1.6x), per-scan `exposure:` frontmatter
   override for stubborn scans; whole cache rebaked
@@ -110,9 +110,10 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 
 ## 6. Alpha release
 
-- [ ] Pre-print orphan/widow sweep: titles + descriptions are bound at build
-  (bind_orphan, 2f03ed9); check notes and method paragraphs visually and
-  extend the binding to item fields if lone words show up
+- [x] Pre-print orphan/widow sweep: binding now covers titles (cap 10), body
+  text, list items, see_also notes, and wrapped Original lines. Detected in the
+  rendered PDF: 38 orphan lines -> 5, and those 5 are long words
+  (consistency, proportions, khachapuri) that fill their line by design
 - [ ] Print a dummy copy for Nino to mark up
 - [ ] Nino's duplicate pass: several suspected dupes remain visible in print
   (her call, deferred until she has the dummy in hand)
@@ -125,9 +126,9 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [ ] Semver for the book: version stamped in book.yaml, shown in the colophon;
   tag releases (alpha = 0.x)
 - [ ] Central CHANGELOG.md at the root, versioned with the book
-- [ ] Per-recipe changelogs are NOT files — they live in git
+- [x] Per-recipe changelogs are NOT files — they live in git
   (`git log --follow assets/<group>/<n>/<file>.md`); the website can render
-  them from history later
+  them from history later (decided, nothing to build)
 
 ## 7. Production
 
