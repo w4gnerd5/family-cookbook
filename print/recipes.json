@@ -101,8 +101,8 @@
    {
     "path": "assets/english/1209/IMG_1277.png",
     "tilt": 2.22,
-    "dx": 67.08,
-    "dy": -68.42,
+    "dx": 68.32,
+    "dy": -46.8,
     "scale": 1.0,
     "aspect": 0.7763,
     "slot": 1
@@ -111,8 +111,8 @@
     "path": "assets/english/1209/IMG_1209.png",
     "scale": 1.06,
     "tilt": -6.97,
-    "dx": -7.27,
-    "dy": 80.85,
+    "dx": 0.87,
+    "dy": 81.59,
     "aspect": 0.7744,
     "slot": 0
    }
@@ -172,8 +172,8 @@
     "path": "assets/english/1274/IMG_1274.png",
     "scale": 1.04,
     "tilt": 2.85,
-    "dx": 4.03,
-    "dy": 44.58,
+    "dx": -2.4,
+    "dy": 9.22,
     "aspect": 0.7693,
     "slot": 0
    }
@@ -299,8 +299,8 @@
    {
     "path": "assets/georgian/1198/IMG_1198.png",
     "scale": 1.02,
-    "dx": 8.08,
-    "dy": 80.01,
+    "dx": 9.07,
+    "dy": 69.74,
     "tilt": 2.5,
     "aspect": 0.7801,
     "slot": 0
@@ -687,9 +687,9 @@
    {
     "path": "assets/georgian/1243/IMG_1243.png",
     "scale": 1.16,
+    "tilt": -4.06,
     "dx": 13.73,
     "dy": 1.17,
-    "tilt": 2.44,
     "aspect": 0.7233,
     "slot": 0
    }
@@ -851,10 +851,10 @@
   "scans": [
    {
     "path": "assets/georgian/1269/IMG_1269.png",
+    "scale": 0.9,
     "tilt": 7.31,
-    "dx": 27.83,
-    "dy": 140.68,
-    "scale": 1.0,
+    "dx": 13.32,
+    "dy": 142.85,
     "aspect": 0.988,
     "slot": 0
    }
@@ -917,10 +917,10 @@
   "scans": [
    {
     "path": "assets/georgian/1236/IMG_1236.png",
-    "tilt": 0.23,
-    "dx": 14.59,
-    "dy": 116.03,
-    "scale": 1.0,
+    "scale": 0.92,
+    "tilt": -2.27,
+    "dx": -0.36,
+    "dy": 115.71,
     "aspect": 0.9744,
     "slot": 0
    }
@@ -1469,10 +1469,10 @@
   "scans": [
    {
     "path": "assets/georgian/1256/IMG_1256.png",
-    "scale": 1.2,
-    "tilt": -3.04,
-    "dx": 8.91,
-    "dy": 21.08,
+    "scale": 1.16,
+    "tilt": -2.04,
+    "dx": 17.73,
+    "dy": 24.06,
     "aspect": 0.7297,
     "slot": 0
    }
@@ -1827,9 +1827,9 @@
    {
     "path": "assets/english/1227/IMG_1227.png",
     "scale": 1.06,
+    "tilt": -2.77,
     "dx": 14.0,
     "dy": 81.42,
-    "tilt": 1.23,
     "aspect": 0.7669,
     "slot": 0
    }
@@ -1919,9 +1919,9 @@
    {
     "path": "assets/english/1294/IMG_1294.png",
     "scale": 1.06,
-    "dx": 13.41,
-    "dy": 99.22,
-    "tilt": 2.6,
+    "tilt": 1.1,
+    "dx": 22.02,
+    "dy": 101.5,
     "aspect": 0.7714,
     "slot": 0
    }
@@ -1973,8 +1973,8 @@
   "scans": [
    {
     "path": "assets/georgian/1248/IMG_1249.png",
-    "dx": 8.01,
-    "dy": 28.8,
+    "dx": 14.55,
+    "dy": 8.06,
     "scale": 1.0,
     "tilt": 1.61,
     "aspect": 0.748,
@@ -2319,9 +2319,9 @@
    {
     "path": "assets/english/1213/IMG_1213.png",
     "scale": 1.12,
-    "tilt": -1.16,
-    "dx": 14.44,
-    "dy": 50.99,
+    "tilt": -3.16,
+    "dx": 19.12,
+    "dy": 50.74,
     "aspect": 0.7781,
     "slot": 0
    }
@@ -2442,9 +2442,9 @@
    {
     "path": "assets/english/1214/IMG_1214.png",
     "scale": 1.1,
-    "tilt": -2.61,
-    "dx": 2.47,
-    "dy": 68.05,
+    "tilt": -1.61,
+    "dx": 18.72,
+    "dy": 69.1,
     "aspect": 0.7786,
     "slot": 0
    }
@@ -2738,8 +2738,8 @@
     "path": "assets/english/1295/IMG_1296.png",
     "scale": 1.06,
     "tilt": -6.13,
-    "dx": 41.03,
-    "dy": -20.35,
+    "dx": 37.52,
+    "dy": -18.87,
     "aspect": 0.7786,
     "slot": 1
    },
@@ -2747,8 +2747,8 @@
     "path": "assets/english/1295/IMG_1295.png",
     "scale": 1.06,
     "tilt": 2.02,
-    "dx": 19.04,
-    "dy": 101.12,
+    "dx": 22.58,
+    "dy": 82.44,
     "aspect": 0.7808,
     "slot": 0
    }
@@ -2809,8 +2809,8 @@
    {
     "path": "assets/georgian/1253/IMG_1253.png",
     "scale": 1.14,
-    "dx": 16.54,
-    "dy": 53.31,
+    "dx": 28.64,
+    "dy": 55.28,
     "tilt": 1.64,
     "aspect": 0.7485,
     "slot": 0
@@ -2857,10 +2857,10 @@
   "scans": [
    {
     "path": "assets/english/1280/IMG_1280.png",
-    "scale": 1.12,
-    "tilt": -6.65,
-    "dx": 2.46,
-    "dy": 53.17,
+    "scale": 1.08,
+    "tilt": -1.65,
+    "dx": 20.13,
+    "dy": 66.25,
     "aspect": 0.774,
     "slot": 0
    }
@@ -2915,8 +2915,8 @@
    {
     "path": "assets/english/1291/IMG_1292.png",
     "tilt": 0.29,
-    "dx": 127.11,
-    "dy": 93.24,
+    "dx": 125.54,
+    "dy": 73.03,
     "scale": 1.0,
     "aspect": 0.7875,
     "slot": 1
@@ -2924,8 +2924,8 @@
    {
     "path": "assets/english/1291/IMG_1291.png",
     "tilt": -3.13,
-    "dx": -64.4,
-    "dy": 4.99,
+    "dx": -63.67,
+    "dy": -7.79,
     "scale": 1.0,
     "aspect": 0.7847,
     "slot": 0
@@ -2983,9 +2983,9 @@
    {
     "path": "assets/english/1273/IMG_1273.png",
     "scale": 1.06,
-    "tilt": -4.2,
-    "dx": 8.75,
-    "dy": 79.12,
+    "tilt": -2.7,
+    "dx": 15.08,
+    "dy": 81.7,
     "aspect": 0.786,
     "slot": 0
    }
@@ -3036,8 +3036,8 @@
   "scans": [
    {
     "path": "assets/english/1207/IMG_1208.png",
-    "dx": 20.86,
-    "dy": 42.81,
+    "dx": 19.79,
+    "dy": 21.57,
     "scale": 1.0,
     "tilt": -2.56,
     "aspect": 0.8117,
@@ -3046,8 +3046,8 @@
    {
     "path": "assets/english/1207/IMG_1207.png",
     "tilt": 0.7,
-    "dx": 14.91,
-    "dy": 125.84,
+    "dx": 14.66,
+    "dy": 111.41,
     "scale": 1.0,
     "aspect": 0.7911,
     "slot": 0
@@ -3328,9 +3328,9 @@
   "scans": [
    {
     "path": "assets/english/1221/IMG_1221.png",
-    "scale": 1.14,
-    "dx": 17.51,
-    "dy": 73.26,
+    "scale": 1.08,
+    "dx": 17.76,
+    "dy": 72.69,
     "tilt": -2.24,
     "aspect": 0.7775,
     "slot": 0
@@ -3381,9 +3381,9 @@
   "scans": [
    {
     "path": "assets/english/1279/IMG_1279.png",
-    "scale": 1.12,
-    "dx": 14.18,
-    "dy": 56.56,
+    "scale": 1.06,
+    "dx": 17.35,
+    "dy": 48.08,
     "tilt": -1.59,
     "aspect": 0.7832,
     "slot": 0
@@ -3432,10 +3432,10 @@
   "scans": [
    {
     "path": "assets/georgian/1254/IMG_1254.png",
-    "scale": 1.16,
-    "tilt": -3.79,
-    "dx": 8.04,
-    "dy": 65.13,
+    "scale": 1.12,
+    "tilt": 0.71,
+    "dx": 24.79,
+    "dy": 64.29,
     "aspect": 0.7566,
     "slot": 0
    }
@@ -3482,8 +3482,8 @@
   "scans": [
    {
     "path": "assets/english/1288/IMG_1289.png",
-    "dx": 17.65,
-    "dy": 5.21,
+    "dx": 17.61,
+    "dy": -6.96,
     "scale": 1.0,
     "tilt": -1.63,
     "aspect": 0.7784,
@@ -3491,8 +3491,8 @@
    },
    {
     "path": "assets/english/1288/IMG_1288.png",
-    "dx": 8.28,
-    "dy": 105.04,
+    "dx": 8.76,
+    "dy": 86.15,
     "scale": 1.0,
     "tilt": -1.71,
     "aspect": 0.7786,
@@ -3553,16 +3553,16 @@
    {
     "path": "assets/georgian/1250/IMG_1251.png",
     "tilt": 1.39,
-    "dx": 89.98,
-    "dy": -5.58,
+    "dx": 76.95,
+    "dy": -3.36,
     "scale": 1.0,
     "aspect": 0.7468,
     "slot": 1
    },
    {
     "path": "assets/georgian/1250/IMG_1250.png",
-    "dx": -26.36,
-    "dy": 92.77,
+    "dx": -12.59,
+    "dy": 95.59,
     "scale": 1.0,
     "tilt": -2.99,
     "aspect": 0.742,
@@ -3629,8 +3629,8 @@
    },
    {
     "path": "assets/english/1217/IMG_1217.png",
-    "dx": 4.65,
-    "dy": 120.54,
+    "dx": 3.63,
+    "dy": 106.26,
     "scale": 1.0,
     "tilt": -3.13,
     "aspect": 0.7768,
@@ -4076,7 +4076,7 @@
   "scans": [
    {
     "path": "assets/georgian/1247/IMG_1247.png",
-    "dx": -8.42,
+    "dx": 4.65,
     "dy": 87.39,
     "scale": 1.0,
     "tilt": 2.5,
@@ -4205,8 +4205,8 @@
   "scans": [
    {
     "path": "assets/english/1281/IMG_1281.png",
-    "dx": 1.58,
-    "dy": 93.08,
+    "dx": 8.89,
+    "dy": 75.64,
     "scale": 1.0,
     "tilt": 2.1,
     "aspect": 0.7877,
@@ -4282,8 +4282,8 @@
    {
     "path": "assets/georgian/1257/IMG_1257.png",
     "scale": 1.08,
-    "dx": -5.26,
-    "dy": 91.98,
+    "dx": 12.43,
+    "dy": 91.48,
     "tilt": 1.65,
     "aspect": 0.7517,
     "slot": 0
@@ -4335,8 +4335,8 @@
    {
     "path": "assets/georgian/1176/IMG_1176.png",
     "scale": 1.06,
-    "dx": 5.41,
-    "dy": 85.18,
+    "dx": 9.09,
+    "dy": 85.43,
     "tilt": -2.2,
     "aspect": 0.7636,
     "slot": 0
@@ -4460,10 +4460,10 @@
   "scans": [
    {
     "path": "assets/georgian/1270/IMG_1270.png",
-    "dx": 18.56,
-    "dy": 79.17,
+    "tilt": -5.33,
+    "dx": 20.58,
+    "dy": 97.62,
     "scale": 1.0,
-    "tilt": 3.17,
     "aspect": 0.984,
     "slot": 0
    }
@@ -4916,8 +4916,8 @@
    {
     "path": "assets/georgian/1190/IMG_1190.png",
     "scale": 1.08,
-    "dx": 14.24,
-    "dy": 70.49,
+    "dx": 21.89,
+    "dy": 70.73,
     "tilt": 2.28,
     "aspect": 0.7583,
     "slot": 0
@@ -5038,7 +5038,7 @@
    {
     "path": "assets/georgian/1252/IMG_1252.png",
     "scale": 1.1,
-    "dx": 1.9,
+    "dx": 6.83,
     "dy": 70.29,
     "tilt": -2.11,
     "aspect": 0.7603,
@@ -5100,8 +5100,8 @@
    {
     "path": "assets/georgian/1261/IMG_1261.png",
     "scale": 1.04,
-    "dx": 13.87,
-    "dy": 94.83,
+    "dx": 21.72,
+    "dy": 96.06,
     "tilt": 3.22,
     "aspect": 0.7218,
     "slot": 0

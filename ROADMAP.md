@@ -48,6 +48,18 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
   note scans ride on top like sticky notes offset down-right; full-size sheets
   stay full size, nudged so their writing peeks (Paul Bread done, b1d7ca1).
 - [ ] Tune the 3+ scan snapshot composition (gap between card cluster and title)
+- [ ] FIX THE VERSO EDITOR for bleed. It hardcodes `PW = 595.276` (A4 at trim)
+  and assumes bleed 0, so since the 3mm flip its preview no longer matches the
+  print: every card sits 8.5pt off in both axes and the title column is drawn
+  narrow. It should read `space-bleed` from tokens.typ like it already reads the
+  card tokens, and offset placement by B exactly as cookbook.typ does.
+- [ ] RELATED, decide before touching it: `card.title_col` is a percentage of
+  the *page* width, which now includes bleed, so the title column silently
+  widened 207.9 -> 215.4pt when bleed went 0 -> 3mm and word wrap shifted with
+  it. Arguably it should be a percentage of the TRIM width so bleed can never
+  move text. But Paul re-noodled all 75 versos against the current (wider)
+  column, so changing it now would invalidate that work. Leave it unless there
+  is a reason, and if it changes, re-check his placements.
 - [x] Full seam pass (2026-08-20, 201 pages): text-layer scan of every page
   boundary + visual check of all 37 spillover pages — clean. The rhythm
   guards (sticky labels, section-guard, unbreakable paragraphs,
