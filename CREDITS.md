@@ -62,7 +62,7 @@ the original recipe cards are family material.
 - **Puff Pastry and Layered Pirog** — photo by A.Savin, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Russian_Coulibiac_with_Cabbage.jpg)
 - **Zeinab's Khachapuri** — photo by Nadin Sh, Pexels License (https://www.pexels.com/photo/close-up-of-cutting-kchachapuri-16260567/)
 - **Yeast Dough for Khachapuri, Pies, and Pirozhki** — photo by Roman Odintsov, Pexels License (https://www.pexels.com/photo/hands-kneading-a-dough-5903446/)
-- **Christmas Salad** — photo by dytmeri, Pexels License (https://www.pexels.com/photo/delicious-chicken-salad-with-fresh-vegetables-28698363/)
+- **Christmas Salad** — photo by ,  (ai-generated)
 - **Chicken Salad** — photo by ,  (ai-generated)
 - **Satsivi for One Large Turkey** — photo by Sandra C from Canada, CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:Satsivi,_Restaurant_Aragvi.jpg)
 - **Beef Stuffed Eggplant & Bell Pepper Boats** — photo by ,  (ai-generated)

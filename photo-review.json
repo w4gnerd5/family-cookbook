@@ -47,7 +47,7 @@
      ],
      "panel_note": "",
      "user_note": "",
-     "action_comment": "Corrected my own pick: swapped to Boltneva 18852570, a dense diamond-cut home-pakhlava piece with a walnut half — the thick-layer creature this recipe actually bakes, not phyllo. Same photographer, right dish."
+     "action_comment": "Paul: provisionally accepted the home-pakhlava diamond (Boltneva). Revisit only if it reads wrong in the printed dummy."
     }
    ]
   },
@@ -58,7 +58,7 @@
    "file": "assets/georgian/1246/IMG_1246.md",
    "inventory_note": "photo is Olivier salad; recipe is a mushroom-chicken-crouton salad (Paul, 2026-08-20)",
    "current_photo": "assets/georgian/1246/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -95,7 +95,7 @@
      ],
      "panel_note": "Round 2: two imperfect stock matches for a mushroom-chicken-crouton mayo salad; nothing on stock shows this exact dish. AI render also an option.",
      "user_note": "",
-     "action_comment": "Applied rank 1 (dytmeri): creamy chicken salad bowl. AI render remains an option if this is too generic."
+     "action_comment": "Paul's AI render is in: chicken, sauteed mushrooms, egg and rye croutons in mayo, which is the dish Zeinab's five lines describe. 4800x3584, downsampled to 2600; photo_source now ai-generated (the dytmeri credit was stale)."
     }
    ]
   },
