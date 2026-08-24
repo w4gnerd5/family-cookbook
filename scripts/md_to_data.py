@@ -132,6 +132,9 @@ def parse_md(path):
         out = []
         for line in block.splitlines():
             line = line.strip()
+            if line.startswith("- "):
+                print(f"warn: {path.name} uses '-' bullets — the standard is '*' "
+                      "(run scripts/normalize_md.py); item would not print")
             if re.match(r"^\*\*.+:?\*\*:?$", line):
                 out.append({"group": line.strip("*:").strip("*")})
             elif re.match(rf"^{marker}", line):

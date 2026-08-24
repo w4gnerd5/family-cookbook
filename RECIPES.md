@@ -13,7 +13,7 @@ Generated from frontmatter by `scripts/build_index.py` — do not edit manually.
 | Breads & Doughs | 5 | Vareniki with Boiling Water Dough | georgian | vareniki-with-boiling-water-dough | assets/georgian/1198/IMG_1198.md |
 | Breads & Doughs | 6 | Vareniki Dough (Dumpling Dough) | georgian | vareniki-dough-dumpling-dough | assets/georgian/1180/IMG_1180.md |
 | Breads & Doughs | 7 | Buttermilk Pancakes II | english | buttermilk-pancakes-ii | assets/english/1212/IMG_1212.md |
-| Breads & Doughs | 8 | Kefir Pancakes (Blini) with Baking Soda | georgian | kefir-pancakes-blini-with-baking-soda | assets/georgian/1186/IMG_1186.md |
+| Breads & Doughs | 8 | Kefir Pancakes with Baking Soda | georgian | kefir-pancakes-with-baking-soda | assets/georgian/1186/IMG_1186.md |
 | Breads & Doughs | 9 | Scalded Crepes (Zavarnyye Blini) | georgian | scalded-crepes-zavarnyye-blini | assets/georgian/1233/IMG_1233.md |
 | Breads & Doughs | 10 | Yeast Dough for Khachapuri, Pies, and Pirozhki | georgian | yeast-dough-for-khachapuri-pies-and-pirozhki | assets/georgian/1243/IMG_1243.md |
 | Breads & Doughs | 11 | Russian Pirozhki with Scalded Yeast Dough (Yields 30) | georgian | russian-pirozhki-with-scalded-yeast-dough | assets/georgian/1184/IMG_1184.md |

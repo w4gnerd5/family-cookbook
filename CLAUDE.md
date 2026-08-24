@@ -120,6 +120,9 @@ Brief description with historical or cultural context.
 [original text preserved verbatim for reference]
 ```
 
+**List style is `*`, always.** `- ` bullets are invisible to the build (md_to_data
+parses `*` only and warns); `scripts/normalize_md.py` converts strays.
+
 **Sub-group labels** (multi-component recipes): a bare bold line like `**For the Dough:**` above the items, never a heading. Canonical examples: `assets/georgian/IMG_1161.md`, `assets/georgian/IMG_1162.md`.
 
 ## Build Pipeline

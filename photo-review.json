@@ -2,6 +2,56 @@
  "rounds_are_append_only": true,
  "recipes": [
   {
+   "img": "IMG_1190",
+   "slug": "czech-baklava",
+   "title": "Czech Baklava",
+   "file": "assets/georgian/1190/IMG_1190.md",
+   "inventory_note": "needs new photo: crumbly matsoni shortcrust layered with walnuts and raisins, not phyllo baklava (Paul, 2026-08-21)",
+   "current_photo": "assets/georgian/1190/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-21",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "cand-10038727.jpg",
+       "page_url": "https://www.pexels.com/photo/close-up-shot-of-slices-of-cake-on-a-plate-10038727/",
+       "image_url": "https://images.pexels.com/photos/10038727/pexels-photo-10038727.jpeg",
+       "author": "see page",
+       "site": "pexels",
+       "license": "Pexels License",
+       "why": "Walnut baklava slices on a plate; closest to a home walnut-layer bar."
+      },
+      {
+       "rank": 2,
+       "thumb": "cand-5863602.jpg",
+       "page_url": "https://www.pexels.com/photo/pieces-of-cake-5863602/",
+       "image_url": "https://images.pexels.com/photos/5863602/pexels-photo-5863602.jpeg",
+       "author": "see page",
+       "site": "pexels",
+       "license": "Pexels License",
+       "why": "Walnut cake pieces, top view, rustic; reads crumbly rather than phyllo."
+      },
+      {
+       "rank": 3,
+       "thumb": "cand-8362962.jpg",
+       "page_url": "https://www.pexels.com/photo/pieces-of-cake-on-a-plate-8362962/",
+       "image_url": "https://images.pexels.com/photos/8362962/pexels-photo-8362962.jpeg",
+       "author": "see page",
+       "site": "pexels",
+       "license": "Pexels License",
+       "why": "Powdered-sugar homemade pastry pieces on a floral plate; homiest mood."
+      }
+     ],
+     "panel_note": "",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
    "img": "IMG_1246",
    "slug": "christmas-salad",
    "title": "Christmas Salad",
@@ -15,6 +65,35 @@
      "date": "2026-08-20",
      "candidates": [],
      "panel_note": "Flagged by Paul: current photo shows Olivier (potatoes, peas, carrots), but the recipe is sauteed mushrooms + boiled chicken + mayo + rye croutons. Note here: scout stock, or AI render.",
+     "user_note": "",
+     "action_comment": ""
+    },
+    {
+     "n": 2,
+     "date": "2026-08-21",
+     "candidates": [
+      {
+       "rank": 1,
+       "thumb": "cand-28698363.jpg",
+       "page_url": "https://www.pexels.com/photo/delicious-chicken-salad-with-fresh-vegetables-28698363/",
+       "image_url": "https://images.pexels.com/photos/28698363/pexels-photo-28698363.jpeg",
+       "author": "see page",
+       "site": "pexels",
+       "license": "Pexels License",
+       "why": "Chicken salad in a bowl with creamy dressing; closest general match."
+      },
+      {
+       "rank": 2,
+       "thumb": "cand-5639372.jpg",
+       "page_url": "https://www.pexels.com/photo/vegetable-salad-with-chicken-strips-5639372/",
+       "image_url": "https://images.pexels.com/photos/5639372/pexels-photo-5639372.jpeg",
+       "author": "see page",
+       "site": "pexels",
+       "license": "Pexels License",
+       "why": "Chicken strips + croutons + creamy dressing; caesar-adjacent but crouton-forward like the recipe."
+      }
+     ],
+     "panel_note": "Round 2: two imperfect stock matches for a mushroom-chicken-crouton mayo salad; nothing on stock shows this exact dish. AI render also an option.",
      "user_note": "",
      "action_comment": ""
     }

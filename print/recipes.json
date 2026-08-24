@@ -269,7 +269,7 @@
   "scribe": "Zeinab",
   "scribe_confidence": 4,
   "slug": "dumpling-dough-with-boiling-water-super",
-  "description": "This traditional \"choux\" pastry technique for Russian _pelmeni_ or _vareniki_ uses boiling water to partially gelatinize the starch in the flour. This process results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings remain intact and tender during the boiling process.",
+  "description": "This traditional scalded pastry technique for Russian _pelmeni_ or _vareniki_ uses boiling water to partially gelatinize the starch in the flour. This process results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings remain intact and tender during the boiling process.",
   "ingredients": [
    "1 egg",
    "salt",
@@ -334,7 +334,7 @@
   "scribe": "Zeinab",
   "scribe_confidence": 4,
   "slug": "vareniki-with-boiling-water-dough",
-  "description": "This recipe utilizes the \"choux\" pastry technique, where boiling water is used to partially gelatinize the flour's starch. This results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings hold their shape and stay soft after boiling.",
+  "description": "This recipe utilizes a scalding technique, where boiling water is used to partially gelatinize the flour's starch. This results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings hold their shape and stay soft after boiling.",
   "ingredients": [
    "4 cups flour",
    "1 cup boiling water",
@@ -484,12 +484,12 @@
     "title": "Scalded Crepes (Zavarnyye Blini)"
    },
    {
-    "slug": "kefir-pancakes-blini-with-baking-soda",
+    "slug": "kefir-pancakes-with-baking-soda",
     "rel": "variant",
     "note": "no eggs, no scalding",
     "section": "Breads & Doughs",
     "number": 8,
-    "title": "Kefir Pancakes (Blini) with Baking Soda"
+    "title": "Kefir Pancakes with Baking Soda"
    }
   ],
   "scribe": "printed",
@@ -536,8 +536,8 @@
     "slot": 0
    }
   ],
-  "title": "Kefir Pancakes (Blini) with Baking Soda",
-  "title_print": "Kefir Pancakes (Blini) with Baking Soda",
+  "title": "Kefir Pancakes with Baking Soda",
+  "title_print": "Kefir Pancakes with Baking Soda",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -564,8 +564,8 @@
   ],
   "scribe": "",
   "scribe_confidence": 0,
-  "slug": "kefir-pancakes-blini-with-baking-soda",
-  "description": "These Eastern European pancakes utilize the chemical reaction between acidic kefir (or Matsoni, a traditional Georgian yogurt) and baking soda to create a light, airy texture. Thinning the batter with milk ensures a delicate, pourable consistency typical of traditional thin blini, which are meant to be light enough to fold or roll.",
+  "slug": "kefir-pancakes-with-baking-soda",
+  "description": "These Eastern European pancakes rely on the reaction between acidic kefir (or matsoni, the Georgian cultured milk) and baking soda for their light, airy lift. The batter starts out runny, takes more flour a little at a time until it thickens, and rests half an hour before frying, so they come out small and plump rather than thin and foldable.",
   "ingredients": [
    "1 cup flour",
    "1 cup Matsoni or Kefir",
@@ -636,12 +636,12 @@
   "inverse": true,
   "see_also": [
    {
-    "slug": "kefir-pancakes-blini-with-baking-soda",
+    "slug": "kefir-pancakes-with-baking-soda",
     "rel": "variant",
     "note": "no eggs, no scalding",
     "section": "Breads & Doughs",
     "number": 8,
-    "title": "Kefir Pancakes (Blini) with Baking Soda"
+    "title": "Kefir Pancakes with Baking Soda"
    },
    {
     "slug": "buttermilk-pancakes-ii",
@@ -746,9 +746,9 @@
    "6. 600 g – flour"
   ],
   "instructions": [
-   "- Heat the milk (so that it is warm).",
-   "- Melt the butter.",
-   "- Mix the milk and 1/2 part of the melted butter, then add the other ingredients, except for the yeast (remember, yeast cannot be dissolved in a hot environment! They will not rise!). The environment must be warm; then pour in the yeast and flour and knead. When the dough becomes homogeneous, pour in the other half of the butter and knead. The dough will turn silky and won't stick to your hands. You can also make Gvezeli with this dough"
+   "Heat the milk (so that it is warm).",
+   "Melt the butter.",
+   "Mix the milk and 1/2 part of the melted butter, then add the other ingredients, except for the yeast (remember, yeast cannot be dissolved in a hot environment! They will not rise!). The environment must be warm; then pour in the yeast and flour and knead. When the dough becomes homogeneous, pour in the other half of the butter and knead. The dough will turn silky and won't stick to your hands. You can also make Gvezeli with this dough"
   ],
   "notes": [
    "The most critical factor is temperature control: ensure the milk and butter mixture is lukewarm (around 100°F–110°F) before adding the yeast. If the liquid is too hot to touch comfortably, it will kill the yeast, and the dough will not rise."
@@ -898,8 +898,8 @@
    "2 cups flour"
   ],
   "instructions": [
-   "- Mix and beat the warm kefir, sugar, salt, vegetable oil, and yeast together with a fork.",
-   "- Add the flour and knead until a soft dough forms."
+   "Mix and beat the warm kefir, sugar, salt, vegetable oil, and yeast together with a fork.",
+   "Add the flour and knead until a soft dough forms."
   ],
   "notes": [
    "Ensure the kefir is only lukewarm (around 100°F/38°C) so as not to kill the yeast; the final dough should be soft and slightly tacky to the touch for the best results."
@@ -949,10 +949,10 @@
    "4 tablespoons oil"
   ],
   "instructions": [
-   "- Mix the first five ingredients (3 tablespoons of flour, sugar, salt, yeast, and warm water) to create a starter.",
-   "- Separately, mix 800 grams of flour with 2 cups of boiling water.",
-   "- Mix all ingredients together",
-   "- Let the dough rest and rise for 40 minutes in a warm place."
+   "Mix the first five ingredients (3 tablespoons of flour, sugar, salt, yeast, and warm water) to create a starter.",
+   "Separately, mix 800 grams of flour with 2 cups of boiling water.",
+   "Mix all ingredients together",
+   "Let the dough rest and rise for 40 minutes in a warm place."
   ],
   "notes": [
    "*Water Temperature:* Ensure the water is lukewarm (around 100°F / 38°C); water that is too hot will kill the yeast, while cold water will significantly slow down the rise.",
@@ -2696,7 +2696,7 @@
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "cashew-nut-loaf",
-  "description": "A vegetarian nut loaf from a mid-century community cookbook page (page 43, \"Entrees,\" attributed to Mrs. Ferdinand Welebir). The page is heavily annotated by hand, including a soy sauce substitution for Savita and revised baking directions. The scan also carries four unrelated recipes from the same page, which are not part of this collection.",
+  "description": "A meatless loaf of cashews, canned gluten, and onions run through a food chopper, bound with eggs and bread crumbs and baked in brick-shape tins set in a pan of water. Savita is corrected to soy sauce and the bake extended to 80 minutes covered, then uncovered until browned. Served hot or cold with mushroom or cranberry sauce; any raw or lightly toasted nut can stand in for the cashews. From a community cookbook, credited to Mrs. Ferdinand Welebir.",
   "ingredients": [
    "3 c. raw cashews",
    "2 large onions",
@@ -2829,7 +2829,7 @@
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "achma-makarina",
-  "description": "This traditional Georgian recipe utilizes a high egg count and a \"feel-based\" flour measurement to create a rich, elastic dough. The technique of adding flour \"until it's kneaded in\" ensures a tender crust that can support a heavy, savory cheese filling without becoming tough or dry, a hallmark of homemade regional breads like Khachapuri.",
+  "description": "This traditional Georgian recipe utilizes a high egg count and a \"feel-based\" flour measurement to create a rich, elastic dough. Although it is a layered dish of dough and cheese that is similar to a baked pasta, it is considered by many to be part of the Khachapuri family.",
   "ingredients": [
    "1 cup water",
    "5 eggs",
@@ -3230,7 +3230,7 @@
   "scribe": "Nino",
   "scribe_confidence": 5,
   "slug": "new-seasons-market-cheesy-chilaquiles-casserole",
-  "description": "This casserole version of the traditional Mexican breakfast dish relies on the corn tortillas to absorb the enchilada sauce, where the starch helps thicken the mixture and creates a cohesive, tender texture similar to a savory bread pudding or lasagna.",
+  "description": "A casserole take on chilaquiles from the New Seasons Market deli: tortilla chips layered with enchilada sauce and cheese, baked just long enough for the edges to soften while the chips in the middle keep their crunch. It lands somewhere between nachos and a casserole, sauced but never soggy.",
   "ingredients": [
    "1 Tbs olive oil",
    "1 Med. onion, diced",
@@ -3464,7 +3464,7 @@
    "1 tablespoon garlic juice"
   ],
   "instructions": [
-   "- Combine and cook the 5% extra lean ground beef with the listed spices: thyme, rosemary, coriander, and nutmeg."
+   "Combine and cook the 5% extra lean ground beef with the listed spices: thyme, rosemary, coriander, and nutmeg."
   ],
   "notes": [
    "Because 5% lean beef is used, it is important to handle the meat gently to avoid a tough texture. The use of garlic juice is essential for a smooth, uniform savory flavor that doesn't overpower the delicate herbal notes of the rosemary and thyme."
@@ -4113,7 +4113,7 @@
   "scribe": "Zeinab",
   "scribe_confidence": 9,
   "slug": "chicken-salad",
-  "description": "A five-line notebook salad of shredded red radish and boiled chicken, bound with mayonnaise and sweetened by onion sautéed in oil. The radish keeps its bite against the soft chicken, a quick everyday counterpoint to the festive salads on the neighboring pages.",
+  "description": "A five-line notebook salad of shredded red radish and boiled chicken, bound with mayonnaise and sweetened by onion sautéed in oil. The radish keeps its bite against the soft chicken. In composition this is salat Tashkent, the Soviet-era radish and meat salad credited to Uzbek chefs cooking for 1950s Moscow, made here with chicken in place of the usual beef.",
   "ingredients": [
    "Red radish, shredded (shavings)",
    "Boiled chicken, finely chopped",
@@ -4437,12 +4437,12 @@
    "3 bunches celery leaves (lovage)"
   ],
   "instructions": [
-   "- Pass all the ingredients through a blender.",
-   "- Bring the mixture to a boil in an aluminum or non-stick pot.",
-   "- Add salt to taste, be careful not to let it burn!",
-   "- Simmer for approximately 15-20 minutes, until the bright color of the herbs begins to change.",
-   "- It is recommended that as soon as you turn off the heat, immediately add 3 ground aspirin tablets and stir well.",
-   "- Pour the hot mixture into jars (previously sterilized and dried) and seal them tightly."
+   "Pass all the ingredients through a blender.",
+   "Bring the mixture to a boil in an aluminum or non-stick pot.",
+   "Add salt to taste, be careful not to let it burn!",
+   "Simmer for approximately 15-20 minutes, until the bright color of the herbs begins to change.",
+   "It is recommended that as soon as you turn off the heat, immediately add 3 ground aspirin tablets and stir well.",
+   "Pour the hot mixture into jars (previously sterilized and dried) and seal them tightly."
   ],
   "notes": [
    "Continuous stirring is vital during the short boiling phase to prevent the thick vegetable base from scorching the bottom of the pot. Adding ground aspirin is a traditional regional preservation technique that helps stabilize the sauce for long-term storage without the need for prolonged boiling that would dull the fresh flavors."
@@ -4849,7 +4849,7 @@
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "eskimo-cake",
-  "description": "\"Eskimo\" cake is a beloved nostalgic dessert in Georgian cuisine, named for its resemblance to the creamy texture and chocolate coating of a classic ice cream bar. The recipe relies on a dual-part cream, a cooked custard folded into whipped buttercream, and a light sponge leavened by the chemical reaction of vinegar and baking soda combined with aerated egg whites.",
+  "description": "A Soviet-era cake named after the Eskimo ice cream bar. The sponge starts from gogli-mogli, yolks whisked with sugar, extended with milk, sour cream and walnuts, with beaten whites folded in and baked slow on buttered parchment. The cream is a cooked custard whisked into butter and sugar once it has fully cooled, and a boiled cocoa glaze goes over the top.",
   "ingredients": [
    {
     "group": "For the Sponge"
@@ -4936,7 +4936,7 @@
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "czech-baklava",
-  "description": "This traditional Georgian pastry, known as \"Khrashuna Namtskhvari\" (Crunchy Cake), relies on the reaction between _matsoni_ (Georgian yogurt) and baking soda to create a uniquely tender and crumbly shortcrust. Typically layered with a rich mixture of chopped walnuts and raisins, it represents a classic home-baking style where simple pantry staples are transformed into a textured, festive dessert often served at family gatherings.",
+  "description": "This traditional Georgian pastry, known as \"Czech Baklava\" (ჩეხური ბაქლავა), relies on the reaction between _matsoni_ (Georgian yogurt) and baking soda to create a uniquely tender and crumbly shortcrust. Typically layered with a rich mixture of chopped walnuts and raisins, it represents a classic home-baking style where simple pantry staples are transformed into a textured, festive dessert often served at family gatherings.",
   "ingredients": [
    "4Egg yolks",
    "400g Margarine",
