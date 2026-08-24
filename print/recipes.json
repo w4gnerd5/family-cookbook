@@ -851,12 +851,12 @@
   "scans": [
    {
     "path": "assets/georgian/1269/IMG_1269.png",
+    "tilt": 7.31,
+    "dx": 27.83,
+    "dy": 140.68,
     "scale": 1.0,
-    "tilt": 3.31,
     "aspect": 0.988,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Pirozhki with Kefir",
@@ -917,12 +917,12 @@
   "scans": [
    {
     "path": "assets/georgian/1236/IMG_1236.png",
+    "tilt": 0.23,
+    "dx": 14.59,
+    "dy": 116.03,
     "scale": 1.0,
-    "tilt": 1.23,
     "aspect": 0.9744,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Oven-Baked Pirozhki",
@@ -971,12 +971,12 @@
   "scans": [
    {
     "path": "assets/english/1290/IMG_1290.png",
+    "dx": 7.52,
+    "dy": 96.29,
     "scale": 1.0,
     "tilt": 2.72,
     "aspect": 0.7789,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Mom's Zucchini Bread",
@@ -1165,12 +1165,12 @@
   "scans": [
    {
     "path": "assets/georgian/1168/IMG_1168.png",
+    "dx": 4.62,
+    "dy": 108.02,
     "scale": 1.0,
     "tilt": -2.04,
     "aspect": 0.7908,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Traditional Georgian Bread Shaping Instructions",
@@ -1212,12 +1212,12 @@
   "scans": [
    {
     "path": "assets/georgian/1170/IMG_1170.png",
+    "dx": 11.33,
+    "dy": 85.82,
     "scale": 1.0,
     "tilt": 2.41,
     "aspect": 0.7898,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Khachapuri Recipe by Gia Agirba",

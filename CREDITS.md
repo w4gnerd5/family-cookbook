@@ -59,7 +59,7 @@ the original recipe cards are family material.
 - **Scalded Crepes (Zavarnyye Blini)** — photo by Urfa Sahi, Unsplash License (https://unsplash.com/photos/pancake-cake-with-red-caviar-and-sour-cream-NTNxQer6RsU)
 - **Baking Ingredient Weight to Cup Conversions** — photo by Ron Lach, Pexels License (https://www.pexels.com/photo/a-person-putting-the-flour-on-a-weighing-scale-8176580/)
 - **Oven-Baked Pirozhki** — photo by Polina Tankilevitch, Pexels License (https://www.pexels.com/photo/close-up-photo-of-pirozhki-bread-8599648/)
-- **Puff Pastry and Layered Pirog** — photo by A.Savin, CC BY-SA 3.0 (https://commons.wikimedia.org/wiki/File:Russian_Coulibiac_with_Cabbage.jpg)
+- **Puff Pastry and Layered Pirog** — photo by Christina Voinova, Pexels License (https://www.pexels.com/photo/baked-meat-pie-7368052/)
 - **Zeinab's Khachapuri** — photo by Nadin Sh, Pexels License (https://www.pexels.com/photo/close-up-of-cutting-kchachapuri-16260567/)
 - **Yeast Dough for Khachapuri, Pies, and Pirozhki** — photo by Roman Odintsov, Pexels License (https://www.pexels.com/photo/hands-kneading-a-dough-5903446/)
 - **Christmas Salad** — photo by ,  (ai-generated)

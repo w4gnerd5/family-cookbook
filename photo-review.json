@@ -1675,6 +1675,25 @@
      "action_comment": "Retitle exposed a stale photo: the old file was restaurant crepes with coulis and a teapot on a blini recipe that is actually oladi. Paul picked Tatyana Novoselova's stacks of small thick pancakes with smetana and red currants on a dark board (Pexels, native 2304x3456 portrait)."
     }
    ]
+  },
+  {
+   "img": "IMG_1237",
+   "slug": "puff-pastry",
+   "title": "Puff Pastry and Layered Pirog",
+   "file": "assets/georgian/1237/IMG_1237.md",
+   "inventory_note": "photo was a soft yeast-dough bun with decorative leaves; recipe is a rough-puff slab pirog (Paul, 2026-08-23)",
+   "current_photo": "assets/georgian/1237/dish-1239.jpg",
+   "status": "applied",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-23",
+     "candidates": [],
+     "panel_note": "",
+     "user_note": "its just a normal perogi with some christmas design. this recipe is for a perog",
+     "action_comment": "Replaced with Christina Voinova's golden slab pirog, slashed vents showing the meat filling, shot beside a halved cabbage and herbs, which is this recipe's filling. Native 5171x3454, downsampled to 2600. Sibling frame 7368043 from the same shoot swaps raw beef for the cabbage if you prefer it."
+    }
+   ]
   }
  ]
 }
