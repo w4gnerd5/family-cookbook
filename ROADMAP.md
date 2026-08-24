@@ -94,7 +94,10 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 - [x] Colophon: ordering paragraph, image disclosure, QR placeholder (real QR
   blocks on the domain decision in Production)
 - [x] Dedication page: Zeinab's Georgian note, verbatim, facing the colophon
-- [ ] Scribe index at the back: follow one hand end to end
+- [~] BACKLOG: scribe index at the back (follow one hand end to end). Blocked
+  on attribution coverage, not on layout: 11 recipes carry a named hand
+  (Zeinab 9, Rusiko 1, Nino 1), 34 are "printed", and 30 have no scribe at
+  all. Worth printing after a second attribution pass with Nino
 - [x] Decide: cluster-language or keep interleaved sections (decided: interleaved)
 
 
