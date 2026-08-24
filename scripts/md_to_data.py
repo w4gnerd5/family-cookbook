@@ -34,11 +34,18 @@ def smart_quotes(t):
     return re.sub(r'"([^"]+)"', "“\\1”", t)
 
 
+ORPHAN_MAX = 7   # chars; a longer trailing word fills its line and reads fine
+
+
 def bind_orphan(t):
-    """Join the last two words with a non-breaking space so a paragraph can
-    never end in a single-word orphan line; the pair wraps together."""
-    i = t.rstrip().rfind(" ")
-    if i > 0:
+    """Join the last two words with a non-breaking space so a paragraph cannot
+    end with a SHORT single-word line. Only short words are bound: gluing a long
+    word to its neighbour just pushes the break earlier and orphans something
+    else (1168 printed 'Traditional Georgian / Bread / Shaping Instructions').
+    Titles are never auto-bound; `|` in the frontmatter is the control there."""
+    t = t.rstrip()
+    i = t.rfind(" ")
+    if 0 < i and len(t) - i - 1 <= ORPHAN_MAX:
         t = t[:i] + "\u00a0" + t[i + 1:]
     return t
 
@@ -172,9 +179,8 @@ def parse_md(path):
         # chosen point on the verso. Every other consumer (index, ToC, web, see_also)
         # gets the clean title. Straight quote pairs curl for print; the .md
         # stays plain.
-        "title": bind_orphan(smart_quotes(re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip())),
-        "title_print": "|".join(bind_orphan(seg.strip())
-            for seg in smart_quotes(fm.get("title", "").strip()).split("|")),
+        "title": smart_quotes(re.sub(r"\s*\|\s*", " ", fm.get("title", "")).strip()),
+        "title_print": smart_quotes(fm.get("title", "").strip()),
         "language": fm.get("language", ""),
         "section": fm.get("section", ""),
         "batch": fm.get("batch", ""),

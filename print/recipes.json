@@ -7,18 +7,18 @@
     "scale": 1.2,
     "tilt": -21.1,
     "z": "bottom",
-    "dx": 188.21,
-    "dy": 45.83,
+    "dx": 192.97,
+    "dy": 41.97,
     "aspect": 0.7468,
     "slot": 0
    },
    {
     "path": "assets/georgian/1241/IMG_1242.png",
-    "scale": 1.26,
-    "z": "bottom",
-    "dx": -83.05,
-    "dy": -40.69,
+    "scale": 1.32,
     "tilt": -2.09,
+    "z": "bottom",
+    "dx": -102.99,
+    "dy": -41.34,
     "aspect": 0.7448,
     "slot": 1
    },
@@ -33,8 +33,8 @@
     "slot": 2
    }
   ],
-  "title": "Zeinab's Khachapuri",
-  "title_print": "Zeinab's Khachapuri",
+  "title": "Zeinab's Khachapuri",
+  "title_print": "Zeinab's Khachapuri",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -49,14 +49,14 @@
     "note": "Gia Agirba's, on a yeast dough",
     "section": "Breads & Doughs",
     "number": 17,
-    "title": "Khachapuri Recipe by Gia Agirba"
+    "title": "Khachapuri Recipe by Gia Agirba"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "Zeinab",
@@ -117,8 +117,8 @@
     "slot": 0
    }
   ],
-  "title": "No-Knead Bread",
-  "title_print": "No-Knead Bread",
+  "title": "No-Knead Bread",
+  "title_print": "No-Knead Bread",
   "language": "english",
   "section": "Breads & Doughs",
   "batch": "",
@@ -133,13 +133,13 @@
     "note": "same idea in two hours instead of twenty",
     "section": "Breads & Doughs",
     "number": 3,
-    "title": "2-Hour Fastest No Knead Bread"
+    "title": "2-Hour Fastest No Knead Bread"
    }
   ],
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "no-knead-bread",
-  "description": "Jim Lahey's famous no-knead loaf from the New York Times: a wet dough, an overnight rise, and a screaming-hot covered pot stand in for kneading. The printout carries a handwritten substitution of active dry yeast for instant.",
+  "description": "Jim Lahey's famous no-knead loaf from the New York Times: a wet dough, an overnight rise, and a screaming-hot covered pot stand in for kneading. The printout carries a handwritten substitution of active dry yeast for instant.",
   "ingredients": [
    "3 cups all-purpose or bread flour, more for dusting",
    "1/3 teaspoon active dry yeast (handwritten substitution for the printed 1/4 teaspoon instant yeast)",
@@ -178,8 +178,8 @@
     "slot": 0
    }
   ],
-  "title": "2-Hour Fastest No Knead Bread",
-  "title_print": "2-Hour Fastest No Knead Bread",
+  "title": "2-Hour Fastest No Knead Bread",
+  "title_print": "2-Hour Fastest No Knead Bread",
   "language": "english",
   "section": "Breads & Doughs",
   "batch": "",
@@ -193,7 +193,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 2,
-    "title": "No-Knead Bread"
+    "title": "No-Knead Bread"
    }
   ],
   "scribe": "printed",
@@ -241,8 +241,8 @@
     "slot": 0
    }
   ],
-  "title": "Dumpling Dough with Boiling Water (Super)",
-  "title_print": "Dumpling Dough with Boiling Water (Super)",
+  "title": "Dumpling Dough with Boiling Water (Super)",
+  "title_print": "Dumpling Dough with Boiling Water (Super)",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -256,20 +256,20 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 5,
-    "title": "Vareniki with Boiling Water Dough"
+    "title": "Vareniki with Boiling Water Dough"
    },
    {
     "slug": "vareniki-dough-dumpling-dough",
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 6,
-    "title": "Vareniki Dough (Dumpling Dough)"
+    "title": "Vareniki Dough (Dumpling Dough)"
    }
   ],
   "scribe": "Zeinab",
   "scribe_confidence": 4,
   "slug": "dumpling-dough-with-boiling-water-super",
-  "description": "This traditional scalded pastry technique for Russian _pelmeni_ or _vareniki_ uses boiling water to partially gelatinize the starch in the flour. This process results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings remain intact and tender during the boiling process.",
+  "description": "This traditional scalded pastry technique for Russian _pelmeni_ or _vareniki_ uses boiling water to partially gelatinize the starch in the flour. This process results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings remain intact and tender during the boiling process.",
   "ingredients": [
    "1 egg",
    "salt",
@@ -306,8 +306,8 @@
     "slot": 0
    }
   ],
-  "title": "Vareniki with Boiling Water Dough",
-  "title_print": "Vareniki with Boiling Water Dough",
+  "title": "Vareniki with Boiling Water Dough",
+  "title_print": "Vareniki with Boiling Water Dough",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -321,20 +321,20 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 4,
-    "title": "Dumpling Dough with Boiling Water (Super)"
+    "title": "Dumpling Dough with Boiling Water (Super)"
    },
    {
     "slug": "vareniki-dough-dumpling-dough",
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 6,
-    "title": "Vareniki Dough (Dumpling Dough)"
+    "title": "Vareniki Dough (Dumpling Dough)"
    }
   ],
   "scribe": "Zeinab",
   "scribe_confidence": 4,
   "slug": "vareniki-with-boiling-water-dough",
-  "description": "This recipe utilizes a scalding technique, where boiling water is used to partially gelatinize the flour's starch. This results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings hold their shape and stay soft after boiling.",
+  "description": "This recipe utilizes a scalding technique, where boiling water is used to partially gelatinize the flour's starch. This results in an exceptionally elastic and pliable dough that can be rolled very thin without tearing, ensuring the dumplings hold their shape and stay soft after boiling.",
   "ingredients": [
    "4 cups flour",
    "1 cup boiling water",
@@ -370,8 +370,8 @@
     "slot": 0
    }
   ],
-  "title": "Vareniki Dough (Dumpling Dough)",
-  "title_print": "Vareniki Dough (Dumpling Dough)",
+  "title": "Vareniki Dough (Dumpling Dough)",
+  "title_print": "Vareniki Dough (Dumpling Dough)",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -385,27 +385,27 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 4,
-    "title": "Dumpling Dough with Boiling Water (Super)"
+    "title": "Dumpling Dough with Boiling Water (Super)"
    },
    {
     "slug": "vareniki-with-boiling-water-dough",
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 5,
-    "title": "Vareniki with Boiling Water Dough"
+    "title": "Vareniki with Boiling Water Dough"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "vareniki-dough-dumpling-dough",
-  "description": "This recipe utilizes the \"scalded dough\" technique, a staple of Eastern European culinary tradition. By pouring boiling water directly into the flour, the starches partially gelatinize, resulting in an exceptionally elastic and pliable dough that can be rolled paper-thin without tearing and maintains a silky, tender texture after boiling.",
+  "description": "This recipe utilizes the \"scalded dough\" technique, a staple of Eastern European culinary tradition. By pouring boiling water directly into the flour, the starches partially gelatinize, resulting in an exceptionally elastic and pliable dough that can be rolled paper-thin without tearing and maintains a silky, tender texture after boiling.",
   "ingredients": [
    {
     "group": "Method 1"
@@ -466,8 +466,8 @@
     "slot": 0
    }
   ],
-  "title": "Buttermilk Pancakes II",
-  "title_print": "Buttermilk Pancakes II",
+  "title": "Buttermilk Pancakes II",
+  "title_print": "Buttermilk Pancakes II",
   "language": "english",
   "section": "Breads & Doughs",
   "batch": "",
@@ -481,7 +481,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 9,
-    "title": "Scalded Crepes (Zavarnyye Blini)"
+    "title": "Scalded Crepes (Zavarnyye Blini)"
    },
    {
     "slug": "kefir-pancakes-with-baking-soda",
@@ -489,13 +489,13 @@
     "note": "no eggs, no scalding",
     "section": "Breads & Doughs",
     "number": 8,
-    "title": "Kefir Pancakes with Baking Soda"
+    "title": "Kefir Pancakes with Baking Soda"
    }
   ],
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "buttermilk-pancakes-ii",
-  "description": "Light, fluffy buttermilk pancakes from a well-used Allrecipes printout; keeping the wet and dry mixtures separate until the last minute is the key to the texture. Makes 12 servings.",
+  "description": "Light, fluffy buttermilk pancakes from a well-used Allrecipes printout; keeping the wet and dry mixtures separate until the last minute is the key to the texture. Makes 12 servings.",
   "ingredients": [
    "3 cups all-purpose flour",
    "3 tablespoons white sugar",
@@ -536,8 +536,8 @@
     "slot": 0
    }
   ],
-  "title": "Kefir Pancakes with Baking Soda",
-  "title_print": "Kefir Pancakes with Baking Soda",
+  "title": "Kefir Pancakes with Baking Soda",
+  "title_print": "Kefir Pancakes with Baking Soda",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -551,7 +551,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 9,
-    "title": "Scalded Crepes (Zavarnyye Blini)"
+    "title": "Scalded Crepes (Zavarnyye Blini)"
    },
    {
     "slug": "buttermilk-pancakes-ii",
@@ -559,13 +559,13 @@
     "note": "the American thick-stack version",
     "section": "Breads & Doughs",
     "number": 7,
-    "title": "Buttermilk Pancakes II"
+    "title": "Buttermilk Pancakes II"
    }
   ],
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "kefir-pancakes-with-baking-soda",
-  "description": "These Eastern European pancakes rely on the reaction between acidic kefir (or matsoni, the Georgian cultured milk) and baking soda for their light, airy lift. The batter starts out runny, takes more flour a little at a time until it thickens, and rests half an hour before frying, so they come out small and plump rather than thin and foldable.",
+  "description": "These Eastern European pancakes rely on the reaction between acidic kefir (or matsoni, the Georgian cultured milk) and baking soda for their light, airy lift. The batter starts out runny, takes more flour a little at a time until it thickens, and rests half an hour before frying, so they come out small and plump rather than thin and foldable.",
   "ingredients": [
    "1 cup flour",
    "1 cup Matsoni or Kefir",
@@ -625,8 +625,8 @@
     "slot": 2
    }
   ],
-  "title": "Scalded Crepes (Zavarnyye Blini)",
-  "title_print": "Scalded Crepes (Zavarnyye Blini)",
+  "title": "Scalded Crepes (Zavarnyye Blini)",
+  "title_print": "Scalded Crepes (Zavarnyye Blini)",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -641,7 +641,7 @@
     "note": "no eggs, no scalding",
     "section": "Breads & Doughs",
     "number": 8,
-    "title": "Kefir Pancakes with Baking Soda"
+    "title": "Kefir Pancakes with Baking Soda"
    },
    {
     "slug": "buttermilk-pancakes-ii",
@@ -649,13 +649,13 @@
     "note": "the American thick-stack version",
     "section": "Breads & Doughs",
     "number": 7,
-    "title": "Buttermilk Pancakes II"
+    "title": "Buttermilk Pancakes II"
    }
   ],
   "scribe": "Zeinab",
   "scribe_confidence": 5,
   "slug": "scalded-crepes-zavarnyye-blini",
-  "description": "This traditional Russian recipe uses the \"zavarnoye\" (scalded) technique, where boiling water is whisked into the cold batter. This process partially gelatinizes the flour's starch, resulting in incredibly thin, elastic, and \"lacy\" crepes that are easier to flip and have a delicate texture.",
+  "description": "This traditional Russian recipe uses the \"zavarnoye\" (scalded) technique, where boiling water is whisked into the cold batter. This process partially gelatinizes the flour's starch, resulting in incredibly thin, elastic, and \"lacy\" crepes that are easier to flip and have a delicate texture.",
   "ingredients": [
    "1/2 liter milk",
    "3 eggs",
@@ -694,8 +694,8 @@
     "slot": 0
    }
   ],
-  "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
-  "title_print": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
+  "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
+  "title_print": "Yeast Dough for Khachapuri, Pies, and Pirozhki",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -709,28 +709,28 @@
     "note": "pirozhki made with a scalded dough",
     "section": "Breads & Doughs",
     "number": 11,
-    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)"
+    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)"
    },
    {
     "slug": "pirozhki-with-kefir",
     "note": "pirozhki made with kefir",
     "section": "Breads & Doughs",
     "number": 12,
-    "title": "Pirozhki with Kefir"
+    "title": "Pirozhki with Kefir"
    },
    {
     "slug": "zeinabs-khachapuri",
     "note": "khachapuri made with a matsoni shortcrust",
     "section": "Breads & Doughs",
     "number": 1,
-    "title": "Zeinab's Khachapuri"
+    "title": "Zeinab's Khachapuri"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
@@ -784,8 +784,8 @@
     "slot": 1
    }
   ],
-  "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
-  "title_print": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
+  "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
+  "title_print": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -800,14 +800,14 @@
     "note": "quick kefir dough, no scalding",
     "section": "Breads & Doughs",
     "number": 12,
-    "title": "Pirozhki with Kefir"
+    "title": "Pirozhki with Kefir"
    },
    {
     "slug": "yeast-dough-for-khachapuri-pies-and-pirozhki",
     "note": "a milk-and-butter dough for the same pastries",
     "section": "Breads & Doughs",
     "number": 10,
-    "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki"
+    "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki"
    }
   ],
   "scribe": "Zeinab",
@@ -859,8 +859,8 @@
     "slot": 0
    }
   ],
-  "title": "Pirozhki with Kefir",
-  "title_print": "Pirozhki with Kefir",
+  "title": "Pirozhki with Kefir",
+  "title_print": "Pirozhki with Kefir",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -875,14 +875,14 @@
     "note": "the two-stage scalded dough",
     "section": "Breads & Doughs",
     "number": 11,
-    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)"
+    "title": "Russian Pirozhki with Scalded Yeast Dough (Yields 30)"
    },
    {
     "slug": "yeast-dough-for-khachapuri-pies-and-pirozhki",
     "note": "a milk-and-butter dough for the same pastries",
     "section": "Breads & Doughs",
     "number": 10,
-    "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki"
+    "title": "Yeast Dough for Khachapuri, Pies, and Pirozhki"
    }
   ],
   "scribe": "Zeinab",
@@ -925,8 +925,8 @@
     "slot": 0
    }
   ],
-  "title": "Oven-Baked Pirozhki",
-  "title_print": "Oven-Baked Pirozhki",
+  "title": "Oven-Baked Pirozhki",
+  "title_print": "Oven-Baked Pirozhki",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -979,8 +979,8 @@
     "slot": 0
    }
   ],
-  "title": "Mom's Zucchini Bread",
-  "title_print": "Mom's Zucchini Bread",
+  "title": "Mom's Zucchini Bread",
+  "title_print": "Mom's Zucchini Bread",
   "language": "english",
   "section": "Breads & Doughs",
   "batch": "",
@@ -1028,18 +1028,18 @@
   "scans": [
    {
     "path": "assets/georgian/1237/IMG_1240.png",
-    "dx": -31.91,
-    "dy": 159.1,
-    "scale": 1.0,
+    "scale": 1.06,
+    "dx": -49.62,
+    "dy": 185.08,
     "tilt": 1.63,
     "aspect": 0.7231,
     "slot": 3
    },
    {
     "path": "assets/georgian/1237/IMG_1239.png",
+    "scale": 1.06,
     "dx": 204.84,
     "dy": 265.68,
-    "scale": 1.0,
     "tilt": -2.26,
     "aspect": 0.7352,
     "slot": 2
@@ -1063,8 +1063,8 @@
     "slot": 0
    }
   ],
-  "title": "Puff Pastry and Layered Pirog",
-  "title_print": "Puff Pastry and Layered Pirog",
+  "title": "Puff Pastry and Layered Pirog",
+  "title_print": "Puff Pastry and Layered Pirog",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -1173,8 +1173,8 @@
     "slot": 0
    }
   ],
-  "title": "Traditional Georgian Bread Shaping Instructions",
-  "title_print": "Traditional Georgian Bread Shaping Instructions",
+  "title": "Traditional Georgian Bread Shaping Instructions",
+  "title_print": "Traditional Georgian Bread Shaping Instructions",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -1220,8 +1220,8 @@
     "slot": 0
    }
   ],
-  "title": "Khachapuri Recipe by Gia Agirba",
-  "title_print": "Khachapuri Recipe by Gia Agirba",
+  "title": "Khachapuri Recipe by Gia Agirba",
+  "title_print": "Khachapuri Recipe by Gia Agirba",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "batch-1",
@@ -1236,20 +1236,20 @@
     "note": "Zeinab's, on a matsoni shortcrust",
     "section": "Breads & Doughs",
     "number": 1,
-    "title": "Zeinab's Khachapuri"
+    "title": "Zeinab's Khachapuri"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "khachapuri-recipe-by-gia-agirba",
-  "description": "Imeretian Khachapuri is a cornerstone of Georgian culinary tradition, celebrated for its perfect balance of salty, crumbly Imeretian cheese and elastic Sulguni. The key to a successful khachapuri lies in achieving a high-hydration, soft dough that is handled gently to preserve its airy structure, ensuring a tender crust that complements the rich, molten cheese filling.",
+  "description": "Imeretian Khachapuri is a cornerstone of Georgian culinary tradition, celebrated for its perfect balance of salty, crumbly Imeretian cheese and elastic Sulguni. The key to a successful khachapuri lies in achieving a high-hydration, soft dough that is handled gently to preserve its airy structure, ensuring a tender crust that complements the rich, molten cheese filling.",
   "ingredients": [
    "Warm Water: 300 ml",
    "Milk - optional",
@@ -1295,15 +1295,15 @@
   "scans": [
    {
     "path": "assets/georgian/1195/IMG_1195.png",
+    "dx": -4.23,
+    "dy": 99.66,
     "scale": 1.0,
     "tilt": -3.02,
     "aspect": 0.7757,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Adjarian Khachapuri",
+  "title": "Adjarian Khachapuri",
   "title_print": "Adjarian|Khachapuri",
   "language": "georgian",
   "section": "Breads & Doughs",
@@ -1319,7 +1319,7 @@
     "note": "Rusiko's hand",
     "section": "Breads & Doughs",
     "number": 20,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "adjarian-khachapuri-3",
@@ -1327,20 +1327,20 @@
     "note": "batch quantities, 10-11 pieces",
     "section": "Breads & Doughs",
     "number": 19,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "adjarian-khachapuri",
-  "description": "This recipe details the preparation of a traditional Georgian Khachapuri, a staple cheese-filled bread. The core science of this recipe relies on a high-hydration, enriched yeast dough that is briefly rested to develop gluten elasticity, paired with a high-heat bake (220-250°C) to ensure a rapid rise and a characteristic golden, soft crust that encases the molten cheese interior.",
+  "description": "This recipe details the preparation of a traditional Georgian Khachapuri, a staple cheese-filled bread. The core science of this recipe relies on a high-hydration, enriched yeast dough that is briefly rested to develop gluten elasticity, paired with a high-heat bake (220-250°C) to ensure a rapid rise and a characteristic golden, soft crust that encases the molten cheese interior.",
   "ingredients": [
    {
     "group": "Dough"
@@ -1396,16 +1396,16 @@
   "scans": [
    {
     "path": "assets/georgian/1266/IMG_1266.png",
-    "scale": 1.0,
+    "scale": 1.14,
     "tilt": -1.46,
+    "dx": 5.49,
+    "dy": 62.88,
     "aspect": 0.7151,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Adjarian Khachapuri",
-  "title_print": "Adjarian Khachapuri",
+  "title": "Adjarian Khachapuri",
+  "title_print": "Adjarian Khachapuri",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -1419,7 +1419,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 18,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "adjarian-khachapuri-2",
@@ -1427,13 +1427,13 @@
     "note": "Rusiko's hand",
     "section": "Breads & Doughs",
     "number": 20,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    }
   ],
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "adjarian-khachapuri-3",
-  "description": "Khachapuri is Georgia's quintessential cheese bread, a staple of national identity where the interplay of soft, yeasted dough and melted cheese is paramount. The secret to its texture lies in a high hydration dough enriched with margarine, which creates a tender crumb that perfectly complements the salty, elastic cheese filling.",
+  "description": "Khachapuri is Georgia's quintessential cheese bread, a staple of national identity where the interplay of soft, yeasted dough and melted cheese is paramount. The secret to its texture lies in a high hydration dough enriched with margarine, which creates a tender crumb that perfectly complements the salty, elastic cheese filling.",
   "ingredients": [
    "1 liter warm water",
    "1 tablespoon yeast",
@@ -1469,16 +1469,16 @@
   "scans": [
    {
     "path": "assets/georgian/1256/IMG_1256.png",
-    "scale": 1.0,
-    "tilt": -2.04,
+    "scale": 1.2,
+    "tilt": -3.04,
+    "dx": 8.91,
+    "dy": 21.08,
     "aspect": 0.7297,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Adjarian Khachapuri",
-  "title_print": "Adjarian Khachapuri",
+  "title": "Adjarian Khachapuri",
+  "title_print": "Adjarian Khachapuri",
   "language": "georgian",
   "section": "Breads & Doughs",
   "batch": "",
@@ -1492,7 +1492,7 @@
     "rel": "variant",
     "section": "Breads & Doughs",
     "number": 18,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "adjarian-khachapuri-3",
@@ -1500,14 +1500,14 @@
     "note": "batch quantities, 10-11 pieces",
     "section": "Breads & Doughs",
     "number": 19,
-    "title": "Adjarian Khachapuri"
+    "title": "Adjarian Khachapuri"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "Rusiko",
@@ -1555,16 +1555,16 @@
   "scans": [
    {
     "path": "assets/english/1228/IMG_1228.png",
-    "scale": 1.0,
+    "scale": 1.1,
+    "dx": 4.88,
+    "dy": 81.11,
     "tilt": -1.88,
     "aspect": 0.7743,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Old-Fashioned Beef Stew",
-  "title_print": "Old-Fashioned Beef Stew",
+  "title": "Old-Fashioned Beef Stew",
+  "title_print": "Old-Fashioned Beef Stew",
   "language": "english",
   "section": "Soups & Stews",
   "batch": "",
@@ -1579,7 +1579,7 @@
     "note": "doubled by hand on the card",
     "section": "Soups & Stews",
     "number": 2,
-    "title": "Old-Time Beef Stew"
+    "title": "Old-Time Beef Stew"
    },
    {
     "slug": "ina-gartens-unforgettable-beef-stew",
@@ -1587,7 +1587,7 @@
     "note": "wine and mushrooms struck out on the card",
     "section": "Soups & Stews",
     "number": 3,
-    "title": "Ina Garten's Unforgettable Beef Stew"
+    "title": "Ina Garten's Unforgettable Beef Stew"
    },
    {
     "slug": "beef-bourguignon",
@@ -1595,13 +1595,13 @@
     "note": "the French version the others descend from",
     "section": "Soups & Stews",
     "number": 4,
-    "title": "Beef Bourguignon"
+    "title": "Beef Bourguignon"
    }
   ],
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "old-fashioned-beef-stew",
-  "description": "Molly O'Neill's classic stick-to-your-ribs beef stew from NYT Cooking, with the wine and broth lines highlighted on this well-worn printout.",
+  "description": "Molly O'Neill's classic stick-to-your-ribs beef stew from NYT Cooking, with the wine and broth lines highlighted on this well-worn printout.",
   "ingredients": [
    "1/4 cup all-purpose flour",
    "1/4 teaspoon freshly ground pepper",
@@ -1637,16 +1637,16 @@
   "scans": [
    {
     "path": "assets/english/1293/IMG_1293.png",
+    "dx": 1.72,
+    "dy": 94.34,
     "scale": 1.0,
     "tilt": 3.07,
     "aspect": 0.7802,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Old-Time Beef Stew",
-  "title_print": "Old-Time Beef Stew",
+  "title": "Old-Time Beef Stew",
+  "title_print": "Old-Time Beef Stew",
   "language": "english",
   "section": "Soups & Stews",
   "batch": "",
@@ -1660,7 +1660,7 @@
     "rel": "variant",
     "section": "Soups & Stews",
     "number": 1,
-    "title": "Old-Fashioned Beef Stew"
+    "title": "Old-Fashioned Beef Stew"
    },
    {
     "slug": "ina-gartens-unforgettable-beef-stew",
@@ -1668,7 +1668,7 @@
     "note": "wine and mushrooms struck out on the card",
     "section": "Soups & Stews",
     "number": 3,
-    "title": "Ina Garten's Unforgettable Beef Stew"
+    "title": "Ina Garten's Unforgettable Beef Stew"
    },
    {
     "slug": "beef-bourguignon",
@@ -1676,13 +1676,13 @@
     "note": "the French version the others descend from",
     "section": "Soups & Stews",
     "number": 4,
-    "title": "Beef Bourguignon"
+    "title": "Beef Bourguignon"
    }
   ],
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "old-time-beef-stew",
-  "description": "Paula Deen's Food Network beef stew, well used and food-stained, with handwritten doubling notes in the margins (4 cups water, 2 Tbsp Worcestershire, 4 garlic cloves, 2 onions). Simmered stew beef with carrots and celery, thickened with cornstarch.",
+  "description": "Paula Deen's Food Network beef stew, well used and food-stained, with handwritten doubling notes in the margins (4 cups water, 2 Tbsp Worcestershire, 4 garlic cloves, 2 onions). Simmered stew beef with carrots and celery, thickened with cornstarch.",
   "ingredients": [
    "2 pounds stew beef",
    "2 tablespoons vegetable oil",
@@ -1722,8 +1722,8 @@
   "scans": [
    {
     "path": "assets/english/1285/IMG_1286.png",
-    "dx": 0.49,
-    "dy": -70.0,
+    "dx": 23.07,
+    "dy": -32.78,
     "scale": 1.0,
     "tilt": -1.26,
     "aspect": 0.7879,
@@ -1732,15 +1732,15 @@
    {
     "path": "assets/english/1285/IMG_1285.png",
     "tilt": 3.24,
-    "dx": 15.0,
-    "dy": -80.0,
+    "dx": 9.92,
+    "dy": 86.62,
     "scale": 1.0,
     "aspect": 0.7762,
     "slot": 0
    }
   ],
-  "title": "Ina Garten's Unforgettable Beef Stew",
-  "title_print": "Ina Garten's Unforgettable Beef Stew",
+  "title": "Ina Garten's Unforgettable Beef Stew",
+  "title_print": "Ina Garten's Unforgettable Beef Stew",
   "language": "english",
   "section": "Soups & Stews",
   "batch": "",
@@ -1754,7 +1754,7 @@
     "rel": "variant",
     "section": "Soups & Stews",
     "number": 1,
-    "title": "Old-Fashioned Beef Stew"
+    "title": "Old-Fashioned Beef Stew"
    },
    {
     "slug": "old-time-beef-stew",
@@ -1762,7 +1762,7 @@
     "note": "doubled by hand on the card",
     "section": "Soups & Stews",
     "number": 2,
-    "title": "Old-Time Beef Stew"
+    "title": "Old-Time Beef Stew"
    },
    {
     "slug": "beef-bourguignon",
@@ -1770,13 +1770,13 @@
     "note": "the French version the others descend from",
     "section": "Soups & Stews",
     "number": 4,
-    "title": "Beef Bourguignon"
+    "title": "Beef Bourguignon"
    }
   ],
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "ina-gartens-unforgettable-beef-stew",
-  "description": "A printout from Veggies By Candlelight of Ina Garten's red wine-marinated beef stew, oven-braised with carrots, potatoes, sun-dried tomatoes, and rosemary. The card has hand-strikethroughs on the red wine and the mushrooms.",
+  "description": "A printout from Veggies By Candlelight of Ina Garten's red wine-marinated beef stew, oven-braised with carrots, potatoes, sun-dried tomatoes, and rosemary. The card has hand-strikethroughs on the red wine and the mushrooms.",
   "ingredients": [
    "2 1/2 pounds good quality beef chuck, cubed into \\~1 1/2\" pieces",
    "1 bottle of good red wine (struck through on the card)",
@@ -1826,16 +1826,16 @@
   "scans": [
    {
     "path": "assets/english/1227/IMG_1227.png",
-    "scale": 1.0,
+    "scale": 1.06,
+    "dx": 14.0,
+    "dy": 81.42,
     "tilt": 1.23,
     "aspect": 0.7669,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Beef Bourguignon",
-  "title_print": "Beef Bourguignon",
+  "title": "Beef Bourguignon",
+  "title_print": "Beef Bourguignon",
   "language": "english",
   "section": "Soups & Stews",
   "batch": "",
@@ -1849,7 +1849,7 @@
     "rel": "variant",
     "section": "Soups & Stews",
     "number": 1,
-    "title": "Old-Fashioned Beef Stew"
+    "title": "Old-Fashioned Beef Stew"
    },
    {
     "slug": "old-time-beef-stew",
@@ -1857,7 +1857,7 @@
     "note": "doubled by hand on the card",
     "section": "Soups & Stews",
     "number": 2,
-    "title": "Old-Time Beef Stew"
+    "title": "Old-Time Beef Stew"
    },
    {
     "slug": "ina-gartens-unforgettable-beef-stew",
@@ -1865,7 +1865,7 @@
     "note": "wine and mushrooms struck out on the card",
     "section": "Soups & Stews",
     "number": 3,
-    "title": "Ina Garten's Unforgettable Beef Stew"
+    "title": "Ina Garten's Unforgettable Beef Stew"
    }
   ],
   "scribe": "printed",
@@ -1918,16 +1918,16 @@
   "scans": [
    {
     "path": "assets/english/1294/IMG_1294.png",
-    "scale": 1.0,
+    "scale": 1.06,
+    "dx": 13.41,
+    "dy": 99.22,
     "tilt": 2.6,
     "aspect": 0.7714,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Parker's Split Pea Soup",
-  "title_print": "Parker's Split Pea Soup",
+  "title": "Parker's Split Pea Soup",
+  "title_print": "Parker's Split Pea Soup",
   "language": "english",
   "section": "Soups & Stews",
   "batch": "",
@@ -1939,7 +1939,7 @@
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "parkers-split-pea-soup",
-  "description": "Ina Garten's Barefoot Contessa split pea soup from Food Network. The peas go in two batches, so half break down into the broth while the rest keep some texture.",
+  "description": "Ina Garten's Barefoot Contessa split pea soup from Food Network. The peas go in two batches, so half break down into the broth while the rest keep some texture.",
   "ingredients": [
    "1 cup chopped yellow onions",
    "2 cloves garlic, minced",
@@ -1973,25 +1973,25 @@
   "scans": [
    {
     "path": "assets/georgian/1248/IMG_1249.png",
+    "dx": 8.01,
+    "dy": 28.8,
     "scale": 1.0,
     "tilt": 1.61,
     "aspect": 0.748,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/georgian/1248/IMG_1248.png",
+    "dx": 11.18,
+    "dy": 117.0,
     "scale": 1.0,
     "tilt": -3.03,
     "aspect": 0.7274,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Satsivi for One Large Turkey",
-  "title_print": "Satsivi for One Large Turkey",
+  "title": "Satsivi for One Large Turkey",
+  "title_print": "Satsivi for One Large Turkey",
   "language": "georgian",
   "section": "Mains",
   "batch": "",
@@ -2006,13 +2006,13 @@
     "note": "the sauce on its own",
     "section": "Preserves & Sauces",
     "number": 2,
-    "title": "Bazhe (Georgian Walnut Sauce)"
+    "title": "Bazhe (Georgian Walnut Sauce)"
    }
   ],
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "satsivi-for-one-large-turkey",
-  "description": "Satsivi is the crown jewel of Georgian festive cuisine, traditionally served cold during Christmas and New Year celebrations. The dish's unique chemistry relies on the high natural oil content of finely ground walnuts and a specific aromatic blend of warming spices, like blue fenugreek and marigold, which emulsify with the broth to create a rich, velvety sauce without the need for additional thickeners.",
+  "description": "Satsivi is the crown jewel of Georgian festive cuisine, traditionally served cold during Christmas and New Year celebrations. The dish's unique chemistry relies on the high natural oil content of finely ground walnuts and a specific aromatic blend of warming spices, like blue fenugreek and marigold, which emulsify with the broth to create a rich, velvety sauce without the need for additional thickeners.",
   "ingredients": [
    "1 Large Turkey",
    "Onions",
@@ -2071,16 +2071,16 @@
   "scans": [
    {
     "path": "assets/english/1287/IMG_1287.png",
+    "dx": 0.88,
+    "dy": 103.63,
     "scale": 1.0,
     "tilt": -3.0,
     "aspect": 0.7769,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Perfect Roast Chicken",
-  "title_print": "Perfect Roast Chicken",
+  "title": "Perfect Roast Chicken",
+  "title_print": "Perfect Roast Chicken",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2127,16 +2127,16 @@
   "scans": [
    {
     "path": "assets/georgian/1185/IMG_1185.png",
+    "dx": 11.06,
+    "dy": 108.0,
     "scale": 1.0,
     "tilt": 1.78,
     "aspect": 0.7602,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Ami's Khinkali",
-  "title_print": "Ami's Khinkali",
+  "title": "Ami's Khinkali",
+  "title_print": "Ami's Khinkali",
   "language": "georgian",
   "section": "Mains",
   "batch": "batch-1",
@@ -2188,8 +2188,8 @@
     "path": "assets/english/1229/IMG_1230.png",
     "scale": 1.04,
     "tilt": 3.9,
-    "dx": 6.56,
-    "dy": -57.7,
+    "dx": 19.26,
+    "dy": -35.57,
     "aspect": 0.7802,
     "slot": 1
    },
@@ -2197,14 +2197,14 @@
     "path": "assets/english/1229/IMG_1229.png",
     "scale": 1.06,
     "tilt": -1.99,
-    "dx": 13.02,
-    "dy": 74.33,
+    "dx": 14.26,
+    "dy": 86.75,
     "aspect": 0.7807,
     "slot": 0
    }
   ],
-  "title": "Company Pot Roast",
-  "title_print": "Company Pot Roast",
+  "title": "Company Pot Roast",
+  "title_print": "Company Pot Roast",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2259,15 +2259,15 @@
    {
     "path": "assets/georgian/1178/IMG_1178.png",
     "scale": 1.1,
-    "dx": 4.35,
-    "dy": 48.86,
+    "dx": 12.85,
+    "dy": 72.48,
     "tilt": -2.3,
     "aspect": 0.7746,
     "slot": 0
    }
   ],
-  "title": "Rusiko's Cutlets",
-  "title_print": "Rusiko's Cutlets",
+  "title": "Rusiko's Cutlets",
+  "title_print": "Rusiko's Cutlets",
   "language": "georgian",
   "section": "Mains",
   "batch": "batch-1",
@@ -2279,7 +2279,7 @@
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "rusikos-cutlets",
-  "description": "These Georgian-style meat cutlets, known as _kotleti_, are a beloved staple of Caucasian home cooking. This specific variation incorporates boiled buckwheat as a binding agent instead of the traditional heavy use of soaked bread, which introduces a deep, nutty flavor and ensures a moist, tender interior.",
+  "description": "These Georgian-style meat cutlets, known as _kotleti_, are a beloved staple of Caucasian home cooking. This specific variation incorporates boiled buckwheat as a binding agent instead of the traditional heavy use of soaked bread, which introduces a deep, nutty flavor and ensures a moist, tender interior.",
   "ingredients": [
    "3 pounds (Ground meat)",
    "1 Egg",
@@ -2319,15 +2319,15 @@
    {
     "path": "assets/english/1213/IMG_1213.png",
     "scale": 1.12,
-    "tilt": 0.84,
+    "tilt": -1.16,
     "dx": 14.44,
     "dy": 50.99,
     "aspect": 0.7781,
     "slot": 0
    }
   ],
-  "title": "Whole Chicken Crock Pot",
-  "title_print": "Whole Chicken Crock Pot",
+  "title": "Whole Chicken Crock Pot",
+  "title_print": "Whole Chicken Crock Pot",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2380,14 +2380,14 @@
     "path": "assets/georgian/1162/IMG_1162.png",
     "scale": 1.18,
     "tilt": 1.65,
-    "dx": 12.53,
-    "dy": 7.1,
+    "dx": 18.69,
+    "dy": 45.28,
     "aspect": 0.7103,
     "slot": 0
    }
   ],
-  "title": "Lyudmila's Beef Stroganoff",
-  "title_print": "Lyudmila's Beef Stroganoff",
+  "title": "Lyudmila's Beef Stroganoff",
+  "title_print": "Lyudmila's Beef Stroganoff",
   "language": "georgian",
   "section": "Mains",
   "batch": "batch-1",
@@ -2449,8 +2449,8 @@
     "slot": 0
    }
   ],
-  "title": "Turkey Meatloaf",
-  "title_print": "Turkey Meatloaf",
+  "title": "Turkey Meatloaf",
+  "title_print": "Turkey Meatloaf",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2465,7 +2465,7 @@
     "note": "quinoa in place of breadcrumbs",
     "section": "Mains",
     "number": 9,
-    "title": "Turkey and Quinoa Meatloaf"
+    "title": "Turkey and Quinoa Meatloaf"
    }
   ],
   "scribe": "printed",
@@ -2516,8 +2516,8 @@
     "slot": 0
    }
   ],
-  "title": "Turkey and Quinoa Meatloaf",
-  "title_print": "Turkey and Quinoa Meatloaf",
+  "title": "Turkey and Quinoa Meatloaf",
+  "title_print": "Turkey and Quinoa Meatloaf",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2531,7 +2531,7 @@
     "rel": "variant",
     "section": "Mains",
     "number": 8,
-    "title": "Turkey Meatloaf"
+    "title": "Turkey Meatloaf"
    }
   ],
   "scribe": "printed",
@@ -2596,8 +2596,8 @@
     "slot": 0
    }
   ],
-  "title": "Camca - Sumsa",
-  "title_print": "Camca - Sumsa",
+  "title": "Camca - Sumsa",
+  "title_print": "Camca - Sumsa",
   "language": "georgian",
   "section": "Mains",
   "batch": "",
@@ -2611,7 +2611,7 @@
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
@@ -2677,14 +2677,14 @@
     "path": "assets/english/1210/IMG_1210.png",
     "scale": 1.22,
     "tilt": -5.38,
-    "dx": -31.62,
-    "dy": -21.11,
+    "dx": -11.57,
+    "dy": -17.14,
     "aspect": 0.6462,
     "slot": 0
    }
   ],
-  "title": "Cashew Nut Loaf",
-  "title_print": "Cashew Nut Loaf",
+  "title": "Cashew Nut Loaf",
+  "title_print": "Cashew Nut Loaf",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2696,7 +2696,7 @@
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "cashew-nut-loaf",
-  "description": "A meatless loaf of cashews, canned gluten, and onions run through a food chopper, bound with eggs and bread crumbs and baked in brick-shape tins set in a pan of water. Savita is corrected to soy sauce and the bake extended to 80 minutes covered, then uncovered until browned. Served hot or cold with mushroom or cranberry sauce; any raw or lightly toasted nut can stand in for the cashews. From a community cookbook, credited to Mrs. Ferdinand Welebir.",
+  "description": "A meatless loaf of cashews, canned gluten, and onions run through a food chopper, bound with eggs and bread crumbs and baked in brick-shape tins set in a pan of water. Savita is corrected to soy sauce and the bake extended to 80 minutes covered, then uncovered until browned. Served hot or cold with mushroom or cranberry sauce; any raw or lightly toasted nut can stand in for the cashews. From a community cookbook, credited to Mrs. Ferdinand Welebir.",
   "ingredients": [
    "3 c. raw cashews",
    "2 large onions",
@@ -2753,8 +2753,8 @@
     "slot": 0
    }
   ],
-  "title": "Chicken, Rice, and Spices Bake",
-  "title_print": "Chicken, Rice, and Spices Bake",
+  "title": "Chicken, Rice, and Spices Bake",
+  "title_print": "Chicken, Rice, and Spices Bake",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2865,8 +2865,8 @@
     "slot": 0
    }
   ],
-  "title": "Bacon and Gruyere Breakfast Casserole",
-  "title_print": "Bacon and Gruyere Breakfast Casserole",
+  "title": "Bacon and Gruyere Breakfast Casserole",
+  "title_print": "Bacon and Gruyere Breakfast Casserole",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2878,7 +2878,7 @@
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "bacon-and-gruyere-breakfast-casserole",
-  "description": "A blended egg, Gruyère, and cream cheese custard baked gently in a water bath and topped with crumbled bacon. From Cuts and Crumbles; the water bath keeps the texture custardy rather than rubbery.",
+  "description": "A blended egg, Gruyère, and cream cheese custard baked gently in a water bath and topped with crumbled bacon. From Cuts and Crumbles; the water bath keeps the texture custardy rather than rubbery.",
   "ingredients": [
    "8 slices of bacon",
    "9 eggs",
@@ -2931,8 +2931,8 @@
     "slot": 0
    }
   ],
-  "title": "Tuscan Farmers Breakfast",
-  "title_print": "Tuscan Farmers Breakfast",
+  "title": "Tuscan Farmers Breakfast",
+  "title_print": "Tuscan Farmers Breakfast",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -2944,7 +2944,7 @@
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "tuscan-farmers-breakfast",
-  "description": "Sylvia Fountaine's Feasting At Home skillet of cannellini beans simmered with tomatoes and herbs, with eggs cracked into wells and gently steamed. Served with crusty bread or tortillas and gremolata.",
+  "description": "Sylvia Fountaine's Feasting At Home skillet of cannellini beans simmered with tomatoes and herbs, with eggs cracked into wells and gently steamed. Served with crusty bread or tortillas and gremolata.",
   "ingredients": [
    "1–2 tablespoons olive oil",
    "1/2 an onion, diced",
@@ -2982,12 +2982,12 @@
   "scans": [
    {
     "path": "assets/english/1273/IMG_1273.png",
-    "scale": 1.0,
-    "tilt": -1.7,
+    "scale": 1.06,
+    "tilt": -4.2,
+    "dx": 8.75,
+    "dy": 79.12,
     "aspect": 0.786,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Croque-Madame",
@@ -3003,7 +3003,7 @@
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "croque-madame",
-  "description": "A NYT Cooking printout of the classic French griddled ham and Gruyère sandwich with béchamel, topped with a fried egg. A variation of Amanda Hesser's croque-monsieur. Yield: 2 sandwiches; time: 20 minutes.",
+  "description": "A NYT Cooking printout of the classic French griddled ham and Gruyère sandwich with béchamel, topped with a fried egg. A variation of Amanda Hesser's croque-monsieur. Yield: 2 sandwiches; time: 20 minutes.",
   "ingredients": [
    "5 tablespoons butter",
    "1 tablespoon flour",
@@ -3036,25 +3036,25 @@
   "scans": [
    {
     "path": "assets/english/1207/IMG_1208.png",
+    "dx": 20.86,
+    "dy": 42.81,
     "scale": 1.0,
     "tilt": -2.56,
     "aspect": 0.8117,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/english/1207/IMG_1207.png",
+    "tilt": 0.7,
+    "dx": 14.91,
+    "dy": 125.84,
     "scale": 1.0,
-    "tilt": -2.8,
     "aspect": 0.7911,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Shakshuka With Feta",
-  "title_print": "Shakshuka With Feta",
+  "title": "Shakshuka With Feta",
+  "title_print": "Shakshuka With Feta",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3120,8 +3120,8 @@
    {
     "path": "assets/english/1222/IMG_1223.png",
     "tilt": 18.0,
-    "dx": -102.93,
-    "dy": 67.76,
+    "dx": -132.32,
+    "dy": 52.49,
     "scale": 1.0,
     "aspect": 0.7756,
     "slot": 1
@@ -3136,8 +3136,8 @@
     "dy": 0.0
    }
   ],
-  "title": "Fresh Huevos Rancheros",
-  "title_print": "Fresh Huevos Rancheros",
+  "title": "Fresh Huevos Rancheros",
+  "title_print": "Fresh Huevos Rancheros",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3211,14 +3211,14 @@
     "path": "assets/georgian/1200/IMG_1200.png",
     "scale": 1.3,
     "tilt": 75.84,
-    "dx": 32.78,
-    "dy": 120.06,
+    "dx": 48.98,
+    "dy": 132.45,
     "aspect": 1.7518,
     "slot": 0
    }
   ],
-  "title": "New Seasons Market Cheesy Chilaquiles Casserole",
-  "title_print": "New Seasons Market Cheesy Chilaquiles Casserole",
+  "title": "New Seasons Market Cheesy Chilaquiles Casserole",
+  "title_print": "New Seasons Market Cheesy Chilaquiles Casserole",
   "language": "english",
   "section": "Mains",
   "batch": "batch-1",
@@ -3272,8 +3272,8 @@
     "slot": 0
    }
   ],
-  "title": "Vegetable Enchilada Casserole",
-  "title_print": "Vegetable Enchilada Casserole",
+  "title": "Vegetable Enchilada Casserole",
+  "title_print": "Vegetable Enchilada Casserole",
   "language": "english",
   "section": "Mains",
   "batch": "batch-1",
@@ -3328,16 +3328,16 @@
   "scans": [
    {
     "path": "assets/english/1221/IMG_1221.png",
-    "scale": 1.12,
+    "scale": 1.14,
+    "dx": 17.51,
+    "dy": 73.26,
     "tilt": -2.24,
     "aspect": 0.7775,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Skillet Chicken Bulgogi",
-  "title_print": "Skillet Chicken Bulgogi",
+  "title": "Skillet Chicken Bulgogi",
+  "title_print": "Skillet Chicken Bulgogi",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3381,16 +3381,16 @@
   "scans": [
    {
     "path": "assets/english/1279/IMG_1279.png",
-    "scale": 1.1,
+    "scale": 1.12,
+    "dx": 14.18,
+    "dy": 56.56,
     "tilt": -1.59,
     "aspect": 0.7832,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Baked Salmon with Dill Garlic Beurre Blanc",
-  "title_print": "Baked Salmon with Dill Garlic Beurre Blanc",
+  "title": "Baked Salmon with Dill Garlic Beurre Blanc",
+  "title_print": "Baked Salmon with Dill Garlic Beurre Blanc",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3433,15 +3433,15 @@
    {
     "path": "assets/georgian/1254/IMG_1254.png",
     "scale": 1.16,
-    "tilt": -8.29,
-    "dx": -2.51,
-    "dy": 44.38,
+    "tilt": -3.79,
+    "dx": 8.04,
+    "dy": 65.13,
     "aspect": 0.7566,
     "slot": 0
    }
   ],
-  "title": "American Kebab",
-  "title_print": "American Kebab",
+  "title": "American Kebab",
+  "title_print": "American Kebab",
   "language": "georgian",
   "section": "Mains",
   "batch": "",
@@ -3499,8 +3499,8 @@
     "slot": 0
    }
   ],
-  "title": "Garlic Braised Short Ribs With Red Wine",
-  "title_print": "Garlic Braised Short Ribs With Red Wine",
+  "title": "Garlic Braised Short Ribs With Red Wine",
+  "title_print": "Garlic Braised Short Ribs With Red Wine",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3569,8 +3569,8 @@
     "slot": 0
    }
   ],
-  "title": "Beef Stuffed Eggplant & Bell Pepper Boats",
-  "title_print": "Beef Stuffed Eggplant & Bell Pepper Boats",
+  "title": "Beef Stuffed Eggplant & Bell Pepper Boats",
+  "title_print": "Beef Stuffed Eggplant & Bell Pepper Boats",
   "language": "georgian",
   "section": "Mains",
   "batch": "",
@@ -3582,7 +3582,7 @@
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "beef-stuffed-eggplant-and-pepper-boats",
-  "description": "Eggplant halves and bell pepper boats filled with a beef and onion farsh cooked in butter and brightened with tomato juice (Zeinab is emphatic: juice, not paste). Halved garlic cloves are stuck into the filling like a boat's sails, and the boats get a short finish in a hot oven just before serving.",
+  "description": "Eggplant halves and bell pepper boats filled with a beef and onion farsh cooked in butter and brightened with tomato juice (Zeinab is emphatic: juice, not paste). Halved garlic cloves are stuck into the filling like a boat's sails, and the boats get a short finish in a hot oven just before serving.",
   "ingredients": [
    "Medium-small eggplants",
    "Assorted bell peppers (red, green, and yellow; preferably medium-large)",
@@ -3620,8 +3620,8 @@
   "scans": [
    {
     "path": "assets/english/1217/IMG_1218.png",
-    "dx": 40.34,
-    "dy": 1.63,
+    "dx": 41.83,
+    "dy": 28.52,
     "scale": 1.0,
     "tilt": 2.61,
     "aspect": 0.7796,
@@ -3637,8 +3637,8 @@
     "slot": 0
    }
   ],
-  "title": "Apple Cider Braised Pork Shoulder",
-  "title_print": "Apple Cider Braised Pork Shoulder",
+  "title": "Apple Cider Braised Pork Shoulder",
+  "title_print": "Apple Cider Braised Pork Shoulder",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3693,34 +3693,34 @@
   "scans": [
    {
     "path": "assets/english/1282/IMG_1284.png",
-    "dx": 91.75,
-    "dy": -267.76,
-    "scale": 1.0,
-    "tilt": -3.14,
+    "scale": 1.12,
+    "tilt": -13.64,
+    "dx": 12.73,
+    "dy": -285.87,
     "aspect": 0.7802,
     "slot": 2
    },
    {
     "path": "assets/english/1282/IMG_1283.png",
-    "dx": -51.59,
-    "dy": -20.7,
-    "scale": 1.0,
-    "tilt": -3.27,
+    "scale": 1.12,
+    "tilt": -4.77,
+    "dx": -98.34,
+    "dy": -50.8,
     "aspect": 0.786,
     "slot": 1
    },
    {
     "path": "assets/english/1282/IMG_1282.png",
+    "scale": 1.12,
     "tilt": 3.75,
-    "dx": 283.31,
-    "dy": -20.72,
-    "scale": 1.0,
+    "dx": 247.88,
+    "dy": -49.44,
     "aspect": 0.7763,
     "slot": 0
    }
   ],
-  "title": "Slow-Roasted Crispy Pork Belly",
-  "title_print": "Slow-Roasted Crispy Pork Belly",
+  "title": "Slow-Roasted Crispy Pork Belly",
+  "title_print": "Slow-Roasted Crispy Pork Belly",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3794,8 +3794,8 @@
     "slot": 0
    }
   ],
-  "title": "Homemade Merguez Sausage",
-  "title_print": "Homemade Merguez Sausage",
+  "title": "Homemade Merguez Sausage",
+  "title_print": "Homemade Merguez Sausage",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3807,7 +3807,7 @@
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "homemade-merguez-sausage",
-  "description": "Merguez is a North African lamb sausage seasoned with toasted whole spices and harissa, stuffed into lamb casings and grilled. Printed from Serious Eats (Joshua Bousel); makes 4 pounds of sausage.",
+  "description": "Merguez is a North African lamb sausage seasoned with toasted whole spices and harissa, stuffed into lamb casings and grilled. Printed from Serious Eats (Joshua Bousel); makes 4 pounds of sausage.",
   "ingredients": [
    "2 teaspoons whole cumin seed",
    "2 teaspoons whole coriander seed",
@@ -3848,8 +3848,8 @@
    {
     "path": "assets/english/1297/IMG_1300.png",
     "scale": 1.4,
-    "dx": -309.77,
-    "dy": -300.69,
+    "dx": -316.36,
+    "dy": -247.53,
     "tilt": -1.85,
     "aspect": 1.2842,
     "slot": 3
@@ -3857,8 +3857,8 @@
    {
     "path": "assets/english/1297/IMG_1299.png",
     "scale": 1.4,
-    "dx": 84.13,
-    "dy": -265.73,
+    "dx": 90.82,
+    "dy": -254.3,
     "tilt": 2.18,
     "aspect": 1.268,
     "slot": 2
@@ -3866,8 +3866,8 @@
    {
     "path": "assets/english/1297/IMG_1298.png",
     "scale": 1.4,
-    "dx": -141.19,
-    "dy": -90.97,
+    "dx": -158.84,
+    "dy": -65.9,
     "tilt": 3.24,
     "aspect": 1.2607,
     "slot": 1
@@ -3876,14 +3876,14 @@
     "path": "assets/english/1297/IMG_1297.png",
     "scale": 1.4,
     "tilt": -1.61,
-    "dx": 137.96,
-    "dy": -25.84,
+    "dx": 143.09,
+    "dy": -32.63,
     "aspect": 1.2652,
     "slot": 0
    }
   ],
-  "title": "Crispy Pork and Watermelon Salad",
-  "title_print": "Crispy Pork and Watermelon Salad",
+  "title": "Crispy Pork and Watermelon Salad",
+  "title_print": "Crispy Pork and Watermelon Salad",
   "language": "english",
   "section": "Mains",
   "batch": "",
@@ -3895,7 +3895,7 @@
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "crispy-pork-and-watermelon-salad",
-  "description": "Zak Pelaccio's signature dish from his Fatty Crab restaurants, printed from Serious Eats (from the book \"Eat with Your Hands\"). Brined, braised, pressed, and deep-fried pork belly tossed with chilled watermelon, pickled watermelon rind, Thai basil, and Vietnamese mint in a palm sugar-lime dressing.",
+  "description": "Zak Pelaccio's signature dish from his Fatty Crab restaurants, printed from Serious Eats (from the book \"Eat with Your Hands\"). Brined, braised, pressed, and deep-fried pork belly tossed with chilled watermelon, pickled watermelon rind, Thai basil, and Vietnamese mint in a palm sugar-lime dressing.",
   "ingredients": [
    {
     "group": "For the Watermelon Salad"
@@ -4008,8 +4008,8 @@
     "slot": 0
    }
   ],
-  "title": "Christmas Salad",
-  "title_print": "Christmas Salad",
+  "title": "Christmas Salad",
+  "title_print": "Christmas Salad",
   "language": "georgian",
   "section": "Sides & Salads",
   "batch": "",
@@ -4024,7 +4024,7 @@
     "note": "the everyday one, five lines",
     "section": "Sides & Salads",
     "number": 2,
-    "title": "Chicken Salad"
+    "title": "Chicken Salad"
    },
    {
     "slug": "holiday-chicken-salad",
@@ -4032,14 +4032,14 @@
     "note": "the American version, cranberries and pecans",
     "section": "Sides & Salads",
     "number": 3,
-    "title": "Holiday Chicken Salad"
+    "title": "Holiday Chicken Salad"
    },
    {
     "slug": "baking-ingredient-weight-to-cup-conversions",
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "Zeinab",
@@ -4084,8 +4084,8 @@
     "slot": 0
    }
   ],
-  "title": "Chicken Salad",
-  "title_print": "Chicken Salad",
+  "title": "Chicken Salad",
+  "title_print": "Chicken Salad",
   "language": "georgian",
   "section": "Sides & Salads",
   "batch": "",
@@ -4099,7 +4099,7 @@
     "rel": "variant",
     "section": "Sides & Salads",
     "number": 1,
-    "title": "Christmas Salad"
+    "title": "Christmas Salad"
    },
    {
     "slug": "holiday-chicken-salad",
@@ -4107,7 +4107,7 @@
     "note": "the American version, cranberries and pecans",
     "section": "Sides & Salads",
     "number": 3,
-    "title": "Holiday Chicken Salad"
+    "title": "Holiday Chicken Salad"
    }
   ],
   "scribe": "Zeinab",
@@ -4146,8 +4146,8 @@
     "slot": 0
    }
   ],
-  "title": "Holiday Chicken Salad",
-  "title_print": "Holiday Chicken Salad",
+  "title": "Holiday Chicken Salad",
+  "title_print": "Holiday Chicken Salad",
   "language": "english",
   "section": "Sides & Salads",
   "batch": "",
@@ -4161,7 +4161,7 @@
     "rel": "variant",
     "section": "Sides & Salads",
     "number": 1,
-    "title": "Christmas Salad"
+    "title": "Christmas Salad"
    },
    {
     "slug": "chicken-salad",
@@ -4169,7 +4169,7 @@
     "note": "the everyday one, five lines",
     "section": "Sides & Salads",
     "number": 2,
-    "title": "Chicken Salad"
+    "title": "Chicken Salad"
    }
   ],
   "scribe": "printed",
@@ -4213,8 +4213,8 @@
     "slot": 0
    }
   ],
-  "title": "Greek Broccoli Pasta Salad",
-  "title_print": "Greek Broccoli Pasta Salad",
+  "title": "Greek Broccoli Pasta Salad",
+  "title_print": "Greek Broccoli Pasta Salad",
   "language": "english",
   "section": "Sides & Salads",
   "batch": "",
@@ -4289,8 +4289,8 @@
     "slot": 0
    }
   ],
-  "title": "Red Tkemali (Plum Sauce)",
-  "title_print": "Red Tkemali (Plum Sauce)",
+  "title": "Red Tkemali (Plum Sauce)",
+  "title_print": "Red Tkemali (Plum Sauce)",
   "language": "georgian",
   "section": "Preserves & Sauces",
   "batch": "",
@@ -4334,16 +4334,16 @@
   "scans": [
    {
     "path": "assets/georgian/1176/IMG_1176.png",
-    "scale": 1.0,
+    "scale": 1.06,
+    "dx": 5.41,
+    "dy": 85.18,
     "tilt": -2.2,
     "aspect": 0.7636,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Bazhe (Georgian Walnut Sauce)",
-  "title_print": "Bazhe (Georgian Walnut Sauce)",
+  "title": "Bazhe (Georgian Walnut Sauce)",
+  "title_print": "Bazhe (Georgian Walnut Sauce)",
   "language": "georgian",
   "section": "Preserves & Sauces",
   "batch": "batch-1",
@@ -4358,7 +4358,7 @@
     "note": "the same walnut base, poured over turkey",
     "section": "Mains",
     "number": 1,
-    "title": "Satsivi for One Large Turkey"
+    "title": "Satsivi for One Large Turkey"
    }
   ],
   "scribe": "",
@@ -4394,12 +4394,12 @@
   "scans": [
    {
     "path": "assets/georgian/1264/IMG_1264.png",
-    "scale": 1.0,
+    "scale": 1.06,
+    "dx": 1.58,
+    "dy": 82.24,
     "tilt": 2.58,
     "aspect": 0.7148,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
   "title": "Ajika",
@@ -4417,7 +4417,7 @@
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
@@ -4460,16 +4460,16 @@
   "scans": [
    {
     "path": "assets/georgian/1270/IMG_1270.png",
+    "dx": 18.56,
+    "dy": 79.17,
     "scale": 1.0,
     "tilt": 3.17,
     "aspect": 0.984,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Marinated Bell Peppers",
-  "title_print": "Marinated Bell Peppers",
+  "title": "Marinated Bell Peppers",
+  "title_print": "Marinated Bell Peppers",
   "language": "georgian",
   "section": "Preserves & Sauces",
   "batch": "",
@@ -4517,36 +4517,36 @@
   "scans": [
    {
     "path": "assets/georgian/1175/IMG_1245.png",
+    "dx": 58.95,
+    "dy": -159.89,
     "scribe": "Zeinab",
     "scale": 1.0,
     "tilt": -2.81,
     "aspect": 0.7307,
-    "slot": 2,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 2
    },
    {
     "path": "assets/georgian/1175/IMG_1244.png",
+    "tilt": 5.58,
+    "dx": -34.0,
+    "dy": 11.71,
     "scribe": "Zeinab",
     "scale": 1.0,
-    "tilt": 3.08,
     "aspect": 0.7398,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/georgian/1175/IMG_1175.png",
+    "tilt": -6.28,
+    "dx": 251.71,
+    "dy": 265.2,
     "scale": 1.0,
-    "tilt": -2.78,
     "aspect": 0.7562,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Zeinab's Shu",
-  "title_print": "Zeinab's Shu",
+  "title": "Zeinab's Shu",
+  "title_print": "Zeinab's Shu",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "batch-1",
@@ -4560,7 +4560,7 @@
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
@@ -4648,16 +4648,16 @@
   "scans": [
    {
     "path": "assets/georgian/1199/IMG_1199.png",
+    "tilt": 12.25,
+    "dx": 14.27,
+    "dy": 176.38,
     "scale": 1.0,
-    "tilt": -2.25,
     "aspect": 1.632,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Soft Ginger Cookies",
-  "title_print": "Soft Ginger Cookies",
+  "title": "Soft Ginger Cookies",
+  "title_print": "Soft Ginger Cookies",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "batch-1",
@@ -4705,16 +4705,16 @@
   "scans": [
    {
     "path": "assets/georgian/1258/IMG_1258.png",
-    "scale": 1.0,
+    "scale": 1.04,
+    "dx": -5.95,
+    "dy": 68.61,
     "tilt": -2.31,
     "aspect": 0.7122,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Ideal Cake (Ideali)",
-  "title_print": "Ideal Cake (Ideali)",
+  "title": "Ideal Cake (Ideali)",
+  "title_print": "Ideal Cake (Ideali)",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -4762,16 +4762,16 @@
   "scans": [
    {
     "path": "assets/georgian/1261/IMG_1261.png",
-    "scale": 1.0,
+    "scale": 1.06,
+    "dx": -1.6,
+    "dy": 80.34,
     "tilt": -1.32,
     "aspect": 0.7218,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Apple Layered Strudel",
-  "title_print": "Apple Layered Strudel",
+  "title": "Apple Layered Strudel",
+  "title_print": "Apple Layered Strudel",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -4785,7 +4785,7 @@
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
@@ -4820,16 +4820,16 @@
   "scans": [
    {
     "path": "assets/georgian/1259/IMG_1259.png",
-    "scale": 1.0,
+    "scale": 1.08,
+    "dx": -3.7,
+    "dy": 87.75,
     "tilt": -2.43,
     "aspect": 0.7148,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "“Eskimo” Cake",
-  "title_print": "“Eskimo” Cake",
+  "title": "“Eskimo” Cake",
+  "title_print": "“Eskimo” Cake",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -4843,7 +4843,7 @@
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
@@ -4915,16 +4915,16 @@
   "scans": [
    {
     "path": "assets/georgian/1190/IMG_1190.png",
-    "scale": 1.0,
+    "scale": 1.08,
+    "dx": 14.24,
+    "dy": 70.49,
     "tilt": 2.28,
     "aspect": 0.7583,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Czech Baklava",
-  "title_print": "Czech Baklava",
+  "title": "Czech Baklava",
+  "title_print": "Czech Baklava",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "batch-1",
@@ -4936,7 +4936,7 @@
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "czech-baklava",
-  "description": "This traditional Georgian pastry, known as \"Czech Baklava\" (ჩეხური ბაქლავა), relies on the reaction between _matsoni_ (Georgian yogurt) and baking soda to create a uniquely tender and crumbly shortcrust. Typically layered with a rich mixture of chopped walnuts and raisins, it represents a classic home-baking style where simple pantry staples are transformed into a textured, festive dessert often served at family gatherings.",
+  "description": "This traditional Georgian pastry, known as \"Czech Baklava\" (ჩეხური ბაქლავა), relies on the reaction between _matsoni_ (Georgian yogurt) and baking soda to create a uniquely tender and crumbly shortcrust. Typically layered with a rich mixture of chopped walnuts and raisins, it represents a classic home-baking style where simple pantry staples are transformed into a textured, festive dessert often served at family gatherings.",
   "ingredients": [
    "4Egg yolks",
    "400g Margarine",
@@ -4980,16 +4980,16 @@
   "scans": [
    {
     "path": "assets/english/1272/IMG_1272.png",
-    "scale": 1.0,
-    "tilt": -2.51,
+    "scale": 1.1,
+    "tilt": -3.01,
+    "dx": 9.95,
+    "dy": 77.12,
     "aspect": 0.77,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Indian Pudding",
-  "title_print": "Indian Pudding",
+  "title": "Indian Pudding",
+  "title_print": "Indian Pudding",
   "language": "english",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -5037,16 +5037,16 @@
   "scans": [
    {
     "path": "assets/georgian/1252/IMG_1252.png",
-    "scale": 1.0,
+    "scale": 1.1,
+    "dx": 1.9,
+    "dy": 70.29,
     "tilt": -2.11,
     "aspect": 0.7603,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Gozinaki Proportions",
-  "title_print": "Gozinaki Proportions",
+  "title": "Gozinaki Proportions",
+  "title_print": "Gozinaki Proportions",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -5090,25 +5090,25 @@
   "scans": [
    {
     "path": "assets/georgian/1262/IMG_1262.png",
-    "scale": 1.0,
+    "scale": 1.04,
+    "dx": 10.9,
+    "dy": 18.35,
     "tilt": -2.47,
     "aspect": 0.7147,
-    "slot": 1,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 1
    },
    {
     "path": "assets/georgian/1261/IMG_1261.png",
-    "scale": 1.0,
+    "scale": 1.04,
+    "dx": 13.87,
+    "dy": 94.83,
     "tilt": 3.22,
     "aspect": 0.7218,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Easter Paska/Kulich",
-  "title_print": "Easter Paska/Kulich",
+  "title": "Easter Paska/Kulich",
+  "title_print": "Easter Paska/Kulich",
   "language": "georgian",
   "section": "Desserts & Sweets",
   "batch": "",
@@ -5122,7 +5122,7 @@
     "note": "grams and millilitres to cups",
     "section": "Pantry",
     "number": 2,
-    "title": "Baking Ingredient Weight to Cup Conversions"
+    "title": "Baking Ingredient Weight to Cup Conversions"
    }
   ],
   "scribe": "",
@@ -5170,16 +5170,16 @@
   "scans": [
    {
     "path": "assets/english/1204/IMG_1204.png",
-    "scale": 1.0,
+    "scale": 1.02,
+    "dx": 6.42,
+    "dy": 91.75,
     "tilt": 2.47,
     "aspect": 0.7784,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Homemade Granola",
-  "title_print": "Homemade Granola",
+  "title": "Homemade Granola",
+  "title_print": "Homemade Granola",
   "language": "english",
   "section": "Pantry",
   "batch": "",
@@ -5226,16 +5226,16 @@
   "scans": [
    {
     "path": "assets/georgian/1235/IMG_1235.png",
+    "dx": 26.38,
+    "dy": 97.75,
     "scale": 1.0,
     "tilt": 3.29,
     "aspect": 0.9743,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "Baking Ingredient Weight to Cup Conversions",
-  "title_print": "Baking Ingredient Weight to Cup Conversions",
+  "title": "Baking Ingredient Weight to Cup Conversions",
+  "title_print": "Baking Ingredient Weight to Cup Conversions",
   "language": "georgian",
   "section": "Pantry",
   "batch": "",
@@ -5270,16 +5270,16 @@
   "scans": [
    {
     "path": "assets/english/1231/IMG_1231.png",
-    "scale": 1.0,
+    "scale": 1.06,
+    "dx": 5.12,
+    "dy": 88.53,
     "tilt": 2.67,
     "aspect": 0.7786,
-    "slot": 0,
-    "dx": 0.0,
-    "dy": 0.0
+    "slot": 0
    }
   ],
-  "title": "BBQ Rub",
-  "title_print": "BBQ Rub",
+  "title": "BBQ Rub",
+  "title_print": "BBQ Rub",
   "language": "english",
   "section": "Pantry",
   "batch": "",
@@ -5291,7 +5291,7 @@
   "scribe": "printed",
   "scribe_confidence": 10,
   "slug": "bbq-rub",
-  "description": "An all-purpose sweet and smoky barbecue spice rub for chicken, pork, and beef; it also works on grilled or roasted vegetables and potatoes. Printed from Dinner at the Zoo (Sara Welch); makes about 12 servings.",
+  "description": "An all-purpose sweet and smoky barbecue spice rub for chicken, pork, and beef; it also works on grilled or roasted vegetables and potatoes. Printed from Dinner at the Zoo (Sara Welch); makes about 12 servings.",
   "ingredients": [
    "1/2 cup brown sugar",
    "2 tablespoons paprika",
@@ -5321,16 +5321,16 @@
   "scans": [
    {
     "path": "assets/english/1219/IMG_1219.png",
+    "scale": 1.06,
     "tilt": 3.55,
-    "dx": 6.59,
-    "dy": 62.78,
-    "scale": 1.0,
+    "dx": 7.1,
+    "dy": 69.28,
     "aspect": 0.7732,
     "slot": 0
    }
   ],
-  "title": "Lucky and Rippy's Favorite Dog Food",
-  "title_print": "Lucky and Rippy's Favorite Dog Food",
+  "title": "Lucky and Rippy's Favorite Dog Food",
+  "title_print": "Lucky and Rippy's Favorite Dog Food",
   "language": "english",
   "section": "Pantry",
   "batch": "",
