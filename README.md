@@ -95,6 +95,54 @@ Brief contextual description with historical or cultural notes.
 [Original text preserved for reference]
 ```
 
+## Typesetting: title line breaks
+
+Recipe titles are set large on the verso page, in a column that fits only a few
+words per line. Two things control how a title breaks.
+
+**Automatic:** the build glues the last two words of a title together when the
+final word is short (10 characters or fewer), so a title never ends with a lone
+stubby word on its own line. Body text gets the same treatment at 7 characters.
+Nothing to do; this just happens.
+
+**Manual:** put `|` in the title where you want a line to break. The `|` is
+print-only. The table of contents, the index, the printed footer slug, and the
+website all get the clean title with the bars stripped out.
+
+Reach for `|` when the automatic break looks wrong. Real example, the
+chilaquiles casserole in `assets/georgian/1200/IMG_1200.md`. Written plainly,
+the automatic rule bound "Chilaquiles Casserole" and stranded a single word:
+
+```
+New Seasons Market
+Cheesy
+Chilaquiles Casserole
+```
+
+Written with explicit breaks:
+
+```yaml
+title: New Seasons Market|Cheesy Chilaquiles|Casserole
+```
+
+it sets as three balanced lines:
+
+```
+New Seasons Market
+Cheesy Chilaquiles
+Casserole
+```
+
+Check the result by proofing that one recipe rather than the whole book:
+
+```
+typst compile --root . --font-path assets/fonts --input only=<slug> \
+  --format png --ppi 110 print/cookbook.typ 'proof-{p}.png'
+```
+
+The verso editor (`python3 scripts/verso_editor.py`, localhost:8766) has a
+"Proof PDF pages" button that does the same thing in the browser.
+
 ## Examples
 
 See existing recipe files:
