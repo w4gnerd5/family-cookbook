@@ -177,7 +177,10 @@ def parse_md(path):
         "batch": fm.get("batch", ""),
         "number": int(fm.get("number", 0)),
         "image": scans[-1]["path"] if scans else "",
-        "photo": fm.get("photo", "") or "",
+        # a photo mid-replacement (file deleted, regen pending) must not break
+        # the build: fall back to the field color and warn
+        "photo": (fm.get("photo", "") or "") if (ROOT / (fm.get("photo") or "x")).is_file() else
+                 (print(f"warn: missing photo for {path.name}, rendering field color") or ""),
         "inverse": str(fm.get("inverse", "")).lower() == "true",
         "see_also": [e if isinstance(e, dict) else {"slug": e} for e in (fm.get("see_also") or []) if e],
         "scribe": fm.get("scribe", "") or "",

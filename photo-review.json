@@ -2,6 +2,25 @@
  "rounds_are_append_only": true,
  "recipes": [
   {
+   "img": "IMG_1246",
+   "slug": "christmas-salad",
+   "title": "Christmas Salad",
+   "file": "assets/georgian/1246/IMG_1246.md",
+   "inventory_note": "photo is Olivier salad; recipe is a mushroom-chicken-crouton salad (Paul, 2026-08-20)",
+   "current_photo": "assets/georgian/1246/dish.jpg",
+   "status": "open",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-20",
+     "candidates": [],
+     "panel_note": "Flagged by Paul: current photo shows Olivier (potatoes, peas, carrots), but the recipe is sauteed mushrooms + boiled chicken + mayo + rye croutons. Note here: scout stock, or AI render.",
+     "user_note": "",
+     "action_comment": ""
+    }
+   ]
+  },
+  {
    "img": "IMG_1209",
    "slug": "no-knead-bread",
    "title": "No-Knead Bread",

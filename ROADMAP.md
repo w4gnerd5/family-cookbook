@@ -110,6 +110,9 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 
 ## 6. Alpha release
 
+- [ ] Pre-print orphan/widow sweep: titles + descriptions are bound at build
+  (bind_orphan, 2f03ed9); check notes and method paragraphs visually and
+  extend the binding to item fields if lone words show up
 - [ ] Print a dummy copy for Nino to mark up
 - [ ] Nino's duplicate pass: several suspected dupes remain visible in print
   (her call, deferred until she has the dummy in hand)

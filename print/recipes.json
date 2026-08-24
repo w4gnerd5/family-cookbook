@@ -4791,9 +4791,8 @@
   "scribe": "",
   "scribe_confidence": 0,
   "slug": "apple-layered-strudel",
-  "description": "These recipes represent quintessential Georgian home baking, focusing on rich, dairy-based doughs and seasonal flavors. The Easter Paska is a celebratory yeast bread that relies on an \"Opara\" (starter) method to achieve a light, airy texture, a process that requires precise temperature control to ensure the yeast remains active without being scalded.",
+  "description": "Three layers of a tender matsoni and sour cream dough, spread between and on top with a puree of Antonovka apples, then finished with trimmed crumbs and powdered sugar. The soda-leavened dough bakes as separate sheets that soften under the apple into something between cake and pie.",
   "ingredients": [
-   "\\#\\#\\# Apple Layered Strudel",
    "200 g Matsoni (Georgian yogurt)",
    "200 g Sour cream",
    "200 g Melted butter",
@@ -4803,7 +4802,6 @@
    "Apple Puree from 2.5 kg Antonovka Apples (or some other sweet and sour variety)"
   ],
   "instructions": [
-   "\\#\\#\\# For the Apple Strudel",
    "Mix the matsoni, sour cream, melted butter, sugar, and baking soda.",
    "Incorporate the flour and divide the resulting dough into 3 equal layers.",
    "Layer the dough with prepared apples (sweetened to taste) and sprinkle chopped bits and powdered sugar."
