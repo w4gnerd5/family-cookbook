@@ -54,7 +54,7 @@ the original recipe cards are family material.
 - **Adjarian|Khachapuri** — photo by Eugene Krasnaok, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Khachapuri_Adjaruli_with_egg_and_butter_2016.jpg)
 - **Vareniki with Boiling Water Dough** — photo by Nadin Sh, Pexels License (https://www.pexels.com/photo/plate-of-boiled-dumplings-18139203/)
 - **Soft Ginger Cookies** — photo by khats cassim, Pexels License (https://www.pexels.com/photo/fresh-homemade-ginger-cookies-with-sugar-coating-30468106/)
-- **New Seasons Market Cheesy Chilaquiles Casserole** — photo by ,  (ai-generated)
+- **New Seasons Market|Cheesy Chilaquiles|Casserole** — photo by ,  (ai-generated)
 - **Vegetable Enchilada Casserole** — photo by Zehra Yılmaz, Pexels License (https://www.pexels.com/photo/delicious-baked-enchiladas-with-cheese-topping-35081817/)
 - **Scalded Crepes (Zavarnyye Blini)** — photo by Urfa Sahi, Unsplash License (https://unsplash.com/photos/pancake-cake-with-red-caviar-and-sour-cream-NTNxQer6RsU)
 - **Baking Ingredient Weight to Cup Conversions** — photo by Ron Lach, Pexels License (https://www.pexels.com/photo/a-person-putting-the-flour-on-a-weighing-scale-8176580/)

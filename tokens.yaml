@@ -32,7 +32,7 @@ size:                          # points (print); web build maps pt -> rem
 space:
   page_margin: 54              # pt, outside/top/bottom
   gutter: 80                   # pt inner margin: 4-ring punch strip + buffer (~28mm)
-  bleed: 0                     # pt; set ~8.5 (3mm) for production full-bleed runs
+  bleed: 8.5                   # pt = 3mm; production/trimmed runs (Doxzoo). 0 for home proofs
   block: 12
   label_gap: 5
 
