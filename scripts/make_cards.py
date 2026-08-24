@@ -5,13 +5,17 @@ Reads print/recipes.json, writes print/cards/<IMG_XXXX>.png (gitignored cache).
 Skips cards whose source is older than the cached output.
 """
 import json
+import os
 from pathlib import Path
 
 from PIL import Image, ImageFilter
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "print" / "cards"
-MAX_DIM = 1800          # px, plenty for a half-page card at 300dpi
+# px on the long side. A card prints up to ~330pt wide, so 1400 lands near
+# 220 dpi on the page: handwriting stays crisp and the graph-paper grid holds.
+# Override for a cheap proof: CARD_MAX_DIM=1000 python3 scripts/make_cards.py
+MAX_DIM = int(os.environ.get("CARD_MAX_DIM", 1400))
 BLUR = 22               # shadow softness (px, post-resize)
 OFFSET = (6, 16)        # shadow displacement
 OPACITY = 80            # 0-255
@@ -62,6 +66,12 @@ def main():
     recipes = json.loads((ROOT / "print" / "recipes.json").read_text())
     n = 0
     stamp = Path(__file__).stat().st_mtime   # script changes invalidate the cache
+    # the cache is only valid for the size it was baked at
+    marker = OUT / ".max_dim"
+    if not marker.exists() or marker.read_text().strip() != str(MAX_DIM):
+        for old_card in OUT.glob("*.png"):
+            old_card.unlink()
+        marker.write_text(str(MAX_DIM))
     for r in recipes:
         for scan in r["scans"]:
             path = scan["path"] if isinstance(scan, dict) else scan

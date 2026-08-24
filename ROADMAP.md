@@ -136,7 +136,10 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 ## 7. Production
 
 - [ ] Flip bleed token to 3mm; verify full-bleed at the chosen print service
-- [ ] Decide card cache resolution (PDF is ~350 MB; MAX_DIM 1200 halves it)
+- [x] Card cache resolution decided: MAX_DIM 1400 (~222 dpi at the 330pt card
+  width). Handwriting stays crisp and the graph-paper grid holds; 1200 mushes
+  the grid. Cards 361 -> 271 MB, PDF 515 -> 401 MB. Now an env knob:
+  `CARD_MAX_DIM=1000 python3 scripts/make_cards.py` for a cheap dummy
 - [ ] Resolution pass for the production run: ~32 dish photos from the original
   Commons pass are 1920-class (roughly 110-150 dpi at full-bleed A4). Fine for
   the alpha dummy; for production, re-source larger originals or accept the
