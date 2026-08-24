@@ -8,7 +8,7 @@
    "file": "assets/georgian/1190/IMG_1190.md",
    "inventory_note": "needs new photo: crumbly matsoni shortcrust layered with walnuts and raisins, not phyllo baklava (Paul, 2026-08-21)",
    "current_photo": "assets/georgian/1190/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -47,7 +47,7 @@
      ],
      "panel_note": "",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "Applied rank 1 (Valeria Boltneva): walnut baklava slices. Note in a new round if it reads too phyllo."
     }
    ]
   },
@@ -58,7 +58,7 @@
    "file": "assets/georgian/1246/IMG_1246.md",
    "inventory_note": "photo is Olivier salad; recipe is a mushroom-chicken-crouton salad (Paul, 2026-08-20)",
    "current_photo": "assets/georgian/1246/dish.jpg",
-   "status": "open",
+   "status": "applied",
    "rounds": [
     {
      "n": 1,
@@ -95,7 +95,7 @@
      ],
      "panel_note": "Round 2: two imperfect stock matches for a mushroom-chicken-crouton mayo salad; nothing on stock shows this exact dish. AI render also an option.",
      "user_note": "",
-     "action_comment": ""
+     "action_comment": "Applied rank 1 (dytmeri): creamy chicken salad bowl. AI render remains an option if this is too generic."
     }
    ]
   },
@@ -1653,7 +1653,7 @@
      "candidates": [],
      "panel_note": "Round 2: review the applied/AI photo in place; note here to redo, re-scout, or approve.",
      "user_note": "use https://www.pexels.com/photo/a-person-putting-the-flour-on-a-weighing-scale-8176580/",
-     "action_comment": "Applied your pick (Ron Lach)."
+     "action_comment": "Re-fetched the Ron Lach kitchen-scale photo; the file had gone missing during image churn."
     }
    ]
   }
