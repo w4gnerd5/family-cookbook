@@ -1656,6 +1656,25 @@
      "action_comment": "Re-fetched the Ron Lach kitchen-scale photo; the file had gone missing during image churn."
     }
    ]
+  },
+  {
+   "img": "IMG_1186",
+   "slug": "kefir-pancakes-with-baking-soda",
+   "title": "Kefir Pancakes with Baking Soda",
+   "file": "assets/georgian/1186/IMG_1186.md",
+   "inventory_note": "photo was rolled crepes (Russian_blini.jpg) on a thick-pancake recipe; caught by Paul 2026-08-23",
+   "current_photo": "assets/georgian/1186/dish.jpg",
+   "status": "applied",
+   "rounds": [
+    {
+     "n": 1,
+     "date": "2026-08-23",
+     "candidates": [],
+     "panel_note": "",
+     "user_note": "this is not blini, its an actual pancake",
+     "action_comment": "Retitle exposed a stale photo: the old file was restaurant crepes with coulis and a teapot on a blini recipe that is actually oladi. Paul picked Tatyana Novoselova's stacks of small thick pancakes with smetana and red currants on a dark board (Pexels, native 2304x3456 portrait)."
+    }
+   ]
   }
  ]
 }

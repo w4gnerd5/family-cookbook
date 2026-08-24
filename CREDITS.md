@@ -49,7 +49,7 @@ the original recipe cards are family material.
 - **Camca - Sumsa** — photo by N509FZ, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:Samsas_at_Gülhan_Restaurant,_Beijing_(20210402171423).jpg)
 - **Russian Pirozhki with Scalded Yeast Dough (Yields 30)** — photo by Pannet, CC BY-SA 4.0 (https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B8%D1%80%D0%BE%D0%B6%D0%BA%D0%B8_02.jpg)
 - **Ami's Khinkali** — photo by Sandra C from Canada, CC BY-SA 2.0 (https://commons.wikimedia.org/wiki/File:Khinkali,_Restaurant_Aragvi.jpg)
-- **Kefir Pancakes with Baking Soda** — photo by Ninaras, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Russian_blini.jpg)
+- **Kefir Pancakes with Baking Soda** — photo by Tatyana Novoselova, Pexels License (https://www.pexels.com/photo/pile-of-pancakes-on-a-wooden-board-8909132/)
 - **Czech Baklava** — photo by Valeria Boltneva, Pexels License (https://www.pexels.com/photo/baklava-with-walnut-on-top-18852570/)
 - **Adjarian|Khachapuri** — photo by Eugene Krasnaok, CC BY 4.0 (https://commons.wikimedia.org/wiki/File:Khachapuri_Adjaruli_with_egg_and_butter_2016.jpg)
 - **Vareniki with Boiling Water Dough** — photo by Nadin Sh, Pexels License (https://www.pexels.com/photo/plate-of-boiled-dumplings-18139203/)
