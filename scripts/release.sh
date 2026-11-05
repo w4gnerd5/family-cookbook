@@ -61,8 +61,11 @@ fi
 mkdir -p dist
 cp print/cookbook.pdf dist/cookbook-print.pdf
 echo "== compressing screen edition (takes a few minutes)"
+# LeaveColorUnchanged is required: /ebook otherwise converts to sRGB, which
+# breaks the soft mask on the verso scrim gradient and paints it solid black.
 gs -q -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
    -dPDFSETTINGS=/ebook -dDetectDuplicateImages=true \
+   -sColorConversionStrategy=LeaveColorUnchanged \
    -dColorImageResolution=150 -dGrayImageResolution=150 \
    -sOutputFile=dist/cookbook-screen.pdf dist/cookbook-print.pdf
 

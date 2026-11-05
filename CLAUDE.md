@@ -184,7 +184,7 @@ open. Never delete a ledger row — stamp its status `applied @ <commit>`.
 `version:` in book.yaml is the book's semver (alpha = 0.x), printed in the colophon.
 To release: bump it, add a `## <version> (<date>)` section to CHANGELOG.md, commit,
 push, then `scripts/release.sh` (`--dry-run` builds into dist/ without publishing).
-It builds, makes a ~35 MB screen edition with Ghostscript, tags `v<version>`, and
+It builds, makes a ~45 MB screen edition with Ghostscript, tags `v<version>`, and
 attaches `cookbook-screen.pdf` + `cookbook-print.pdf` to a GitHub Release. Asset
 names are fixed so `releases/latest/download/<name>` (the README link) always
 serves the newest edition; never flag a release as pre-release, GitHub's
