@@ -95,6 +95,46 @@ python3 scripts/build_credits.py
 
 `scripts/build_tokens.py` is needed only after editing `tokens.yaml`.
 
+### Editorial tools
+
+Layout and curation run through three small local web apps. Each is a single Python script that needs nothing beyond the build's own requirements. Each saves straight to files in the repository, so every change shows up in git.
+
+| Tool | Start it | Use it for |
+|---|---|---|
+| Verso editor | `python3 scripts/verso_editor.py` → localhost:8766 | Placing the scan cards on each recipe's left-hand page |
+| Curation dashboard | `python3 scripts/curation_server.py` → localhost:8765 | Inventory, merge decisions, questions for the family, slug audit |
+| Photo review | `python3 scripts/photo_review.py` → localhost:8767 | Choosing dish photos, round by round |
+
+**Verso editor.** Pick a recipe and its verso appears with the photo, the cards and the full title block in the real fonts. A card that collides with the title is easy to spot. Drag a card to move it, scroll to tilt it, and shift+scroll to scale it. Buttons bring a card to the top or send it to the bottom. Save writes only the fields you touched into the recipe's `scans:` frontmatter and rebuilds `recipes.json`. "Proof PDF pages" saves, compiles just that recipe, and shows the real pages in an overlay.
+
+Known issue: the editor still assumes a page without bleed. Since the switch to 3mm bleed, its preview sits about 8.5pt off from the printed page. Check placements near an edge with "Proof PDF pages" before trusting them (tracked in `ROADMAP.md`).
+
+**Curation dashboard.** The record of every decision about what is in the book. It tracks which scans belong together, which duplicates went to `attic/`, which section each recipe sits in, and what is still waiting on the family. It is backed by `curation-state.json` and saves on every edit. Rows are never deleted; a finished item is stamped `applied @ <commit>`. `scripts/apply_curation.py` carries out the decisions.
+
+**Photo review.** For each recipe that needs a better dish photo, a round lists candidate images linked to their sources, a note saying what to do with them, and a comment once it's done. Rounds are append-only, in `photo-review.json`. Credits flow from each recipe's `photo_source:` into `CREDITS.md`.
+
+**Art direction by hand.** Everything the verso editor does is plain frontmatter on each entry under `scans:`, and small fixes are often quicker typed in directly:
+
+| Field | Effect |
+|---|---|
+| `scale` | Size relative to the standard card width (`0.7` for a small note) |
+| `tilt` | Rotation in degrees; the default is a random tilt that stays the same from build to build |
+| `dx`, `dy` | Nudge in points |
+| `z` | `top` or `bottom` of the stack, without moving the card |
+| `exposure` | Brightens or darkens a card relative to the automatic correction; `0` turns the correction off |
+| `hide` | Keeps the scan in the archive but leaves it off the page |
+
+Small notes ride on top like sticky notes, offset down and to the right so they clear the title. Full-size sheets stay full size and are nudged so their handwriting shows.
+
+**Proof pages without the editor.** Render any pages to PNG to look at a spread or check a page break:
+
+```bash
+typst compile --root . --font-path assets/fonts --format png --ppi 110 \
+  --pages 14-15 print/cookbook.typ 'page-{p}.png'
+```
+
+Add `--input only=<slug>` to render a single recipe without the front matter, as in the example under "Typesetting: title line breaks" below. Look at the result rather than trusting the source: widows, orphans, and a heading stranded at the foot of a page only show up in the render.
+
 ### Releasing an edition
 
 Releasing also needs Ghostscript and Poppler (`brew install ghostscript poppler`) and the GitHub CLI.
@@ -199,5 +239,5 @@ typst compile --root . --font-path assets/fonts --input only=<slug> \
   --format png --ppi 110 print/cookbook.typ 'proof-{p}.png'
 ```
 
-The verso editor (`python3 scripts/verso_editor.py`, localhost:8766) has a
-"Proof PDF pages" button that does the same thing in the browser.
+The verso editor's "Proof PDF pages" button does the same thing in the browser
+(see "Editorial tools" above).
