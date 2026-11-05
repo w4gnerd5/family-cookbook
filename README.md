@@ -22,6 +22,10 @@ This cookbook is a living archive of family recipes and favorites, meant to be:
 
 Friends in the Georgian, Russian, Ukrainian and Armenian communities are welcome to fork this repository, replace the recipes with their own family's, and print their own book. A fork only needs to touch three kinds of file: the recipe `.md` files, `book.yaml` (title, colophon, dedication) and `tokens.yaml` (colors, fonts, sizes). Recipes that might be meaningful to share are welcome back as pull requests.
 
+## License
+
+The tools are MIT. The family's recipes, translations and handwritten scans are CC BY-NC-SA 4.0: share and adapt them with credit, non-commercially, under the same terms. Dish photos, fonts, and scans of other publishers' printed pages keep their own terms. [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md) has the details.
+
 ## Building it yourself
 
 Everything below is for working on the book. To read it, use the download link above.
