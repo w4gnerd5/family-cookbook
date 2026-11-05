@@ -63,11 +63,20 @@ cp print/cookbook.pdf dist/cookbook-print.pdf
 echo "== compressing screen edition (takes a few minutes)"
 # LeaveColorUnchanged is required: /ebook otherwise converts to sRGB, which
 # breaks the soft mask on the verso scrim gradient and paints it solid black.
+# 200 dpi and JPEG QFactor 0.15 with no chroma subsampling: /ebook's own
+# 150 dpi / QFactor 0.76 / 2x2 chroma blocks and smears printout text on the
+# scan cards. Chosen from rendered comparisons; 250 dpi was nearly twice the
+# size for a difference visible only zoomed in.
+JPEG="/QFactor 0.15 /Blend 1 /HSamples [1 1 1 1] /VSamples [1 1 1 1]"
 gs -q -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite -dCompatibilityLevel=1.7 \
    -dPDFSETTINGS=/ebook -dDetectDuplicateImages=true \
    -sColorConversionStrategy=LeaveColorUnchanged \
-   -dColorImageResolution=150 -dGrayImageResolution=150 \
-   -sOutputFile=dist/cookbook-screen.pdf dist/cookbook-print.pdf
+   -dColorImageResolution=200 -dGrayImageResolution=200 \
+   -dColorImageDownsampleType=/Bicubic -dGrayImageDownsampleType=/Bicubic \
+   -sOutputFile=dist/cookbook-screen.pdf \
+   -c "<< /ColorACSImageDict << $JPEG >> /GrayACSImageDict << $JPEG >>
+         /ColorImageDict << $JPEG >> /GrayImageDict << $JPEG >> >> setdistillerparams" \
+   -f dist/cookbook-print.pdf
 
 pages() { pdfinfo "$1" | awk '/^Pages:/ {print $2}'; }
 P1=$(pages dist/cookbook-print.pdf); P2=$(pages dist/cookbook-screen.pdf)

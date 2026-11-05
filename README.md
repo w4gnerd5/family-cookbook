@@ -2,7 +2,7 @@
 
 A curated collection of recipes from our family; a gift meant to survive us for our children and theirs. This cookbook preserves traditional recipes from Georgian, Russian, Ukrainian, and Armenian culinary traditions (reflecting the Wagner, Akinian, and Diasamidze families), alongside modern recipes we've gathered from various sources since we got married.
 
-**[Download the cookbook (PDF, 45 MB)](https://github.com/w4gnerd5/family-cookbook/releases/latest/download/cookbook-screen.pdf)** for reading on a phone, tablet or computer.
+**[Download the cookbook (PDF, 88 MB)](https://github.com/w4gnerd5/family-cookbook/releases/latest/download/cookbook-screen.pdf)** for reading on a phone, tablet or computer.
 
 Printing it? Use the [print edition](https://github.com/w4gnerd5/family-cookbook/releases/latest/download/cookbook-print.pdf) instead: full resolution, A4 with 3mm bleed, about 515 MB. Earlier editions are on the [releases page](https://github.com/w4gnerd5/family-cookbook/releases).
 
@@ -144,7 +144,7 @@ Releasing also needs Ghostscript and Poppler (`brew install ghostscript poppler`
 3. Commit and push.
 4. Run `scripts/release.sh`.
 
-The script rebuilds the book, makes the 45 MB screen edition, tags `v<version>` and publishes a GitHub Release with both PDFs. The download links in this README always point at the newest release, so they never need editing. `scripts/release.sh --dry-run` builds both editions into `dist/` without publishing anything.
+The script rebuilds the book, makes the screen edition (200 dpi, about 90 MB), tags `v<version>` and publishes a GitHub Release with both PDFs. The download links in this README always point at the newest release, so they never need editing. `scripts/release.sh --dry-run` builds both editions into `dist/` without publishing anything.
 
 ### Card resolution
 
