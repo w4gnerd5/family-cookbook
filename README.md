@@ -2,100 +2,111 @@
 
 A curated collection of recipes from our family; a gift meant to survive us for our children and theirs. This cookbook preserves traditional recipes from Georgian, Russian, Ukrainian, and Armenian culinary traditions (reflecting the Wagner, Akinian, and Diasamidze families), alongside modern recipes we've gathered from various sources since we got married.
 
+**[Download the cookbook (PDF, 35 MB)](https://github.com/w4gnerd5/family-cookbook/releases/latest/download/cookbook-screen.pdf)** for reading on a phone, tablet or computer.
+
+Printing it? Use the [print edition](https://github.com/w4gnerd5/family-cookbook/releases/latest/download/cookbook-print.pdf) instead: full resolution, A4 with 3mm bleed, about 515 MB. Earlier editions are on the [releases page](https://github.com/w4gnerd5/family-cookbook/releases).
+
+![A spread from the book: the scanned handwritten recipe card over a photo of the dish on the left, the typeset recipe with its original Georgian text on the right](.github/readme-spread.jpg)
+
+Each recipe opens on a left-hand page with the original handwritten card or printout laid over a photo of the dish. Facing it is the recipe typeset in English, with the original-language text kept underneath. The book holds 75 recipes in seven sections, numbered within each section so that pages added to the binder later never renumber the rest.
+
 ## Purpose
 
 This cookbook is a living archive of family recipes and favorites, meant to be:
-- **Preserved for future generations** - A lasting gift for our children and beyond
-- **Shared with community** - Friends in Georgian/Russian/Ukrainian/Armenian communities are welcome to fork this repository and add their own family recipes
-- **A growing collection** - Includes both traditional family recipes and recipes we've discovered together from online sources
 
-## Recipe Sources
+- **Preserved for future generations.** A lasting gift for our children and beyond.
+- **Shared with community.** Friends in Georgian, Russian, Ukrainian and Armenian communities are welcome to fork this repository and add their own family recipes.
+- **A growing collection.** Traditional family recipes alongside ones we've found together online.
 
-- **Family Traditions** - Recipes from the Wagner, Akinian, and Diasamidze families, primarily in Georgian, Russian, Ukrainian, and Armenian
-- **Modern Favorites** - Recipes we've collected from various web sources since our marriage, primarily in English
-- **Community Contributions** - Friends are encouraged to fork and contribute their own family recipes
+## Forking for your own family
 
-## Project Structure
+Friends in the Georgian, Russian, Ukrainian and Armenian communities are welcome to fork this repository, replace the recipes with their own family's, and print their own book. A fork only needs to touch three kinds of file: the recipe `.md` files, `book.yaml` (title, colophon, dedication) and `tokens.yaml` (colors, fonts, sizes). Recipes that might be meaningful to share are welcome back as pull requests.
 
-### Directory Organization
+## Building it yourself
 
-- **`artifacts/`** - Raw scans/photos
-  - `artifacts/english/` - Raw English recipe scans (`.jpeg`)
-  - `artifacts/georgian/` - Raw Georgian recipe scans (`.jpeg`)
-  
-- **`assets/`** - Processed images ready for use
-  - `assets/english/` - Treated English recipe images (background removed, cropped) (`.png`)
-  - `assets/georgian/` - Treated Georgian recipe images (background removed, cropped) (`.png`)
+Everything below is for working on the book. To read it, use the download link above.
 
-### File Naming Convention
+### What's in the repository
 
-Each image should have a **companion Markdown file** with the same name:
+| Path | What it holds |
+|---|---|
+| `artifacts/` | Raw JPEG scans, the untouched source material |
+| `assets/` | The working dataset: one folder per recipe |
+| `attic/` | Removed items, kept with their provenance; never feeds a build |
+| `print/` | The Typst book (`cookbook.typ`) and its generated data |
+| `scripts/` | Build, curation and release tools |
+| `book.yaml` | Book-level text: title, colophon, dedication, labels, version |
+| `tokens.yaml` | Design tokens shared by the print book and the planned website |
+| `RECIPES.md` | Index of every recipe (generated) |
+| `CHANGELOG.md` | What changed in each edition |
+| `ROADMAP.md` | What's done and what's next |
 
-- `IMG_1161.png` → `IMG_1161.md`
-- `IMG_1162.png` → `IMG_1162.md`
+Each recipe is a folder named after its first scan, for example `assets/georgian/1161/`. It holds exactly one `.md` file, the scan PNGs (`IMG_XXXX.png`, which keep their camera names for provenance) and the dish photo (`dish.jpg`). `assets/georgian/` and `assets/english/` record which scanning run a paper came from; the recipe's language is set in its frontmatter.
 
-The Markdown files contain:
-- **English translation** with recipe formatting
-- Historical and cultural context (for traditional recipes)
-- Original text in the source language(s)
-- Ingredients, instructions, and notes
+### Adding a recipe
 
-## Workflow
+1. Put the raw scan in `artifacts/`.
+2. Treat the image (remove the background, crop the empty space) and save it as a PNG in a new folder under `assets/`.
+3. Translate and format the recipe with the [Culinary Translator & Recipe Historian](https://culinary-translator-recipe-historian-815460826928.us-west1.run.app/). It runs on Gemini, which is unusually faithful when translating Georgian and Russian. Upload the scan or paste the original text, and it returns an English translation, the recipe broken into ingredients, instructions and notes, and some historical or cultural context.
+4. Write the companion `.md` file from that output, in the format below, with the original text preserved at the bottom.
+5. For a recipe from the web, credit the source.
+6. Run the build.
 
-### 1. Image Processing Pipeline
+### Companion file format
 
-1. **Raw Scans** → Start with photos/scans in `artifacts/`
-2. **Image Treatment** → Process images (background removal, crop empty space)
-3. **Save to Assets** → Move treated images to `assets/`
-4. **Create Companion MD** → Generate or update the corresponding `.md` file
-
-### 2. Translation Workflow
-
-For creating English translations and condensed recipe versions, use the **Culinary Translator & Recipe Historian** web application:
-
-🔗 **https://culinary-translator-recipe-historian-815460826928.us-west1.run.app/**
-
-#### Using the Culinary Translator:
-
-1. Open the web application
-2. Upload or input the recipe text (original language)
-3. The app will generate:
-   - Contextual English translation
-   - Recipe formatting (Ingredients, Instructions, Notes)
-   - Historical/cultural context where relevant
-   - Condensed version suitable for recipe book publication
-
-4. Copy the generated content into the companion `.md` file
-5. Include the original text at the bottom for reference
-
-### 3. Markdown File Format
-
-Each `.md` file should follow this structure:
+The frontmatter (title, slug, section, number, scans, photo) is the source of truth for the build; `CLAUDE.md` documents every field. The body looks like this:
 
 ```markdown
 # Recipe Title
 
-Brief contextual description with historical or cultural notes.
+Brief description with historical or cultural context.
 
 ## Ingredients
-> * Ingredient 1
-> * Ingredient 2
-> ...
+
+* Ingredient 1
 
 ## Instructions
-> 1. Step one
-> 2. Step two
-> ...
+
+1. Step one
 
 ## Notes
-* **Important note:** Details
-* **Tip:** Helpful information
 
-### Original [Language] Text
-[Original text preserved for reference]
+* **Label:** detail
+
+### Original Georgian Text
+
+[original text preserved verbatim]
 ```
 
-## Card resolution
+Bullets are `*`, always; the build ignores `-` bullets. For recipes with several components, put a bold label such as `**For the Dough:**` above the items rather than a heading. `assets/georgian/1161/IMG_1161.md` and `assets/georgian/1162/IMG_1162.md` are good examples.
+
+### Build
+
+Requirements: Python 3 with Pillow, and [Typst](https://typst.app) 0.15 or later. Fonts are vendored in `assets/fonts/`. Run from the repository root:
+
+```bash
+python3 scripts/normalize_md.py assets/*/*/*.md
+python3 scripts/md_to_data.py
+python3 scripts/make_cards.py
+typst compile --root . --font-path assets/fonts print/cookbook.typ print/cookbook.pdf
+python3 scripts/build_index.py
+python3 scripts/build_credits.py
+```
+
+`scripts/build_tokens.py` is needed only after editing `tokens.yaml`.
+
+### Releasing an edition
+
+Releasing also needs Ghostscript and Poppler (`brew install ghostscript poppler`) and the GitHub CLI.
+
+1. Bump `version:` in `book.yaml`. Versions below 1.0 are pre-publication editions.
+2. Add a `## <version> (<date>)` section to `CHANGELOG.md`.
+3. Commit and push.
+4. Run `scripts/release.sh`.
+
+The script rebuilds the book, makes the 35 MB screen edition, tags `v<version>` and publishes a GitHub Release with both PDFs. The download links in this README always point at the newest release, so they never need editing. `scripts/release.sh --dry-run` builds both editions into `dist/` without publishing anything.
+
+### Card resolution
 
 The scan cards on each verso are baked once into `print/cards/` by
 `scripts/make_cards.py` and then embedded in the PDF. They are the bulk of the
@@ -140,7 +151,10 @@ The cache records the size it was baked at and wipes itself whenever that
 changes, so a book can never end up half one resolution and half another. A full
 rebake of all cards takes two or three minutes.
 
-## Typesetting: title line breaks
+The screen edition is not made this way. The release script compresses the
+finished print PDF with Ghostscript, so the card cache stays at full quality.
+
+### Typesetting: title line breaks
 
 Recipe titles are set large on the verso page, in a column that fits only a few
 words per line. Two things control how a title breaks.
@@ -180,51 +194,10 @@ Casserole
 
 Check the result by proofing that one recipe rather than the whole book:
 
-```
+```bash
 typst compile --root . --font-path assets/fonts --input only=<slug> \
   --format png --ppi 110 print/cookbook.typ 'proof-{p}.png'
 ```
 
 The verso editor (`python3 scripts/verso_editor.py`, localhost:8766) has a
 "Proof PDF pages" button that does the same thing in the browser.
-
-## Examples
-
-See existing recipe files:
-- `assets/georgian/IMG_1161.md` - Dumpling Dough with Boiling Water
-- `assets/georgian/IMG_1162.md` - Lyudmila's Beef Stroganoff
-
-## Design Files
-
-The project includes InDesign files for cookbook layout:
-- `Minimalistic Cookbook A4.indd`
-- `Minimalistic Cookbook A4.idml`
-- `Minimalistic Cookbook A4.af` (Affinity Designer)
-
-## Contributing
-
-When adding new recipes:
-
-1. ✅ Ensure raw scan is in `artifacts/` (if applicable)
-2. ✅ Process image (background removal, cropping) → save to `assets/` (if applicable)
-3. ✅ Create/update companion `.md` file with same name
-4. ✅ Use [Culinary Translator](https://culinary-translator-recipe-historian-815460826928.us-west1.run.app/) for translations of traditional recipes
-5. ✅ Preserve original text in the Markdown file (for traditional recipes)
-6. ✅ Include cultural/historical context where relevant (for traditional recipes)
-7. ✅ Credit original sources for modern recipes from web sources
-
-### Forking for Your Own Family
-
-Friends in the Georgian/Russian/Ukrainian/Armenian communities are welcome to:
-- Fork this repository
-- Add your own family recipes following the same structure
-- Create your own version of the family cookbook
-- Contribute back recipes that might be meaningful to share
-
-## Notes
-
-- All images are treated (background removal, cropped) before being added to `assets/`
-- Companion `.md` files are essential for the recipe book workflow
-- Original text should always be preserved in the Markdown files for traditional recipes
-- The culinary translator app helps create publication-ready condensed versions
-- This is a living archive—recipes continue to be added as we discover and preserve them

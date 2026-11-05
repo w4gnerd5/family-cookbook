@@ -138,9 +138,9 @@ both built from the `.md` files. Checked items are done; file PRs against anythi
 
 - [ ] Consolidate the three dashboards (curation :8765, verso editor :8766,
   photo review :8767) into one master app — one server, one page, tabs
-- [ ] Semver for the book: version stamped in book.yaml, shown in the colophon;
-  tag releases (alpha = 0.x)
-- [ ] Central CHANGELOG.md at the root, versioned with the book
+- [x] Semver for the book: version stamped in book.yaml, shown in the colophon;
+  tag releases (alpha = 0.x). `scripts/release.sh`; v0.1.0 cut 2026-11-05
+- [x] Central CHANGELOG.md at the root, versioned with the book
 - [x] Per-recipe changelogs are NOT files — they live in git
   (`git log --follow assets/<group>/<n>/<file>.md`); the website can render
   them from history later (decided, nothing to build)

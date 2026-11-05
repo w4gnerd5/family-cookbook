@@ -1,11 +1,16 @@
 __pycache__/
 *.pyc
-*copy.af
 print/cookbook.pdf
-batches/test.af
 page-*.png
 print/cards/
 curation.xlsx
 print/preview/
 print/photo-cands/
 .DS_Store
+dist/
+~$*
+# legacy Affinity/InDesign files, removed from the tree (see attic/README.md)
+*.af
+*.idml
+*.indd
+batches/

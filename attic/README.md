@@ -25,3 +25,20 @@ the print or web builds.
   titled "2nd page", "3rd page" and "page 4". Rejoined into the single recipe
   assets/georgian/1237 (all four scans render there); these files are kept only
   as a record of the split. Also the unused first-choice dish photo.
+
+## Out of the tree, kept in git history
+
+These were removed from the working tree in November 2026 rather than moved
+here, because at roughly 250 MB they would have kept every clone heavy. They
+remain in git history; commit efaa849 is the last one that contains them.
+
+- `Minimalistic Cookbook A4.af`, `.idml`, `.indd`: the original Affinity and
+  InDesign layouts, superseded by the Typst book in `print/`
+- `batches/Batch 1.af`, `batches/batch-1.csv`: the abandoned Affinity Data
+  Merge workflow
+
+To recover one:
+
+```bash
+git checkout efaa849 -- "Minimalistic Cookbook A4.indd"
+```

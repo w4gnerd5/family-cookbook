@@ -3,6 +3,8 @@
 # in tokens.yaml; recipe content in the .md files. A fork should only ever
 # need to touch the .md files, tokens.yaml, and this file.
 
+version: 0.1.0                 # semver; alpha = 0.x. Printed in the colophon,
+                                #   tagged v<version> by scripts/release.sh
 title: Family Cookbook          # working title; Paul decides the real one
 title_lead: The family cookbook of    # eyebrow line above the authors
 authors: Paul & Nino Wagner

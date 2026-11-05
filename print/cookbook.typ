@@ -292,6 +292,8 @@ page({
       align(center + horizon, label-text("QR")))
     v(2pt)
     label-text(BOOK.site_line)
+    v(2pt)
+    label-text("Version " + BOOK.version)
   }))
 })
 

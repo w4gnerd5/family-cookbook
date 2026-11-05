@@ -17,7 +17,7 @@ assets/             Processed PNGs + companion .md files (the working dataset)
   english/          55 PNGs, 37 .md
 attic/              Removed-but-preserved items (duplicates, superseded copies).
                     Never feeds any build. See attic/README.md for provenance.
-batches/            Legacy CSVs from the abandoned Affinity Data Merge workflow
+dist/               Release PDFs from scripts/release.sh (gitignored)
 print/              Typst book: cookbook.typ, tokens.typ + recipes.json (generated)
 web/                tokens.css (generated); static site to come
 tokens.yaml         Design tokens — single source for print and web styling
@@ -179,6 +179,19 @@ open. Never delete a ledger row — stamp its status `applied @ <commit>`.
 - `attic/` holds everything removed from the collection, with provenance in `attic/README.md`.
   Nothing is ever deleted.
 
+## Releases
+
+`version:` in book.yaml is the book's semver (alpha = 0.x), printed in the colophon.
+To release: bump it, add a `## <version> (<date>)` section to CHANGELOG.md, commit,
+push, then `scripts/release.sh` (`--dry-run` builds into dist/ without publishing).
+It builds, makes a ~35 MB screen edition with Ghostscript, tags `v<version>`, and
+attaches `cookbook-screen.pdf` + `cookbook-print.pdf` to a GitHub Release. Asset
+names are fixed so `releases/latest/download/<name>` (the README link) always
+serves the newest edition; never flag a release as pre-release, GitHub's
+`latest` skips those.
+
 ## Legacy: Affinity Publisher
 
-The `.af` files and `batches/` CSVs are from the abandoned Affinity Data Merge workflow. Do not build on them; they are kept for reference only.
+The Affinity/InDesign files and `batches/` were removed from the tree (still in
+git history, see attic/README.md). The `batch:` frontmatter field is a leftover
+of that workflow.
